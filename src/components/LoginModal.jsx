@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
-const LoginModal = ({ isOpen, onClose }) => {
+const LoginModal = ({ isOpen, onClose, onLoginSuccess }) => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     name: '',
@@ -26,6 +26,7 @@ const LoginModal = ({ isOpen, onClose }) => {
     } else {
       // TODO: Implement OTP verification
       console.log('Login successful', formData);
+      onLoginSuccess(); // Call the onLoginSuccess callback
       onClose();
     }
   };

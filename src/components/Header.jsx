@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
-import { User } from 'lucide-react';
+import { User, Wallet } from 'lucide-react';
 import LoginModal from './LoginModal';
 
 const Header = () => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // This should be managed by a global state management solution in a real app
+
+  const handleLoginSuccess = () => {
+    setIsLoggedIn(true);
+    setIsLoginModalOpen(false);
+  };
 
   return (
     <header className="bg-blue-600 text-white p-4">
@@ -19,13 +25,28 @@ const Header = () => {
                 onClick={() => setIsLoginModalOpen(true)}
                 className="hover:text-blue-200 px-2 py-1 flex items-center"
               >
-                <User className="inline-block mr-1" /> Account
+                {isLoggedIn ? (
+                  <>
+                    <User className="inline-block mr-1" />
+                    Account
+                    <Wallet className="inline-block ml-2" />
+                  </>
+                ) : (
+                  <>
+                    <User className="inline-block mr-1" />
+                    Login/Signup
+                  </>
+                )}
               </button>
             </li>
           </ul>
         </nav>
       </div>
-      <LoginModal isOpen={isLoginModalOpen} onClose={() => setIsLoginModalOpen(false)} />
+      <LoginModal 
+        isOpen={isLoginModalOpen} 
+        onClose={() => setIsLoginModalOpen(false)}
+        onLoginSuccess={handleLoginSuccess}
+      />
     </header>
   );
 };
