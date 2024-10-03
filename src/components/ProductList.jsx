@@ -7,8 +7,8 @@ const ProductList = ({ selectedCategory }) => {
     { id: 2, name: 'Laptop Pro', lowestPrice: 1299, image: '/placeholder.svg', platform: 'Best Buy', link: 'https://bestbuy.com', category: 'Electronics' },
     { id: 3, name: 'Wireless Earbuds', lowestPrice: 129, image: '/placeholder.svg', platform: 'Walmart', link: 'https://walmart.com', category: 'Electronics' },
     { id: 4, name: 'Smart Watch', lowestPrice: 249, image: '/placeholder.svg', platform: 'Target', link: 'https://target.com', category: 'Electronics' },
-    { id: 5, name: 'Men\'s T-Shirt', lowestPrice: 19.99, image: '/placeholder.svg', platform: 'Amazon', link: 'https://amazon.com', category: 'Clothing' },
-    { id: 6, name: 'Women\'s Jeans', lowestPrice: 49.99, image: '/placeholder.svg', platform: 'Target', link: 'https://target.com', category: 'Clothing' },
+    { id: 5, name: 'Men\'s T-Shirt', lowestPrice: 19.99, image: '/placeholder.svg', platform: 'Amazon', link: 'https://amazon.com', category: 'Clothing & Accessories' },
+    { id: 6, name: 'Women\'s Jeans', lowestPrice: 49.99, image: '/placeholder.svg', platform: 'Target', link: 'https://target.com', category: 'Clothing & Accessories' },
     { id: 7, name: 'Coffee Maker', lowestPrice: 79.99, image: '/placeholder.svg', platform: 'Best Buy', link: 'https://bestbuy.com', category: 'Home & Kitchen' },
     { id: 8, name: 'Bestselling Novel', lowestPrice: 14.99, image: '/placeholder.svg', platform: 'Amazon', link: 'https://amazon.com', category: 'Books' },
   ];
