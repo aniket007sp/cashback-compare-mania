@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import BrandList from '../components/BrandList';
 import TopDeals from '../components/TopDeals';
 import ProductList from '../components/ProductList';
+import Advertisement from '../components/Advertisement';
 import { Button } from "@/components/ui/button";
 
 const CategoryPage = () => {
@@ -27,8 +28,17 @@ const CategoryPage = () => {
         </Button>
         <h1 className="text-3xl font-bold">{category}</h1>
       </div>
-      <BrandList category={category} onSelectBrand={setSelectedBrand} />
+      <Advertisement size="large" />
+      <div className="my-8 flex flex-wrap">
+        <div className="w-full lg:w-3/4">
+          <BrandList category={category} onSelectBrand={setSelectedBrand} />
+        </div>
+        <div className="w-full lg:w-1/4 mt-8 lg:mt-0">
+          <Advertisement size="medium" />
+        </div>
+      </div>
       <TopDeals category={category} />
+      <Advertisement size="small" />
       <ProductList category={category} brand={selectedBrand} />
     </div>
   );
