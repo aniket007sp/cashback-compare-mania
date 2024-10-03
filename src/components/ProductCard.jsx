@@ -10,6 +10,7 @@ const ProductCard = ({ product }) => {
           <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
           <p className="text-gray-600 mb-2">Lowest price: ${product.lowestPrice.toFixed(2)}</p>
           <p className="text-blue-600 font-semibold">From: {product.platform}</p>
+          <p className="text-gray-500 text-sm mt-2">Category: {product.category}</p>
         </div>
         <a 
           href={product.link} 

@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import ProductList from '../components/ProductList';
+import CategoryList from '../components/CategoryList';
 import Footer from '../components/Footer';
 
 const Index = () => {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
       <Header />
@@ -12,7 +19,8 @@ const Index = () => {
         <h1 className="text-4xl font-bold text-center mb-8">Price Comparison Platform</h1>
         <p className="text-center text-gray-600 mb-8">Find the best deals across multiple e-commerce platforms!</p>
         <SearchBar />
-        <ProductList />
+        <CategoryList onSelectCategory={handleCategorySelect} />
+        <ProductList selectedCategory={selectedCategory} />
       </main>
       <Footer />
     </div>
