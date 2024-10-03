@@ -3,10 +3,10 @@ import ProductCard from './ProductCard';
 
 const ProductList = () => {
   const products = [
-    { id: 1, name: 'Smartphone X', price: 599, image: '/placeholder.svg', cashback: 5 },
-    { id: 2, name: 'Laptop Pro', price: 1299, image: '/placeholder.svg', cashback: 8 },
-    { id: 3, name: 'Wireless Earbuds', price: 129, image: '/placeholder.svg', cashback: 3 },
-    { id: 4, name: 'Smart Watch', price: 249, image: '/placeholder.svg', cashback: 4 },
+    { id: 1, name: 'Smartphone X', lowestPrice: 599, image: '/placeholder.svg', platform: 'Amazon', link: 'https://amazon.com' },
+    { id: 2, name: 'Laptop Pro', lowestPrice: 1299, image: '/placeholder.svg', platform: 'Best Buy', link: 'https://bestbuy.com' },
+    { id: 3, name: 'Wireless Earbuds', lowestPrice: 129, image: '/placeholder.svg', platform: 'Walmart', link: 'https://walmart.com' },
+    { id: 4, name: 'Smart Watch', lowestPrice: 249, image: '/placeholder.svg', platform: 'Target', link: 'https://target.com' },
   ];
 
   return (
