@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Wallet, Plane, Hotel, Train, Car, Bus, Menu } from 'lucide-react';
+import { User, Wallet, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LoginModal from './LoginModal';
 import { Button } from "@/components/ui/button";
@@ -17,6 +17,14 @@ const Header = ({ onDealsClick }) => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const travelOptions = [
+    { name: 'Flights', icon: '/images/travel/flight.svg', path: '/flights' },
+    { name: 'Hotels', icon: '/images/travel/hotel.svg', path: '/hotels' },
+    { name: 'Trains', icon: '/images/travel/train.svg', path: '/trains' },
+    { name: 'Cabs', icon: '/images/travel/cab.svg', path: '/cabs' },
+    { name: 'Buses', icon: '/images/travel/bus.svg', path: '/buses' },
+  ];
 
   return (
     <header className="bg-blue-600 text-white">
@@ -50,36 +58,14 @@ const Header = ({ onDealsClick }) => {
           </nav>
         </div>
         <div className="flex justify-center space-x-2 sm:space-x-4 mt-4 overflow-x-auto pb-2">
-          <Link to="/flights">
-            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
-              <Plane className="mb-1" size={20} />
-              <span className="text-xs">Flights</span>
-            </Button>
-          </Link>
-          <Link to="/hotels">
-            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
-              <Hotel className="mb-1" size={20} />
-              <span className="text-xs">Hotels</span>
-            </Button>
-          </Link>
-          <Link to="/trains">
-            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
-              <Train className="mb-1" size={20} />
-              <span className="text-xs">Trains</span>
-            </Button>
-          </Link>
-          <Link to="/cabs">
-            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
-              <Car className="mb-1" size={20} />
-              <span className="text-xs">Cabs</span>
-            </Button>
-          </Link>
-          <Link to="/buses">
-            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
-              <Bus className="mb-1" size={20} />
-              <span className="text-xs">Buses</span>
-            </Button>
-          </Link>
+          {travelOptions.map((option) => (
+            <Link key={option.name} to={option.path}>
+              <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100 p-2">
+                <img src={option.icon} alt={option.name} className="w-6 h-6 mb-1" />
+                <span className="text-xs">{option.name}</span>
+              </Button>
+            </Link>
+          ))}
         </div>
       </div>
       <LoginModal 
