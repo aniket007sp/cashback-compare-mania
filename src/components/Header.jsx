@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { User, Wallet, Plane, Hotel, Train, Car } from 'lucide-react';
+import { User, Wallet, Plane, Hotel, Train, Car, Bus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LoginModal from './LoginModal';
 import { Button } from "@/components/ui/button";
 
-const Header = () => {
+const Header = ({ onDealsClick }) => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -21,7 +21,7 @@ const Header = () => {
           <nav className="flex items-center space-x-4">
             <Link to="/" className="hover:text-blue-200">Home</Link>
             <Link to="/categories" className="hover:text-blue-200">Categories</Link>
-            <Link to="/deals" className="hover:text-blue-200">Deals</Link>
+            <button onClick={onDealsClick} className="hover:text-blue-200">Deals</button>
             <button
               onClick={() => setIsLoginModalOpen(true)}
               className="hover:text-blue-200 flex items-center"
@@ -45,25 +45,26 @@ const Header = () => {
           <Link to="/flights">
             <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
               <Plane className="mb-1" size={24} />
-              <span>Flights</span>
             </Button>
           </Link>
           <Link to="/hotels">
             <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
               <Hotel className="mb-1" size={24} />
-              <span>Hotels</span>
             </Button>
           </Link>
           <Link to="/trains">
             <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
               <Train className="mb-1" size={24} />
-              <span>Trains</span>
             </Button>
           </Link>
           <Link to="/cabs">
             <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
               <Car className="mb-1" size={24} />
-              <span>Cabs</span>
+            </Button>
+          </Link>
+          <Link to="/buses">
+            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
+              <Bus className="mb-1" size={24} />
             </Button>
           </Link>
         </div>
