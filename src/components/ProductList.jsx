@@ -4,10 +4,35 @@ import ProductCard from './ProductCard';
 const ProductList = ({ category, brand }) => {
   // This is a mock list of products. In a real application, you would fetch this data based on the category and brand.
   const products = [
-    { id: 1, name: 'Product 1', lowestPrice: 599, image: '/placeholder.svg', platform: 'Amazon', link: 'https://amazon.com', category: 'Electronics', brand: 'Brand A' },
-    { id: 2, name: 'Product 2', lowestPrice: 1299, image: '/placeholder.svg', platform: 'Best Buy', link: 'https://bestbuy.com', category: 'Electronics', brand: 'Brand B' },
-    { id: 3, name: 'Product 3', lowestPrice: 129, image: '/placeholder.svg', platform: 'Walmart', link: 'https://walmart.com', category: 'Electronics', brand: 'Brand C' },
-    { id: 4, name: 'Product 4', lowestPrice: 249, image: '/placeholder.svg', platform: 'Target', link: 'https://target.com', category: 'Electronics', brand: 'Brand A' },
+    { 
+      id: 1, 
+      name: 'Product 1', 
+      lowestPrice: 599, 
+      image: '/placeholder.svg', 
+      cashback: 5,
+      category: 'Electronics', 
+      brand: 'Brand A',
+      links: [
+        { platform: 'Amazon', url: 'https://amazon.com' },
+        { platform: 'Best Buy', url: 'https://bestbuy.com' },
+        { platform: 'Walmart', url: 'https://walmart.com' },
+      ]
+    },
+    { 
+      id: 2, 
+      name: 'Product 2', 
+      lowestPrice: 1299, 
+      image: '/placeholder.svg', 
+      cashback: 3,
+      category: 'Electronics', 
+      brand: 'Brand B',
+      links: [
+        { platform: 'Amazon', url: 'https://amazon.com' },
+        { platform: 'Target', url: 'https://target.com' },
+        { platform: 'Newegg', url: 'https://newegg.com' },
+      ]
+    },
+    // ... Add more mock products with similar structure
   ];
 
   const filteredProducts = products.filter(
