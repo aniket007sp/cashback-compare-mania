@@ -36,7 +36,7 @@ const ProductList = ({ category, brand }) => {
   ];
 
   const filteredProducts = products.filter(
-    (product) => product.category === category && (!brand || product.brand === brand)
+    (product) => (!category || product.category === category) && (!brand || product.brand === brand)
   );
 
   return (
