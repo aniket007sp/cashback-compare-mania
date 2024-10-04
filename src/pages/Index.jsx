@@ -23,18 +23,24 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-gray-100">
       <Header onDealsClick={scrollToDeals} />
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center mb-8">Price Comparison Platform</h1>
-        <p className="text-center text-gray-600 mb-8">Find the best deals across multiple e-commerce platforms!</p>
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-8">Price Comparison Platform</h1>
+        <p className="text-center text-gray-600 mb-6 md:mb-8">Find the best deals across multiple e-commerce platforms!</p>
         <SearchBar />
-        <Advertisement size="large" />
-        <div className="my-8">
+        <div className="my-6 md:my-8">
+          <Advertisement size="large" />
+        </div>
+        <div className="my-6 md:my-8">
           <CategoryList onSelectCategory={handleCategorySelect} />
         </div>
-        <Advertisement size="medium" />
-        <div ref={dealsRef}>
+        <div className="my-6 md:my-8">
+          <Advertisement size="medium" />
+        </div>
+        <div ref={dealsRef} className="my-6 md:my-8">
           <TrendingDeals />
         </div>
-        <Advertisement size="small" />
+        <div className="my-6 md:my-8">
+          <Advertisement size="small" />
+        </div>
         <ProductList selectedCategory={selectedCategory} />
       </main>
       <Footer />
