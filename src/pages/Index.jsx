@@ -5,6 +5,7 @@ import ProductList from '../components/ProductList';
 import CategoryList from '../components/CategoryList';
 import Footer from '../components/Footer';
 import Advertisement from '../components/Advertisement';
+import FlightComparison from '../components/FlightComparison';
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -31,6 +32,7 @@ const Index = () => {
         </div>
         <ProductList selectedCategory={selectedCategory} />
         <Advertisement size="small" />
+        <FlightComparison />
       </main>
       <Footer />
     </div>
