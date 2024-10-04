@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { User, Wallet } from 'lucide-react';
+import { User, Wallet, Plane, Hotel, Train, Car } from 'lucide-react';
 import LoginModal from './LoginModal';
 
 const Header = () => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // This should be managed by a global state management solution in a real app
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true);
@@ -15,15 +15,33 @@ const Header = () => {
     <header className="bg-blue-600 text-white p-4">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
         <h1 className="text-2xl font-bold mb-4 sm:mb-0">PriceCompare</h1>
-        <nav>
-          <ul className="flex flex-wrap justify-center sm:space-x-4">
-            <li><a href="#" className="hover:text-blue-200 px-2 py-1">Home</a></li>
-            <li><a href="#" className="hover:text-blue-200 px-2 py-1">Categories</a></li>
-            <li><a href="#" className="hover:text-blue-200 px-2 py-1">Deals</a></li>
+        <nav className="flex flex-col sm:flex-row items-center">
+          <div className="flex space-x-4 mb-4 sm:mb-0 sm:mr-8">
+            <a href="#" className="flex items-center hover:text-blue-200">
+              <Plane className="mr-1" size={20} />
+              <span>Flights</span>
+            </a>
+            <a href="#" className="flex items-center hover:text-blue-200">
+              <Hotel className="mr-1" size={20} />
+              <span>Hotels</span>
+            </a>
+            <a href="#" className="flex items-center hover:text-blue-200">
+              <Train className="mr-1" size={20} />
+              <span>Trains</span>
+            </a>
+            <a href="#" className="flex items-center hover:text-blue-200">
+              <Car className="mr-1" size={20} />
+              <span>Cabs</span>
+            </a>
+          </div>
+          <ul className="flex space-x-4">
+            <li><a href="#" className="hover:text-blue-200">Home</a></li>
+            <li><a href="#" className="hover:text-blue-200">Categories</a></li>
+            <li><a href="#" className="hover:text-blue-200">Deals</a></li>
             <li>
               <button
                 onClick={() => setIsLoginModalOpen(true)}
-                className="hover:text-blue-200 px-2 py-1 flex items-center"
+                className="hover:text-blue-200 flex items-center"
               >
                 {isLoggedIn ? (
                   <>
