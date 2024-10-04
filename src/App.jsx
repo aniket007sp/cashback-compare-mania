@@ -4,6 +4,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { navItems } from "./nav-items";
 import CategoryPage from "./pages/CategoryPage";
+import FlightsPage from "./pages/FlightsPage";
+import HotelsPage from "./pages/HotelsPage";
+import TrainsPage from "./pages/TrainsPage";
+import CabsPage from "./pages/CabsPage";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +21,10 @@ const App = () => (
             <Route key={to} path={to} element={page} />
           ))}
           <Route path="/category/:category" element={<CategoryPage />} />
+          <Route path="/flights" element={<FlightsPage />} />
+          <Route path="/hotels" element={<HotelsPage />} />
+          <Route path="/trains" element={<TrainsPage />} />
+          <Route path="/cabs" element={<CabsPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

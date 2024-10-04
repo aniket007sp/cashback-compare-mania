@@ -2,23 +2,15 @@ import React, { useState } from 'react';
 import { User, Wallet, Plane, Hotel, Train, Car } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LoginModal from './LoginModal';
-import FlightSearch from './FlightSearch';
-import HotelSearch from './HotelSearch';
-import TrainSearch from './TrainSearch';
-import CabSearch from './CabSearch';
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [activeSearch, setActiveSearch] = useState(null);
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true);
     setIsLoginModalOpen(false);
-  };
-
-  const toggleSearch = (searchType) => {
-    setActiveSearch(activeSearch === searchType ? null : searchType);
   };
 
   return (
@@ -49,29 +41,33 @@ const Header = () => {
             </button>
           </nav>
         </div>
-        <div className="flex justify-center space-x-8">
-          <button onClick={() => toggleSearch('flight')} className="flex flex-col items-center hover:text-blue-200">
-            <Plane className="mb-1" size={24} />
-            <span>Flights</span>
-          </button>
-          <button onClick={() => toggleSearch('hotel')} className="flex flex-col items-center hover:text-blue-200">
-            <Hotel className="mb-1" size={24} />
-            <span>Hotels</span>
-          </button>
-          <button onClick={() => toggleSearch('train')} className="flex flex-col items-center hover:text-blue-200">
-            <Train className="mb-1" size={24} />
-            <span>Trains</span>
-          </button>
-          <button onClick={() => toggleSearch('cab')} className="flex flex-col items-center hover:text-blue-200">
-            <Car className="mb-1" size={24} />
-            <span>Cabs</span>
-          </button>
+        <div className="flex justify-center space-x-8 mt-4">
+          <Link to="/flights">
+            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
+              <Plane className="mb-1" size={24} />
+              <span>Flights</span>
+            </Button>
+          </Link>
+          <Link to="/hotels">
+            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
+              <Hotel className="mb-1" size={24} />
+              <span>Hotels</span>
+            </Button>
+          </Link>
+          <Link to="/trains">
+            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
+              <Train className="mb-1" size={24} />
+              <span>Trains</span>
+            </Button>
+          </Link>
+          <Link to="/cabs">
+            <Button variant="outline" className="flex flex-col items-center bg-white text-blue-600 hover:bg-blue-100">
+              <Car className="mb-1" size={24} />
+              <span>Cabs</span>
+            </Button>
+          </Link>
         </div>
       </div>
-      {activeSearch === 'flight' && <FlightSearch />}
-      {activeSearch === 'hotel' && <HotelSearch />}
-      {activeSearch === 'train' && <TrainSearch />}
-      {activeSearch === 'cab' && <CabSearch />}
       <LoginModal 
         isOpen={isLoginModalOpen} 
         onClose={() => setIsLoginModalOpen(false)}
