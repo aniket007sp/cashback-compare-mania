@@ -3,6 +3,7 @@ import { X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { generateUserId, saveUserData } from '../utils/userUtils';
 
 const LoginModal = ({ isOpen, onClose, onLoginSuccess }) => {
   const [step, setStep] = useState(1);
@@ -25,8 +26,16 @@ const LoginModal = ({ isOpen, onClose, onLoginSuccess }) => {
       setStep(2);
     } else {
       // TODO: Implement OTP verification
-      console.log('Login successful', formData);
-      onLoginSuccess(); // Call the onLoginSuccess callback
+      const userId = generateUserId();
+      const userData = {
+        id: userId,
+        name: formData.name,
+        email: formData.email,
+        mobile: formData.mobile,
+      };
+      saveUserData(userData);
+      console.log('Login successful', userData);
+      onLoginSuccess(userData); // Pass the user data to the parent component
       onClose();
     }
   };

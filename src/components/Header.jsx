@@ -1,16 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { User, Wallet, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LoginModal from './LoginModal';
 import { Button } from "@/components/ui/button";
+import { getUserData } from '../utils/userUtils';
 
 const Header = ({ onDealsClick }) => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [userData, setUserData] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLoginSuccess = () => {
-    setIsLoggedIn(true);
+  useEffect(() => {
+    const storedUserData = getUserData();
+    if (storedUserData) {
+      setUserData(storedUserData);
+    }
+  }, []);
+
+  const handleLoginSuccess = (newUserData) => {
+    setUserData(newUserData);
     setIsLoginModalOpen(false);
   };
 
@@ -39,13 +47,13 @@ const Header = ({ onDealsClick }) => {
             <Link to="/categories" className="block py-2 md:py-0 hover:text-blue-200">Categories</Link>
             <button onClick={onDealsClick} className="block py-2 md:py-0 hover:text-blue-200 text-left w-full md:w-auto">Deals</button>
             <button
-              onClick={() => setIsLoginModalOpen(true)}
+              onClick={() => userData ? null : setIsLoginModalOpen(true)}
               className="block py-2 md:py-0 hover:text-blue-200 flex items-center"
             >
-              {isLoggedIn ? (
+              {userData ? (
                 <>
                   <User className="inline-block mr-1" />
-                  Account
+                  {userData.name}
                   <Wallet className="inline-block ml-2" />
                 </>
               ) : (
