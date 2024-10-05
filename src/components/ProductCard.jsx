@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 const ProductCard = ({ product }) => {
   if (!product) {
-    return null; // or return a placeholder component
+    return null;
   }
 
   return (
@@ -14,11 +14,6 @@ const ProductCard = ({ product }) => {
         <div>
           <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
           <p className="text-gray-600 mb-2">Lowest price: ${product.lowestPrice.toFixed(2)}</p>
-          {product.cashback && (
-            <Badge className="mb-2" variant="secondary">
-              {product.cashback}% Cashback
-            </Badge>
-          )}
           {product.category && (
             <p className="text-gray-500 text-sm mt-2">Category: {product.category}</p>
           )}
@@ -26,16 +21,22 @@ const ProductCard = ({ product }) => {
         {product.links && product.links.length > 0 && (
           <div className="mt-4 space-y-2">
             {product.links.map((link, index) => (
-              <a 
-                key={index}
-                href={link.url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors flex items-center justify-center"
-              >
-                <ExternalLink className="mr-2" size={16} />
-                View on {link.platform}
-              </a>
+              <div key={index} className="flex flex-col items-center">
+                <a 
+                  href={link.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors flex items-center justify-center"
+                >
+                  <img src={`/images/logos/${link.platform.toLowerCase()}.svg`} alt={link.platform} className="w-4 h-4 mr-2" />
+                  View on {link.platform}
+                </a>
+                {link.cashback && (
+                  <Badge className="mt-1" variant="secondary">
+                    {link.cashback}% Cashback
+                  </Badge>
+                )}
+              </div>
             ))}
           </div>
         )}
