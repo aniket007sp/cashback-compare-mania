@@ -28,7 +28,7 @@ const App = () => (
           <Route path="/trains" element={<TrainsPage />} />
           <Route path="/cabs" element={<CabsPage />} />
           <Route path="/buses" element={<BusPage />} />
-          <Route path="/account" element={<AccountPage />} />
+          <Route path="/account/*" element={<AccountPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

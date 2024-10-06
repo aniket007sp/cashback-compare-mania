@@ -1,12 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { Link, Route, Routes, useNavigate } from 'react-router-dom';
+import { ArrowLeft, User, Wallet } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-import PaymentGateways from '../components/PaymentGateways';
 import { getUserData } from '../utils/userUtils';
+import ProfileSection from '../components/ProfileSection';
+import WalletSection from '../components/WalletSection';
 
 const AccountPage = () => {
   const userData = getUserData();
+  const navigate = useNavigate();
 
   if (!userData) {
     return (
@@ -26,13 +28,20 @@ const AccountPage = () => {
         </Button>
       </Link>
       <h1 className="text-3xl font-bold mb-4">Your Account</h1>
-      <div className="bg-white shadow-md rounded-lg p-6">
-        <h2 className="text-2xl font-semibold mb-4">Account Details</h2>
-        <p><strong>Name:</strong> {userData.name}</p>
-        <p><strong>Email:</strong> {userData.email}</p>
-        <p><strong>Mobile:</strong> {userData.mobile}</p>
+      <div className="flex space-x-4 mb-6">
+        <Button onClick={() => navigate('/account/profile')} variant="outline">
+          <User className="mr-2" size={20} />
+          Profile
+        </Button>
+        <Button onClick={() => navigate('/account/wallet')} variant="outline">
+          <Wallet className="mr-2" size={20} />
+          Wallet
+        </Button>
       </div>
-      <PaymentGateways />
+      <Routes>
+        <Route path="profile" element={<ProfileSection userData={userData} />} />
+        <Route path="wallet" element={<WalletSection userData={userData} />} />
+      </Routes>
     </div>
   );
 };
