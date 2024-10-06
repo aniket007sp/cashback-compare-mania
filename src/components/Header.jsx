@@ -46,23 +46,21 @@ const Header = ({ onDealsClick }) => {
             <Link to="/" className="block py-2 md:py-0 hover:text-blue-200">Home</Link>
             <Link to="/categories" className="block py-2 md:py-0 hover:text-blue-200">Categories</Link>
             <button onClick={onDealsClick} className="block py-2 md:py-0 hover:text-blue-200 text-left w-full md:w-auto">Deals</button>
-            <button
-              onClick={() => userData ? null : setIsLoginModalOpen(true)}
-              className="block py-2 md:py-0 hover:text-blue-200 flex items-center"
-            >
-              {userData ? (
-                <>
-                  <User className="inline-block mr-1" />
-                  {userData.name}
-                  <Wallet className="inline-block ml-2" />
-                </>
-              ) : (
-                <>
-                  <User className="inline-block mr-1" />
-                  Login/Signup
-                </>
-              )}
-            </button>
+            {userData ? (
+              <Link to="/account" className="block py-2 md:py-0 hover:text-blue-200 flex items-center">
+                <User className="inline-block mr-1" />
+                {userData.name}
+                <Wallet className="inline-block ml-2" />
+              </Link>
+            ) : (
+              <button
+                onClick={() => setIsLoginModalOpen(true)}
+                className="block py-2 md:py-0 hover:text-blue-200 flex items-center"
+              >
+                <User className="inline-block mr-1" />
+                Login/Signup
+              </button>
+            )}
           </nav>
         </div>
         <div className="flex justify-center space-x-2 sm:space-x-4 mt-4 overflow-x-auto pb-2">

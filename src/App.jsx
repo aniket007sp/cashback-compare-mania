@@ -9,6 +9,7 @@ import HotelsPage from "./pages/HotelsPage";
 import TrainsPage from "./pages/TrainsPage";
 import CabsPage from "./pages/CabsPage";
 import BusPage from "./pages/BusPage";
+import AccountPage from "./pages/AccountPage";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/trains" element={<TrainsPage />} />
           <Route path="/cabs" element={<CabsPage />} />
           <Route path="/buses" element={<BusPage />} />
+          <Route path="/account" element={<AccountPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
