@@ -1,3 +1,4 @@
+<lov-code>
 import React, { useRef } from 'react';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
@@ -74,38 +75,76 @@ const electronicsData = [
   }
 ];
 
+const fashionData = [
+  {
+    name: "Summer Collection",
+    description: "Trendy outfits for the season",
+    features: [
+      "Lightweight fabrics",
+      "Vibrant colors",
+      "Versatile styles"
+    ],
+    ctaText: "Shop Now",
+    badge: "New Arrivals"
+  },
+  {
+    name: "Formal Wear",
+    description: "Elegant suits and dresses",
+    features: [
+      "Premium materials",
+      "Classic designs",
+      "Perfect fit guarantee"
+    ],
+    ctaText: "Explore Collection"
+  },
+  {
+    name: "Activewear",
+    description: "High-performance sportswear",
+    features: [
+      "Moisture-wicking fabric",
+      "Flexible and durable",
+      "Stylish designs"
+    ],
+    ctaText: "Get Active"
+  }
+];
+
+const homeAppliancesData = [
+  {
+    name: "Smart Refrigerator",
+    description: "Keep your food fresh and organized",
+    features: [
+      "AI-powered temperature control",
+      "Built-in touchscreen",
+      "Energy-efficient"
+    ],
+    ctaText: "Learn More",
+    badge: "Smart Home"
+  },
+  {
+    name: "Robot Vacuum",
+    description: "Effortless cleaning for your home",
+    features: [
+      "Self-emptying bin",
+      "Multi-surface cleaning",
+      "App control"
+    ],
+    ctaText: "Add to Cart"
+  },
+  {
+    name: "Air Purifier",
+    description: "Breathe cleaner, healthier air",
+    features: [
+      "HEPA filtration",
+      "Quiet operation",
+      "Real-time air quality monitor"
+    ],
+    ctaText: "Breathe Better"
+  }
+];
+
 const Index = () => {
   const dealsRef = useRef(null);
 
   const scrollToDeals = () => {
-    dealsRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  return (
-    <div className="min-h-screen flex flex-col bg-gray-100">
-      <Header onDealsClick={scrollToDeals} />
-      <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-8">Price Comparison Platform</h1>
-        <p className="text-center text-gray-600 mb-6 md:mb-8">Find the best deals across multiple e-commerce platforms!</p>
-        <SearchBar />
-        <div className="my-6 md:my-8">
-          <Advertisement size="large" />
-        </div>
-        <CategoryCarousel title="Best Credit Cards" items={creditCardData} />
-        <div className="my-6 md:my-8">
-          <Advertisement size="medium" />
-        </div>
-        <CategoryCarousel title="Top Electronics Deals" items={electronicsData} />
-        <div ref={dealsRef} className="my-6 md:my-8">
-          <TrendingDeals />
-        </div>
-        <div className="my-6 md:my-8">
-          <Advertisement size="small" />
-        </div>
-      </main>
-      <Footer />
-    </div>
-  );
-};
-
-export default Index;
+    dealsRef.current?.scrollIntoV
