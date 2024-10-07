@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -8,13 +8,25 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 
 const CategoryCarousel = ({ title, items }) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' }, [Autoplay({ delay: 4000, stopOnInteraction: false })]);
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: true, align: 'start' },
+    [Autoplay({ delay: 4000, stopOnInteraction: false })]
+  );
   const [parent] = useAutoAnimate();
 
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.on('select', () => {
+        // This is to ensure the autoplay continues after user interaction
+        emblaApi.plugins().autoplay.reset();
+      });
+    }
+  }, [emblaApi]);
+
   return (
-    <div className="my-8">
+    <div className="my-8 relative px-12">
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
-      <Carousel className="relative">
+      <Carousel>
         <CarouselContent ref={emblaRef}>
           {items.map((item, index) => (
             <CarouselItem key={index} className="sm:basis-1/2 lg:basis-1/3 pl-4">
@@ -48,8 +60,8 @@ const CategoryCarousel = ({ title, items }) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2" />
-        <CarouselNext className="absolute right-4 top-1/2 transform -translate-y-1/2" />
+        <CarouselPrevious className="absolute -left-4 top-1/2 transform -translate-y-1/2" />
+        <CarouselNext className="absolute -right-4 top-1/2 transform -translate-y-1/2" />
       </Carousel>
     </div>
   );
