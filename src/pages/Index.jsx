@@ -31,7 +31,38 @@ const creditCardData = [
     reward: "+ Flat ₹2200 Rewards",
     image: "/images/logos/hsbc.png"
   },
-  // Add more credit card data as needed
+];
+
+const electronicsData = [
+  {
+    name: "Smartphone Deals",
+    description: "Up to 30% off on latest smartphones",
+    reward: "Extra 5% cashback",
+    image: "/images/categories/electronics.svg"
+  },
+  {
+    name: "Laptop Offers",
+    description: "Discounts up to ₹20,000 on laptops",
+    reward: "Free accessories worth ₹2000",
+    image: "/images/categories/electronics.svg"
+  },
+  // Add more electronics deals
+];
+
+const beautyData = [
+  {
+    name: "Skincare Bundle",
+    description: "Buy 2 Get 1 Free on all skincare products",
+    reward: "Free sample kit with every purchase",
+    image: "/images/categories/beauty.svg"
+  },
+  {
+    name: "Makeup Bonanza",
+    description: "50% off on premium makeup brands",
+    reward: "Loyalty points doubled",
+    image: "/images/categories/beauty.svg"
+  },
+  // Add more beauty deals
 ];
 
 const Index = () => {
@@ -48,6 +79,8 @@ const Index = () => {
         <SearchBar />
         <Advertisement size="large" className="my-8" />
         <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
+        <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
+        <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
         <div ref={dealsRef}>
           <TrendingDeals />
         </div>
