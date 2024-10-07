@@ -48,9 +48,6 @@ const Index = () => {
         <SearchBar />
         <Advertisement size="large" className="my-8" />
         <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
-        <CategoryCarousel title="Electronics" items={electronicsData} />
-        <CategoryCarousel title="Fashion" items={fashionData} />
-        <CategoryCarousel title="Home Appliances" items={homeAppliancesData} />
         <div ref={dealsRef}>
           <TrendingDeals />
         </div>
