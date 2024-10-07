@@ -6,24 +6,33 @@ import Advertisement from '../components/Advertisement';
 import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
 
-const generateSampleData = (category, count) => {
-  return Array.from({ length: count }, (_, i) => ({
-    name: `${category} Item ${i + 1}`,
-    description: `Description for ${category} Item ${i + 1}`,
-    features: [
-      `Feature 1 for ${category} ${i + 1}`,
-      `Feature 2 for ${category} ${i + 1}`,
-      `Feature 3 for ${category} ${i + 1}`,
-    ],
-    ctaText: "Learn More",
-    badge: i === 0 ? "Featured" : undefined,
-  }));
-};
-
-const creditCardData = generateSampleData("Credit Card", 6);
-const electronicsData = generateSampleData("Electronics", 6);
-const fashionData = generateSampleData("Fashion", 6);
-const homeAppliancesData = generateSampleData("Home Appliances", 6);
+const creditCardData = [
+  {
+    name: "HDFC Swiggy Card",
+    description: "Save upto ₹36,000/year on Swiggy & Online Spends",
+    reward: "+ Upto ₹1000 Rewards",
+    image: "/images/logos/hdfc.png"
+  },
+  {
+    name: "Flipkart Axis Card",
+    description: "Upto 5% Cashback",
+    reward: "+ Flat ₹750 Rewards",
+    image: "/images/logos/axis.png"
+  },
+  {
+    name: "SBI SimplyCLICK Card",
+    description: "Get 10x Rewards on",
+    reward: "+ Flat ₹1200 Rewards",
+    image: "/images/logos/sbi.png"
+  },
+  {
+    name: "HSBC Lite+ Card",
+    description: "10% Cashback Dining, Food Delivery & Grocery",
+    reward: "+ Flat ₹2200 Rewards",
+    image: "/images/logos/hsbc.png"
+  },
+  // Add more credit card data as needed
+];
 
 const Index = () => {
   const dealsRef = useRef(null);
@@ -38,7 +47,7 @@ const Index = () => {
       <main className="flex-grow">
         <SearchBar />
         <Advertisement size="large" className="my-8" />
-        <CategoryCarousel title="Credit Cards" items={creditCardData} />
+        <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
         <CategoryCarousel title="Electronics" items={electronicsData} />
         <CategoryCarousel title="Fashion" items={fashionData} />
         <CategoryCarousel title="Home Appliances" items={homeAppliancesData} />
