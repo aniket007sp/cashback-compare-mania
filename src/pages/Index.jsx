@@ -1,4 +1,3 @@
-<lov-code>
 import React, { useRef } from 'react';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
@@ -147,4 +146,26 @@ const Index = () => {
   const dealsRef = useRef(null);
 
   const scrollToDeals = () => {
-    dealsRef.current?.scrollIntoV
+    dealsRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header onDealsClick={scrollToDeals} />
+      <main className="flex-grow">
+        <SearchBar />
+        <Advertisement size="large" className="my-8" />
+        <CategoryCarousel title="Credit Cards" items={creditCardData} />
+        <CategoryCarousel title="Electronics" items={electronicsData} />
+        <CategoryCarousel title="Fashion" items={fashionData} />
+        <CategoryCarousel title="Home Appliances" items={homeAppliancesData} />
+        <div ref={dealsRef}>
+          <TrendingDeals />
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
