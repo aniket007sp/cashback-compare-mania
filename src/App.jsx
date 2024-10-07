@@ -10,6 +10,7 @@ import TrainsPage from "./pages/TrainsPage";
 import CabsPage from "./pages/CabsPage";
 import BusPage from "./pages/BusPage";
 import AccountPage from "./pages/AccountPage";
+import MallsPage from "./pages/MallsPage";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/cabs" element={<CabsPage />} />
           <Route path="/buses" element={<BusPage />} />
           <Route path="/account/*" element={<AccountPage />} />
+          <Route path="/malls" element={<MallsPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
