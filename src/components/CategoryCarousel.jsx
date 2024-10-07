@@ -1,33 +1,10 @@
-import React, { useEffect, useCallback } from 'react';
+import React from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
 import { ChevronRight } from 'lucide-react';
 
 const CategoryCarousel = ({ title, items }) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, align: 'start', slidesToScroll: 1 },
-    [Autoplay({ delay: 4000, stopOnInteraction: false })]
-  );
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
-
-  useEffect(() => {
-    if (emblaApi) {
-      emblaApi.on('select', () => {
-        emblaApi.plugins().autoplay.reset();
-      });
-    }
-  }, [emblaApi]);
-
   return (
     <div className="my-8 relative">
       <div className="flex justify-between items-center mb-4">
@@ -38,7 +15,7 @@ const CategoryCarousel = ({ title, items }) => {
       </div>
       <div className="relative px-12">
         <Carousel className="w-full">
-          <CarouselContent ref={emblaRef}>
+          <CarouselContent>
             {items.map((item, index) => (
               <CarouselItem key={index} className="basis-1/4 pl-4">
                 <Card className="bg-gradient-to-br from-purple-500 to-pink-500 text-white h-full flex flex-col">
@@ -57,9 +34,9 @@ const CategoryCarousel = ({ title, items }) => {
               </CarouselItem>
             ))}
           </CarouselContent>
+          <CarouselPrevious className="absolute -left-4 top-1/2 transform -translate-y-1/2" />
+          <CarouselNext className="absolute -right-4 top-1/2 transform -translate-y-1/2" />
         </Carousel>
-        <CarouselPrevious onClick={scrollPrev} className="absolute -left-4 top-1/2 transform -translate-y-1/2" />
-        <CarouselNext onClick={scrollNext} className="absolute -right-4 top-1/2 transform -translate-y-1/2" />
       </div>
     </div>
   );
