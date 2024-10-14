@@ -12,15 +12,21 @@ const Index = () => {
   const [merchants, setMerchants] = useState([]);
   const [categories, setCategories] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
       try {
+        console.log('Fetching merchant data...');
         const data = await fetchMerchantData();
+        console.log('Merchant data fetched:', data);
         setMerchants(data);
-        setCategories(getAllCategories(data));
+        const allCategories = getAllCategories(data);
+        console.log('Categories:', allCategories);
+        setCategories(allCategories);
       } catch (error) {
         console.error('Error fetching merchant data:', error);
+        setError('Failed to load data. Please try again later.');
       } finally {
         setIsLoading(false);
       }
@@ -32,13 +38,17 @@ const Index = () => {
     return <div>Loading...</div>;
   }
 
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header onDealsClick={() => {}} />
       <main className="flex-grow container mx-auto px-4 py-8">
         <SearchBar />
         <Advertisement size="large" className="my-8" />
-        <CategoryList categories={categories} />
+        {categories.length > 0 && <CategoryList categories={categories} />}
         {categories.map(category => (
           <CategoryCarousel 
             key={category}

@@ -4,8 +4,11 @@ const SHEET_URL = 'https://spreadsheets.google.com/feeds/list/1sZYXLw4mhtoH0P9w9
 
 export const fetchMerchantData = async () => {
   try {
+    console.log('Fetching data from:', SHEET_URL);
     const response = await axios.get(SHEET_URL);
+    console.log('Response received:', response);
     const entries = response.data.feed.entry;
+    console.log('Number of entries:', entries.length);
     
     return entries.map(entry => ({
       type: entry.gsx$type.$t,
@@ -19,18 +22,30 @@ export const fetchMerchantData = async () => {
     }));
   } catch (error) {
     console.error('Error fetching merchant data:', error);
-    return [];
+    throw error; // Re-throw the error to be handled by the caller
   }
 };
 
 export const getFilteredMerchants = (merchants, category) => {
-  return merchants?.filter(merchant => merchant.category === category) || [];
+  if (!merchants || !Array.isArray(merchants)) {
+    console.warn('Invalid merchants data:', merchants);
+    return [];
+  }
+  return merchants.filter(merchant => merchant.category === category);
 };
 
 export const getAllCategories = (merchants) => {
-  return [...new Set(merchants?.map(merchant => merchant.category) || [])];
+  if (!merchants || !Array.isArray(merchants)) {
+    console.warn('Invalid merchants data:', merchants);
+    return [];
+  }
+  return [...new Set(merchants.map(merchant => merchant.category))];
 };
 
 export const getSubCategories = (merchants, category) => {
-  return [...new Set(merchants?.filter(m => m.category === category).map(m => m.subCategory) || [])];
+  if (!merchants || !Array.isArray(merchants)) {
+    console.warn('Invalid merchants data:', merchants);
+    return [];
+  }
+  return [...new Set(merchants.filter(m => m.category === category).map(m => m.subCategory))];
 };
