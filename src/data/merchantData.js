@@ -7,8 +7,17 @@ export const fetchMerchantData = async () => {
     console.log('Fetching data from:', SHEET_URL);
     const response = await axios.get(SHEET_URL);
     console.log('Response received:', response);
+    
+    if (!response.data || !response.data.feed || !response.data.feed.entry) {
+      throw new Error('Invalid response structure');
+    }
+    
     const entries = response.data.feed.entry;
     console.log('Number of entries:', entries.length);
+    
+    if (entries.length === 0) {
+      throw new Error('No data entries found');
+    }
     
     return entries.map(entry => ({
       type: entry.gsx$type.$t,
@@ -21,8 +30,12 @@ export const fetchMerchantData = async () => {
       image: entry.gsx$image.$t || '/placeholder.svg'
     }));
   } catch (error) {
-    console.error('Error fetching merchant data:', error);
-    throw error; // Re-throw the error to be handled by the caller
+    console.error('Error fetching merchant data:', error.message);
+    if (error.response) {
+      console.error('Response status:', error.response.status);
+      console.error('Response data:', error.response.data);
+    }
+    throw new Error(`Failed to fetch merchant data: ${error.message}`);
   }
 };
 

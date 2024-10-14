@@ -25,8 +25,8 @@ const Index = () => {
         console.log('Categories:', allCategories);
         setCategories(allCategories);
       } catch (error) {
-        console.error('Error fetching merchant data:', error);
-        setError('Failed to load data. Please try again later.');
+        console.error('Error in loadData:', error);
+        setError(error.message || 'An unexpected error occurred. Please try again later.');
       } finally {
         setIsLoading(false);
       }
@@ -35,11 +35,11 @@ const Index = () => {
   }, []);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <div className="flex justify-center items-center h-screen">Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div className="flex justify-center items-center h-screen text-red-500">Error: {error}</div>;
   }
 
   return (
