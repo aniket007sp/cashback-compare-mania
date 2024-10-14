@@ -1,38 +1,36 @@
-export const merchantData = [
-  {
-    type: "CPC",
-    category: "Service",
-    brand: "Shopify",
-    earning: "Rs 0.11",
-    link: "https://clnk.in/vq9e",
-    condition: "-",
-    image: "https://cdn0.cuelinks.com/merchant/6213/medium/New_Project_-_2024-04-16T110916.693.png?1713246009"
-  },
-  {
-    type: "CPC",
-    category: "Service",
-    brand: "Edrawsoft",
-    earning: "Rs 0.12",
-    link: "https://clnk.in/vq9q",
-    condition: "-",
-    image: ""
-  },
-  {
-    type: "CPI - Android",
-    category: "Demat",
-    brand: "Appreciate Wealth",
-    earning: "Rs 262.5",
-    link: "https://clnk.in/vrD9",
-    condition: "Download + Install + Account_Open + Investment",
-    image: "https://cdn0.cuelinks.com/merchant/5215/medium/New_Project_-_2023-09-06T134744.768.png?1693988304"
-  },
-  // ... Add all other merchant data here
-];
+import axios from 'axios';
 
-export const getFilteredMerchants = (category) => {
-  return merchantData.filter(merchant => merchant.category === category);
+const SHEET_URL = 'https://spreadsheets.google.com/feeds/list/1sZYXLw4mhtoH0P9w9FB4MXwKRYFDrbWU5rZmyBnavQY/1/public/values?alt=json';
+
+export const fetchMerchantData = async () => {
+  try {
+    const response = await axios.get(SHEET_URL);
+    const entries = response.data.feed.entry;
+    
+    return entries.map(entry => ({
+      type: entry.gsx$type.$t,
+      category: entry.gsx$category.$t,
+      subCategory: entry.gsx$subcategory.$t,
+      brand: entry.gsx$brand.$t,
+      earning: entry.gsx$earning.$t,
+      link: entry.gsx$link.$t,
+      condition: entry.gsx$condition.$t,
+      image: entry.gsx$image.$t || '/placeholder.svg'
+    }));
+  } catch (error) {
+    console.error('Error fetching merchant data:', error);
+    return [];
+  }
 };
 
-export const getAllCategories = () => {
-  return [...new Set(merchantData.map(merchant => merchant.category))];
+export const getFilteredMerchants = (merchants, category) => {
+  return merchants.filter(merchant => merchant.category === category);
+};
+
+export const getAllCategories = (merchants) => {
+  return [...new Set(merchants.map(merchant => merchant.category))];
+};
+
+export const getSubCategories = (merchants, category) => {
+  return [...new Set(merchants.filter(m => m.category === category).map(m => m.subCategory))];
 };
