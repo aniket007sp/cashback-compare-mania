@@ -7,11 +7,14 @@ import ProductList from '../components/ProductList';
 import Advertisement from '../components/Advertisement';
 import CashbackInfo from '../components/CashbackInfo';
 import { Button } from "@/components/ui/button";
+import { getFilteredMerchants } from '../data/merchantData';
 
 const CategoryPage = () => {
   const { category } = useParams();
   const [selectedBrand, setSelectedBrand] = useState(null);
   const navigate = useNavigate();
+
+  const merchants = getFilteredMerchants(category);
 
   const handleGoBack = () => {
     navigate(-1);
@@ -32,13 +35,13 @@ const CategoryPage = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         <div className="lg:col-span-3">
           <CashbackInfo />
-          <TopDeals category={category} />
+          <TopDeals category={category} merchants={merchants} />
           <Advertisement size="large" className="my-8" />
-          <ProductList category={category} brand={selectedBrand} />
+          <ProductList category={category} brand={selectedBrand} merchants={merchants} />
         </div>
         <div className="lg:col-span-1">
           <div className="sticky top-8">
-            <BrandList category={category} onSelectBrand={setSelectedBrand} />
+            <BrandList category={category} onSelectBrand={setSelectedBrand} merchants={merchants} />
             <Advertisement size="medium" className="mt-8" />
           </div>
         </div>
