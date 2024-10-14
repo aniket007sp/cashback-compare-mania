@@ -12,25 +12,25 @@ const creditCardData = [
     name: "HDFC Swiggy Card",
     description: "Save upto ₹36,000/year on Swiggy & Online Spends",
     reward: "+ Upto ₹1000 Rewards",
-    image: "/images/logos/hdfc.png"
+    image: "/placeholder.svg"
   },
   {
     name: "Flipkart Axis Card",
     description: "Upto 5% Cashback",
     reward: "+ Flat ₹750 Rewards",
-    image: "/images/logos/axis.png"
+    image: "/placeholder.svg"
   },
   {
     name: "SBI SimplyCLICK Card",
     description: "Get 10x Rewards on",
     reward: "+ Flat ₹1200 Rewards",
-    image: "/images/logos/sbi.png"
+    image: "/placeholder.svg"
   },
   {
     name: "HSBC Lite+ Card",
     description: "10% Cashback Dining, Food Delivery & Grocery",
     reward: "+ Flat ₹2200 Rewards",
-    image: "/images/logos/hsbc.png"
+    image: "/placeholder.svg"
   },
 ];
 
@@ -55,13 +55,13 @@ const beautyData = [
     name: "Skincare Bundle",
     description: "Buy 2 Get 1 Free on all skincare products",
     reward: "Free sample kit with every purchase",
-    image: "/images/categories/beauty.svg"
+    image: "/placeholder.svg"
   },
   {
     name: "Makeup Bonanza",
     description: "50% off on premium makeup brands",
     reward: "Loyalty points doubled",
-    image: "/images/categories/beauty.svg"
+    image: "/placeholder.svg"
   },
   // Add more beauty deals
 ];
