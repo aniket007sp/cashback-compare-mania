@@ -75,7 +75,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header onDealsClick={scrollToDeals} />
-      <main className="flex-grow">
+      <main className="flex-grow container mx-auto px-4 py-8">
         <SearchBar />
         <Advertisement size="large" className="my-8" />
         <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />

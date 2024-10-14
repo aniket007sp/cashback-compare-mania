@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from 'lucide-react';
+import OfferDetails from './OfferDetails';
 
 const CategoryCarousel = ({ title, items }) => {
+  const [selectedOffer, setSelectedOffer] = useState(null);
+
+  const handleOfferClick = (offer) => {
+    setSelectedOffer(offer);
+  };
+
+  const handleCloseDetails = () => {
+    setSelectedOffer(null);
+  };
+
   return (
     <div className="my-8 relative">
       <div className="flex justify-between items-center mb-4">
@@ -17,7 +28,7 @@ const CategoryCarousel = ({ title, items }) => {
         <Carousel className="w-full">
           <CarouselContent>
             {items.map((item, index) => (
-              <CarouselItem key={index} className="basis-1/4 pl-4">
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
                 <Card className="bg-gradient-to-br from-purple-500 to-pink-500 text-white h-full flex flex-col">
                   <CardContent className="p-6 flex-grow">
                     <img src={item.image} alt={item.name} className="w-16 h-8 object-contain mb-4" />
@@ -26,8 +37,11 @@ const CategoryCarousel = ({ title, items }) => {
                     <p className="text-lg font-semibold">{item.reward}</p>
                   </CardContent>
                   <CardFooter className="bg-white p-4 mt-auto">
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
-                      APPLY NOW
+                    <Button 
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white"
+                      onClick={() => handleOfferClick(item)}
+                    >
+                      VIEW OFFER
                     </Button>
                   </CardFooter>
                 </Card>
@@ -38,6 +52,9 @@ const CategoryCarousel = ({ title, items }) => {
           <CarouselNext className="absolute -right-4 top-1/2 transform -translate-y-1/2" />
         </Carousel>
       </div>
+      {selectedOffer && (
+        <OfferDetails offer={selectedOffer} onClose={handleCloseDetails} />
+      )}
     </div>
   );
 };
