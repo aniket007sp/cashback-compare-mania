@@ -18,10 +18,10 @@ const ProductList = ({ category, brand, merchants }) => {
             name: merchant.brand,
             lowestPrice: merchant.earning,
             image: merchant.image || '/placeholder.svg',
-            platform: merchant.category,
-            link: merchant.link,
             category: merchant.category,
-            condition: merchant.condition
+            link: merchant.link,
+            condition: merchant.condition,
+            type: merchant.type
           }} />
         ))}
       </div>
