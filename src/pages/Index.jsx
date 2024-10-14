@@ -15,22 +15,18 @@ const Index = () => {
 
   useEffect(() => {
     const loadData = async () => {
-      const data = await fetchMerchantData();
-      setMerchants(data);
-      setCategories(getAllCategories(data));
-      setIsLoading(false);
+      try {
+        const data = await fetchMerchantData();
+        setMerchants(data);
+        setCategories(getAllCategories(data));
+      } catch (error) {
+        console.error('Error fetching merchant data:', error);
+      } finally {
+        setIsLoading(false);
+      }
     };
     loadData();
   }, []);
-
-  const getCategoryData = (category) => {
-    return getFilteredMerchants(merchants, category).map(merchant => ({
-      name: merchant.brand,
-      description: `${merchant.subCategory} - ${merchant.type}`,
-      reward: merchant.earning,
-      image: merchant.image
-    }));
-  };
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -47,7 +43,12 @@ const Index = () => {
           <CategoryCarousel 
             key={category}
             title={category.toUpperCase()}
-            items={getCategoryData(category)}
+            items={getFilteredMerchants(merchants, category).map(merchant => ({
+              name: merchant.brand,
+              description: `${merchant.subCategory} - ${merchant.type}`,
+              reward: merchant.earning,
+              image: merchant.image || '/placeholder.svg'
+            }))}
           />
         ))}
         <TrendingDeals merchants={merchants} />
