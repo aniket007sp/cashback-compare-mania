@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { getAllCategories } from '../data/merchantData';
 
-const CategoryList = () => {
-  const categories = getAllCategories();
+const CategoryList = ({ categories = [] }) => {
+  if (categories.length === 0) {
+    return null; // or return a loading indicator
+  }
 
   return (
     <div className="mb-8">

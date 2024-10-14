@@ -24,13 +24,13 @@ export const fetchMerchantData = async () => {
 };
 
 export const getFilteredMerchants = (merchants, category) => {
-  return merchants.filter(merchant => merchant.category === category);
+  return merchants?.filter(merchant => merchant.category === category) || [];
 };
 
 export const getAllCategories = (merchants) => {
-  return [...new Set(merchants.map(merchant => merchant.category))];
+  return [...new Set(merchants?.map(merchant => merchant.category) || [])];
 };
 
 export const getSubCategories = (merchants, category) => {
-  return [...new Set(merchants.filter(m => m.category === category).map(m => m.subCategory))];
+  return [...new Set(merchants?.filter(m => m.category === category).map(m => m.subCategory) || [])];
 };
