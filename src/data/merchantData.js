@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const SHEET_URL = 'https://spreadsheets.google.com/feeds/list/1sZYXLw4mhtoH0P9w9FB4MXwKRYFDrbWU5rZmyBnavQY/1/public/values?alt=json';
+const SHEET_ID = '1sZYXLw4mhtoH0P9w9FB4MXwKRYFDrbWU5rZmyBnavQY';
+const SHEET_URL = `https://spreadsheets.google.com/feeds/list/${SHEET_ID}/1/public/values?alt=json`;
 
 export const fetchMerchantData = async () => {
   try {
