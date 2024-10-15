@@ -32,7 +32,7 @@ const Header = ({ onDealsClick }) => {
     { name: 'Trains', icon: '/images/travel/train.svg', path: '/trains' },
     { name: 'Cabs', icon: '/images/travel/cab.svg', path: '/cabs' },
     { name: 'Buses', icon: '/images/travel/bus.svg', path: '/buses' },
-    { name: 'Malls', icon: '/images/travel/mall.svg', path: '/malls' },
+    { name: 'Malls', icon: '/placeholder.svg', path: '/malls' },
   ];
 
   return (
