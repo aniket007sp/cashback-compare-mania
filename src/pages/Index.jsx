@@ -6,7 +6,7 @@ import Advertisement from '../components/Advertisement';
 import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
 import CategoryList from '../components/CategoryList';
-import { fetchMerchantData, getAllCategories, getFilteredMerchants } from '../data/merchantData';
+import { fetchMerchantData, getAllCategories, getFilteredMerchants, getSubCategories } from '../data/merchantData';
 
 const Index = () => {
   const [merchants, setMerchants] = useState([]);
@@ -50,16 +50,22 @@ const Index = () => {
         <Advertisement size="large" className="my-8" />
         {categories.length > 0 && <CategoryList categories={categories} />}
         {categories.map(category => (
-          <CategoryCarousel 
-            key={category}
-            title={category.toUpperCase()}
-            items={getFilteredMerchants(merchants, category).map(merchant => ({
-              name: merchant.brand,
-              description: `${merchant.subCategory} - ${merchant.type}`,
-              reward: merchant.earning,
-              image: merchant.image || '/placeholder.svg'
-            }))}
-          />
+          <div key={category}>
+            <h2 className="text-2xl font-bold mt-8 mb-4">{category}</h2>
+            {getSubCategories(merchants, category).map(subCategory => (
+              <CategoryCarousel 
+                key={`${category}-${subCategory}`}
+                title={subCategory}
+                items={getFilteredMerchants(merchants, category).filter(m => m.subCategory === subCategory).map(merchant => ({
+                  name: merchant.brand,
+                  description: `${merchant.type} - ${merchant.condition}`,
+                  reward: merchant.earning,
+                  image: merchant.image || '/placeholder.svg',
+                  link: merchant.link
+                }))}
+              />
+            ))}
+          </div>
         ))}
         <TrendingDeals merchants={merchants} />
       </main>
