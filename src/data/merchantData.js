@@ -6,7 +6,7 @@ const SHEET_URL = `https://docs.google.com/spreadsheets/d/e/${SHEET_ID}/pub?outp
 export const fetchMerchantData = async () => {
   try {
     console.log('Fetching data from:', SHEET_URL);
-    const response = await axios.get(SHEET_URL);
+    const response = await axios.get(SHEET_URL, { timeout: 10000 }); // 10 second timeout
     console.log('Response received:', response);
     
     if (!response.data) {
@@ -42,9 +42,19 @@ export const fetchMerchantData = async () => {
     }));
   } catch (error) {
     console.error('Error fetching merchant data:', error.message);
-    if (error.response) {
-      console.error('Response status:', error.response.status);
-      console.error('Response data:', error.response.data);
+    if (axios.isAxiosError(error)) {
+      if (error.response) {
+        console.error('Response status:', error.response.status);
+        console.error('Response data:', error.response.data);
+      } else if (error.request) {
+        console.error('No response received');
+        console.error('Request details:', error.request);
+      } else {
+        console.error('Error details:', error.message);
+      }
+      if (error.code === 'ECONNABORTED') {
+        throw new Error('Request timed out. Please check your internet connection and try again.');
+      }
     }
     throw new Error(`Failed to fetch merchant data: ${error.message}`);
   }
