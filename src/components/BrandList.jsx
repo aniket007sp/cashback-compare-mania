@@ -1,8 +1,15 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
-const BrandList = ({ category, onSelectBrand, merchants }) => {
-  const brands = [...new Set(merchants.map(merchant => merchant.brand))];
+const BrandList = ({ category, onSelectBrand }) => {
+  // This is a mock list of brands. In a real application, you would fetch this data based on the category.
+  const brands = [
+    "Brand A",
+    "Brand B",
+    "Brand C",
+    "Brand D",
+    "Brand E",
+  ];
 
   return (
     <div className="mb-8">

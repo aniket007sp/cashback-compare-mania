@@ -1,73 +1,89 @@
-import React, { useState, useEffect } from 'react';
+import React, { useRef } from 'react';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import Footer from '../components/Footer';
 import Advertisement from '../components/Advertisement';
 import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
-import CategoryList from '../components/CategoryList';
-import { fetchMerchantData, getAllCategories, getFilteredMerchants, getSubCategories } from '../data/merchantData';
+
+const creditCardData = [
+  {
+    name: "HDFC Swiggy Card",
+    description: "Save upto ₹36,000/year on Swiggy & Online Spends",
+    reward: "+ Upto ₹1000 Rewards",
+    image: "/images/logos/hdfc.png"
+  },
+  {
+    name: "Flipkart Axis Card",
+    description: "Upto 5% Cashback",
+    reward: "+ Flat ₹750 Rewards",
+    image: "/images/logos/axis.png"
+  },
+  {
+    name: "SBI SimplyCLICK Card",
+    description: "Get 10x Rewards on",
+    reward: "+ Flat ₹1200 Rewards",
+    image: "/images/logos/sbi.png"
+  },
+  {
+    name: "HSBC Lite+ Card",
+    description: "10% Cashback Dining, Food Delivery & Grocery",
+    reward: "+ Flat ₹2200 Rewards",
+    image: "/images/logos/hsbc.png"
+  },
+];
+
+const electronicsData = [
+  {
+    name: "Smartphone Deals",
+    description: "Up to 30% off on latest smartphones",
+    reward: "Extra 5% cashback",
+    image: "/images/categories/electronics.svg"
+  },
+  {
+    name: "Laptop Offers",
+    description: "Discounts up to ₹20,000 on laptops",
+    reward: "Free accessories worth ₹2000",
+    image: "/images/categories/electronics.svg"
+  },
+  // Add more electronics deals
+];
+
+const beautyData = [
+  {
+    name: "Skincare Bundle",
+    description: "Buy 2 Get 1 Free on all skincare products",
+    reward: "Free sample kit with every purchase",
+    image: "/images/categories/beauty.svg"
+  },
+  {
+    name: "Makeup Bonanza",
+    description: "50% off on premium makeup brands",
+    reward: "Loyalty points doubled",
+    image: "/images/categories/beauty.svg"
+  },
+  // Add more beauty deals
+];
 
 const Index = () => {
-  const [merchants, setMerchants] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const dealsRef = useRef(null);
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        console.log('Fetching merchant data...');
-        const data = await fetchMerchantData();
-        console.log('Merchant data fetched:', data);
-        setMerchants(data);
-        const allCategories = getAllCategories(data);
-        console.log('Categories:', allCategories);
-        setCategories(allCategories);
-      } catch (error) {
-        console.error('Error in loadData:', error);
-        setError(error.message || 'An unexpected error occurred. Please try again later.');
-      } finally {
-        setIsLoading(false);
-      }
-    };
-    loadData();
-  }, []);
-
-  if (isLoading) {
-    return <div className="flex justify-center items-center h-screen">Loading...</div>;
-  }
-
-  if (error) {
-    return <div className="flex justify-center items-center h-screen text-red-500">Error: {error}</div>;
-  }
+  const scrollToDeals = () => {
+    dealsRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header onDealsClick={() => {}} />
+      <Header onDealsClick={scrollToDeals} />
       <main className="flex-grow container mx-auto px-4 py-8">
         <SearchBar />
         <Advertisement size="large" className="my-8" />
-        {categories.length > 0 && <CategoryList categories={categories} />}
-        {categories.map(category => (
-          <div key={category}>
-            <h2 className="text-2xl font-bold mt-8 mb-4">{category}</h2>
-            {getSubCategories(merchants, category).map(subCategory => (
-              <CategoryCarousel 
-                key={`${category}-${subCategory}`}
-                title={subCategory}
-                items={getFilteredMerchants(merchants, category).filter(m => m.subCategory === subCategory).map(merchant => ({
-                  name: merchant.brand,
-                  description: `${merchant.type} - ${merchant.condition}`,
-                  reward: merchant.earning,
-                  image: merchant.image || '/placeholder.svg',
-                  link: merchant.link
-                }))}
-              />
-            ))}
-          </div>
-        ))}
-        <TrendingDeals merchants={merchants} />
+        <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
+        <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
+        <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
+        <div ref={dealsRef}>
+          <TrendingDeals />
+        </div>
       </main>
       <Footer />
     </div>
