@@ -7,6 +7,7 @@ import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
 import ForeignBrandsCategories from '../components/ForeignBrandsCategories';
 import ForeignBrandsExplorer from '../components/ForeignBrandsExplorer';
+import CPCDeals from '../components/CPCDeals';
 
 const creditCardData = [
   {
@@ -80,6 +81,7 @@ const Index = () => {
       <main className="flex-grow container mx-auto px-4 py-8">
         <SearchBar />
         <Advertisement size="large" className="my-8" />
+        <CPCDeals />
         <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
         <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
         <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
