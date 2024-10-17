@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Select } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Button } from "@/components/ui/button"
 
 const sheetID = '1n7J-hOmK5CWRGGVmqN-wfK3XRISFIkJ0hqsfwVmrd90';
@@ -51,36 +51,30 @@ const ForeignBrandsExplorer = () => {
     <div className="my-8">
       <h2 className="text-2xl font-bold mb-4">Explore Foreign Brands</h2>
       <div className="flex flex-wrap gap-4 mb-4">
-        <Select
-          value={selectedCategory}
-          onValueChange={setSelectedCategory}
-        >
-          <Select.Trigger className="w-[180px]">
-            <Select.Value placeholder="Select Category" />
-          </Select.Trigger>
-          <Select.Content>
+        <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+          <SelectTrigger className="w-[180px]">
+            <SelectValue placeholder="Select Category" />
+          </SelectTrigger>
+          <SelectContent>
             {categories.map((category) => (
-              <Select.Item key={category} value={category}>
+              <SelectItem key={category} value={category}>
                 {category}
-              </Select.Item>
+              </SelectItem>
             ))}
-          </Select.Content>
+          </SelectContent>
         </Select>
 
-        <Select
-          value={selectedCountry}
-          onValueChange={setSelectedCountry}
-        >
-          <Select.Trigger className="w-[180px]">
-            <Select.Value placeholder="Select Country" />
-          </Select.Trigger>
-          <Select.Content>
+        <Select value={selectedCountry} onValueChange={setSelectedCountry}>
+          <SelectTrigger className="w-[180px]">
+            <SelectValue placeholder="Select Country" />
+          </SelectTrigger>
+          <SelectContent>
             {countries.map((country) => (
-              <Select.Item key={country} value={country}>
+              <SelectItem key={country} value={country}>
                 {country}
-              </Select.Item>
+              </SelectItem>
             ))}
-          </Select.Content>
+          </SelectContent>
         </Select>
       </div>
 
