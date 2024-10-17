@@ -1,5 +1,5 @@
 import React from 'react';
-import { Gift, Shirt, Heart } from 'lucide-react';
+import { Gift, Shirt, Heart, ShoppingBag } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import ForeignBrandsExplorer from './ForeignBrandsExplorer';
 
@@ -7,7 +7,7 @@ const categories = [
   { name: "Gifts", icon: <Gift className="h-6 w-6" /> },
   { name: "Fashion", icon: <Shirt className="h-6 w-6" /> },
   { name: "Health & Beauty", icon: <Heart className="h-6 w-6" /> },
-  // Add more categories as needed
+  { name: "Malls", icon: <ShoppingBag className="h-6 w-6" /> },
 ];
 
 const ForeignBrandsCategories = () => {
