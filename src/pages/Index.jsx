@@ -6,6 +6,7 @@ import Advertisement from '../components/Advertisement';
 import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
 import ForeignBrandsCategories from '../components/ForeignBrandsCategories';
+import ForeignBrandsExplorer from '../components/ForeignBrandsExplorer';
 
 const creditCardData = [
   {
@@ -83,6 +84,7 @@ const Index = () => {
         <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
         <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
         <ForeignBrandsCategories />
+        <ForeignBrandsExplorer />
         <div ref={dealsRef}>
           <TrendingDeals />
         </div>
