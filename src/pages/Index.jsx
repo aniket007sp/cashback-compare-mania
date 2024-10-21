@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Advertisement from '../components/Advertisement';
 import TrendingDeals from '../components/TrendingDeals';
 import CategoryCarousel from '../components/CategoryCarousel';
+import FinanceSection from '../components/FinanceSection';
 
 const creditCardData = [
   {
@@ -81,6 +82,7 @@ const Index = () => {
         <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
         <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
         <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
+        <FinanceSection />
         <div ref={dealsRef}>
           <TrendingDeals />
         </div>
