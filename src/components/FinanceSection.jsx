@@ -4,7 +4,16 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 
 const financeData = [
-    // ... paste the entire JSON array here
+    {
+        "CATEGORY": "Credit Card",
+        "COMPANY": "AU Bank CC",
+        "PRODUCT": "All Credit Cards Except LIT",
+        "COMMISSION": "Rs 1500",
+        "LINK": "https://clnk.in/vrFb",
+        "CONDITIONS": "Payout on All Cards Except LIT",
+        "LOGO": "https://cdn0.cuelinks.com/merchant/4341/medium/image_%2828%29.png?1646395656"
+    },
+    // ... paste the rest of the JSON array here
 ];
 
 const FinanceSection = () => {
