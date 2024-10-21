@@ -1,24 +1,19 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Link } from 'react-router-dom';
 
-const FinanceCategoryGrid = ({ categories }) => {
+const FinanceCategoryGrid = ({ categories, onCategoryClick }) => {
   return (
-    <div className="flex flex-nowrap overflow-x-auto space-x-4 pb-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {categories.map((category) => (
-        <Link
+        <Button
           key={category.name}
-          to={`/finance/${category.name.toLowerCase().replace(' ', '-')}`}
-          className="flex-shrink-0"
+          onClick={() => onCategoryClick(category)}
+          className="flex flex-col items-center justify-center p-4 h-32"
+          variant="outline"
         >
-          <Button
-            className="flex flex-col items-center justify-center p-4 h-32 w-32"
-            variant="outline"
-          >
-            <category.icon className="h-8 w-8 mb-2" />
-            <span className="text-sm text-center">{category.name}</span>
-          </Button>
-        </Link>
+          <category.icon className="h-8 w-8 mb-2" />
+          <span>{category.name}</span>
+        </Button>
       ))}
     </div>
   );

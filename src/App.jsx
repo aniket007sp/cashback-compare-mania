@@ -11,8 +11,6 @@ import CabsPage from "./pages/CabsPage";
 import BusPage from "./pages/BusPage";
 import AccountPage from "./pages/AccountPage";
 import MallsPage from "./pages/MallsPage";
-import FinanceSection from "./components/FinanceSection";
-import FinanceCategoryPage from "./components/FinanceCategoryPage";
 
 const queryClient = new QueryClient();
 
@@ -33,8 +31,6 @@ const App = () => (
           <Route path="/buses" element={<BusPage />} />
           <Route path="/account/*" element={<AccountPage />} />
           <Route path="/malls" element={<MallsPage />} />
-          <Route path="/finance" element={<FinanceSection />} />
-          <Route path="/finance/:category" element={<FinanceCategoryPage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
