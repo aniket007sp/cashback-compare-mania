@@ -27,15 +27,14 @@ const ForeignBrandsExplorer = () => {
 
   const fetchBrands = async () => {
     const sheetID = '1n7J-hOmK5CWRGGVmqN-wfK3XRISFIkJ0hqsfwVmrd90';
-    const apiKey = 'AIzaSyCOWz42NMVXnyEfJMxtGZmPuyDF2p0QR0k';
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values/Sheet1?key=${apiKey}`;
+    const url = `https://docs.google.com/spreadsheets/d/${sheetID}/export?format=csv`;
 
     try {
       const response = await fetch(url);
-      const data = await response.json();
-      const values = data.values;
-      values.shift(); // Remove header row
-      setBrands(values);
+      const text = await response.text();
+      const rows = text.split('\n').map(row => row.split(','));
+      rows.shift(); // Remove header row
+      setBrands(rows);
     } catch (error) {
       console.error('Error fetching data:', error);
     }
