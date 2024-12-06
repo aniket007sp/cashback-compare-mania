@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import NetlifyOffersSection from '../components/NetlifyOffersSection';
+import ExclusiveStores from '../components/ExclusiveStores';
 import { Button } from "@/components/ui/button";
 import { Plane, Hotel, Train, Bus, Car } from 'lucide-react';
 
@@ -9,12 +10,13 @@ const Index = () => {
   const [activeSection, setActiveSection] = useState('shopping');
 
   const renderContent = () => {
-        return (
-          <>
-            <NetlifyOffersSection />
-            <Footer/>
-          </>
-        );
+    return (
+      <>
+        <ExclusiveStores />
+        <NetlifyOffersSection />
+        <Footer/>
+      </>
+    );
   };
 
   return (
