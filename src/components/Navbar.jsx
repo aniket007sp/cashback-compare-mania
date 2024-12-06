@@ -1,26 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import logo from '../logo-png.png'; // Adjust the path if needed
 
 const Navbar = () => {
+  const orderFormUrl = "https://forms.gle/Ag57FdWGnsuWAsP56"; // Replace with your actual form URL
+
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex">
-            <div className="flex-shrink-0 flex items-center">
-              <Link to="/" className="text-xl font-bold text-gray-800">
-                SavvyZi
-              </Link>
+        <div className="flex items-center justify-between h-20">
+
+          {/* Logo Section */}
+          <a href="/" className="flex-shrink-0">
+            <img src={logo} alt="SavvyZi" className="h-16 w-auto sm:h-20" />
+          </a>
+
+          {/* Tagline Section - Centered */}
+          <div className="text-center flex-grow">
+            <div className="text-[crimson] text-lg sm:text-xl font-semibold">
+              SavvyZi - <span className="text-[crimson]">Shop Smart, Live Savvy</span>
             </div>
           </div>
-          <div className="flex items-center">
-            <Link
-              to="/account"
-              className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Account
-            </Link>
-          </div>
+
+          {/* Confirm Order Button */}
+          <div className="relative z-10">
+          <button
+            onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
+            className="bg-[crimson] text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm sm:text-base"
+          >
+            Confirm Order
+          </button>
+        </div>
+
+
         </div>
       </div>
     </nav>
