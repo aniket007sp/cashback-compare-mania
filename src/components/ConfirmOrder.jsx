@@ -2,7 +2,7 @@ import React from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
-const confirmOrder = ({ isOpen, onClose }) => {
+const ConfirmOrder = ({ isOpen, onClose }) => {
   const googleFormLink = "https://forms.gle/Ag57FdWGnsuWAsP56"; // Replace with your actual form link
 
   return (
@@ -30,4 +30,4 @@ const confirmOrder = ({ isOpen, onClose }) => {
   );
 };
 
-export default confirmOrder;
+export default ConfirmOrder;
