@@ -22,15 +22,15 @@ const ExclusiveStores = () => {
         <h2 className="text-2xl text-[crimson] font-bold text-center mb-6">
           Exclusive Stores
         </h2>
-        <div className="flex flex-wrap gap-4 justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
           {stores.map((store) => (
             <Card
               key={store.company}
-              className="w-full sm:w-[48%] lg:w-[23%] bg-white overflow-hidden shadow-md rounded-md flex flex-col justify-between"
+              className="bg-white overflow-hidden shadow-sm rounded-md flex flex-col justify-between"
             >
-              <CardContent className="p-4 flex flex-col h-full">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+              <CardContent className="p-3 flex flex-col h-full">
+                <div className="flex items-center justify-center mb-2">
+                  <div className="w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
                     <img
                       src={store.logo}
                       alt={store.company}
@@ -39,16 +39,16 @@ const ExclusiveStores = () => {
                   </div>
                 </div>
 
-                <h3 className="font-bold text-base text-center text-gray-800 mb-3">
+                <h3 className="font-bold text-sm text-center text-gray-800 mb-2">
                   {store.company}
                 </h3>
 
-                <p className="text-sm text-green-600 text-center mb-2">
+                <p className="text-xs text-green-600 text-center mb-2">
                   {store.cash_reward}
                 </p>
 
                 <Button
-                  className="bg-[crimson] text-white mt-4 w-full py-2 text-sm rounded-md hover:bg-gray-400 hover:text-black"
+                  className="bg-[crimson] text-white mt-2 py-1 text-xs rounded-md hover:bg-gray-400 hover:text-black"
                   onClick={() => openModal(store)}
                 >
                   View Details
