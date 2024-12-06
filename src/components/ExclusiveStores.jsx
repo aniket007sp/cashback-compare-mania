@@ -19,9 +19,15 @@ const ExclusiveStores = () => {
             className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
-            <div className="w-16 h-16 flex items-center justify-center bg-gray-100 rounded-full mb-3">
-              <ShoppingBag className="w-8 h-8 text-gray-600" />
-            </div>
+            <div className="flex items-center justify-center mb-4">
+                  <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+                    <img
+                      src={offer.logo}
+                      alt={offer.name}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </div>
             <h3 className="text-sm font-medium text-center mb-2">{store.company}</h3>
             <p className="text-xs text-green-600 font-semibold">{store.cash_reward}</p>
             <button 
