@@ -1,93 +1,113 @@
-import React, { useRef } from 'react';
-import Header from '../components/Header';
-import SearchBar from '../components/SearchBar';
+import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
+import CategorySection from '../components/CategorySection';
+import DealOfTheDay from '../components/DealOfTheDay';
+import PopularStores from '../components/PopularStores';
+import ExploreForeignBrands from '../components/ExploreForeignBrands';
+import InstallAndEarnSection from '../components/InstallAndEarnSection';
+import LootDealsSection from '../components/LootDealsSection';
+import GiftCards from '../components/GiftCards';
+import FlightSearch from '../components/FlightSearch';
+import HotelSearch from '../components/HotelSearch';
+import TrainSearch from '../components/TrainSearch';
+import BusSearch from '../components/BusSearch';
+import CabSearch from '../components/CabSearch';
 import Footer from '../components/Footer';
-import Advertisement from '../components/Advertisement';
-import TrendingDeals from '../components/TrendingDeals';
-import CategoryCarousel from '../components/CategoryCarousel';
+import NetlifyOffersSection from '../components/NetlifyOffersSection';
+import { Button } from "@/components/ui/button";
+import { Plane, Hotel, Train, Bus, Car } from 'lucide-react';
 import FinanceSection from '../components/FinanceSection';
 
-const creditCardData = [
-  {
-    name: "HDFC Swiggy Card",
-    description: "Save upto ₹36,000/year on Swiggy & Online Spends",
-    reward: "+ Upto ₹1000 Rewards",
-    image: "/images/logos/hdfc.png"
-  },
-  {
-    name: "Flipkart Axis Card",
-    description: "Upto 5% Cashback",
-    reward: "+ Flat ₹750 Rewards",
-    image: "/images/logos/axis.png"
-  },
-  {
-    name: "SBI SimplyCLICK Card",
-    description: "Get 10x Rewards on",
-    reward: "+ Flat ₹1200 Rewards",
-    image: "/images/logos/sbi.png"
-  },
-  {
-    name: "HSBC Lite+ Card",
-    description: "10% Cashback Dining, Food Delivery & Grocery",
-    reward: "+ Flat ₹2200 Rewards",
-    image: "/images/logos/hsbc.png"
-  },
-];
-
-const electronicsData = [
-  {
-    name: "Smartphone Deals",
-    description: "Up to 30% off on latest smartphones",
-    reward: "Extra 5% cashback",
-    image: "/images/categories/electronics.svg"
-  },
-  {
-    name: "Laptop Offers",
-    description: "Discounts up to ₹20,000 on laptops",
-    reward: "Free accessories worth ₹2000",
-    image: "/images/categories/electronics.svg"
-  },
-  // Add more electronics deals
-];
-
-const beautyData = [
-  {
-    name: "Skincare Bundle",
-    description: "Buy 2 Get 1 Free on all skincare products",
-    reward: "Free sample kit with every purchase",
-    image: "/images/categories/beauty.svg"
-  },
-  {
-    name: "Makeup Bonanza",
-    description: "50% off on premium makeup brands",
-    reward: "Loyalty points doubled",
-    image: "/images/categories/beauty.svg"
-  },
-  // Add more beauty deals
-];
-
 const Index = () => {
-  const dealsRef = useRef(null);
+  const [activeSection, setActiveSection] = useState('shopping');
 
-  const scrollToDeals = () => {
-    dealsRef.current?.scrollIntoView({ behavior: 'smooth' });
+  const renderContent = () => {
+    switch (activeSection) {
+      case 'shopping':
+        return (
+          <>
+            <DealOfTheDay />
+            <CategorySection />
+            <PopularStores />
+            <ExploreForeignBrands />
+            <LootDealsSection />
+            <FinanceSection />
+            <InstallAndEarnSection />
+            <NetlifyOffersSection />
+            <GiftCards />
+            <Footer/>
+          </>
+        );
+      case 'flights':
+        return <FlightSearch setActiveSection={setActiveSection} />;
+      case 'hotels':
+        return <HotelSearch setActiveSection={setActiveSection} />;
+      case 'trains':
+        return <TrainSearch setActiveSection={setActiveSection} />;
+      case 'buses':
+        return <BusSearch setActiveSection={setActiveSection} />;
+      case 'cabs':
+        return <CabSearch setActiveSection={setActiveSection} />;
+      default:
+        return null;
+    }
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header onDealsClick={scrollToDeals} />
-      <main className="flex-grow container mx-auto px-4 py-8">
-        <SearchBar />
-        <Advertisement size="large" className="my-8" />
-        <CategoryCarousel title="BEST CARDS FOR FESTIVE SHOPPING" items={creditCardData} />
-        <CategoryCarousel title="TOP ELECTRONICS DEALS" items={electronicsData} />
-        <CategoryCarousel title="BEAUTY & PERSONAL CARE OFFERS" items={beautyData} />
-        <FinanceSection />
-        <div ref={dealsRef}>
-          <TrendingDeals />
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+      <main className="max-w-[100vw] overflow-x-hidden px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-start md:justify-center overflow-x-auto md:overflow-x-visible py-4 space-x-2 md:space-x-4">
+          <Button
+            variant={activeSection === 'shopping' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('shopping')}
+            className="whitespace-nowrap"
+          >
+            Shopping
+          </Button>
+          <Button
+            variant={activeSection === 'flights' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('flights')}
+            className="whitespace-nowrap"
+          >
+            <Plane className="mr-2 h-4 w-4" />
+            Flights
+          </Button>
+          <Button
+            variant={activeSection === 'hotels' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('hotels')}
+            className="whitespace-nowrap"
+          >
+            <Hotel className="mr-2 h-4 w-4" />
+            Hotels
+          </Button>
+          <Button
+            variant={activeSection === 'trains' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('trains')}
+            className="whitespace-nowrap"
+          >
+            <Train className="mr-2 h-4 w-4" />
+            Trains
+          </Button>
+          <Button
+            variant={activeSection === 'buses' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('buses')}
+            className="whitespace-nowrap"
+          >
+            <Bus className="mr-2 h-4 w-4" />
+            Buses
+          </Button>
+          <Button
+            variant={activeSection === 'cabs' ? 'default' : 'outline'}
+            onClick={() => setActiveSection('cabs')}
+            className="whitespace-nowrap"
+          >
+            <Car className="mr-2 h-4 w-4" />
+            Cabs
+          </Button>
         </div>
+        {renderContent()}
       </main>
-      <Footer />
     </div>
   );
 };
