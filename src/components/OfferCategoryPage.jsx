@@ -92,7 +92,7 @@ const OfferCategoryPage = () => {
             >
               <CardContent className="p-4 flex flex-col h-full">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+                  <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
                     <img
                       src={offer.logo}
                       alt={offer.name}
