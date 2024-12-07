@@ -41,7 +41,7 @@ const ExclusiveStores = () => {
               }}
             >
               <Info className="w-3 h-3" />
-              Details
+              Terms&Conditions
             </button>
           </div>
         ))}
