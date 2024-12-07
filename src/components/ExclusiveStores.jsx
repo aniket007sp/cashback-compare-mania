@@ -19,6 +19,7 @@ const ExclusiveStores = () => {
             className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
+            {/* Store Logo */}
             <div className="flex items-center justify-center mb-4">
               <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                 <img
@@ -28,36 +29,41 @@ const ExclusiveStores = () => {
                 />
               </div>
             </div>
+
+            {/* Store Name and Reward */}
             <h3 className="text-sm font-medium text-center mb-2">{store.company}</h3>
             <p className="text-xs text-gray-700 bg-gray-100 px-2 py-1 rounded-md flex justify-center items-center gap-1">
               <span className="font-medium whitespace-nowrap">Reward:</span>
               <span className="font-light truncate">{store.cash_reward}</span>
             </p>
-            <Button
-                className="bg-[crimson] text-white w-1/2 hover:bg-gray-400 hover:text-black"
-                onClick={window.open(currentLink, '_blank')}
-              >
-                Go to Store
-              </Button>
-           <button 
-            className="mt-2 text-xs text-blue-600 flex items-center gap-1"
-            onClick={(e) => {
-              e.stopPropagation(); // Prevent other click events from triggering
-              if (selectedStore?.link) {
-                window.open(selectedStore.link, "_blank", "noopener,noreferrer");
-              }
-            }}
-          >
-            Visit Store
-          </button>
 
+            {/* Visit Store Button */}
+            <button
+              className="mt-2 text-xs bg-[crimson] text-white py-1 px-3 rounded-md hover:bg-gray-400 hover:text-black transition"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent card click
+                window.open(store.link, "_blank", "noopener,noreferrer");
+              }}
+            >
+              Go to Store
+            </button>
+
+            {/* Terms & Conditions */}
+            <button
+              className="mt-2 text-xs text-blue-600 flex items-center gap-1"
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent card click
+                setSelectedStore(store);
+              }}
+            >
               <Info className="w-3 h-3" />
-              Terms&Conditions
+              Terms & Conditions
             </button>
           </div>
         ))}
       </div>
 
+      {/* Dialog for Store Details */}
       <Dialog open={!!selectedStore} onOpenChange={() => setSelectedStore(null)}>
         <DialogContent className="max-w-md">
           <DialogHeader>
