@@ -20,7 +20,7 @@ const ExclusiveStores = () => {
             onClick={() => setSelectedStore(store)}
           >
             <div className="flex items-center justify-center mb-4">
-              <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+              <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                 <img
                   src={store.logo}
                   alt={store.company}
