@@ -34,18 +34,23 @@ const ExclusiveStores = () => {
               <span className="font-light truncate">{store.cash_reward}</span>
             </p>
             <Button
-              className="bg-[crimson] text-white mt-4 w-full py-2 text-sm rounded-md hover:bg-gray-400 hover:text-black"
-              onClick={() => openModal(offer.gotolink, offer.name)}
-            >
-              Go to Store
-            </Button>
-            <button 
-              className="mt-2 text-xs text-blue-600 flex items-center gap-1"
-              onClick={(e) => {
-                e.stopPropagation();
-                setSelectedStore(store);
-              }}
-            >
+                className="bg-[crimson] text-white w-1/2 hover:bg-gray-400 hover:text-black"
+                onClick={window.open(currentLink, '_blank')}
+              >
+                Go to Store
+              </Button>
+           <button 
+            className="mt-2 text-xs text-blue-600 flex items-center gap-1"
+            onClick={(e) => {
+              e.stopPropagation(); // Prevent other click events from triggering
+              if (selectedStore?.link) {
+                window.open(selectedStore.link, "_blank", "noopener,noreferrer");
+              }
+            }}
+          >
+            Visit Store
+          </button>
+
               <Info className="w-3 h-3" />
               Terms&Conditions
             </button>
