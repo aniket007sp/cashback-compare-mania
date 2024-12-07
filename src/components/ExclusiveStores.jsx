@@ -29,7 +29,10 @@ const ExclusiveStores = () => {
               </div>
             </div>
             <h3 className="text-sm font-medium text-center mb-2">{store.company}</h3>
-            <p className="text-xs text-green-600 font-semibold">{store.cash_reward}</p>
+            <p className="text-sm text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
+              <span className="font-medium">Cash Reward: </span>
+              <span className="font-light ml-2">{store.cash_reward}</span>
+            </p>
             <button 
               className="mt-2 text-xs text-blue-600 flex items-center gap-1"
               onClick={(e) => {
