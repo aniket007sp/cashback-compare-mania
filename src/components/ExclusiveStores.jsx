@@ -65,29 +65,44 @@ const ExclusiveStores = () => {
 
       {/* Dialog for Store Details */}
       <Dialog open={!!selectedStore} onOpenChange={() => setSelectedStore(null)}>
-        <DialogContent className="max-w-md">
+        <DialogContent className="max-w-lg p-6">
           <DialogHeader>
-            <DialogTitle>{selectedStore?.company}</DialogTitle>
+            <DialogTitle className="text-xl font-bold text-gray-800">
+              {selectedStore?.company}
+            </DialogTitle>
           </DialogHeader>
-          <div className="mt-4 space-y-4">
-            <div>
-              <h4 className="font-semibold text-sm mb-1">Cash Reward</h4>
-              <p className="text-sm text-green-600">{selectedStore?.cash_reward}</p>
+          <div className="mt-6 space-y-6">
+            {/* Cash Reward Section */}
+            <div className="flex items-center justify-between">
+              <h4 className="text-sm font-medium text-gray-600">Cash Reward</h4>
+              <p className="text-sm font-semibold text-green-600">
+                {selectedStore?.cash_reward}
+              </p>
             </div>
-            <div>
-              <h4 className="font-semibold text-sm mb-1">Payment Time</h4>
-              <p className="text-sm">{selectedStore?.payment_in} days</p>
+      
+            {/* Payment Time Section */}
+            <div className="flex items-center justify-between">
+              <h4 className="text-sm font-medium text-gray-600">Payment Time</h4>
+              <p className="text-sm text-gray-800">
+                {selectedStore?.payment_in} days
+              </p>
             </div>
+      
+            {/* Terms & Conditions Section */}
             <div>
-              <h4 className="font-semibold text-sm mb-1">Terms & Conditions</h4>
-              <p className="text-sm whitespace-pre-wrap">{selectedStore?.terms_and_conditions}</p>
+              <h4 className="text-sm font-medium text-gray-600 mb-2">Terms & Conditions</h4>
+              <p className="text-sm text-gray-700 whitespace-pre-wrap">
+                {selectedStore?.terms_and_conditions}
+              </p>
             </div>
-            <div className="pt-4">
+      
+            {/* Visit Store Button */}
+            <div className="text-center pt-4">
               <a
                 href={selectedStore?.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+                className="bg-blue-600 text-white font-medium px-6 py-3 rounded-md hover:bg-blue-700 transition duration-200 inline-block"
               >
                 Visit Store
               </a>
@@ -95,6 +110,7 @@ const ExclusiveStores = () => {
           </div>
         </DialogContent>
       </Dialog>
+
     </section>
   );
 };
