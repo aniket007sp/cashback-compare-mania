@@ -74,8 +74,8 @@ const ExclusiveStores = () => {
           <div className="mt-6 space-y-6">
             {/* Cash Reward Section */}
             <div className="flex items-center justify-between">
-              <h4 className="text-sm font-medium text-gray-600">Cash Reward</h4>
-              <p className="text-sm font-semibold text-green-600">
+              <h4 className="text-sm font-medium text-gray-600">Cash Reward: </h4>
+              <p className="text-sm font-semibold text-gray-400">
                 {selectedStore?.cash_reward}
               </p>
             </div>
