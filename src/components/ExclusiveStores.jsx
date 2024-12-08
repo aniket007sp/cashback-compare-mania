@@ -82,8 +82,8 @@ const ExclusiveStores = () => {
       
             {/* Payment Time Section */}
             <div className="flex items-center justify-between">
-              <h4 className="text-sm font-medium text-gray-600">Payment Time</h4>
-              <p className="text-sm text-gray-800">
+              <h4 className="text-sm font-medium text-gray-600">Payout in </h4>
+              <p className="text-sm text-gray-400">
                 {selectedStore?.payment_in} days
               </p>
             </div>
