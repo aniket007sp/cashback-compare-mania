@@ -101,7 +101,7 @@ const ExclusiveStores = () => {
             <div className="flex justify-between">
               <button
                 onClick={() => setSelectedStore(null)}
-                className="w-1/2 mr-2 hover:bg-gray-400"
+                className="w-1/2 text-black hover:bg-gray-400"
               >
                 Cancel
               </button>
