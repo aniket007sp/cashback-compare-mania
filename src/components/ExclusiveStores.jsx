@@ -74,8 +74,8 @@ const ExclusiveStores = () => {
           <div className="mt-6 space-y-6">
             {/* Cash Reward Section */}
             <div className="flex items-center gap-x-2">
-              <h4 className="text-sm font-medium text-gray-600">Cash Reward:</h4>
-              <p className="text-sm font-semibold text-gray-600">
+              <h4 className="text-sm font-medium text-gray-800">Cash Reward:</h4>
+              <p className="text-sm font-semibold text-gray-500">
                 {selectedStore?.cash_reward}
               </p>
             </div>
@@ -83,8 +83,8 @@ const ExclusiveStores = () => {
       
             {/* Payment Time Section */}
              <div className="flex items-center gap-x-2">
-              <h4 className="text-sm font-medium text-gray-600">Payout in </h4>
-              <p className="text-sm text-gray-600">
+              <h4 className="text-sm font-medium text-gray-800">Payout in </h4>
+              <p className="text-sm font-semibold text-gray-500">
                 {selectedStore?.payment_in} days
               </p>
             </div>
