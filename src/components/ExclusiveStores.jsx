@@ -73,15 +73,16 @@ const ExclusiveStores = () => {
           </DialogHeader>
           <div className="mt-6 space-y-6">
             {/* Cash Reward Section */}
-            <div className="flex items-center justify-between">
-              <h4 className="text-sm font-medium text-gray-600">Cash Reward: </h4>
+            <div className="flex items-center gap-x-2">
+              <h4 className="text-sm font-medium text-gray-600">Cash Reward:</h4>
               <p className="text-sm font-semibold text-gray-400">
                 {selectedStore?.cash_reward}
               </p>
             </div>
+
       
             {/* Payment Time Section */}
-            <div className="flex items-center justify-between">
+             <div className="flex items-center gap-x-2">
               <h4 className="text-sm font-medium text-gray-600">Payout in </h4>
               <p className="text-sm text-gray-400">
                 {selectedStore?.payment_in} days
