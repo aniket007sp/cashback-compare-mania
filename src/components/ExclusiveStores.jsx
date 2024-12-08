@@ -97,15 +97,20 @@ const ExclusiveStores = () => {
             </div>
       
             {/* Visit Store Button */}
-            <div className="text-center pt-4">
-              <a
-                href={selectedStore?.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 text-white font-medium px-6 py-3 rounded-md hover:bg-blue-700 transition duration-200 inline-block"
+            <div className="flex justify-between">
+              <Button
+                variant="ghost"
+                onClick={() => setModalOpen(false)}
+                className="w-1/2 mr-2 hover:bg-gray-400"
               >
-                Visit Store
-              </a>
+                Cancel
+              </Button>
+              <Button
+                className="bg-[crimson] text-white w-1/2 hover:bg-gray-400 hover:text-black"
+                onClick={navigateToStore}
+              >
+                Go to Store
+              </Button>
             </div>
           </div>
         </DialogContent>
