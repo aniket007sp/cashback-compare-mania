@@ -101,7 +101,7 @@ const ExclusiveStores = () => {
             <div className="flex justify-between">
               <button
                 onClick={() => setSelectedStore(null)}
-                className="w-1/2 mr-2 py-2 text-gray-600 border border-gray-300 rounded-md hover:bg-gray-100"
+                className="w-1/2 mr-2 hover:bg-gray-400"
               >
                 Cancel
               </button>
@@ -110,7 +110,7 @@ const ExclusiveStores = () => {
                   setSelectedStore(null);
                   window.open(selectedStore?.link, "_blank", "noopener,noreferrer");
                 }}
-                className="w-1/2 py-2 bg-[crimson] text-white rounded-md hover:bg-gray-400 hover:text-black"
+                className="bg-[crimson] text-white w-1/2 hover:bg-gray-400 hover:text-black"
               >
                 Go to Store
               </button>
