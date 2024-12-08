@@ -98,19 +98,21 @@ const ExclusiveStores = () => {
       
             {/* Visit Store Button */}
             <div className="flex justify-between">
-              <Button
-                variant="ghost"
-                onClick={() => setModalOpen(false)}
-                className="w-1/2 mr-2 hover:bg-gray-400"
+              <button
+                onClick={() => setSelectedStore(null)}
+                className="w-1/2 mr-2 py-2 text-gray-600 border border-gray-300 rounded-md hover:bg-gray-100"
               >
                 Cancel
-              </Button>
-              <Button
-                className="bg-[crimson] text-white w-1/2 hover:bg-gray-400 hover:text-black"
-                onClick={navigateToStore}
+              </button>
+              <button
+                onClick={() => {
+                  setSelectedStore(null);
+                  window.open(selectedStore?.link, "_blank", "noopener,noreferrer");
+                }}
+                className="w-1/2 py-2 bg-[crimson] text-white rounded-md hover:bg-gray-400 hover:text-black"
               >
                 Go to Store
-              </Button>
+              </button>
             </div>
           </div>
         </DialogContent>
