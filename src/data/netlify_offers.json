@@ -1115,25 +1115,6 @@
         ]
     },
     {
-        "name": "Shopclues",
-        "logo": "https://cdn.admitad-connect.com/campaign/images/2023/1/16/28831-24a5dad66c5233cc.png",
-        "gotolink": "https://tjzuh.com/g/zo3u4tp75o6a3b5ae4bb5a285d41f8/",
-        "avg_money_transfer_time": 95,
-        "categories": {
-            "category": "Online stores",
-            "subcategory": "Marketplaces"
-        },
-        "action_ranges": [
-            {
-                "name": "Cash Reward",
-                "min_percentage_rate": 0.3,
-                "max_percentage_rate": 6.9,
-                "min_fixed_rate": 0,
-                "max_fixed_rate": 0
-            }
-        ]
-    },
-    {
         "name": "Shriram FD",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2024/8/21/105044-568b8f19591bf342.svg",
         "gotolink": "https://tjzuh.com/g/bcc1bqjkbi6a3b5ae4bba331ba891d/",
