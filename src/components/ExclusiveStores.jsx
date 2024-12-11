@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./Dialog"; // Assume you have a Dialog component
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
-// StoreCard Component
 const StoreCard = ({ store, onCardClick, onVisitClick }) => (
   <div
     className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
@@ -38,7 +37,6 @@ const StoreCard = ({ store, onCardClick, onVisitClick }) => (
   </div>
 );
 
-// StoreDialog Component
 const StoreDialog = ({ store, onClose }) => (
   <Dialog open={!!store} onOpenChange={onClose}>
     <DialogContent className="max-w-lg p-6">
@@ -95,7 +93,6 @@ const StoreDialog = ({ store, onClose }) => (
   </Dialog>
 );
 
-// StoresGrid Component
 const StoresGrid = ({ stores, onStoreClick, onVisitClick }) => (
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
     {stores.map((store) => (
@@ -109,7 +106,6 @@ const StoresGrid = ({ stores, onStoreClick, onVisitClick }) => (
   </div>
 );
 
-// Main Component
 const ExclusiveStores = ({ stores }) => {
   const [selectedStore, setSelectedStore] = useState(null);
 

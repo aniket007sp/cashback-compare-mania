@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./Dialog"; // Assume you have a Dialog component
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { ChevronLeft } from "lucide-react";
 import netlifyOffers from "../data/netlify_offers.json";
 import { termsConditions } from "../data/termsConditions";
 
