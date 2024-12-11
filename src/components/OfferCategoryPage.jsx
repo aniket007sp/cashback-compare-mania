@@ -151,7 +151,7 @@ const OfferCategoryPage = () => {
             <div>
               <h4 className="text-sm font-medium text-gray-800 mb-2">Terms & Conditions</h4>
               <p className="text-sm text-gray-700 whitespace-pre-wrap">
-                {cleanData(getTermsForOffer(termsConditions[selectedStore?.name]))}
+                {cleanData(termsConditions[selectedStore?.name])}
               </p>
               <br></br>
               "Payout is calculated on order amount excluding taxes"
