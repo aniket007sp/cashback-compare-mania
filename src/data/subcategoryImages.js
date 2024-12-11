@@ -1,12 +1,12 @@
 export const subcategoryImages = {
   "Apparel, Footwear, Accessories": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+  "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Household Appliances & Electronics": "https://static-assets.business.amazon.com/assets/in/24th-jan/705_Website_Blog_Appliances_1450x664.jpg.transform/1450x664/image.jpg",
   "Insurance": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Credit Cards": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202409/66d9a545ed917-credit-card-rule-change-053412131-16x9.jpg",
   "Flights": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Movies & Music": "https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Investments": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-  "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Deposits": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Loans": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Marketplaces": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
