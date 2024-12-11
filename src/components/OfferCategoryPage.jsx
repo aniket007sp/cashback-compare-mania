@@ -99,7 +99,7 @@ const OfferCategoryPage = () => {
                     className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
                   >
                     <span className="whitespace-nowrap">{action.name}:</span>
-                    <span className="font-semibold truncate ml-1">{formatRange(action)}</span>
+                    <span className="font-semibold ml-1">{formatRange(action)}</span>
                   </div>
                 ))}
               </div>
