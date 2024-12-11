@@ -154,9 +154,9 @@ const OfferCategoryPage = () => {
                 {cleanData(termsConditions[selectedStore?.name])}
               </p>
               <br></br>
-              "Payout is calculated on order amount excluding taxes"
+              Payout is calculated on order amount excluding taxes
               <br></br>
-              "Rewards will be validated within 3 days"
+              Rewards will be validated within 3 days
             </div>
 
             <div className="flex justify-between">
