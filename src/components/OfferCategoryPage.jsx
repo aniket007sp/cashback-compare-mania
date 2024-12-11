@@ -11,8 +11,8 @@ const toSentenceCase = (text) => {
 };
 
 const getTermsForOffer = (offerName) => {
-  const termEntry = termsConditions.find((term) => term.hasOwnProperty(offerName));
-  return termEntry ? termEntry[offerName] : 'No specific terms available.';
+  // Since termsConditions is an object, directly access the property
+  return termsConditions[offerName] || 'No specific terms available.';
 };
 
 const cleanData = (text) => {
