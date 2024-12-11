@@ -93,9 +93,9 @@ const StoreDialog = ({ store, onClose }) => (
   </Dialog>
 );
 
-const StoresGrid = ({ stores, onStoreClick, onVisitClick }) => (
+const StoresGrid = ({ stores = [], onStoreClick, onVisitClick }) => (
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
-    {stores.map((store) => (
+    {stores?.map((store) => (
       <StoreCard
         key={store.company}
         store={store}
@@ -106,7 +106,7 @@ const StoresGrid = ({ stores, onStoreClick, onVisitClick }) => (
   </div>
 );
 
-const ExclusiveStores = ({ stores }) => {
+const ExclusiveStores = ({ stores = [] }) => {
   const [selectedStore, setSelectedStore] = useState(null);
 
   const handleStoreClick = (store) => setSelectedStore(store);
