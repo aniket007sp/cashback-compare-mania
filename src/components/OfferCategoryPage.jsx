@@ -104,12 +104,6 @@ const OfferCategoryPage = () => {
                 ))}
               </div>
 
-              {offer.avg_money_transfer_time && (
-                <div className="mt-3 text-sm text-gray-700 text-center">
-                  Payout in <span className="font-semibold">{offer.avg_money_transfer_time} days</span>
-                </div>
-              )}
-
               <div className="mt-3 text-sm text-gray-700 text-center">
                 Rewards will be validated within 3 days
               </div>
