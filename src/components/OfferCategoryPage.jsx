@@ -104,10 +104,6 @@ const OfferCategoryPage = () => {
                 ))}
               </div>
 
-              <div className="mt-3 text-sm text-gray-700 text-center">
-                Rewards will be validated within 3 days
-              </div>
-
               {offer.gotolink && (
                 <>
                   <button
@@ -159,6 +155,8 @@ const OfferCategoryPage = () => {
               </p>
               <br></br>
               "Payout is calculated on order amount excluding taxes"
+              <br></br>
+              "Rewards will be validated within 3 days"
             </div>
 
             <div className="flex justify-between">
