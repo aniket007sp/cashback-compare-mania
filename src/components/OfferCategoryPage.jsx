@@ -136,7 +136,7 @@ const OfferCategoryPage = () => {
           <div className="mt-6 space-y-6">
             <div className="flex items-center gap-x-2">
               <p>
-                <span className="text-sm text-gray-800">{selectedStore?.action_ranges[0]?.name}:</span>  
+                <span className="text-sm text-gray-800">{selectedStore?.action_ranges[0]?.name}: </span>  
                 <span className="text-sm font-semibold text-gray-800">{formatRange(selectedStore?.action_ranges[0])}</span>
               </p>
             </div>
