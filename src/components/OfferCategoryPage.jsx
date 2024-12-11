@@ -163,6 +163,8 @@ const OfferCategoryPage = () => {
               <p className="text-sm text-gray-700 whitespace-pre-wrap">
                 {cleanData(getTermsForOffer(termsConditions[selectedStore?.name]))}
               </p>
+              <br></br>
+              "Payout is calculated on order amount excluding taxes"
             </div>
 
             <div className="flex justify-between">
