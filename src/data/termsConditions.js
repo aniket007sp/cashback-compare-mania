@@ -192,7 +192,7 @@ export const termsConditions = {
         "Urban Ladder": "Validation: Only successfully delivered purchases.\nPurchase via us, through their website."
     ,
     
-        "Vaaree": "Validation Criteria-Successful Delivered Sales."
+        "Vaaree": "New User-10%  Existing User-5%  Max Transactions Allowed - 3 orders are allowed per user in a month. Bulk buying is not allowed."
     ,
     
         "Veromoda": "On Successful & Valid Purchase"
