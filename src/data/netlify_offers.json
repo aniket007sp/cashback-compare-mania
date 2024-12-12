@@ -1136,8 +1136,8 @@
     {
         "name": "Snitch",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2023/8/7/39002-6746f66feab8ec38.svg",
-        "gotolink": "https://tjzuh.com/g/n5qxxumf8o6a3b5ae4bb04adf488ea/",
-        "avg_money_transfer_time": 90,
+        "gotolink": "https://clnk.in/vHGG",
+        "avg_money_transfer_time": 65,
         "categories": {
             "category": "Online stores",
             "subcategory": "Apparel, Footwear, Accessories"
@@ -1145,15 +1145,15 @@
         "action_ranges": [
             {
                 "name": "Cash Reward (New User)",
-                "min_percentage_rate": 5.0,
-                "max_percentage_rate": 5.0,
+                "min_percentage_rate": 5.75,
+                "max_percentage_rate": 5.75,
                 "min_fixed_rate": 0,
                 "max_fixed_rate": 0
             },
             {
                 "name": "Cash Reward (Old User)",
-                "min_percentage_rate": 3.1,
-                "max_percentage_rate": 3.1,
+                "min_percentage_rate": 4.5,
+                "max_percentage_rate": 4.5,
                 "min_fixed_rate": 0,
                 "max_fixed_rate": 0
             }
