@@ -171,7 +171,7 @@ export const termsConditions = {
         "Shriram FD": "Validation Criteria - Pan Verified"
     ,
     
-        "Snitch": "New user Purchase: 5.0%\nOld user Purchase: 3.10%"
+        "Snitch": "Payout on New User-5.75%  Payout on Existing User-4.5%  Bulk buying is not allowed."
     ,
     
         "Soulflower": null
