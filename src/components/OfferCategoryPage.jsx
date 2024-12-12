@@ -135,15 +135,6 @@ const OfferCategoryPage = () => {
           </DialogHeader>
           <div className="mt-6 space-y-6">
             <div className="flex items-center gap-x-2">
-              {offer.action_ranges.map((action, index) => (
-                  <div
-                    key={index}
-                    className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
-                  >
-                    <span text-sm text-gray-800>{action.name}:</span>
-                    <span className="text-sm font-semibold text-gray-800">{formatRange(action)}</span>
-                  </div>
-                ))}
               <p>
                 <span className="text-sm text-gray-800">{selectedStore?.action_ranges[0]?.name}: </span>  
                 <span className="text-sm font-semibold text-gray-800">{formatRange(selectedStore?.action_ranges[0])}</span>
