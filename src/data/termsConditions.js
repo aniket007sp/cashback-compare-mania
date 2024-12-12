@@ -198,7 +198,7 @@ export const termsConditions = {
         "Veromoda": "On Successful & Valid Purchase"
     ,
     
-        "Wellbeing Nutrition": "Old User: 9.5%\nNew User: 15%"
+        "Wellbeing Nutrition": "Payout on New User-16%  Payout on Existing User-8% Validation Criteria -  Valid orders will get Cash Rewards. Cancelled Orders won't get Cash Rewards. "
     ,
     
         "W for Woman": null
