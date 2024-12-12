@@ -500,8 +500,8 @@
     {
         "name": "Foxtale",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2023/2/9/32132-3ab7e09e46dc5817.svg",
-        "gotolink": "https://tjzuh.com/g/fiw4cmhlb66a3b5ae4bb54a61da0cc/",
-        "avg_money_transfer_time": 90,
+        "gotolink": "https://clnk.in/vHGm",
+        "avg_money_transfer_time": 65,
         "categories": {
             "category": "Online stores",
             "subcategory": "Personal Care & Pharmacy"
@@ -509,15 +509,15 @@
         "action_ranges": [
             {
                 "name": "Cash Reward (New User)",
-                "min_percentage_rate": 12.6,
-                "max_percentage_rate": 12.6,
+                "min_percentage_rate": 15,
+                "max_percentage_rate": 15,
                 "min_fixed_rate": 0,
                 "max_fixed_rate": 0
             },
             {
                 "name": "Cash Reward (Old User)",
-                "min_percentage_rate": 6.3,
-                "max_percentage_rate": 6.3,
+                "min_percentage_rate": 7.5,
+                "max_percentage_rate": 7.5,
                 "min_fixed_rate": 0,
                 "max_fixed_rate": 0
             }
