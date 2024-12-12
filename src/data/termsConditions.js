@@ -114,7 +114,7 @@ export const termsConditions = {
         "Mcaffeine": null
     ,
     
-        "Moglix": "Only successful delivered Purchase (No cancellation, refunds, wrong attributions are considered)\nValidation will be done on delivered orders only."
+        "Moglix": "Bulk buying is not allowed"
     ,
     
         "Muscleblaze": null
@@ -147,7 +147,7 @@ export const termsConditions = {
         "Prop Shop24": null
     ,
     
-        "realme": "Reward:-\nUpto 15,0000 - 0.60%\n15,000 - 20,000 - 0.09%,\n20,000 - 30,000 - 1.50%,\nAbove 30,000 - 2.00%\nThe SKU's that are available on microsite are billable. The SKU's that are not available on microsite are not billable."
+        "realme": "Accessories: On order of Rs.2000 and above-1.75% Accessories: On order of Rs.1999 and below-1.25% Mobile Phone: GT 7 Pro/GT6-1.25% Mobile Phone: GT 6T/13 Pro+/P2 pro-1.00% Mobile Phone: 70 turbo/P1 Speed-0.50% Other Mobile Phones-0.00% Cash Reward NOT applicable on payment with store credit/gift cards. Bulk buying is not allowed."
     ,
     
         "ReneeCosmetics": null
