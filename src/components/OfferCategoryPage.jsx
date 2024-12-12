@@ -133,12 +133,23 @@ const OfferCategoryPage = () => {
               {selectedStore?.name}
             </DialogTitle>
           </DialogHeader>
+          {offer.action_ranges.map((action, index) => (
+                  <div
+                    key={index}
+                    className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
+                  >
+                    <span>{action.name}:</span>
+                    <span className="font-semibold truncate ml-1">{formatRange(action)}</span>
+                  </div>
+          ))}
           <div className="mt-6 space-y-6">
             <div className="flex items-center gap-x-2">
-              <p>
-                <span className="text-sm text-gray-800">{selectedStore?.action_ranges[0]?.name}: </span>  
-                <span className="text-sm font-semibold text-gray-800">{formatRange(selectedStore?.action_ranges[0])}</span>
-              </p>
+              {selectedStore?.action_ranges.map((action, index) => (
+                <div>
+                    <span className="text-sm text-gray-800">{action.name}: </span>  
+                    <span className="text-sm font-semibold text-gray-800">{formatRange(action)}</span>
+                </div>
+               ))}
             </div>
 
             <div className="flex items-center gap-x-2">
