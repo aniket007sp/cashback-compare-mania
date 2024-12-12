@@ -10,11 +10,6 @@ const toSentenceCase = (text) => {
   return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
 };
 
-const getTermsForOffer = (offerName) => {
-  // Since termsConditions is an object, directly access the property
-  return termsConditions[offerName] || 'No specific terms available.';
-};
-
 const cleanData = (text) => {
   if (!text) return "";
   return text
@@ -34,7 +29,7 @@ const formatRange = (action) => {
     return `${action.min_percentage_rate}% - ${action.max_percentage_rate}% off`;
   }
   if (action.max_fixed_rate) {
-    return `₹${action.max_fixed_rate}`;
+    return `₹${action.max_fixed_rate}`; // Unicode for INR symbol
   }
   return '';
 };
@@ -44,7 +39,6 @@ const OfferCategoryPage = () => {
   const navigate = useNavigate();
   const [selectedStore, setSelectedStore] = useState(null);
 
-  const SubCategory = subcategory?.replace(/-/g, ' ');
   const decodedCategory = category?.replace(/-/g, ' ');
   const decodedSubcategory = subcategory?.replace(/-/g, ' ');
 
@@ -69,7 +63,7 @@ const OfferCategoryPage = () => {
         </button>
 
         <h1 className="text-2xl text-[crimson] font-bold text-center mb-6">
-          {toSentenceCase(SubCategory)}
+          {toSentenceCase(decodedSubcategory)}
         </h1>
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -93,7 +87,7 @@ const OfferCategoryPage = () => {
               </h3>
 
               <div className="space-y-2 flex-1">
-                {offer.action_ranges.map((action, index) => (
+                {(offer.action_ranges || []).map((action, index) => (
                   <div
                     key={index}
                     className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
@@ -133,23 +127,15 @@ const OfferCategoryPage = () => {
               {selectedStore?.name}
             </DialogTitle>
           </DialogHeader>
-          {offer.action_ranges.map((action, index) => (
-                  <div
-                    key={index}
-                    className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
-                  >
-                    <span>{action.name}:</span>
-                    <span className="font-semibold truncate ml-1">{formatRange(action)}</span>
-                  </div>
-          ))}
+
           <div className="mt-6 space-y-6">
             <div className="flex items-center gap-x-2">
-              {selectedStore?.action_ranges.map((action, index) => (
+              {(selectedStore?.action_ranges || []).map((action, index) => (
                 <div key={index}>
-                    <span className="text-sm text-gray-800">{action.name}: </span>  
-                    <span className="text-sm font-semibold text-gray-800">{formatRange(action)}</span>
+                  <span className="text-sm text-gray-800">{action.name}: </span>
+                  <span className="text-sm font-semibold text-gray-800">{formatRange(action)}</span>
                 </div>
-               ))}
+              ))}
             </div>
 
             <div className="flex items-center gap-x-2">
@@ -164,9 +150,9 @@ const OfferCategoryPage = () => {
               <p className="text-sm text-gray-700 whitespace-pre-wrap">
                 {cleanData(termsConditions[selectedStore?.name])}
               </p>
-              <br></br>
+              <br />
               Payout is calculated on order amount excluding taxes
-              <br></br>
+              <br />
               Rewards will be validated within 3 days
             </div>
 
