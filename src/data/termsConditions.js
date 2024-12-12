@@ -72,7 +72,7 @@ export const termsConditions = {
         "Fix Derma": null
     ,
     
-        "Foxtale": "New User: 12.6%\nOld User: 6.3%"
+        "Foxtale": "New User-15.0% Existing User-7.5%  Cash Reward not applicable on payment with store credit/gift cards. Rewarding will be done for successfully delivered orders. Bulk buying is not allowed."
     ,
     
         "Furlenco Rentals": "Region - Bengaluru, Hyderabad, Pune, Thane, Mumbai, Navi Mumbai, Chennai, Gurgaon, Faridabad, Ghaziabad, Delhi, New Delhi, Noida, Greater Noida.\nPayout only on successfully delivered\nPurchase: 385\u20b9-490\u20b9\nMobile App Purchase: 385\u20b9-490\u20b9"
