@@ -27,7 +27,7 @@ export const termsConditions = {
         "Aqualens": null
     ,
     
-        "Arata": " Cancelled/returned products will not be counted for Cash Rewards."
+        "Arata": "Bulk buying is not allowed. /n Cash Reward NOT applicable on payment with store credit/gift cards."   
     ,
     
         "AU Bank Credit Card": "25+years, 6 Lacs & above / Salary bar to be raised to 45-50K+ and Cibil 750+ for better approval. / Credit card disbursal"
