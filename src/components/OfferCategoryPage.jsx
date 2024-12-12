@@ -131,7 +131,7 @@ const OfferCategoryPage = () => {
           <div className="mt-6 space-y-6">
             <div className="flex items-center gap-x-2">
               {(selectedStore?.action_ranges || []).map((action, index) => (
-                <div key={index} className="text-sm text-gray-700 bg-gray-100 px-3 py-1 rounded-md>
+                <div key={index} className="text-sm text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
                   <span className="text-sm text-gray-800">{action.name}: </span>
                   <span className="text-sm font-semibold text-gray-800">{formatRange(action)}</span>
                 </div>
