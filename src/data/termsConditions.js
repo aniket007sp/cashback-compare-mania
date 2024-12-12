@@ -27,7 +27,7 @@ export const termsConditions = {
         "Aqualens": null
     ,
     
-        "Arata": "Bulk buying is not allowed. Cash Reward NOT applicable on payment with store credit/gift cards."
+        "Arata": " Cancelled/returned products will not be counted for Cash Rewards."
     ,
     
         "AU Bank Credit Card": "25+years, 6 Lacs & above / Salary bar to be raised to 45-50K+ and Cibil 750+ for better approval. / Credit card disbursal"
@@ -72,11 +72,7 @@ export const termsConditions = {
         "Fix Derma": null
     ,
     
-        "Foxtale": "New User-15.0%
-                    Existing User-7.5% 
-                    Cash Reward not applicable on payment with store credit/gift cards.
-                    Rewarding will be done for successfully delivered orders.
-                    Bulk buying is not allowed."
+        "Foxtale": "New User: 12.6%\nOld User: 6.3%"
     ,
     
         "Furlenco Rentals": "Region - Bengaluru, Hyderabad, Pune, Thane, Mumbai, Navi Mumbai, Chennai, Gurgaon, Faridabad, Ghaziabad, Delhi, New Delhi, Noida, Greater Noida.\nPayout only on successfully delivered\nPurchase: 385\u20b9-490\u20b9\nMobile App Purchase: 385\u20b9-490\u20b9"
