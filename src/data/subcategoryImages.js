@@ -24,5 +24,6 @@ export const subcategoryImages = {
   "Online Education": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Food & Food delivery": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Furniture & Homeware": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-  "Bus Ticket Booking":"https://static.vecteezy.com/system/resources/previews/037/470/116/non_2x/ai-generated-touristic-coach-bus-on-highway-road-intercity-regional-domestic-transportation-driving-urban-modern-tour-traveling-travel-journey-ride-moving-transport-concept-public-comfortable-photo.jpg"
+  "Bus Ticket Booking":"https://static.vecteezy.com/system/resources/previews/037/470/116/non_2x/ai-generated-touristic-coach-bus-on-highway-road-intercity-regional-domestic-transportation-driving-urban-modern-tour-traveling-travel-journey-ride-moving-transport-concept-public-comfortable-photo.jpg",
+  "International Connectivity": "https://www.examcollection.com/design/wikipic/161.jpg"
 };
