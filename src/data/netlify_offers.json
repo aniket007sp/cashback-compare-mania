@@ -460,6 +460,25 @@
         ]
     },
     {
+        "name": "Zepto",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/7/7d/Logo_of_Zepto.png",
+        "gotolink": "https://clnk.in/vIEc",
+        "avg_money_transfer_time": 65,
+        "categories": {
+            "category": "Online stores",
+            "subcategory": "Food & Food delivery"
+        },
+        "action_ranges": [
+            {
+                "name": "Cash Reward",
+                "min_percentage_rate": 0,
+                "max_percentage_rate": 0,
+                "min_fixed_rate": 0,
+                "max_fixed_rate": 100
+            }
+        ]
+    },
+    {
         "name": "Fiona Diamonds",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2023/11/6/43782-c8832e2063813a90.svg",
         "gotolink": "https://tjzuh.com/g/qw3n1py0c36a3b5ae4bb50f1d6e487/",
