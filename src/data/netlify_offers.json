@@ -1367,5 +1367,83 @@
                 "max_fixed_rate": 12
             }
         ]
+    },
+    {
+      "name": "Air India",
+      "logo": "https://cdn.admitad-connect.com/campaign/images/2023/10/23/43262-5f25a7d3a8a0606f.svg",
+      "gotolink": "https://tjzuh.com/g/sn97jhuq0o6a3b5ae4bbac2e3b3be8/",
+      "avg_money_transfer_time": 71,
+      "categories": {
+        "category": "Travel & Tourism",
+        "subcategory": "Flights"
+      },
+      "action_ranges": [
+        {
+          "name": "Cash Reward(Domestic Flights)",
+          "min_fixed_rate": 94,
+          "max_fixed_rate": 94
+        },
+        {
+          "name": "Cash Reward(International Flights)",
+          "min_fixed_rate": 315,
+          "max_fixed_rate": 315
+        }
+      ]
+    },
+    {
+      "name": "Etihad Airways",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/03/Etihad-Airways-Logo.png",
+      "gotolink": "https://clnk.in/vHrz",
+      "avg_money_transfer_time": 65,
+      "categories": {
+        "category": "Travel & Tourism",
+        "subcategory": "Flights"
+      },
+      "action_ranges": [
+        {
+          "name": "Cash Reward",
+          "min_percentage_rate": 1.75,
+          "max_percentage_rate": 1.75
+        }
+      ]
+    },
+    {
+      "name": "HappyFares",
+      "logo": "https://play-lh.googleusercontent.com/Qf0F6LGKhZN-FDa_hqYQYjV6EYmxQHvqKC5FZEUfB9Xq7nHL_3MQQqhNhGGNTHKhG1Y",
+      "gotolink": "https://clnk.in/vHsj",
+      "avg_money_transfer_time": 65,
+      "categories": {
+        "category": "Travel & Tourism",
+        "subcategory": "Flights"
+      },
+      "action_ranges": [
+        {
+          "name": "Domestic Flights",
+          "min_fixed_rate": 70,
+          "max_fixed_rate": 70
+        },
+        {
+          "name": "International Flights",
+          "min_fixed_rate": 100,
+          "max_fixed_rate": 100
+        }
+      ]
+    },
+    {
+      "name": "Jazeera Airways",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jazeera_Airways_Logo.svg/2560px-Jazeera_Airways_Logo.svg.png",
+      "gotolink": "https://clnk.in/vHsp",
+      "avg_money_transfer_time": 65,
+      "categories": {
+        "category": "Travel & Tourism",
+        "subcategory": "Flights"
+      },
+      "action_ranges": [
+        {
+          "name": "Cash Reward",
+          "min_percentage_rate": 1.05,
+          "max_percentage_rate": 1.05
+        }
+      ]
     }
 ]
