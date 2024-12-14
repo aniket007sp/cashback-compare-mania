@@ -906,25 +906,6 @@
         ]
     },
     {
-        "name": "ONLY",
-        "logo": "https://cdn.admitad-connect.com/campaign/images/2021/12/28/26012-a2246315738ba704.png",
-        "gotolink": "https://tjzuh.com/g/vmz0xg343a6a3b5ae4bb141cd98d46/",
-        "avg_money_transfer_time": 110,
-        "categories": {
-            "category": "Online stores",
-            "subcategory": "Apparel, Footwear, Accessories"
-        },
-        "action_ranges": [
-            {
-                "name": "Cash Reward",
-                "min_percentage_rate": 5.7,
-                "max_percentage_rate": 5.7,
-                "min_fixed_rate": 0,
-                "max_fixed_rate": 0
-            }
-        ]
-    },
-    {
         "name": "Orange Health",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2024/2/5/33626-ba8386943238f525.svg",
         "gotolink": "https://tjzuh.com/g/w416p5bqmc6a3b5ae4bb47ff82a51f/",
@@ -970,25 +951,6 @@
         "categories": {
             "category": "Online stores",
             "subcategory": "Apparel, Footwear, Accessories"
-        },
-        "action_ranges": [
-            {
-                "name": "Cash Reward",
-                "min_percentage_rate": 7.6,
-                "max_percentage_rate": 7.6,
-                "min_fixed_rate": 0,
-                "max_fixed_rate": 0
-            }
-        ]
-    },
-    {
-        "name": "Prop Shop24",
-        "logo": "https://cdn.admitad-connect.com/campaign/images/2023/11/20/43785-cc8f10fc4c2fdb80.svg",
-        "gotolink": "https://tjzuh.com/g/lp0z2i0lg06a3b5ae4bbaaf0983661/",
-        "avg_money_transfer_time": 74,
-        "categories": {
-            "category": "Online stores",
-            "subcategory": "Toys, Kids & Babies"
         },
         "action_ranges": [
             {
@@ -1287,25 +1249,6 @@
                 "name": "Cash Reward",
                 "min_percentage_rate": 5,
                 "max_percentage_rate": 10,
-                "min_fixed_rate": 0,
-                "max_fixed_rate": 0
-            }
-        ]
-    },
-    {
-        "name": "Veromoda",
-        "logo": "https://cdn.admitad-connect.com/campaign/images/2021/2/8/22519-f36106378d3adf65.png",
-        "gotolink": "https://tjzuh.com/g/7lq7k5ra2l6a3b5ae4bb6e41d8bff9/",
-        "avg_money_transfer_time": 117,
-        "categories": {
-            "category": "Online stores",
-            "subcategory": "Apparel, Footwear, Accessories"
-        },
-        "action_ranges": [
-            {
-                "name": "Cash Reward",
-                "min_percentage_rate": 5.8,
-                "max_percentage_rate": 5.8,
                 "min_fixed_rate": 0,
                 "max_fixed_rate": 0
             }
