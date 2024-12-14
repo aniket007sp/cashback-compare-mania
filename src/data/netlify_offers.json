@@ -1368,82 +1368,194 @@
             }
         ]
     },
-    {
-      "name": "Air India",
-      "logo": "https://cdn.admitad-connect.com/campaign/images/2023/10/23/43262-5f25a7d3a8a0606f.svg",
-      "gotolink": "https://tjzuh.com/g/sn97jhuq0o6a3b5ae4bbac2e3b3be8/",
-      "avg_money_transfer_time": 71,
-      "categories": {
-        "category": "Travel & Tourism",
-        "subcategory": "Flights"
-      },
-      "action_ranges": [
-        {
-          "name": "Cash Reward(Domestic Flights)",
-          "min_fixed_rate": 94,
-          "max_fixed_rate": 94
-        },
-        {
-          "name": "Cash Reward(International Flights)",
-          "min_fixed_rate": 315,
-          "max_fixed_rate": 315
-        }
-      ]
+  {
+    "name": "ClearTrip Bus",
+    "logo": "https://static.businessworld.in/article/article_extra_large_image/1589890045_O1zNw7_Cleartrip_Logo.jpg",
+    "gotolink": "https://clnk.in/vHryy",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Bus Ticket Booking"
     },
-    {
-      "name": "Etihad Airways",
-      "logo": "https://logos-world.net/wp-content/uploads/2020/03/Etihad-Airways-Logo.png",
-      "gotolink": "https://clnk.in/vHrz",
-      "avg_money_transfer_time": 65,
-      "categories": {
-        "category": "Travel & Tourism",
-        "subcategory": "Flights"
-      },
-      "action_ranges": [
-        {
-          "name": "Cash Reward",
-          "min_percentage_rate": 1.75,
-          "max_percentage_rate": 1.75
-        }
-      ]
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_fixed_rate": 35,
+        "max_fixed_rate": 35
+      }
+    ]
+  },
+  {
+    "name": "Etihad Airways",
+    "logo": "https://logos-world.net/wp-content/uploads/2020/03/Etihad-Airways-Logo.png",
+    "gotolink": "https://clnk.in/vHrz",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Flights"
     },
-    {
-      "name": "HappyFares",
-      "logo": "https://play-lh.googleusercontent.com/Qf0F6LGKhZN-FDa_hqYQYjV6EYmxQHvqKC5FZEUfB9Xq7nHL_3MQQqhNhGGNTHKhG1Y",
-      "gotolink": "https://clnk.in/vHsj",
-      "avg_money_transfer_time": 65,
-      "categories": {
-        "category": "Travel & Tourism",
-        "subcategory": "Flights"
-      },
-      "action_ranges": [
-        {
-          "name": "Domestic Flights",
-          "min_fixed_rate": 70,
-          "max_fixed_rate": 70
-        },
-        {
-          "name": "International Flights",
-          "min_fixed_rate": 100,
-          "max_fixed_rate": 100
-        }
-      ]
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_percentage_rate": 1.75,
+        "max_percentage_rate": 1.75
+      }
+    ]
+  },
+  {
+    "name": "GigSky",
+    "logo": "https://play-lh.googleusercontent.com/8yZZAv0G5OrxzGvVOpcVFJBwGS4WdHKZN3SHGUXxaQWBSZPGGJ5p7P4M-89CJYZBxQ",
+    "gotolink": "https://clnk.in/vHrQ",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Technology",
+      "subcategory": "Connectivity Services"
     },
-    {
-      "name": "Jazeera Airways",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jazeera_Airways_Logo.svg/2560px-Jazeera_Airways_Logo.svg.png",
-      "gotolink": "https://clnk.in/vHsp",
-      "avg_money_transfer_time": 65,
-      "categories": {
-        "category": "Travel & Tourism",
-        "subcategory": "Flights"
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_percentage_rate": 6.5,
+        "max_percentage_rate": 6.5
+      }
+    ]
+  },
+  {
+    "name": "Goibibo Hotels",
+    "logo": "https://seeklogo.com/images/G/goibibo-logo-A0B6C3C5E3-seeklogo.com.png",
+    "gotolink": "https://clnk.in/vHr0",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Hotels"
+    },
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_fixed_rate": 100,
+        "max_fixed_rate": 100
+      }
+    ]
+  },
+  {
+    "name": "GoIndigo Hotels",
+    "logo": "https://www.goindigo.in/content/dam/indigov2/6e-website/downloadapp/google-playstore.png",
+    "gotolink": "https://clnk.in/vHsd",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Hotels"
+    },
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_fixed_rate": 80,
+        "max_fixed_rate": 80
+      }
+    ]
+  },
+  {
+    "name": "HappyFares",
+    "logo": "https://play-lh.googleusercontent.com/Qf0F6LGKhZN-FDa_hqYQYjV6EYmxQHvqKC5FZEUfB9Xq7nHL_3MQQqhNhGGNTHKhG1Y",
+    "gotolink": "https://clnk.in/vHsj",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Flights"
+    },
+    "action_ranges": [
+      {
+        "name": "Domestic Flights",
+        "min_fixed_rate": 70,
+        "max_fixed_rate": 70
       },
-      "action_ranges": [
-        {
-          "name": "Cash Reward",
-          "min_percentage_rate": 1.05,
-          "max_percentage_rate": 1.05
-        }
-      ]
-    }
+      {
+        "name": "International Flights",
+        "min_fixed_rate": 100,
+        "max_fixed_rate": 100
+      }
+    ]
+  },
+  {
+    "name": "Jazeera Airways",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jazeera_Airways_Logo.svg/2560px-Jazeera_Airways_Logo.svg.png",
+    "gotolink": "https://clnk.in/vHsp",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Flights"
+    },
+    "action_ranges": [
+      {
+        "name": "Cash Reward",
+        "min_percentage_rate": 1.05,
+        "max_percentage_rate": 1.05
+      }
+    ]
+  },
+  {
+    "name": "KLOOK",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Klook_company_logo.svg/2560px-Klook_company_logo.svg.png",
+    "gotolink": "https://clnk.in/vHss",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Activities"
+    },
+    "action_ranges": [
+      {
+        "name": "General Activities",
+        "min_percentage_rate": 3.25,
+        "max_percentage_rate": 3.25
+      },
+      {
+        "name": "Special Activities",
+        "min_percentage_rate": 1.2,
+        "max_percentage_rate": 1.2
+      }
+    ]
+  },
+  {
+    "name": "MMT Hotels",
+    "logo": "https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png",
+    "gotolink": "https://clnk.in/vHsN",
+    "avg_money_transfer_time": 65,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Hotels"
+    },
+    "action_ranges": [
+      {
+        "name": "Domestic Hotel Booking",
+        "min_fixed_rate": 100,
+        "max_fixed_rate": 100
+      },
+      {
+        "name": "International Hotel Booking",
+        "min_fixed_rate": 165,
+        "max_fixed_rate": 165
+      }
+    ]
+  },
+  {
+    "name": "Yatra",
+    "logo": "https://www.yatra.com/ythomepagecms/media/commonimage/Yatra_new.png",
+    "gotolink": "https://clnk.in/vHsV",
+    "avg_money_transfer_time": 75,
+    "categories": {
+      "category": "Travel & Tourism",
+      "subcategory": "Flights and Hotels"
+    },
+    "action_ranges": [
+      {
+        "name": "Flight Booking (International & Domestic)",
+        "min_fixed_rate": 90,
+        "max_fixed_rate": 90
+      },
+      {
+        "name": "Domestic Hotel Booking",
+        "min_fixed_rate": 120,
+        "max_fixed_rate": 120
+      }
+    ]
+  }
 ]
