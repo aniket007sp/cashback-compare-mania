@@ -4,7 +4,7 @@ import netlifyOffers from '../data/netlify_offers.json';
 import {subcategoryImages} from '../data/subcategoryImages';
 
 const categoryImages = {
-  "Online stores": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+  "Fashion, Clothing & Accessories": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Health, Wellness & Beauty": "",
   "Home & Living": "",
   "Financial Programs": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
