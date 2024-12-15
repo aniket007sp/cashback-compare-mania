@@ -333,7 +333,7 @@
         "avg_money_transfer_time": 88,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Personal Care & Pharmacy"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -428,7 +428,7 @@
         "avg_money_transfer_time": "NA",
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -632,7 +632,7 @@
         "avg_money_transfer_time": 70,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -670,7 +670,7 @@
         "avg_money_transfer_time": 62,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -829,7 +829,7 @@
         "avg_money_transfer_time": 56,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -912,7 +912,7 @@
         "avg_money_transfer_time": 67,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
@@ -1280,7 +1280,7 @@
         "avg_money_transfer_time": 95,
         "categories": {
             "category": "Online stores",
-            "subcategory": "Fitness & Wellness"
+            "subcategory": "Health & Nutrition"
         },
         "action_ranges": [
             {
