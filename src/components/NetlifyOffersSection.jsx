@@ -6,6 +6,7 @@ import {subcategoryImages} from '../data/subcategoryImages';
 const categoryImages = {
   "Online stores": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Health, Wellness & Beauty": "",
+  "Home & Living": "",
   "Financial Programs": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Travel & Tourism": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Online Services": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
