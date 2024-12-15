@@ -9,6 +9,7 @@ export const subcategoryImages = {
   "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Electronics & Technology": "https://static-assets.business.amazon.com/assets/in/24th-jan/705_Website_Blog_Appliances_1450x664.jpg.transform/1450x664/image.jpg",
   "Women's Health": "https://media.assettype.com/freepressjournal/2023-05/92f414bf-f75e-4b9d-97d0-e66013c3e471/Untitled_design.png",
+  "Furniture & Home Decor": "https://media.designcafe.com/wp-content/uploads/2020/12/21184029/living-room-furniture-decor-ideas.jpg",
   "Insurance": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Credit Cards": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202409/66d9a545ed917-credit-card-rule-change-053412131-16x9.jpg",
   "Flights": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
