@@ -14,7 +14,7 @@ export const subcategoryImages = {
   "Deposits": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Loans": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Marketplaces": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-  "Jewelry & Luxury Goods": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+  "Jewelry & Accessories": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Toys, Kids & Babies": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Fitness & Wellness": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo1ajey08Ua8G-bieD9ApV54sT4DPsRgWYA&s",
   "Other Services": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
