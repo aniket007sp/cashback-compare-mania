@@ -409,7 +409,7 @@
         "avg_money_transfer_time": 62,
         "categories": {
             "category": "Online Services",
-            "subcategory": "B2B Online Services"
+            "subcategory": "Subscriptions & Media"
         },
         "action_ranges": [
             {
@@ -1185,7 +1185,7 @@
         "avg_money_transfer_time": 56,
         "categories": {
             "category": "Online Services",
-            "subcategory": "Other Services"
+            "subcategory": "Subscriptions & Media"
         },
         "action_ranges": [
             {
