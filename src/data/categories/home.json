@@ -1,0 +1,8 @@
+{
+  "category": "Home & Living",
+  "subcategories": {
+    "Furniture & Home Decor": ["Nilkamal", "Urban Ladder", "Vaaree"],
+    "Household & Essentials": ["Aqualens"],
+    "Rental Services": ["Furlenco Rentals"]
+  }
+}

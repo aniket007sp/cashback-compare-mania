@@ -1,0 +1,8 @@
+{
+  "category": "Health, Wellness & Beauty",
+  "subcategories": {
+    "Health & Nutrition": ["Boldcare", "Fast & Up", "HK Vitals", "Hyugalife", "Muscleblaze", "Nutrabay", "Wellbeing Nutrition"],
+    "Personal Care": ["Renee Cosmetics", "Soulflower", "Fix Derma", "The Ayurveda Experience"],
+    "Women's Health": ["Nua Woman"]
+  }
+}

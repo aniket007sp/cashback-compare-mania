@@ -1,0 +1,10 @@
+{
+  "category": "Fashion, Clothing & Accessories",
+  "subcategories": {
+    "Women's Fashion": ["Accessorize London", "Bliss Club", "Koskii", "Libas", "W for Woman", "Veromoda"],
+    "Men's Fashion": ["Blackberrys New", "Selected Homme", "Snitch"],
+    "Unisex Fashion": ["Adidas", "Pantaloons", "Pepe Jeans", "ONLY", "Ganga Fashions", "Superkicks"],
+    "Jewelry & Accessories": ["Candere", "Fiona Diamonds", "Malabar", "SALTY"],
+    "Sustainable & Innovative": ["Neeman's", "Zouk"]
+  }
+}

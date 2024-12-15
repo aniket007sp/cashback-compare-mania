@@ -1,0 +1,8 @@
+{
+  "category": "Electronics & Technology",
+  "subcategories": {
+    "Computers & Accessories": ["Acer"],
+    "Home Appliances": ["Dyson Direct"],
+    "Mobile & Tablets": ["realme"]
+  }
+}
