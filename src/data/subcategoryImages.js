@@ -26,7 +26,7 @@ export const subcategoryImages = {
   "Other Services": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Credit Services, Cash Management Services": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Healthcare Services": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-  "B2B Online Services": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+  "Subscriptions & Media": "https://miro.medium.com/v2/resize:fit:1400/1*VZGOkmbZxMtga70nlFj0Jg.png",
   "Event Tickets & Entertainments": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Hand & Power tools": "https://ik.imagekit.io/fepy/cdn/magefan_blog/2023/08/best_power_tool_sets_hero_image-scaled.jpeg.optimal.jpeg",
   "Mobile Games": "https://images.unsplash.com/photo-1592155931584-901ac15763e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
