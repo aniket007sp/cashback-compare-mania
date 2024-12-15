@@ -1,6 +1,7 @@
 export const subcategoryImages = {
   "Women's Fashion": "https://www.fluxmagazine.com/wp-content/uploads/2021/11/Clothes-Trends-Web-1.jpg",
   "Men's Fashion": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1080053426.jpg",
+  "Unisex Fashion": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fonpost.shop%2Fen-mx%2Fblogs%2Fblog%2Fthe-basic-guide-to-wearing-unisex-clothing-by-simples&psig=AOvVaw3-vRgahBsg_F2M6DtUpX-x&ust=1734335521660000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjK_7qlqYoDFQAAAAAdAAAAABAE",
   "Apparel, Footwear, Accessories": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
   "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Household Appliances & Electronics": "https://static-assets.business.amazon.com/assets/in/24th-jan/705_Website_Blog_Appliances_1450x664.jpg.transform/1450x664/image.jpg",
