@@ -4,6 +4,7 @@ export const subcategoryImages = {
   "Unisex Fashion": "https://www.flgd.shop/cdn/shop/articles/the-rise-of-unisex-fashion-why-its-more-than-just-a-trend-873985.jpg?v=1724678501",
   "Sustainable & Innovative": "https://www.druidebio.fr/img/cms/BLOG/Pourquoi-choisir-des-produits-ecologiques-durables-pour-l-hygiene-corporelle.jpg",
   "Apparel, Footwear, Accessories": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+  "Health & Nutrition": "https://cdn-bloha.nitrocdn.com/iYznGJZGanzaCCgxovUBGCyByrXxQITj/assets/images/optimized/rev-12377d1/www.weljii.com/wp-content/uploads/2024/06/apr-4.jpg",
   "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Electronics & Technology": "https://static-assets.business.amazon.com/assets/in/24th-jan/705_Website_Blog_Appliances_1450x664.jpg.transform/1450x664/image.jpg",
   "Insurance": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
