@@ -925,25 +925,6 @@
         ]
     },
     {
-        "name": "Orange Health",
-        "logo": "https://cdn.admitad-connect.com/campaign/images/2024/2/5/33626-ba8386943238f525.svg",
-        "gotolink": "https://tjzuh.com/g/w416p5bqmc6a3b5ae4bb47ff82a51f/",
-        "avg_money_transfer_time": 48,
-        "categories": {
-            "category": "Online Services",
-            "subcategory": "Healthcare Services"
-        },
-        "action_ranges": [
-            {
-                "name": "Cash Reward",
-                "min_percentage_rate": 65.5,
-                "max_percentage_rate": 65.5,
-                "min_fixed_rate": 0,
-                "max_fixed_rate": 0
-            }
-        ]
-    },
-    {
         "name": "Pantaloons",
         "logo": "https://cdn.admitad-connect.com/campaign/images/2024/6/28/103771-a1bbf2463f1255de.svg",
         "gotolink": "https://tjzuh.com/g/cgb85zw6hi6a3b5ae4bb28e85be0a5/",
