@@ -8,6 +8,7 @@ export const subcategoryImages = {
   "Personal Care": "https://www.skincenterofsouthmiami.com/wp-content/uploads/2018/06/Skin-Center-of-South-Miami-Facials-and-Skin-Care.jpg",
   "Personal Care & Pharmacy": "https://www.verifiedmarketresearch.com/wp-content/uploads/2024/04/Top-7-personal-care-product-companies-empowering-beauty-and-enhancing-well-being.jpg",
   "Electronics & Technology": "https://ecelectronics.com/wp-content/uploads/2020/04/Modern-Electronics-EC-.jpg",
+  "Laptops & Mobiles": "https://securityintelligence.com/wp-content/uploads/2019/04/external_mobile-security-versus-desktop-and-laptop-security-is-there-even-a-difference-anymore.jpg",
   "Women's Health": "https://media.assettype.com/freepressjournal/2023-05/92f414bf-f75e-4b9d-97d0-e66013c3e471/Untitled_design.png",
   "Furniture & Home Decor": "https://media.designcafe.com/wp-content/uploads/2020/12/21184029/living-room-furniture-decor-ideas.jpg",
   "Rental Services": "https://www.revv.co.in/blogs/wp-content/uploads/2020/09/car-rental-in-India.jpg",
