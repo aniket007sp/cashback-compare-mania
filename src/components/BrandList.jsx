@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 
-const BrandList = (brands) => {
+const BrandList = ({brands}) => {
   return (
     <h2 className="text-xl text-white font-semibold mb-4 sm:text-2xl bg-[crimson] w-full py-2 text-center">Brands <h2>
     <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
