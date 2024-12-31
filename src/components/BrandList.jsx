@@ -1,31 +1,36 @@
-import React from 'react';
-import { Button } from "@/components/ui/button";
+import React, { useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import netlifyOffers from '../data/netlify_offers.json';
 
-const BrandList = ({ category, onSelectBrand }) => {
-  // This is a mock list of brands. In a real application, you would fetch this data based on the category.
-  const brands = [
-    "Brand A",
-    "Brand B",
-    "Brand C",
-    "Brand D",
-    "Brand E",
-  ];
+const brands = netlifyOffers;
 
+
+const BrandList = ({ brands }) => {
   return (
-    <div className="mb-8">
-      <h2 className="text-2xl font-semibold mb-4">Brands</h2>
-      <div className="flex flex-wrap gap-2">
-        {brands.map((brand) => (
-          <Button
-            key={brand}
-            variant="outline"
-            onClick={() => onSelectBrand(brand)}
-          >
-            {brand}
-          </Button>
-        ))}
-      </div>
-    </div>
+    <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
+      <h2 className="text-lg font-semibold mb-4">Brands</h2>
+      <ul className="space-y-4">
+        {brands
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((brand, index) => (
+            <li key={index} className="flex items-center space-x-3">
+              <img
+                src={brand.logo}
+                alt={`${brand.name} logo`}
+                className="w-8 h-8 rounded"
+              />
+              <a
+                href={brand.gotolink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                {brand.name}
+              </a>
+            </li>
+          ))}
+      </ul>
+    </aside>
   );
 };
 
