@@ -18,6 +18,7 @@ const Index = () => {
         <ExclusiveStores />
         <InstallEarnStores />
         <NetlifyOffersSection />
+        <BrandList brands={brands} />
         <Footer />
       </>
     );
