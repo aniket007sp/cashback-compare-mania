@@ -5,7 +5,7 @@ import netlifyOffers from '../data/netlify_offers.json';
 const brands = netlifyOffers;
 
 
-const BrandList = ({ brands }) => {
+const BrandList = () => {
   return (
     <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
       <h2 className="text-lg font-semibold mb-4">Brands</h2>
