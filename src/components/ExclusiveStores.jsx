@@ -7,20 +7,20 @@ const ExclusiveStores = () => {
   const [selectedStore, setSelectedStore] = useState(null);
 
   return (
-    <section className="w-full px-2 sm:px-4 py-4 sm:py-8">
-      <h2 className="text-lg sm:text-xl text-white font-semibold mb-4 sm:mb-6 bg-[crimson] w-full py-2 text-center">
+    <section className="w-full px-2 py-4">
+      <h2 className="text-base sm:text-lg text-white font-semibold mb-3 bg-[crimson] w-full py-1.5 sm:py-2 text-center">
         Exclusive Stores
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 sm:gap-3">
         {stores.map((store) => (
           <div
             key={store.company}
-            className="flex flex-col items-center p-2 sm:p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+            className="flex flex-col items-center p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
-            <div className="flex items-center justify-center mb-2 sm:mb-4">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+            <div className="flex items-center justify-center mb-2">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                 <img
                   src={store.logo}
                   alt={store.company}
@@ -29,14 +29,14 @@ const ExclusiveStores = () => {
               </div>
             </div>
 
-            <h3 className="text-xs sm:text-sm font-medium text-center mb-2">{store.company}</h3>
+            <h3 className="text-xs sm:text-sm font-medium text-center mb-1">{store.company}</h3>
             <p className="text-xs text-gray-700 bg-gray-100 px-2 py-1 rounded-md flex justify-center items-center gap-1">
               <span className="whitespace-nowrap">Reward:</span>
               <span className="font-semibold truncate">{store.cash_reward}</span>
             </p>
 
             <button
-              className="mt-2 text-xs bg-[crimson] text-white py-1 px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full sm:w-auto"
+              className="mt-2 text-xs bg-[crimson] text-white py-1 px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
               onClick={(e) => {
                 e.stopPropagation();
                 window.open(store.link, "_blank", "noopener,noreferrer");
@@ -46,7 +46,7 @@ const ExclusiveStores = () => {
             </button>
 
             <button
-              className="mt-2 text-xs text-blue-600 flex items-center justify-center gap-1 w-full sm:w-auto"
+              className="mt-1 text-xs text-blue-600 flex items-center justify-center gap-1 w-full"
               onClick={(e) => {
                 e.stopPropagation();
                 setSelectedStore(store);
