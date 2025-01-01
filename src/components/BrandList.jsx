@@ -18,7 +18,7 @@ const BrandList = ({ brands }) => {
                 href={brand.gotolink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline font-small"
+                className="text-blue-600 hover:underline font-xs"
               >
                 {brand.categories.subcategory}
               </a>
