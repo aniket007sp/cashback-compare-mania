@@ -43,10 +43,6 @@ const BrandList = ({ brands }) => {
                   </div>
                 </div>
 
-                <h3 className="text-xs sm:text-sm font-medium text-center mb-1 text-gray-800">
-                  {brand.name}
-                </h3>
-
                 <div className="space-y-1 flex-1 w-full">
                   {(brand.action_ranges || []).map((action, actionIndex) => (
                     <div
