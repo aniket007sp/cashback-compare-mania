@@ -1,27 +1,26 @@
 import React, { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Info } from "lucide-react";
-import stores from "@/data/stores.json"; // Adjust the path to the location of your JSON file
+import stores from "@/data/stores.json";
 
 const ExclusiveStores = () => {
   const [selectedStore, setSelectedStore] = useState(null);
 
   return (
-    <section className="container mx-auto px-4 py-8">
-      <h2 className="text-xl text-white font-semibold mb-6 sm:text-2xl bg-[crimson] w-full py-2 text-center">
+    <section className="w-full px-2 sm:px-4 py-4 sm:py-8">
+      <h2 className="text-lg sm:text-xl text-white font-semibold mb-4 sm:mb-6 bg-[crimson] w-full py-2 text-center">
         Exclusive Stores
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-4">
         {stores.map((store) => (
           <div
             key={store.company}
-            className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+            className="flex flex-col items-center p-2 sm:p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
-            {/* Store Logo */}
-            <div className="flex items-center justify-center mb-4">
-              <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+            <div className="flex items-center justify-center mb-2 sm:mb-4">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                 <img
                   src={store.logo}
                   alt={store.company}
@@ -30,29 +29,26 @@ const ExclusiveStores = () => {
               </div>
             </div>
 
-            {/* Store Name and Reward */}
-            <h3 className="text-sm font-medium text-center mb-2">{store.company}</h3>
+            <h3 className="text-xs sm:text-sm font-medium text-center mb-2">{store.company}</h3>
             <p className="text-xs text-gray-700 bg-gray-100 px-2 py-1 rounded-md flex justify-center items-center gap-1">
               <span className="whitespace-nowrap">Reward:</span>
               <span className="font-semibold truncate">{store.cash_reward}</span>
             </p>
 
-            {/* Visit Store Button */}
             <button
-              className="mt-2 text-xs bg-[crimson] text-white py-1 px-3 rounded-md hover:bg-gray-400 hover:text-black transition"
+              className="mt-2 text-xs bg-[crimson] text-white py-1 px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full sm:w-auto"
               onClick={(e) => {
-                e.stopPropagation(); // Prevent card click
+                e.stopPropagation();
                 window.open(store.link, "_blank", "noopener,noreferrer");
               }}
             >
               Go to Store
             </button>
 
-            {/* Terms & Conditions */}
             <button
-              className="mt-2 text-xs text-blue-600 flex items-center gap-1"
+              className="mt-2 text-xs text-blue-600 flex items-center justify-center gap-1 w-full sm:w-auto"
               onClick={(e) => {
-                e.stopPropagation(); // Prevent card click
+                e.stopPropagation();
                 setSelectedStore(store);
               }}
             >
@@ -63,16 +59,14 @@ const ExclusiveStores = () => {
         ))}
       </div>
 
-      {/* Dialog for Store Details */}
       <Dialog open={!!selectedStore} onOpenChange={() => setSelectedStore(null)}>
-        <DialogContent className="max-w-lg p-6">
+        <DialogContent className="max-w-lg p-4 sm:p-6">
           <DialogHeader>
-            <DialogTitle className="text-xl font-bold text-gray-800">
+            <DialogTitle className="text-lg sm:text-xl font-bold text-gray-800">
               {selectedStore?.company}
             </DialogTitle>
           </DialogHeader>
-          <div className="mt-6 space-y-6">
-            {/* Cash Reward Section */}
+          <div className="mt-4 sm:mt-6 space-y-4 sm:space-y-6">
             <div className="flex items-center gap-x-2">
               <h4 className="text-sm text-gray-800">Cash Reward:</h4>
               <p className="text-sm font-semibold text-gray-800">
@@ -80,28 +74,24 @@ const ExclusiveStores = () => {
               </p>
             </div>
 
-      
-            {/* Payment Time Section */}
-             <div className="flex items-center gap-x-2">
+            <div className="flex items-center gap-x-2">
               <h4 className="text-sm text-gray-800">Payout in </h4>
               <p className="text-sm font-semibold text-gray-800">
                 {selectedStore?.payment_in} days
               </p>
             </div>
-      
-            {/* Terms & Conditions Section */}
+
             <div>
               <h4 className="text-sm font-medium text-gray-800 mb-2">Terms & Conditions</h4>
               <p className="text-sm text-gray-700 whitespace-pre-wrap">
                 {selectedStore?.terms_and_conditions}
               </p>
             </div>
-      
-            {/* Visit Store Button */}
-            <div className="flex justify-between">
+
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
               <button
                 onClick={() => setSelectedStore(null)}
-                className="w-1/2 py-2 text-black hover:bg-gray-400"
+                className="w-full sm:w-1/2 py-2 text-black hover:bg-gray-400 rounded"
               >
                 Cancel
               </button>
@@ -110,7 +100,7 @@ const ExclusiveStores = () => {
                   setSelectedStore(null);
                   window.open(selectedStore?.link, "_blank", "noopener,noreferrer");
                 }}
-                className="bg-[crimson] text-white w-1/2 py-2 hover:bg-gray-400 hover:text-black"
+                className="bg-[crimson] text-white w-full sm:w-1/2 py-2 hover:bg-gray-400 hover:text-black rounded"
               >
                 Go to Store
               </button>
@@ -118,7 +108,6 @@ const ExclusiveStores = () => {
           </div>
         </DialogContent>
       </Dialog>
-
     </section>
   );
 };
