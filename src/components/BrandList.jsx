@@ -7,20 +7,17 @@ const BrandList = ({ brands }) => {
       <ul className="space-y-4">
         {brands.map((brand, index) => (
             <li key={index} className="flex items-center space-x-3">
-              {/* Brand Logo */}
-              <img
-                src={brand.logo}
-                alt={`${brand.name} logo`}
-                className="w-15 h-12 rounded"
-              />
-              {/* Brand Name with Link */}
+              {/* Brand Logo with Link */}
               <a
                 href={brand.gotolink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline font-xs"
               >
-                {brand.categories.subcategory}
+                <img
+                  src={brand.logo}
+                  alt={`${brand.name} logo`}
+                  className="w-15 h-12 rounded"
+                />
               </a>
             </li>
           ))}
