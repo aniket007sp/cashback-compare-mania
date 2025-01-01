@@ -40,11 +40,12 @@ const BrandList = ({ brands }) => {
                       alt={brand.name}
                       className="w-full h-full object-contain"
                     />
-                     <h3 className="text-xs sm:text-sm font-medium mt-1 text-gray-800 text-center">
-                        {brand.name}
-                     </h3>
                   </div>
                 </div>
+
+                <h3 className="text-xs sm:text-sm font-medium text-center mb-1 text-gray-800">
+                  {brand.name}
+                </h3>
 
                 <div className="space-y-1 flex-1 w-full">
                   {(brand.action_ranges || []).map((action, actionIndex) => (
