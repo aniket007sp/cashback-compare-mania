@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import NetlifyOffersSection from '../components/NetlifyOffersSection';
 import ExclusiveStores from '../components/ExclusiveStores';
@@ -18,17 +18,14 @@ const Index = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50 flex">
-      <Navbar />
-      <main className="flex w-full">
-        {/* Left Section: Brand List */}
-        <BrandList brands={netlifyOffers} />
-        {/* Main Content */}
-        <section className="flex-1 max-w-[100vw] overflow-x-hidden px-4 sm:px-6 lg:px-8">
-          {renderContent()}
-        </section>
-      </main>
-    </div>
+    <Layout>
+      {/* Left Section: Brand List */}
+      <BrandList brands={netlifyOffers} />
+      {/* Main Content */}
+      <section className="flex-1 max-w-[100vw] overflow-x-hidden px-4 sm:px-6 lg:px-8">
+        {renderContent()}
+      </section>
+    </Layout>
   );
 };
 
