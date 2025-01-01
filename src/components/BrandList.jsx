@@ -84,7 +84,7 @@ const BrandList = ({ brands }) => {
               </div>
             ) : (
               // Normal state - Simple brand card
-              <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+              <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer">
                 <img
                   src={brand.logo}
                   alt={`${brand.name} logo`}
