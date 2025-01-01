@@ -40,6 +40,9 @@ const BrandList = ({ brands }) => {
                       alt={brand.name}
                       className="w-full h-full object-contain"
                     />
+                     <h3 className="text-xs sm:text-sm font-medium mt-1 text-gray-800 text-center">
+                        {brand.name}
+                     </h3>
                   </div>
                 </div>
 
