@@ -20,7 +20,7 @@ const BrandList = ({ brands }) => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline font-medium"
               >
-                {brand.name}
+                {brand.subcategory}
               </a>
             </li>
           ))}
