@@ -20,7 +20,7 @@ const BrandList = ({ brands }) => {
 
   return (
     <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
-      <h2 className="text-xl font-semibold text-center bg-crimson text-white py-2 mb-4 rounded">Brands</h2>
+      <h2 className="text-xl font-semibold text-center bg-{crimson} text-white py-2 mb-4 rounded">Brands</h2>
       <div className="grid gap-4">
         {brands.map((brand, index) => (
           <div
