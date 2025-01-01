@@ -23,7 +23,7 @@ const BrandList = ({ brands }) => {
       <h2 className="text-sm sm:text-base font-semibold text-center bg-[crimson] text-white py-1 sm:py-1.5 mb-2 sm:mb-3 rounded">
         Brands
       </h2>
-      <div className="grid grid-cols-2 xs:grid-cols-1 gap-1 sm:gap-2">
+      <div className="grid grid-cols-1 gap-1 sm:gap-2">
         {brands.map((brand, index) => (
           <div
             key={index}
