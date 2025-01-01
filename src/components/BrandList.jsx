@@ -5,9 +5,7 @@ const BrandList = ({ brands }) => {
     <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
       <h2 className="text-xl font-semibold text-center bg-crimson text-white py-2">Brands</h2>
       <ul className="space-y-4">
-        {brands
-          .sort((a, b) => a.name.localeCompare(b.name)) // Sorting brands alphabetically
-          .map((brand, index) => (
+        {brands.map((brand, index) => (
             <li key={index} className="flex items-center space-x-3">
               {/* Brand Logo */}
               <img
