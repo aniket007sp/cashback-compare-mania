@@ -89,9 +89,6 @@ const BrandList = ({ brands }) => {
                   alt={`${brand.name} logo`}
                   className="w-10 h-10 sm:w-12 sm:h-12 object-contain rounded"
                 />
-                <h3 className="text-xs sm:text-sm font-medium mt-1 text-gray-800 text-center">
-                  {brand.name}
-                </h3>
               </div>
             )}
           </div>
