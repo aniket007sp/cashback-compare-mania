@@ -19,7 +19,7 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-1/4 bg-white shadow-md p-4 h-screen overflow-y-auto">
+    <aside className="w-1/5 bg-white shadow-md p-4 h-screen overflow-y-auto">
       <h2 className="text-xl font-semibold text-center bg-[crimson] text-white py-2 mb-4 rounded">Brands</h2>
       <div className="grid gap-4">
         {brands.map((brand, index) => (
@@ -33,7 +33,7 @@ const BrandList = ({ brands }) => {
               // Hovered state - Show OfferCard style
               <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                     <img
                       src={brand.logo}
                       alt={brand.name}
