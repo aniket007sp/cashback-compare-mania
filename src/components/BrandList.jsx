@@ -11,14 +11,14 @@ const BrandList = ({ brands }) => {
               <img
                 src={brand.logo}
                 alt={`${brand.name} logo`}
-                className="w-10 h-10 rounded"
+                className="w-15 h-12 rounded"
               />
               {/* Brand Name with Link */}
               <a
                 href={brand.gotolink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline font-medium"
+                className="text-blue-600 hover:underline font-small"
               >
                 {brand.categories.subcategory}
               </a>
