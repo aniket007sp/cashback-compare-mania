@@ -31,6 +31,14 @@ const Navbar = () => {
           </button>
         </div>
 
+          <div className="relative z-10">
+          <button
+            onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
+            className="bg-[crimson] text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm sm:text-base"
+          >
+            Login
+          </button>
+        </div>
 
         </div>
       </div>
