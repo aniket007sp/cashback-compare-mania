@@ -1,8 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/SavvyZi Logo.png";
-import googleLogo from "../assets/google-logo.png";
-import facebookLogo from "../assets/facebook-logo.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -19,7 +16,6 @@ const Login = () => {
           {/* Logo Section */}
           <div className="text-center mb-6">
             <img
-              src={logo}
               alt="SavvyZi Logo"
               className="mx-auto w-32 h-auto mb-4"
             />
@@ -43,7 +39,6 @@ const Login = () => {
             <button className="flex items-center justify-center w-full py-3 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg font-medium transition">
               <span>Login with</span>
               <img
-                src={googleLogo}
                 alt="Google Logo"
                 className="w-6 h-6 ml-2"
               />
@@ -52,7 +47,6 @@ const Login = () => {
             <button className="flex items-center justify-center w-full py-3 bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 rounded-lg font-medium transition">
               <span>Login with</span>
               <img
-                src={facebookLogo}
                 alt="Facebook Logo"
                 className="w-5 h-5 ml-2"
               />
