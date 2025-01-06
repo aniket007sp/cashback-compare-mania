@@ -14,6 +14,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/offers/:category" element={<OfferCategoryPage />} />
             <Route path="/offers/:category/:subcategory" element={<OfferCategoryPage />} />
           </Routes>
