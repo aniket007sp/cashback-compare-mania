@@ -1,72 +1,79 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import logo from "../logo-png.png"; // Replace with your logo path
+import banner from "../logo-png.png"; // Replace with your banner path
 
-const Login = () => {
-  const navigate = useNavigate();
-
+function Login() {
   return (
-    <div className="min-h-screen flex bg-gray-100">
-      {/* Left side (60% empty space) */}
-      <div className="w-3/5 bg-gray-100"></div>
+    <div className="min-h-screen flex flex-col">
+      {/* Top Banner */}
+      <div className="w-full bg-red-500">
+        <img src={banner} alt="Cashback Banner" className="w-full h-40 object-cover" />
+      </div>
 
-      {/* Right side (40% content with light grey case) */}
-      <div className="w-[40%] p-6 flex flex-col justify-center ml-auto">
-        {/* Light Grey Case Container */}
-       <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-          {/* Logo Section */}
-          <div className="text-center mb-6">
-            <img
-              alt="SavvyZi Logo"
-              className="mx-auto w-32 h-auto mb-4"
-            />
-            <h1 className="text-xl font-semibold text-red-600 dark:text-white">
-              Welcome to SavvyZi
-            </h1>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Choose your login method.
-            </p>
-          </div>
+      <div className="flex flex-1">
+        {/* Left Section with Logo */}
+        <div className="w-1/2 bg-white flex flex-col items-center justify-center p-10">
+          <img src={logo} alt="SavvyZi Logo" className="w-1/3 mb-4" />
+          <h1 className="text-4xl font-bold">SavvyZi</h1>
+          <p className="mt-2 text-lg text-gray-600">Shop Smart, Live Savvy</p>
+        </div>
 
-          {/* Login Buttons */}
-          <div className="space-y-4">
-            <button
-              onClick={() => navigate("/form1")}
-              className="w-full py-3 text-white bg-red-600 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600 rounded-lg font-medium transition"
-            >
-              Sign In
-            </button>
-
-            <button className="flex items-center justify-center w-full py-3 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg font-medium transition">
-              <span>Login with</span>
-              <img
-                alt="Google Logo"
-                className="w-6 h-6 ml-2"
+        {/* Right Section with Login Form */}
+        <div className="w-1/2 bg-gray-100 flex flex-col items-center justify-center p-10">
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">
+            Welcome to SavvyZi!
+          </h2>
+          <form className="w-full max-w-md space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                E-mail:
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="example@email.com"
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
               />
-            </button>
-
-            <button className="flex items-center justify-center w-full py-3 bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 rounded-lg font-medium transition">
-              <span>Login with</span>
-              <img
-                alt="Facebook Logo"
-                className="w-5 h-5 ml-2"
+            </div>
+            <div>
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                Password:
+              </label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="********"
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
               />
-            </button>
-          </div>
-
-          {/* Join the family link */}
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
-            Don’t have an account?{" "}
-            <span
-              onClick={() => navigate("/form2")}
-              className="text-red-600 font-medium cursor-pointer hover:underline"
-            >
-              Join the SavvyZi family
-            </span>
+            </div>
+            <div>
+              <button
+                type="submit"
+                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+              >
+                Log In
+              </button>
+            </div>
+          </form>
+          <button
+            className="mt-4 w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+          >
+            Continue with Google
+          </button>
+          <p className="mt-4 text-sm text-gray-600">
+            No account?{" "}
+            <a href="/signup" className="font-medium text-red-500 hover:underline">
+              Sign up here
+            </a>
           </p>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Login;
