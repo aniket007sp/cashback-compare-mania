@@ -37,7 +37,7 @@ const BrandList = ({ brands }) => {
               } ${hoveredIndex === index ? 'pb-4 sm:pb-5' : 'pb-2 sm:pb-3'}`}
             >
               <div className="flex items-center justify-center mb-2 sm:mb-3">
-                <div className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                <div className="w-10 h-10 sm:w-10 sm:h-10 md:w-14 md:h-14 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                   <img
                     src={brand.logo}
                     alt={brand.name}
