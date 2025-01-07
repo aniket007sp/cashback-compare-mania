@@ -5,6 +5,7 @@ import { AuthProvider } from './hooks/useAuth';
 import Index from './pages/Index';
 import OfferCategoryPage from './components/OfferCategoryPage';
 import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 const queryClient = new QueryClient();
 
