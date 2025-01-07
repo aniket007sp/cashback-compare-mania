@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../logo-png.png"; // Replace with your logo path
 import banner from "../logo-png.png"; // Replace with your banner path
 
-function Login() {
+function SignUp() {
   return (
     <div className="min-h-screen flex">
       <div className="w-1/2 bg-red-500 flex flex-col items-center justify-center text-white p-10">
@@ -93,4 +93,4 @@ function Login() {
   );
 }
 
-export default App;
+export default SignUp;
