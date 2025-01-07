@@ -32,12 +32,12 @@ const NetlifyOffersSection = () => {
 
   return (
     <section id="featured-offers" className="container mx-auto px-4 py-8">
-      <h2 className="text-xl text-white font-semibold mb-4 sm:text-2xl bg-[crimson] w-full py-2 text-center">Featured Offerssss</h2>
+      <h2 className="text-xl text-white font-semibold mb-4 sm:text-xl bg-[crimson] w-full py-2 text-center">Featured Offers</h2>
       <div className="space-y-6">
         {Object.entries(categorizedOffers).map(([category, data]) => (
           <div key={category}>
             <div className="flex items-center space-x-4 mb-4">
-              <h3 className="text-lg text-black font-semibold bg-[gray] bg-opacity-30 w-full py-2 text-center">
+              <h3 className="text-lg sm:text-md text-black font-semibold bg-[gray] bg-opacity-30 w-full py-2 text-center">
                 {category}
               </h3>
             </div>
@@ -48,7 +48,7 @@ const NetlifyOffersSection = () => {
                   to={`/offers/${category.toLowerCase().replace(/\s+/g, '-')}/${subcategory.toLowerCase().replace(/\s+/g, '-')}`}
                   className="flex flex-col items-center"
                 >
-                  <div className="w-20 h-20 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
+                  <div className="w-20 h-20 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full bg-gray-100">
                     <img
                       src={subcategoryImages[subcategory]}
                       alt={subcategory}
