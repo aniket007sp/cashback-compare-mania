@@ -7,25 +7,37 @@ function Login() {
     <div className="min-h-screen flex flex-col">
       {/* Top Banner */}
       <div className="w-full bg-red-500">
-        <img src={banner} alt="Cashback Banner" className="w-full h-40 object-cover" />
+        <img
+          src={banner}
+          alt="Cashback Banner"
+          className="w-full h-40 object-cover"
+        />
       </div>
 
-      <div className="flex flex-1">
+      {/* Main Content */}
+      <div className="flex flex-1 flex-col lg:flex-row">
         {/* Left Section with Logo */}
-        <div className="w-1/2 bg-white flex flex-col items-center justify-center p-10">
-          <img src={logo} alt="SavvyZi Logo" className="w-1/3 mb-4" />
-          <h1 className="text-4xl font-bold">SavvyZi</h1>
+        <div className="w-full lg:w-1/2 bg-white flex flex-col items-center justify-center p-6 lg:p-10">
+          <img
+            src={logo}
+            alt="SavvyZi Logo"
+            className="w-1/2 md:w-1/3 lg:w-1/3 mb-4"
+          />
+          <h1 className="text-3xl md:text-4xl font-bold">SavvyZi</h1>
           <p className="mt-2 text-lg text-gray-600">Shop Smart, Live Savvy</p>
         </div>
 
         {/* Right Section with Login Form */}
-        <div className="w-1/2 bg-gray-100 flex flex-col items-center justify-center p-10">
+        <div className="w-full lg:w-1/2 bg-gray-100 flex flex-col items-center justify-center p-6 lg:p-10">
           <h2 className="text-2xl font-bold mb-6 text-gray-800">
             Welcome to SavvyZi!
           </h2>
           <form className="w-full max-w-md space-y-4">
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
                 E-mail:
               </label>
               <input
@@ -38,7 +50,10 @@ function Login() {
               />
             </div>
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Password:
               </label>
               <input
@@ -66,7 +81,10 @@ function Login() {
           </button>
           <p className="mt-4 text-sm text-gray-600">
             No account?{" "}
-            <a href="/signup" className="font-medium text-red-500 hover:underline">
+            <a
+              href="/signup"
+              className="font-medium text-red-500 hover:underline"
+            >
               Sign up here
             </a>
           </p>
