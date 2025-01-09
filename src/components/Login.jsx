@@ -23,12 +23,6 @@ function Login() {
             alt="SavvyZi Logo"
             className="w-48 md:w-64 lg:w-72 mb-6 transform hover:scale-105 transition-transform duration-300"
           />
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
-            SavvyZi
-          </h1>
-          <p className="text-lg text-gray-600 text-center">
-            Shop Smart, Live Savvy
-          </p>
         </div>
 
         {/* Right Section with Login Form */}
