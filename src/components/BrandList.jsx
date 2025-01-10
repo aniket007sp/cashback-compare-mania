@@ -19,11 +19,11 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white shadow-md p-1 sm:p-2">
+    <aside className="w-full h-full bg-white shadow-md p-1">
       <h2 className="text-sm sm:text-base font-semibold text-center bg-[crimson] text-white py-1 sm:py-1.5 mb-2 sm:mb-3 rounded">
         Brands
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-1 sm:gap-2">
+      <div className="grid grid-cols-1 gap-1 sm:gap-2">
         {brands.map((brand, index) => (
           <div
             key={index}
@@ -32,12 +32,12 @@ const BrandList = ({ brands }) => {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <div
-              className={`flex flex-col items-center p-2 sm:p-3 bg-white rounded-lg shadow-md transition-all duration-300 cursor-pointer w-full mx-auto ${
+              className={`flex flex-col items-center p-2 sm:p-3 bg-white rounded-lg shadow-md transition-all duration-300 cursor-pointer w-[90%] sm:w-full mx-auto ${
                 hoveredIndex === index ? 'shadow-lg' : 'shadow-sm'
               } ${hoveredIndex === index ? 'pb-4 sm:pb-5' : 'pb-2 sm:pb-3'}`}
             >
               <div className="flex items-center justify-center mb-2 sm:mb-3">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                <div className="w-10 h-10 sm:w-10 sm:h-10 md:w-14 md:h-14 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                   <img
                     src={brand.logo}
                     alt={brand.name}
