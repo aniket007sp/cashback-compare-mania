@@ -1,45 +1,41 @@
 import React from 'react';
-import logo from '../logo-png.png'; // Adjust the path if needed
+import { Link } from 'react-router-dom';
+import logo from '../logo-png.png';
 
 const Navbar = () => {
-  const orderFormUrl = "https://forms.gle/Ag57FdWGnsuWAsP56"; // Replace with your actual form URL
+  const orderFormUrl = "https://forms.gle/Ag57FdWGnsuWAsP56";
 
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo Section */}
-          <a href="/" className="flex-shrink-0">
-            <img src={logo} alt="SavvyZi" className="h-16 w-auto sm:h-20" />
-          </a>
+          <Link to="/" className="flex-shrink-0">
+            <img src={logo} alt="SavvyZi" className="h-10 sm:h-12 w-auto" />
+          </Link>
 
-          {/* Tagline Section - Centered */}
-          <div className="text-center flex-grow">
-            <div className="text-[crimson] text-lg sm:text-xl font-semibold">
-              SavvyZi - <span className="text-[crimson]">Shop Smart, Live Savvy</span>
+          {/* Tagline Section - Hidden on mobile */}
+          <div className="hidden sm:block text-center">
+            <div className="text-[#8B5CF6] text-lg font-semibold">
+              SavvyZi - <span className="text-gray-600">Shop Smart, Live Savvy</span>
             </div>
           </div>
 
-          {/* Confirm Order Button */}
-          <div className="relative z-10">
-          <button
-            onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
-            className="bg-[crimson] text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm sm:text-base"
-          >
-            Confirm Order
-          </button>
-        </div>
-
-          <div className="relative z-10">
-          <button
-            onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
-            className="bg-[crimson] text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm sm:text-base"
-          >
-            Login
-          </button>
-        </div>
-
+          {/* Buttons Section */}
+          <div className="flex items-center space-x-2 sm:space-x-4">
+            <button
+              onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
+              className="bg-[#8B5CF6] text-white px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm rounded-md hover:bg-[#7C3AED] transition-colors"
+            >
+              Confirm Order
+            </button>
+            <Link
+              to="/login"
+              className="bg-white text-[#8B5CF6] border border-[#8B5CF6] px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm rounded-md hover:bg-[#8B5CF6] hover:text-white transition-colors"
+            >
+              Login
+            </Link>
+          </div>
         </div>
       </div>
     </nav>

@@ -19,29 +19,27 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white shadow-md p-1 sm:p-2">
-      <h2 className="text-sm sm:text-base font-semibold text-center bg-[crimson] text-white py-1 sm:py-1.5 mb-2 sm:mb-3 rounded">
-        Brands
+    <aside className="w-full h-full bg-white shadow-md p-2 sm:p-4">
+      <h2 className="text-base sm:text-lg font-semibold text-center bg-[#8B5CF6] text-white py-2 sm:py-3 mb-3 sm:mb-4 rounded-md">
+        Featured Brands
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-1 sm:gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-2 sm:gap-3">
         {brands.map((brand, index) => (
           <div
             key={index}
-            className="relative"
+            className="relative group"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <div
-              className={`flex flex-col items-center p-2 sm:p-3 bg-white rounded-lg shadow-md transition-all duration-300 cursor-pointer w-full mx-auto ${
-                hoveredIndex === index ? 'shadow-lg' : 'shadow-sm'
-              } ${hoveredIndex === index ? 'pb-4 sm:pb-5' : 'pb-2 sm:pb-3'}`}
+              className={`flex flex-col items-center p-3 sm:p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer`}
             >
               <div className="flex items-center justify-center mb-2 sm:mb-3">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-lg">
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain p-1"
                   />
                 </div>
               </div>
@@ -51,14 +49,14 @@ const BrandList = ({ brands }) => {
               </h3>
 
               {hoveredIndex === index && (
-                <div className="space-y-1 flex-1 w-full">
+                <div className="space-y-1.5 flex-1 w-full">
                   {(brand.action_ranges || []).map((action, actionIndex) => (
                     <div
                       key={actionIndex}
-                      className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md"
+                      className="text-[10px] sm:text-xs text-gray-700 bg-gray-50 px-2 py-1 rounded"
                     >
                       <span>{action.name}:</span>
-                      <span className="font-semibold truncate ml-1">{formatRange(action)}</span>
+                      <span className="font-semibold ml-1">{formatRange(action)}</span>
                     </div>
                   ))}
                 </div>
@@ -67,21 +65,21 @@ const BrandList = ({ brands }) => {
               {hoveredIndex === index && brand.gotolink && (
                 <>
                   <button
-                    className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
+                    className="mt-2 text-[10px] sm:text-xs bg-[#8B5CF6] text-white py-1 px-2 rounded hover:bg-[#7C3AED] transition-colors w-full"
                     onClick={(e) => {
                       e.stopPropagation();
                       window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
                     }}
                   >
-                    Go to Store
+                    Visit Store
                   </button>
                   <button
-                    className="mt-0.5 sm:mt-1 text-[10px] sm:text-xs text-blue-600 flex items-center gap-0.5 sm:gap-1 justify-center w-full"
+                    className="mt-1 text-[10px] sm:text-xs text-[#8B5CF6] flex items-center gap-1 justify-center w-full hover:text-[#7C3AED]"
                     onClick={(e) => {
                       e.stopPropagation();
                     }}
                   >
-                    <Info className="w-2 h-2 sm:w-3 sm:h-3" />
+                    <Info className="w-3 h-3" />
                     Terms & Conditions
                   </button>
                 </>
