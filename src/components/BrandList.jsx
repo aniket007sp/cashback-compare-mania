@@ -19,11 +19,11 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white shadow-md p-2 md:p-4">
-      <h2 className="text-base md:text-lg font-semibold text-center bg-[#9b87f5] text-white py-2 mb-3 rounded-md shadow-sm">
+    <aside className="w-full h-full bg-white p-2">
+      <h2 className="text-base font-semibold text-center bg-[#9b87f5] text-white py-2 mb-3 rounded-md shadow-sm">
         Featured Brands
       </h2>
-      <div className="grid grid-cols-2 xs:grid-cols-2 md:grid-cols-1 gap-2 md:gap-3">
+      <div className="grid grid-cols-1 gap-2">
         {brands.map((brand, index) => (
           <div
             key={index}
@@ -34,31 +34,31 @@ const BrandList = ({ brands }) => {
             <div
               className={`flex flex-col h-full bg-white rounded-lg transition-all duration-300 
                 ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[#9b87f5]/20' : 'shadow-sm'}
-                p-2 md:p-3 space-y-2`}
+                p-2 space-y-1.5`}
             >
               {/* Logo Container */}
-              <div className="flex items-center justify-center mb-1">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+              <div className="flex items-center justify-center">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="w-10 h-10 md:w-14 md:h-14 object-contain p-1"
+                    className="w-8 h-8 object-contain p-1"
                   />
                 </div>
               </div>
 
               {/* Brand Name */}
-              <h3 className="text-xs md:text-sm font-medium text-center text-gray-800 line-clamp-1">
+              <h3 className="text-xs font-medium text-center text-gray-800 line-clamp-1">
                 {brand.name}
               </h3>
 
               {/* Action Ranges - Visible on hover/tap */}
               {hoveredIndex === index && (
-                <div className="space-y-1.5 flex-1 w-full">
+                <div className="space-y-1 flex-1 w-full">
                   {(brand.action_ranges || []).map((action, actionIndex) => (
                     <div
                       key={actionIndex}
-                      className="text-[10px] md:text-xs text-gray-700 bg-gray-50 px-2 py-1 rounded"
+                      className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded"
                     >
                       <span className="font-medium">{action.name}:</span>
                       <span className="ml-1">{formatRange(action)}</span>
@@ -69,19 +69,19 @@ const BrandList = ({ brands }) => {
 
               {/* Buttons - Visible on hover/tap */}
               {hoveredIndex === index && brand.gotolink && (
-                <div className="space-y-1 pt-1">
+                <div className="space-y-1">
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
                       window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
                     }}
-                    className="w-full text-[10px] md:text-xs bg-[#9b87f5] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
+                    className="w-full text-[10px] bg-[#9b87f5] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
                   >
                     Visit Store
                   </button>
                   <button
                     onClick={(e) => e.stopPropagation()}
-                    className="w-full text-[10px] md:text-xs text-[#9b87f5] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
+                    className="w-full text-[10px] text-[#9b87f5] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
                     <Info className="w-3 h-3" />
                     Terms & Conditions
