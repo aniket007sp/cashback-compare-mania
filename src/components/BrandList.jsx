@@ -19,72 +19,74 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white shadow-md p-1 sm:p-2">
-      <h2 className="text-sm sm:text-base font-semibold text-center bg-[crimson] text-white py-1 sm:py-1.5 mb-2 sm:mb-3 rounded">
-        Brands
+    <aside className="w-full h-full bg-white shadow-md p-2 md:p-4">
+      <h2 className="text-base md:text-lg font-semibold text-center bg-[#9b87f5] text-white py-2 mb-3 rounded-md shadow-sm">
+        Featured Brands
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-1 sm:gap-2">
+      <div className="grid grid-cols-2 xs:grid-cols-2 md:grid-cols-1 gap-2 md:gap-3">
         {brands.map((brand, index) => (
           <div
             key={index}
-            className="relative"
+            className="relative group"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <div
-              className={`flex flex-col items-center p-2 sm:p-3 bg-white rounded-lg shadow-md transition-all duration-300 cursor-pointer w-full mx-auto ${
-                hoveredIndex === index ? 'shadow-lg' : 'shadow-sm'
-              } ${hoveredIndex === index ? 'pb-4 sm:pb-5' : 'pb-2 sm:pb-3'}`}
+              className={`flex flex-col h-full bg-white rounded-lg transition-all duration-300 
+                ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[#9b87f5]/20' : 'shadow-sm'}
+                p-2 md:p-3 space-y-2`}
             >
-              <div className="flex items-center justify-center mb-2 sm:mb-3">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+              {/* Logo Container */}
+              <div className="flex items-center justify-center mb-1">
+                <div className="w-12 h-12 md:w-16 md:h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="w-full h-full object-contain"
+                    className="w-10 h-10 md:w-14 md:h-14 object-contain p-1"
                   />
                 </div>
               </div>
 
-              <h3 className="text-xs sm:text-sm font-medium text-center mb-1 text-gray-800">
+              {/* Brand Name */}
+              <h3 className="text-xs md:text-sm font-medium text-center text-gray-800 line-clamp-1">
                 {brand.name}
               </h3>
 
+              {/* Action Ranges - Visible on hover/tap */}
               {hoveredIndex === index && (
-                <div className="space-y-1 flex-1 w-full">
+                <div className="space-y-1.5 flex-1 w-full">
                   {(brand.action_ranges || []).map((action, actionIndex) => (
                     <div
                       key={actionIndex}
-                      className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md"
+                      className="text-[10px] md:text-xs text-gray-700 bg-gray-50 px-2 py-1 rounded"
                     >
-                      <span>{action.name}:</span>
-                      <span className="font-semibold truncate ml-1">{formatRange(action)}</span>
+                      <span className="font-medium">{action.name}:</span>
+                      <span className="ml-1">{formatRange(action)}</span>
                     </div>
                   ))}
                 </div>
               )}
 
+              {/* Buttons - Visible on hover/tap */}
               {hoveredIndex === index && brand.gotolink && (
-                <>
+                <div className="space-y-1 pt-1">
                   <button
-                    className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
                     onClick={(e) => {
                       e.stopPropagation();
                       window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
                     }}
+                    className="w-full text-[10px] md:text-xs bg-[#9b87f5] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
                   >
-                    Go to Store
+                    Visit Store
                   </button>
                   <button
-                    className="mt-0.5 sm:mt-1 text-[10px] sm:text-xs text-blue-600 flex items-center gap-0.5 sm:gap-1 justify-center w-full"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                    }}
+                    onClick={(e) => e.stopPropagation()}
+                    className="w-full text-[10px] md:text-xs text-[#9b87f5] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
-                    <Info className="w-2 h-2 sm:w-3 sm:h-3" />
+                    <Info className="w-3 h-3" />
                     Terms & Conditions
                   </button>
-                </>
+                </div>
               )}
             </div>
           </div>
