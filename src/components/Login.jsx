@@ -89,13 +89,13 @@ function Login() {
                   </label>
                 </div>
                 <a href="#" className="text-sm font-medium text-[crimson] hover:text-[#7E69AB]">
-                  Forgot passwor
+                  Forgot password?
                 </a>
               </div>
 
               <Button
                 type="submit"
-                className="w-full bg-[crimson] hover:bg-[#7E69AB] text-white transition-colors"
+                className="w-full bg-[crimson] hover:bg-gray-500 text-white transition-colors"
               >
                 Sign In
               </Button>
