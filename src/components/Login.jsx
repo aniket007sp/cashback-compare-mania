@@ -120,7 +120,7 @@ function Login() {
 
             <p className="text-center text-sm text-gray-600">
               Don't have an account?{" "}
-              <a href="/signup" className="font-medium text-[crimson] hover:text-grey-700">
+              <a href="/signup" className="font-medium text-[crimson] hover:text-gray-700">
                 Sign up here
               </a>
             </p>
