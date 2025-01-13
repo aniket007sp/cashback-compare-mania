@@ -95,7 +95,7 @@ function Login() {
 
               <Button
                 type="submit"
-                className="w-full text-white bg-[crimson] hover:bg-gray-400 transition-colors"
+                className="w-full text-white bg-[crimson] hover:bg-gray-400"
               >
                 Sign In
               </Button>
