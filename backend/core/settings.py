@@ -84,6 +84,14 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Email settings
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # For development
+
+# Twilio settings
+TWILIO_ACCOUNT_SID = 'your_account_sid'  # Replace with actual SID
+TWILIO_AUTH_TOKEN = 'your_auth_token'    # Replace with actual token
+TWILIO_PHONE_NUMBER = '+1234567890'      # Replace with actual Twilio number
+
 # REST Framework settings
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

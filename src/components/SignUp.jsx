@@ -1,9 +1,104 @@
-import React from "react";
+import React, { useState } from "react";
 import { User, Lock, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useToast } from "@/components/ui/use-toast";
 
 function SignUp() {
+  const { toast } = useToast();
+  const [step, setStep] = useState(1);
+  const [formData, setFormData] = useState({
+    email: "",
+    phone: "",
+    emailOtp: "",
+    phoneOtp: "",
+    password: "",
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleInitialSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:8000/api/initiate-signup/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: formData.email,
+          phone: formData.phone,
+        }),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "OTP Sent",
+          description: "Please check your email and phone for OTP verification codes.",
+        });
+        setStep(2);
+      } else {
+        const data = await response.json();
+        toast({
+          title: "Error",
+          description: data.error || "Failed to send OTP",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to connect to server",
+        variant: "destructive",
+      });
+    }
+  };
+
+  const handleOtpVerification = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:8000/api/verify-otp/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: formData.email,
+          phone: formData.phone,
+          email_otp: formData.emailOtp,
+          phone_otp: formData.phoneOtp,
+          password: formData.password,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast({
+          title: "Success",
+          description: "Account created successfully!",
+        });
+        // Store the token and redirect
+        localStorage.setItem('token', data.token);
+        window.location.href = '/';
+      } else {
+        toast({
+          title: "Error",
+          description: data.message || "Verification failed",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to verify OTP",
+        variant: "destructive",
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-wrap lg:flex-nowrap">
       {/* Left Section - Brand */}
@@ -25,95 +120,127 @@ function SignUp() {
       <div className="w-full lg:w-1/2 bg-white flex flex-col items-center justify-center p-6 md:p-10">
         <div className="w-full max-w-lg space-y-6">
           <div className="text-center mb-6">
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900">Create your account</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-2">Start your journey with us today</p>
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+              {step === 1 ? "Create your account" : "Verify OTP"}
+            </h2>
+            <p className="text-sm md:text-base text-gray-600 mt-2">
+              {step === 1 ? "Start your journey with us today" : "Enter the OTP sent to your email and phone"}
+            </p>
           </div>
 
-          <form className="space-y-4">
-            {/* Email */}
-            <div className="space-y-2">
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email
-              </label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Mail className="h-5 w-5 text-gray-400" />
+          <form onSubmit={step === 1 ? handleInitialSubmit : handleOtpVerification} className="space-y-4">
+            {step === 1 ? (
+              <>
+                {/* Email */}
+                <div className="space-y-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                    Email
+                  </label>
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <Mail className="h-5 w-5 text-gray-400" />
+                    </div>
+                    <Input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="you@example.com"
+                      className="pl-10"
+                    />
+                  </div>
                 </div>
-                <Input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  placeholder="you@example.com"
-                  className="pl-10"
-                />
-              </div>
-            </div>
 
-            {/* Phone */}
-            <div className="space-y-2">
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                Phone Number
-              </label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Phone className="h-5 w-5 text-gray-400" />
+                {/* Phone */}
+                <div className="space-y-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                    Phone Number
+                  </label>
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <Phone className="h-5 w-5 text-gray-400" />
+                    </div>
+                    <Input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="Your Phone Number"
+                      className="pl-10"
+                    />
+                  </div>
                 </div>
-                <Input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                  placeholder="Your Phone Number"
-                  className="pl-10"
-                />
-              </div>
-            </div>
+              </>
+            ) : (
+              <>
+                {/* Email OTP */}
+                <div className="space-y-2">
+                  <label htmlFor="emailOtp" className="block text-sm font-medium text-gray-700">
+                    Email OTP
+                  </label>
+                  <Input
+                    type="text"
+                    id="emailOtp"
+                    name="emailOtp"
+                    value={formData.emailOtp}
+                    onChange={handleInputChange}
+                    required
+                    placeholder="Enter Email OTP"
+                  />
+                </div>
 
-            {/* Terms and Conditions */}
-            <div className="flex items-center">
-              <input
-                id="terms"
-                name="terms"
-                type="checkbox"
-                required
-                className="h-4 w-4 text-[crimson] focus:ring-[#7E69AB] border-gray-300 rounded"
-              />
-              <label htmlFor="terms" className="ml-2 block text-sm text-gray-700">
-                I agree to the{" "}
-                <a href="#" className="text-[crimson] hover:text-gray-700">
-                  Terms and Conditions
-                </a>
-              </label>
-            </div>
+                {/* Phone OTP */}
+                <div className="space-y-2">
+                  <label htmlFor="phoneOtp" className="block text-sm font-medium text-gray-700">
+                    Phone OTP
+                  </label>
+                  <Input
+                    type="text"
+                    id="phoneOtp"
+                    name="phoneOtp"
+                    value={formData.phoneOtp}
+                    onChange={handleInputChange}
+                    required
+                    placeholder="Enter Phone OTP"
+                  />
+                </div>
+
+                {/* Password */}
+                <div className="space-y-2">
+                  <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                    Password
+                  </label>
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <Lock className="h-5 w-5 text-gray-400" />
+                    </div>
+                    <Input
+                      type="password"
+                      id="password"
+                      name="password"
+                      value={formData.password}
+                      onChange={handleInputChange}
+                      required
+                      placeholder="Create Password"
+                      className="pl-10"
+                    />
+                  </div>
+                </div>
+              </>
+            )}
 
             {/* Submit Button */}
             <Button
               type="submit"
               className="w-full bg-[crimson] hover:bg-gray-400 text-white transition-colors"
             >
-              Create Account
+              {step === 1 ? "Send OTP" : "Create Account"}
             </Button>
           </form>
-
-          {/* Divider */}
-          <div className="relative my-6">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-gray-300"></div>
-            </div>
-            <div className="relative flex justify-center text-sm">
-              <span className="px-2 text-black bg-white">Or sign up with</span>
-            </div>
-          </div>
-
-          {/* Google Sign Up */}
-          <Button
-            type="button"
-            variant="outline"
-            className="w-full bg-[crimson] text-white hover:bg-gray-400"
-          >
-            Continue with Google
-          </Button>
 
           {/* Sign In Link */}
           <p className="text-center text-sm text-gray-600">
