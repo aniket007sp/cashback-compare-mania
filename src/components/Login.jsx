@@ -38,7 +38,7 @@ function Login() {
             </div>
 
             <form className="space-y-4">
-              <div className="space-y-2">
+              <div className="space-y-2 bg-gray-200">
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                   Email
                 </label>
@@ -113,7 +113,7 @@ function Login() {
             <Button
               type="button"
               variant="outline"
-              className="w-full"
+              className="w-full bg-[crimson] text-white hover:bg-gray-400"
             >
               Continue with Google
             </Button>
