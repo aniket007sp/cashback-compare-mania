@@ -38,7 +38,7 @@ function Login() {
             </div>
 
             <form className="space-y-4">
-              <div className="space-y-2 bg-gray-200">
+              <div className="space-y-2">
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                   Email
                 </label>
@@ -52,7 +52,7 @@ function Login() {
                     name="email"
                     required
                     placeholder="you@example.com"
-                    className="pl-10"
+                    className="pl-10 bg-white"
                   />
                 </div>
               </div>
@@ -106,7 +106,7 @@ function Login() {
                 <div className="w-full border-t border-gray-300"></div>
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 text-black">Or continue with</span>
+                <span className="px-2 text-black bg-white">Or continue with</span>
               </div>
             </div>
 
