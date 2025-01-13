@@ -11,7 +11,7 @@ function Login() {
         {/* Left Section - Brand */}
         <div className="w-full lg:w-1/2 bg-gradient-to-br from-[crimson] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
           <div className="w-full max-w-md space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">PriceCompare</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">SavvyZi</h1>
             <p className="text-xl md:text-2xl text-center text-white/90">
               Compare prices, save money, shop smarter
             </p>
