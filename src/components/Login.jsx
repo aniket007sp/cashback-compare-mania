@@ -88,7 +88,7 @@ function Login() {
                     Remember me
                   </label>
                 </div>
-                <a href="#" className="text-sm font-medium hover:text-grey-700 text-[crimson]">
+                <a href="#" className="text-sm font-medium text-[crimson] hover:text-grey-700">
                   Forgot password?
                 </a>
               </div>
