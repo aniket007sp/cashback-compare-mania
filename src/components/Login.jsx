@@ -1,93 +1,130 @@
 import React from "react";
-import logo from "../logo-png.png"; // Replace with your logo path
-import banner from "../logo-png.png"; // Replace with your banner path
+import { User, Lock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 function Login() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Top Banner */}
-      <div className="w-full bg-red-500">
-        <img
-          src={banner}
-          alt="Cashback Banner"
-          className="w-full h-40 object-cover"
-        />
-      </div>
-
       {/* Main Content */}
       <div className="flex flex-1 flex-col lg:flex-row">
-        {/* Left Section with Logo */}
-        <div className="w-full lg:w-1/2 bg-white flex flex-col items-center justify-center p-6 lg:p-10">
-          <img
-            src={logo}
-            alt="SavvyZi Logo"
-            className="w-1/2 md:w-1/3 lg:w-1/3 mb-4"
-          />
-          <h1 className="text-3xl md:text-4xl font-bold">SavvyZi</h1>
-          <p className="mt-2 text-lg text-gray-600">Shop Smart, Live Savvy</p>
+        {/* Left Section - Brand */}
+        <div className="w-full lg:w-1/2 bg-gradient-to-br from-[#9b87f5] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
+          <div className="w-full max-w-md space-y-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">PriceCompare</h1>
+            <p className="text-xl md:text-2xl text-center text-white/90">
+              Compare prices, save money, shop smarter
+            </p>
+            <div className="mt-8 space-y-4 text-center">
+              <p className="text-lg">
+                ✓ Compare prices across multiple stores
+              </p>
+              <p className="text-lg">
+                ✓ Get exclusive deals and discounts
+              </p>
+              <p className="text-lg">
+                ✓ Track price history and alerts
+              </p>
+            </div>
+          </div>
         </div>
 
-        {/* Right Section with Login Form */}
-        <div className="w-full lg:w-1/2 bg-gray-100 flex flex-col items-center justify-center p-6 lg:p-10">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">
-            Welcome to SavvyZi!
-          </h2>
-          <form className="w-full max-w-md space-y-4">
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
-              >
-                E-mail:
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                placeholder="example@email.com"
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              />
+        {/* Right Section - Login Form */}
+        <div className="w-full lg:w-1/2 bg-white flex flex-col items-center justify-center p-6 lg:p-10">
+          <div className="w-full max-w-md space-y-6">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-bold text-gray-900">Welcome back!</h2>
+              <p className="text-gray-600 mt-2">Please sign in to your account</p>
             </div>
-            <div>
-              <label
-                htmlFor="password"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Password:
-              </label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                required
-                placeholder="********"
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              />
-            </div>
-            <div>
-              <button
+
+            <form className="space-y-4">
+              <div className="space-y-2">
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                  Email
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <User className="h-5 w-5 text-gray-400" />
+                  </div>
+                  <Input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    className="pl-10"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                  Password
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <Lock className="h-5 w-5 text-gray-400" />
+                  </div>
+                  <Input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                    placeholder="••••••••"
+                    className="pl-10"
+                  />
+                </div>
+              </div>
+
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <input
+                    id="remember-me"
+                    name="remember-me"
+                    type="checkbox"
+                    className="h-4 w-4 text-[#9b87f5] focus:ring-[#7E69AB] border-gray-300 rounded"
+                  />
+                  <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
+                    Remember me
+                  </label>
+                </div>
+                <a href="#" className="text-sm font-medium text-[#9b87f5] hover:text-[#7E69AB]">
+                  Forgot password?
+                </a>
+              </div>
+
+              <Button
                 type="submit"
-                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+                className="w-full bg-[#9b87f5] hover:bg-[#7E69AB] text-white transition-colors"
               >
-                Log In
-              </button>
+                Sign In
+              </Button>
+            </form>
+
+            <div className="relative my-6">
+              <div className="absolute inset-0 flex items-center">
+                <div className="w-full border-t border-gray-300"></div>
+              </div>
+              <div className="relative flex justify-center text-sm">
+                <span className="px-2 bg-white text-gray-500">Or continue with</span>
+              </div>
             </div>
-          </form>
-          <button
-            className="mt-4 w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
-          >
-            Continue with Google
-          </button>
-          <p className="mt-4 text-sm text-gray-600">
-            No account?{" "}
-            <a
-              href="/signup"
-              className="font-medium text-red-500 hover:underline"
+
+            <Button
+              type="button"
+              variant="outline"
+              className="w-full"
             >
-              Sign up here
-            </a>
-          </p>
+              Continue with Google
+            </Button>
+
+            <p className="text-center text-sm text-gray-600">
+              Don't have an account?{" "}
+              <a href="/signup" className="font-medium text-[#9b87f5] hover:text-[#7E69AB]">
+                Sign up here
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

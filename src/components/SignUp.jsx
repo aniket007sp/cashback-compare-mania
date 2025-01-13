@@ -1,127 +1,164 @@
 import React from "react";
-import logo from "../logo-png.png"; // Replace with your logo path
-import banner from "../logo-png.png"; // Replace with your banner path
+import { User, Lock, Mail, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 function SignUp() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
-      {/* Left Section: Brand Introduction */}
-      <div className="w-full md:w-1/2 bg-[crimson] flex flex-col items-center justify-center text-white p-6 md:p-10">
-        <img
-          src={logo}
-          alt="SavvyZi Logo"
-          className="w-1/2 md:w-1/3 mb-4 md:mb-6"
-        />
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
-          SavvyZi
-        </h1>
-        <p className="mt-2 text-lg sm:text-xl text-center">
-          Shop Smart, Live Savvy
-        </p>
+      {/* Left Section - Brand */}
+      <div className="w-full md:w-1/2 bg-gradient-to-br from-[#9b87f5] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
+        <div className="w-full max-w-md space-y-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">PriceCompare</h1>
+          <p className="text-xl md:text-2xl text-center text-white/90">
+            Join our community of smart shoppers
+          </p>
+          <div className="mt-8 space-y-4 text-center">
+            <p className="text-lg">
+              ✓ Get personalized price alerts
+            </p>
+            <p className="text-lg">
+              ✓ Save your favorite products
+            </p>
+            <p className="text-lg">
+              ✓ Earn rewards on every purchase
+            </p>
+          </div>
+        </div>
       </div>
 
-      {/* Right Section: Sign-Up Form */}
-      <div className="w-full md:w-1/2 flex flex-col items-center justify-center p-6 md:p-10 bg-white">
-        <img
-          src={banner}
-          alt="Cashback Banner"
-          className="w-full max-w-md mb-6 md:mb-8"
-        />
-        <div className="w-full max-w-md">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6 text-center">
-            Earn cashbacks and rewards with SavvyZi!
-          </h2>
+      {/* Right Section - Sign Up Form */}
+      <div className="w-full md:w-1/2 bg-white flex flex-col items-center justify-center p-6 lg:p-10">
+        <div className="w-full max-w-md space-y-6">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Create your account</h2>
+            <p className="text-gray-600 mt-2">Start your journey with us today</p>
+          </div>
+
           <form className="space-y-4">
-            {/* Name Input */}
-            <div>
-              <label
-                htmlFor="name"
-                className="block text-sm sm:text-base font-medium text-gray-700"
-              >
-                Name:
+            <div className="space-y-2">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                Full Name
               </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                placeholder="Your Name"
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-[crimson] focus:border-[crimson] sm:text-sm"
-              />
-            </div>
-
-            {/* Email Input */}
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-sm sm:text-base font-medium text-gray-700"
-              >
-                Email:
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                placeholder="example@email.com"
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-[crimson] focus:border-[crimson] sm:text-sm"
-              />
-            </div>
-
-            {/* Phone Number Input */}
-            <div>
-              <label
-                htmlFor="phone"
-                className="block text-sm sm:text-base font-medium text-gray-700"
-              >
-                Phone Number:
-              </label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                required
-                placeholder="Your Phone Number"
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-[crimson] focus:border-[crimson] sm:text-sm"
-              />
-            </div>
-
-            {/* Terms & Conditions Checkbox */}
-            <div className="flex items-start">
-              <div className="flex items-center h-5">
-                <input
-                  id="terms"
-                  name="terms"
-                  type="checkbox"
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <User className="h-5 w-5 text-gray-400" />
+                </div>
+                <Input
+                  type="text"
+                  id="name"
+                  name="name"
                   required
-                  className="focus:ring-[crimson] h-4 w-4 text-[crimson] border-gray-300 rounded"
+                  placeholder="John Doe"
+                  className="pl-10"
                 />
               </div>
-              <div className="ml-3 text-sm sm:text-base">
-                <label htmlFor="terms" className="font-medium text-gray-700">
-                  I agree with SavvyZi's terms & Conditions
-                </label>
+            </div>
+
+            <div className="space-y-2">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                Email
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <Mail className="h-5 w-5 text-gray-400" />
+                </div>
+                <Input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="you@example.com"
+                  className="pl-10"
+                />
               </div>
             </div>
 
-            {/* Sign-Up Button */}
-            <div>
-              <button
-                type="submit"
-                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-[crimson] hover:bg-[#a31621] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[crimson]"
-              >
-                Sign Up
-              </button>
+            <div className="space-y-2">
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                Phone Number
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <Phone className="h-5 w-5 text-gray-400" />
+                </div>
+                <Input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="Your Phone Number"
+                  className="pl-10"
+                />
+              </div>
             </div>
+
+            <div className="space-y-2">
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                Password
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <Lock className="h-5 w-5 text-gray-400" />
+                </div>
+                <Input
+                  type="password"
+                  id="password"
+                  name="password"
+                  required
+                  placeholder="••••••••"
+                  className="pl-10"
+                />
+              </div>
+            </div>
+
+            <div className="flex items-center">
+              <input
+                id="terms"
+                name="terms"
+                type="checkbox"
+                required
+                className="h-4 w-4 text-[#9b87f5] focus:ring-[#7E69AB] border-gray-300 rounded"
+              />
+              <label htmlFor="terms" className="ml-2 block text-sm text-gray-700">
+                I agree to the{" "}
+                <a href="#" className="text-[#9b87f5] hover:text-[#7E69AB]">
+                  Terms and Conditions
+                </a>
+              </label>
+            </div>
+
+            <Button
+              type="submit"
+              className="w-full bg-[#9b87f5] hover:bg-[#7E69AB] text-white transition-colors"
+            >
+              Create Account
+            </Button>
           </form>
 
-          {/* Login Link */}
-          <a
-            href="/login"
-            className="block text-center text-sm sm:text-base font-medium text-[crimson] hover:underline mt-4"
+          <div className="relative my-6">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-gray-300"></div>
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span className="px-2 bg-white text-gray-500">Or sign up with</span>
+            </div>
+          </div>
+
+          <Button
+            type="button"
+            variant="outline"
+            className="w-full"
           >
-            I already have an account
-          </a>
+            Continue with Google
+          </Button>
+
+          <p className="text-center text-sm text-gray-600">
+            Already have an account?{" "}
+            <a href="/login" className="font-medium text-[#9b87f5] hover:text-[#7E69AB]">
+              Sign in here
+            </a>
+          </p>
         </div>
       </div>
     </div>
