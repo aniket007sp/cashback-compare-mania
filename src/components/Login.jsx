@@ -9,7 +9,7 @@ function Login() {
       {/* Main Content */}
       <div className="flex flex-1 flex-col lg:flex-row">
         {/* Left Section - Brand */}
-        <div className="w-full lg:w-1/2 bg-gradient-to-br from-[#9b87f5] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
+        <div className="w-full lg:w-1/2 bg-gradient-to-br from-[crimson] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
           <div className="w-full max-w-md space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">PriceCompare</h1>
             <p className="text-xl md:text-2xl text-center text-white/90">
@@ -82,20 +82,20 @@ function Login() {
                     id="remember-me"
                     name="remember-me"
                     type="checkbox"
-                    className="h-4 w-4 text-[#9b87f5] focus:ring-[#7E69AB] border-gray-300 rounded"
+                    className="h-4 w-4 text-[crimson] focus:ring-[#7E69AB] border-gray-300 rounded"
                   />
                   <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
                     Remember me
                   </label>
                 </div>
-                <a href="#" className="text-sm font-medium text-[#9b87f5] hover:text-[#7E69AB]">
-                  Forgot password?
+                <a href="#" className="text-sm font-medium text-[crimson] hover:text-[#7E69AB]">
+                  Forgot passwor
                 </a>
               </div>
 
               <Button
                 type="submit"
-                className="w-full bg-[#9b87f5] hover:bg-[#7E69AB] text-white transition-colors"
+                className="w-full bg-[crimson] hover:bg-[#7E69AB] text-white transition-colors"
               >
                 Sign In
               </Button>
