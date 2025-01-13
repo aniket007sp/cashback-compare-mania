@@ -88,14 +88,14 @@ function Login() {
                     Remember me
                   </label>
                 </div>
-                <a href="#" className="text-sm font-medium text-[crimson] hover:text-[#7E69AB]">
+                <a href="#" className="text-sm font-medium text-grey-700 hover:text-[crimson]">
                   Forgot password?
                 </a>
               </div>
 
               <Button
                 type="submit"
-                className="w-full bg-[crimson] hover:bg-gray-500 text-white transition-colors"
+                className="w-full bg-[crimson] hover:bg-gray-700 hover:text-black text-white transition-colors"
               >
                 Sign In
               </Button>
