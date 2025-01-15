@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -84,13 +84,13 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Email settings
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # For development
+# Email settings (for development)
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# Twilio settings
-TWILIO_ACCOUNT_SID = 'your_account_sid'  # Replace with actual SID
-TWILIO_AUTH_TOKEN = 'your_auth_token'    # Replace with actual token
-TWILIO_PHONE_NUMBER = '+1234567890'      # Replace with actual Twilio number
+# Twilio settings (replace with your credentials)
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'your_account_sid')
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', 'your_auth_token')
+TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER', '+1234567890')
 
 # REST Framework settings
 REST_FRAMEWORK = {
@@ -108,6 +108,7 @@ SIMPLE_JWT = {
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default development server
+    "http://127.0.0.1:5173",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
