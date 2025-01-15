@@ -38,7 +38,9 @@ function SignUp() {
           title: "OTP Sent",
           description: "Please check your email and phone for OTP verification codes.",
         });
+        // Explicitly set step to 2 after successful OTP request
         setStep(2);
+        console.log("Moving to step 2"); // Debug log
       } else {
         const data = await response.json();
         toast({
@@ -48,6 +50,7 @@ function SignUp() {
         });
       }
     } catch (error) {
+      console.error("Error during OTP request:", error);
       toast({
         title: "Error",
         description: "Failed to connect to server",
