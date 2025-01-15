@@ -1,12 +1,68 @@
-import React from "react";
+import React, { useState } from "react";
 import { User, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useNavigate } from "react-router-dom";
+import { useToast } from "@/components/ui/use-toast";
 
 function Login() {
+  const navigate = useNavigate();
+  const { toast } = useToast();
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:8000/api/login/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        // Store token in localStorage
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('refreshToken', data.refresh);
+        
+        toast({
+          title: "Success",
+          description: "Logged in successfully!",
+        });
+        
+        // Redirect to home page
+        navigate('/');
+      } else {
+        toast({
+          title: "Error",
+          description: data.error || "Login failed",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to connect to server",
+        variant: "destructive",
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Main Content */}
       <div className="flex flex-1 flex-col lg:flex-row">
         {/* Left Section - Brand */}
         <div className="w-full lg:w-1/2 bg-gradient-to-br from-[crimson] to-[#7E69AB] flex flex-col items-center justify-center p-6 lg:p-10 text-white">
@@ -16,15 +72,9 @@ function Login() {
               Compare prices, save money, shop smarter
             </p>
             <div className="mt-8 space-y-4 text-center">
-              <p className="text-lg">
-                ✓ Compare prices across multiple stores
-              </p>
-              <p className="text-lg">
-                ✓ Get exclusive deals and discounts
-              </p>
-              <p className="text-lg">
-                ✓ Track price history and alerts
-              </p>
+              <p className="text-lg">✓ Compare prices across multiple stores</p>
+              <p className="text-lg">✓ Get exclusive deals and discounts</p>
+              <p className="text-lg">✓ Track price history and alerts</p>
             </div>
           </div>
         </div>
@@ -37,7 +87,7 @@ function Login() {
               <p className="text-gray-600 mt-2">Please sign in to your account</p>
             </div>
 
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                   Email
@@ -50,6 +100,8 @@ function Login() {
                     type="email"
                     id="email"
                     name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
                     required
                     placeholder="you@example.com"
                     className="pl-10 bg-white"
@@ -69,28 +121,13 @@ function Login() {
                     type="password"
                     id="password"
                     name="password"
+                    value={formData.password}
+                    onChange={handleInputChange}
                     required
                     placeholder="••••••••"
                     className="pl-10"
                   />
                 </div>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <input
-                    id="remember-me"
-                    name="remember-me"
-                    type="checkbox"
-                    className="h-4 w-4 text-[crimson] focus:ring-[#7E69AB] border-gray-300 rounded"
-                  />
-                  <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
-                    Remember me
-                  </label>
-                </div>
-                <a href="#" className="text-sm font-medium text-[crimson] hover:text-grey-700">
-                  Forgot password?
-                </a>
               </div>
 
               <Button
@@ -100,23 +137,6 @@ function Login() {
                 Sign In
               </Button>
             </form>
-
-            <div className="relative my-6">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-gray-300"></div>
-              </div>
-              <div className="relative flex justify-center text-sm">
-                <span className="px-2 text-black bg-white">Or continue with</span>
-              </div>
-            </div>
-
-            <Button
-              type="button"
-              variant="outline"
-              className="w-full bg-[crimson] text-white hover:bg-gray-400"
-            >
-              Continue with Google
-            </Button>
 
             <p className="text-center text-sm text-gray-600">
               Don't have an account?{" "}
