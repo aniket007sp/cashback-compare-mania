@@ -20,7 +20,7 @@ const BrandList = ({ brands }) => {
 
   return (
     <aside className="w-full h-full bg-white p-2">
-      <h2 className="text-base sm:text-sm font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm">
+      <h2 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm">
         Featured Brands
       </h2>
       <div className="grid grid-cols-1 gap-2">
