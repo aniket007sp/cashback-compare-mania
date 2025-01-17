@@ -11,7 +11,7 @@ const Index = () => {
     <Layout>
       <div className="flex flex-row w-full min-h-screen">
         {/* Left Section: Brand List - Always on left */}
-        <div className="w-[150px] sm:w-[200px] min-w-[70px] sticky top-0 h-screen overflow-y-auto border-r border-gray-200 shrink-0 bg-white shadow-md">
+        <div className="w-[120px] sm:w-[200px] min-w-[70px] sticky top-0 h-screen overflow-y-auto border-r border-gray-200 shrink-0 bg-white shadow-md">
           <BrandList brands={netlifyOffers} />
         </div>
         {/* Main Content - Flexible width */}
