@@ -74,7 +74,7 @@ const NetlifyOffersSection = () => {
                         }}
                       />
                     </div>
-                    <span className="text-sm text-center text-gray-700">{subcategory}</span>
+                    <span className="text-xs md:text-sm text-center text-gray-700">{subcategory}</span>
                   </Link>
                 );
               })}
