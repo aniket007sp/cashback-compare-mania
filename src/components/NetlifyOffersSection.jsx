@@ -50,7 +50,7 @@ const NetlifyOffersSection = () => {
         {Object.entries(categorizedOffers).map(([category, data]) => (
           <article key={category}>
             <div className="flex items-center space-x-4 mb-4">
-              <h3 className="text-md sm:text-md md:text-lg text-black font-semibold bg-gray-200 bg-opacity-30 w-full py-2 text-center">
+              <h3 className="text-md text-black font-semibold sm:text-md md:text-lg bg-gray-200 bg-opacity-30 w-full py-2 text-center">
                 {category}
               </h3>
             </div>
