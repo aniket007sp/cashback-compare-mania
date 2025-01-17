@@ -41,7 +41,7 @@ const NetlifyOffersSection = () => {
   return (
     <section id="featured-offers" className="container mx-auto px-4 py-8">
       <header>
-        <h2 className="text-xl text-white font-semibold mb-4 sm:text-xl bg-[crimson] w-full py-2 text-center">
+        <h2 className="text-xl text-white font-semibold mb-4 sm:text-md bg-[crimson] w-full py-2 text-center">
           Featured Offers
         </h2>
       </header>
