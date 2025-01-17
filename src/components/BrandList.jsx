@@ -42,7 +42,7 @@ const BrandList = ({ brands }) => {
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="w-8 h-8 object-contain p-1"
+                    className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 object-contain p-1"
                   />
                 </div>
               </div>
