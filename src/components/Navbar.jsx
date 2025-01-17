@@ -16,7 +16,7 @@ const Navbar = () => {
 
           {/* Tagline Section - Centered */}
           <div className="text-center flex-grow">
-            <div className="text-[crimson] text-sm sm:text-sm md:text-lg lg:text-xl font-semibold">
+            <div className="text-[crimson] text-sm sm:text-xs md:text-lg lg:text-xl font-semibold">
               SavvyZi - <span className="text-[crimson]">Shop Smart, Live Savvy</span>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="relative z-10">
           <button
             onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
-            className="bg-[crimson] text-white px-5 py-2 rounded-md hover:bg-gray-500 transition-colors text-xs sm:text-sm md:text-base"
+            className="bg-[crimson] text-white px-3 sm:px-4 md:px-5 py-2 rounded-md hover:bg-gray-500 transition-colors text-xs sm:text-sm md:text-base"
           >
             Confirm Order
           </button>
