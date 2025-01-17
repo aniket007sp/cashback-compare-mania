@@ -20,7 +20,7 @@ const BrandList = ({ brands }) => {
 
   return (
     <aside className="w-full h-full bg-white p-2">
-      <h2 className="text-base font-semibold text-center bg-[#9b87f5] text-white py-2 mb-3 rounded-md shadow-sm">
+      <h2 className="text-base font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm">
         Featured Brands
       </h2>
       <div className="grid grid-cols-1 gap-2">
@@ -33,7 +33,7 @@ const BrandList = ({ brands }) => {
           >
             <div
               className={`flex flex-col h-full bg-white rounded-lg transition-all duration-300 
-                ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[#9b87f5]/20' : 'shadow-sm'}
+                ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[crimson]/20' : 'shadow-sm'}
                 p-2 space-y-1.5`}
             >
               {/* Logo Container */}
@@ -75,13 +75,13 @@ const BrandList = ({ brands }) => {
                       e.stopPropagation();
                       window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
                     }}
-                    className="w-full text-[10px] bg-[#9b87f5] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
+                    className="w-full text-[10px] bg-[crimson] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
                   >
                     Visit Store
                   </button>
                   <button
                     onClick={(e) => e.stopPropagation()}
-                    className="w-full text-[10px] text-[#9b87f5] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
+                    className="w-full text-[10px] text-[crimson] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
                     <Info className="w-3 h-3" />
                     Terms & Conditions
