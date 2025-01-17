@@ -18,7 +18,7 @@ const Navbar = () => {
           </a>
 
           {/* Tagline Section - Hidden on very small screens, visible on sm and up */}
-          <div className="sm:block text-center flex-grow">
+          <div className="text-center flex-grow">
             <div className="text-[crimson] text-sm sm:text-base lg:text-xl font-semibold whitespace-nowrap">
               SavvyZi - <span className="text-[crimson]">Shop Smart, Live Savvy</span>
             </div>
