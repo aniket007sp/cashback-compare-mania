@@ -9,7 +9,7 @@ const Footer = () => {
           {/* About Us Section */}
           <div>
             <h3 className="text-sm sm:text-sm md:text-md lg:text-lg font-semibold mb-4">About Us</h3>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 text-sm sm:text-sm md:text-md leading-relaxed">
               Welcome to the SavvyZi Family! 🎉 We’re excited to introduce you to a smarter way to shop, where your 
               purchases come with exclusive Cash Rewards and incredible deals on your favourite brands. 💸
             </p>
