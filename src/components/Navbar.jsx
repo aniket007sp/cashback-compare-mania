@@ -16,7 +16,7 @@ const Navbar = () => {
 
           {/* Tagline Section - Centered */}
           <div className="text-center flex-grow">
-            <div className="text-[crimson] text-sm sm:text-md md:text-lg lg:text-xl font-semibold">
+            <div className="text-[crimson] text-sm sm:text-sm md:text-lg lg:text-xl font-semibold">
               SavvyZi - <span className="text-[crimson]">Shop Smart, Live Savvy</span>
             </div>
           </div>
