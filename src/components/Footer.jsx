@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* About Us Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">About Us</h3>
+            <h3 className="text-sm sm:text-sm md:text-md lg:text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-400 leading-relaxed">
               Welcome to the SavvyZi Family! 🎉 We’re excited to introduce you to a smarter way to shop, where your 
               purchases come with exclusive Cash Rewards and incredible deals on your favourite brands. 💸
