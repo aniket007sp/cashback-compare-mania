@@ -41,7 +41,7 @@ const NetlifyOffersSection = () => {
   return (
     <section id="featured-offers" className="container mx-auto px-4 py-8">
       <header>
-        <h2 className="text-md text-white font-semibold mb-4 sm:text-xl bg-[crimson] w-full py-2 text-center">
+        <h2 className="text-md text-white font-semibold mb-4 sm:text-md md:text-lg bg-[crimson] w-full py-2 text-center">
           Featured Offers
         </h2>
       </header>
@@ -50,7 +50,7 @@ const NetlifyOffersSection = () => {
         {Object.entries(categorizedOffers).map(([category, data]) => (
           <article key={category}>
             <div className="flex items-center space-x-4 mb-4">
-              <h3 className="text-lg sm:text-md text-black font-semibold bg-gray-200 bg-opacity-30 w-full py-2 text-center">
+              <h3 className="text-md sm:text-md md:text-lg text-black font-semibold bg-gray-200 bg-opacity-30 w-full py-2 text-center">
                 {category}
               </h3>
             </div>
