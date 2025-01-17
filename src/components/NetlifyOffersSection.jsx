@@ -64,7 +64,7 @@ const NetlifyOffersSection = () => {
                     to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
                     className="flex flex-col items-center hover:scale-105 transition-transform"
                   >
-                    <div className="w-20 h-20 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
+                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
                       <img
                         src={imageUrl}
                         alt={subcategory}
