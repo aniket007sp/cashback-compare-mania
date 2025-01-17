@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="relative z-10">
             <button
               onClick={() => window.open(orderFormUrl, '_blank', 'noopener,noreferrer')}
-              className="bg-[crimson] text-white px-2 sm:px-4 py-1 rounded-md hover:bg-gray-500 transition-colors text-xs sm:text-sm whitespace-nowrap"
+              className="bg-[crimson] text-white px-2 sm:px-4 py-1 rounded-md hover:bg-gray-500 transition-colors text-xs sm:text-xs md:text-sm whitespace-nowrap"
             >
               Confirm Order
             </button>
