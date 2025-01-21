@@ -12,51 +12,58 @@ const ExclusiveStores = () => {
         Exclusive Stores
       </h2>
 
-      <div className="flex overflow-x-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 space-x-2 py-2">
-        {stores.map((store) => (
-          <div
-            key={store.COMPANY}
-            className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-            onClick={() => setSelectedStore(store)}
-          >
-            <div className="flex items-center justify-center mb-1 sm:mb-2">
-              <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
-                <img
-                  src={store["LOGO LINK"]}
-                  alt={store.COMPANY}
-                  className="w-full h-full object-contain"
-                />
+      <div className="relative">
+        <div className="flex overflow-x-scroll scrollbar-none space-x-2 py-2">
+          {stores.map((store) => (
+            <div
+              key={store.COMPANY}
+              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+              onClick={() => setSelectedStore(store)}
+            >
+              <div className="flex items-center justify-center mb-1 sm:mb-2">
+                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                  <img
+                    src={store["LOGO LINK"]}
+                    alt={store.COMPANY}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
+
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
+                {store.COMPANY}
+              </h3>
+              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
+                <span className="whitespace-nowrap">Reward:</span>
+                <span className="font-semibold truncate">{store.Reward}</span>
+              </p>
+
+              <button
+                className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(store.LINK, "_blank", "noopener,noreferrer");
+                }}
+              >
+                Go to Store
+              </button>
+
+              <button
+                className="mt-0.5 sm:mt-1 text-[10px] sm:text-xs text-blue-600 flex items-center justify-center gap-0.5 sm:gap-1 w-full"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSelectedStore(store);
+                }}
+              >
+                <Info className="w-2 h-2 sm:w-3 sm:h-3" />
+                Terms & Conditions
+              </button>
             </div>
-
-            <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">{store.COMPANY}</h3>
-            <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
-              <span className="whitespace-nowrap">Reward:</span>
-              <span className="font-semibold truncate">{store.Reward}</span>
-            </p>
-
-            <button
-              className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
-              onClick={(e) => {
-                e.stopPropagation();
-                window.open(store.LINK, "_blank", "noopener,noreferrer");
-              }}
-            >
-              Go to Store
-            </button>
-
-            <button
-              className="mt-0.5 sm:mt-1 text-[10px] sm:text-xs text-blue-600 flex items-center justify-center gap-0.5 sm:gap-1 w-full"
-              onClick={(e) => {
-                e.stopPropagation();
-                setSelectedStore(store);
-              }}
-            >
-              <Info className="w-2 h-2 sm:w-3 sm:h-3" />
-              Terms & Conditions
-            </button>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
+          <div className="animate-blink text-[crimson] text-xl">&rarr;</div>
+        </div>
       </div>
 
       <Dialog open={!!selectedStore} onOpenChange={() => setSelectedStore(null)}>
@@ -83,7 +90,8 @@ const ExclusiveStores = () => {
 
             <div>
               <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-              <div className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
+              <div
+                className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
                 style={{ maxHeight: "12rem" }} // Ensure the height is limited
               >
                 <p
@@ -118,7 +126,6 @@ const ExclusiveStores = () => {
 };
 
 export default ExclusiveStores;
-
 
 
 // import React, { useState } from 'react';
