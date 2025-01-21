@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Info } from "lucide-react";
 import stores from "@/data/Stores.json";
 
 const ExclusiveStores = () => {
   const [selectedStore, setSelectedStore] = useState(null);
+  const scrollContainerRef = useRef(null);
+
+  const scrollRight = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+  };
 
   return (
     <section className="w-full px-1 sm:px-2 py-2 sm:py-4">
@@ -13,7 +20,10 @@ const ExclusiveStores = () => {
       </h2>
 
       <div className="relative">
-        <div className="flex overflow-x-scroll scrollbar-none space-x-2 py-2">
+        <div
+          ref={scrollContainerRef}
+          className="flex overflow-x-scroll scrollbar-none space-x-2 py-2"
+        >
           {stores.map((store) => (
             <div
               key={store.COMPANY}
@@ -61,7 +71,10 @@ const ExclusiveStores = () => {
             </div>
           ))}
         </div>
-        <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
+        <div
+          className="absolute top-1/2 right-0 transform -translate-y-1/2 cursor-pointer"
+          onClick={scrollRight}
+        >
           <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center animate-blink">
             <div className="text-[crimson] text-xl">&rarr;</div>
           </div>
@@ -94,7 +107,7 @@ const ExclusiveStores = () => {
               <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
               <div
                 className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
-                style={{ maxHeight: "12rem" }} // Ensure the height is limited
+                style={{ maxHeight: "12rem" }}
               >
                 <p
                   className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
