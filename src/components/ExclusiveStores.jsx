@@ -128,7 +128,7 @@ const ExclusiveStores = () => {
                   setSelectedStore(null);
                   window.open(selectedStore?.LINK, "_blank", "noopener,noreferrer");
                 }}
-                className="bg-gray-400 text-white w-full sm:w-1/2 py-1 sm:py-2 hover:bg-[crimson] hover:text-black rounded text-xs sm:text-sm"
+                className="text-white w-full sm:w-1/2 py-1 sm:py-2 bg-[crimson] bg-gray-400 hover:text-black rounded text-xs sm:text-sm"
               >
                 Go to Store
               </button>
