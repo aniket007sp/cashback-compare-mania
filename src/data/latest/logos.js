@@ -1,4 +1,4 @@
-{
+export const logos = {
     " Electronics & Household Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
     "Electronics: Accessories": "https://5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories-500x500.png",
     "Home Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
@@ -49,4 +49,4 @@
     "Hotel": "https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg",
     "Train": "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-1063601,resizemode-75,msid-115732108/industry/transportation/railways/high-speed-trains-indian-railways-280-kmph-speed-aerodynamic-design-indias-next-high-speed-trains-are-coming-soon-beml-icf-ashwini-vaishnaw.jpg",
     "Travel Essentials": "https://lakshmisharath.com/wp-content/uploads/2020/01/Travel-essentials-2-shutterstock-page-001-2048x2048.jpg"
-}
+};
