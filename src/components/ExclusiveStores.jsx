@@ -12,11 +12,11 @@ const ExclusiveStores = () => {
         Exclusive Stores
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 sm:gap-2 md:gap-3">
+      <div className="flex overflow-x-auto space-x-2 py-2">
         {stores.map((store) => (
           <div
             key={store.COMPANY}
-            className="flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+            className="flex-shrink-0 w-40 sm:w-48 md:w-56 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
             <div className="flex items-center justify-center mb-1 sm:mb-2">
@@ -118,6 +118,7 @@ const ExclusiveStores = () => {
 };
 
 export default ExclusiveStores;
+
 
 
 
