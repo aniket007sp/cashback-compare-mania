@@ -27,30 +27,25 @@ const InstallUseEarn = () => {
           {installUseEarn.map((store) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-gradient-to-br from-green-50 to-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer border border-green-100"
+              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
               onClick={() => setSelectedStore(store)}
             >
               <div className="flex items-center justify-center mb-1 sm:mb-2">
-                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-xl border-2 border-green-100">
+                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                   <img
                     src={store["LOGO LINK"]}
                     alt={store.COMPANY}
-                    className="w-full h-full object-contain p-1"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </div>
 
-              <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1 text-gray-800">
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
                 {store.COMPANY}
               </h3>
-              
-              <div className="text-[10px] sm:text-xs text-gray-700 bg-green-50 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
+              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
                 <span className="whitespace-nowrap">Reward:</span>
                 <span className="font-semibold truncate">{store.Reward}</span>
-              </div>
-
-              <p className="text-[8px] sm:text-[10px] text-gray-500 mt-0.5">
-                Payment in {store["PAYMENT IN"]} days
               </p>
 
               <button
