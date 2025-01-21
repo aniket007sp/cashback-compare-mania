@@ -15,7 +15,7 @@ const InstallUseEarn = () => {
 
   return (
     <section className="w-full px-1 sm:px-2 py-2 sm:py-4">
-      <h2 className="text-sm sm:text-base md:text-lg text-white font-semibold mb-2 sm:mb-3 bg-[#4CAF50] w-full py-1 sm:py-1.5 text-center">
+      <h2 className="text-sm sm:text-base md:text-lg text-white font-semibold mb-2 sm:mb-3 bg-[crimson] w-full py-1 sm:py-1.5 text-center">
         Install Use Earn
       </h2>
 
@@ -49,7 +49,7 @@ const InstallUseEarn = () => {
               </p>
 
               <button
-                className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[#4CAF50] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-green-600 transition w-full"
+                className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-green-600 transition w-full"
                 onClick={(e) => {
                   e.stopPropagation();
                   window.open(store.LINK, "_blank", "noopener,noreferrer");
@@ -76,7 +76,7 @@ const InstallUseEarn = () => {
           onClick={scrollRight}
         >
           <div className="w-5 h-5 md:w-10 md:h-10 bg-green-100 rounded-full flex items-center justify-center animate-blink">
-            <div className="text-[#4CAF50] text-xl">&rarr;</div>
+            <div className="text-[crimson] text-xl">&rarr;</div>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ const InstallUseEarn = () => {
                   setSelectedStore(null);
                   window.open(selectedStore?.LINK, "_blank", "noopener,noreferrer");
                 }}
-                className="bg-[#4CAF50] text-white w-full sm:w-1/2 py-1 sm:py-2 hover:bg-green-600 rounded text-xs sm:text-sm"
+                className="bg-[crimson] text-white w-full sm:w-1/2 py-1 sm:py-2 hover:bg-green-600 rounded text-xs sm:text-sm"
               >
                 Install Now
               </button>
