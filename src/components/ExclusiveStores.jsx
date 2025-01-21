@@ -83,10 +83,14 @@ const ExclusiveStores = () => {
 
             <div>
               <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-              <p
-                className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
-                dangerouslySetInnerHTML={{ __html: selectedStore?.["T&C"] }}
-              ></p>
+              <div className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
+                style={{ maxHeight: "12rem" }} // Ensure the height is limited
+              >
+                <p
+                  className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: selectedStore?.["T&C"] }}
+                ></p>
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4">
