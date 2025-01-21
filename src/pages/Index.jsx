@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import NetlifyOffersSection from '../components/NetlifyOffersSection';
 import ExclusiveStores from '../components/ExclusiveStores';
+import InstallUseEarn from '../components/InstallUseEarn';
 import BrandList from '../components/BrandList';
 import netlifyOffers from '../data/netlify_offers.json';
 
@@ -18,6 +19,7 @@ const Index = () => {
           {/* Main Content - Flexible width */}
           <div className="flex-1 overflow-x-hidden">
             <ExclusiveStores />
+            <InstallUseEarn />
             <NetlifyOffersSection />
           </div>
         </div>
