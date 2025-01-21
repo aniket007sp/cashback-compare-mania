@@ -12,7 +12,7 @@ const ExclusiveStores = () => {
         Exclusive Stores
       </h2>
 
-      <div className="flex overflow-x-auto space-x-2 py-2 relative">
+      <div className="flex overflow-x-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 space-x-2 py-2">
         {stores.map((store) => (
           <div
             key={store.COMPANY}
@@ -57,9 +57,6 @@ const ExclusiveStores = () => {
             </button>
           </div>
         ))}
-
-        {/* Gradient indicator */}
-        <div className="absolute top-0 right-0 w-8 h-full bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
       </div>
 
       <Dialog open={!!selectedStore} onOpenChange={() => setSelectedStore(null)}>
@@ -121,6 +118,7 @@ const ExclusiveStores = () => {
 };
 
 export default ExclusiveStores;
+
 
 
 // import React, { useState } from 'react';
