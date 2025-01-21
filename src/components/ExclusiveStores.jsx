@@ -62,7 +62,9 @@ const ExclusiveStores = () => {
           ))}
         </div>
         <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
-          <div className="animate-blink text-[crimson] text-xl">&rarr;</div>
+          <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center animate-blink">
+            <div className="text-[crimson] text-xl">&rarr;</div>
+          </div>
         </div>
       </div>
 
