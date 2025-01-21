@@ -22,7 +22,7 @@ const ExclusiveStores = () => {
             <div className="flex items-center justify-center mb-1 sm:mb-2">
               <div className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                 <img
-                  src={store['LOGO LINK']}
+                  src={store["LOGO LINK"]}
                   alt={store.COMPANY}
                   className="w-full h-full object-contain"
                 />
@@ -77,15 +77,16 @@ const ExclusiveStores = () => {
             <div className="flex items-center gap-x-2">
               <h4 className="text-xs sm:text-sm text-gray-800">Payout in </h4>
               <p className="text-xs sm:text-sm font-semibold text-gray-800">
-                {selectedStore?.['PAYMENT IN']} days
+                {selectedStore?.["PAYMENT IN"]} days
               </p>
             </div>
 
             <div>
               <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-              <p className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap">
-                {selectedStore?.['T&C']}
-              </p>
+              <p
+                className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
+                dangerouslySetInnerHTML={{ __html: selectedStore?.["T&C"] }}
+              ></p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4">
@@ -113,6 +114,7 @@ const ExclusiveStores = () => {
 };
 
 export default ExclusiveStores;
+
 
 
 // import React, { useState } from 'react';
