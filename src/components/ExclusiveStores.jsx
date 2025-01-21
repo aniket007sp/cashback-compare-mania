@@ -16,7 +16,7 @@ const ExclusiveStores = () => {
         {stores.map((store) => (
           <div
             key={store.COMPANY}
-            className="flex-shrink-0 w-40 sm:w-40 md:w-30 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+            className="flex-shrink-0 w-40 sm:w-30 md:w-30 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedStore(store)}
           >
             <div className="flex items-center justify-center mb-1 sm:mb-2">
