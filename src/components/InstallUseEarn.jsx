@@ -128,7 +128,7 @@ const InstallUseEarn = () => {
                   setSelectedStore(null);
                   window.open(selectedStore?.LINK, "_blank", "noopener,noreferrer");
                 }}
-                className="bg-[crimson] text-white w-full sm:w-1/2 py-1 sm:py-2 hover:bg-gray-600 rounded text-xs sm:text-sm"
+                className="bg-[crimson] text-white w-full sm:w-1/2 py-1 sm:py-2 hover:bg-gray-400 rounded text-xs sm:text-sm"
               >
                 Install Now
               </button>
