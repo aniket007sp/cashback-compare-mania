@@ -45,6 +45,7 @@ const getCategoryData = (category) => {
 const formatLatestOffer = (offer) => ({
   name: offer.COMPANY,
   logo: offer["LOGO LINK"],
+  avg_money_transfer_time: offer["PAYMENT IN"],
   categories: {
     category: offer["SUB-CATEGORY"] || "General",
     subcategory: offer["SUB-CATEGORY"]
