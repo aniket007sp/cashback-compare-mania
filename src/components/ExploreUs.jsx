@@ -9,6 +9,7 @@ import gifting from '../data/latest/gifting.json';
 import homeLiving from '../data/latest/homeLiving.json';
 import onlineServices from '../data/latest/onlineServices.json';
 import travelHospitality from '../data/latest/travelHospitality.json';
+import CategoryCarousel from './CategoryCarousel';
 
 // Utility function to format URLs
 const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, '-');
@@ -27,6 +28,9 @@ const groupOffersBySubcategory = (offers) => {
 };
 
 const ExploreUs = () => {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
+
   const categories = {
     "Baby & Kids": babyKids,
     "Electronics & Household Appliances": electronicsHouseholdAppliances,
@@ -36,6 +40,34 @@ const ExploreUs = () => {
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
     "Travel & Hospitality": travelHospitality
+  };
+
+  const handleSubcategoryClick = (category, subcategory) => {
+    setSelectedCategory(category);
+    setSelectedSubcategory(subcategory);
+  };
+
+  const renderBrands = (category, subcategory) => {
+    if (!selectedCategory || !selectedSubcategory) return null;
+
+    const offers = categories[category];
+    const groupedOffers = groupOffersBySubcategory(offers);
+    const subcategoryOffers = groupedOffers[subcategory] || [];
+
+    const items = subcategoryOffers.map((offer) => ({
+      name: offer.COMPANY,
+      image: offer["LOGO LINK"],
+      description: offer["T&C"],
+      reward: offer.Reward,
+      link: offer.LINK
+    }));
+
+    return (
+      <CategoryCarousel
+        title={${subcategory} - ${category}}
+        items={items}
+      />
+    );
   };
 
   return (
@@ -72,12 +104,9 @@ const ExploreUs = () => {
                   return (
                     <Link
                       key={subcategory}
-                      to={
-                        subcategory === category
-                          ? `/offers/${formatUrl(category)}/other`
-                          : `/offers/${formatUrl(category)}/${formatUrl(subcategory)}`
-                      }
+                      to={/offers/${formatUrl(category)}/${formatUrl(subcategory)}}
                       className="flex flex-col items-center hover:scale-105 transition-transform"
+                      onClick={() => handleSubcategoryClick(category, subcategory)}
                     >
                       <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
                         <img
@@ -93,6 +122,10 @@ const ExploreUs = () => {
                   );
                 })}
               </div>
+
+              {selectedCategory === category && selectedSubcategory &&
+                renderBrands(category, selectedSubcategory)
+              }
             </article>
           );
         })}
