@@ -1,39 +1,32 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { logos } from "../data/latest/logos";
-import babyKids from "../data/latest/babyKids.json";
-import electronicsHouseholdAppliances from "../data/latest/electronicsHouseholdAppliances.json";
-import fashion from "../data/latest/fashion.json";
-import financeBanking from "../data/latest/financeBanking.json";
-import gifting from "../data/latest/gifting.json";
-import homeLiving from "../data/latest/homeLiving.json";
-import onlineServices from "../data/latest/onlineServices.json";
-import travelHospitality from "../data/latest/travelHospitality.json";
-import CategoryCarousel from "./CategoryCarousel";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { logos } from '../data/latest/logos';
+import babyKids from '../data/latest/babyKids.json';
+import electronicsHouseholdAppliances from '../data/latest/electronicsHouseholdAppliances.json';
+import fashion from '../data/latest/fashion.json';
+import financeBanking from '../data/latest/financeBanking.json';
+import gifting from '../data/latest/gifting.json';
+import homeLiving from '../data/latest/homeLiving.json';
+import onlineServices from '../data/latest/onlineServices.json';
+import travelHospitality from '../data/latest/travelHospitality.json';
 
 // Utility function to format URLs
-const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, "-");
+const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, '-');
 
-// Group offers by subcategory or direct brands
-const groupOffers = (offers) => {
-  const grouped = { brandsWithoutSubcategory: [] };
+// Group offers by subcategory
+const groupOffersBySubcategory = (offers) => {
+  const grouped = {};
   offers.forEach((offer) => {
-    const subcategory = offer["SUB-CATEGORY"];
-    if (!subcategory) {
-      grouped.brandsWithoutSubcategory.push(offer);
-    } else {
-      if (!grouped[subcategory]) {
-        grouped[subcategory] = [];
-      }
-      grouped[subcategory].push(offer);
+    const subcategory = offer["SUB-CATEGORY"] || "Other";
+    if (!grouped[subcategory]) {
+      grouped[subcategory] = [];
     }
+    grouped[subcategory].push(offer);
   });
   return grouped;
 };
 
 const ExploreUs = () => {
-  const [selectedBrand, setSelectedBrand] = useState(null);
-
   const categories = {
     "Baby & Kids": babyKids,
     "Electronics & Household Appliances": electronicsHouseholdAppliances,
@@ -42,23 +35,7 @@ const ExploreUs = () => {
     "Gifting": gifting,
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
-    "Travel & Hospitality": travelHospitality,
-  };
-
-  const renderBrandCard = (brand) => {
-    const brandData = {
-      name: brand.COMPANY,
-      image: brand["LOGO LINK"],
-      description: brand["T&C"],
-      reward: brand.Reward,
-      link: brand.LINK,
-    };
-    return (
-      <CategoryCarousel
-        title={`Brand: ${brand.COMPANY}`}
-        items={[brandData]}
-      />
-    );
+    "Travel & Hospitality": travelHospitality
   };
 
   return (
@@ -71,7 +48,13 @@ const ExploreUs = () => {
 
       <div className="space-y-6">
         {Object.entries(categories).map(([category, offers]) => {
-          const groupedOffers = groupOffers(offers);
+          const groupedOffers = groupOffersBySubcategory(offers);
+
+          // If there are offers without subcategories, include them under the "Other" subcategory
+          if (groupedOffers.Other) {
+            groupedOffers[category] = (groupedOffers[category] || []).concat(groupedOffers.Other);
+            delete groupedOffers.Other;
+          }
 
           return (
             <article key={category}>
@@ -82,15 +65,18 @@ const ExploreUs = () => {
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                {/* Subcategories */}
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
-                  if (subcategory === "brandsWithoutSubcategory") return null;
-
+                  // Fetch logo for subcategory or fall back to category or default logo
                   const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
+
                   return (
                     <Link
                       key={subcategory}
-                      to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
+                      to={
+                        subcategory === category
+                          ? `/offers/${formatUrl(category)}/other`
+                          : `/offers/${formatUrl(category)}/${formatUrl(subcategory)}`
+                      }
                       className="flex flex-col items-center hover:scale-105 transition-transform"
                     >
                       <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
@@ -101,39 +87,16 @@ const ExploreUs = () => {
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700">
-                        {subcategory}
+                        {subcategory === category ? "Other" : subcategory}
                       </span>
                     </Link>
                   );
                 })}
-
-                {/* Brands Without Subcategory */}
-                {groupedOffers.brandsWithoutSubcategory.map((brand) => (
-                  <button
-                    key={brand.COMPANY}
-                    className="flex flex-col items-center hover:scale-105 transition-transform"
-                    onClick={() => setSelectedBrand(brand)}
-                  >
-                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
-                      <img
-                        src={brand["LOGO LINK"]}
-                        alt={brand.COMPANY}
-                        className="w-full h-full object-contain p-4"
-                      />
-                    </div>
-                    <span className="text-xs md:text-sm text-center text-gray-700">
-                      {brand.COMPANY}
-                    </span>
-                  </button>
-                ))}
               </div>
             </article>
           );
         })}
       </div>
-
-      {/* Render selected brand card */}
-      {selectedBrand && renderBrandCard(selectedBrand)}
     </section>
   );
 };
