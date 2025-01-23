@@ -1,35 +1,38 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { logos } from '../data/latest/logos';
-import babyKids from '../data/latest/babyKids.json';
-import electronicsHouseholdAppliances from '../data/latest/electronicsHouseholdAppliances.json';
-import fashion from '../data/latest/fashion.json';
-import financeBanking from '../data/latest/financeBanking.json';
-import gifting from '../data/latest/gifting.json';
-import homeLiving from '../data/latest/homeLiving.json';
-import onlineServices from '../data/latest/onlineServices.json';
-import travelHospitality from '../data/latest/travelHospitality.json';
-import CategoryCarousel from './CategoryCarousel';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { logos } from "../data/latest/logos";
+import babyKids from "../data/latest/babyKids.json";
+import electronicsHouseholdAppliances from "../data/latest/electronicsHouseholdAppliances.json";
+import fashion from "../data/latest/fashion.json";
+import financeBanking from "../data/latest/financeBanking.json";
+import gifting from "../data/latest/gifting.json";
+import homeLiving from "../data/latest/homeLiving.json";
+import onlineServices from "../data/latest/onlineServices.json";
+import travelHospitality from "../data/latest/travelHospitality.json";
+import CategoryCarousel from "./CategoryCarousel";
 
 // Utility function to format URLs
-const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, '-');
+const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
-// Group offers by subcategory
-const groupOffersBySubcategory = (offers) => {
-  const grouped = {};
+// Group offers by subcategory or direct brands
+const groupOffers = (offers) => {
+  const grouped = { brandsWithoutSubcategory: [] };
   offers.forEach((offer) => {
-    const subcategory = offer["SUB-CATEGORY"] || "Other";
-    if (!grouped[subcategory]) {
-      grouped[subcategory] = [];
+    const subcategory = offer["SUB-CATEGORY"];
+    if (!subcategory) {
+      grouped.brandsWithoutSubcategory.push(offer);
+    } else {
+      if (!grouped[subcategory]) {
+        grouped[subcategory] = [];
+      }
+      grouped[subcategory].push(offer);
     }
-    grouped[subcategory].push(offer);
   });
   return grouped;
 };
 
 const ExploreUs = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
+  const [selectedBrand, setSelectedBrand] = useState(null);
 
   const categories = {
     "Baby & Kids": babyKids,
@@ -39,33 +42,21 @@ const ExploreUs = () => {
     "Gifting": gifting,
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
-    "Travel & Hospitality": travelHospitality
+    "Travel & Hospitality": travelHospitality,
   };
 
-  const handleSubcategoryClick = (category, subcategory) => {
-    setSelectedCategory(category);
-    setSelectedSubcategory(subcategory);
-  };
-
-  const renderBrands = (category, subcategory) => {
-    if (!selectedCategory || !selectedSubcategory) return null;
-
-    const offers = categories[category];
-    const groupedOffers = groupOffersBySubcategory(offers);
-    const subcategoryOffers = groupedOffers[subcategory] || [];
-
-    const items = subcategoryOffers.map((offer) => ({
-      name: offer.COMPANY,
-      image: offer["LOGO LINK"],
-      description: offer["T&C"],
-      reward: offer.Reward,
-      link: offer.LINK
-    }));
-
+  const renderBrandCard = (brand) => {
+    const brandData = {
+      name: brand.COMPANY,
+      image: brand["LOGO LINK"],
+      description: brand["T&C"],
+      reward: brand.Reward,
+      link: brand.LINK,
+    };
     return (
       <CategoryCarousel
-        title={${subcategory} - ${category}}
-        items={items}
+        title={`Brand: ${brand.COMPANY}`}
+        items={[brandData]}
       />
     );
   };
@@ -80,13 +71,7 @@ const ExploreUs = () => {
 
       <div className="space-y-6">
         {Object.entries(categories).map(([category, offers]) => {
-          const groupedOffers = groupOffersBySubcategory(offers);
-
-          // If there are offers without subcategories, include them under the "Other" subcategory
-          if (groupedOffers.Other) {
-            groupedOffers[category] = (groupedOffers[category] || []).concat(groupedOffers.Other);
-            delete groupedOffers.Other;
-          }
+          const groupedOffers = groupOffers(offers);
 
           return (
             <article key={category}>
@@ -97,16 +82,16 @@ const ExploreUs = () => {
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                {/* Subcategories */}
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
-                  // Fetch logo for subcategory or fall back to category or default logo
-                  const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
+                  if (subcategory === "brandsWithoutSubcategory") return null;
 
+                  const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
                   return (
                     <Link
                       key={subcategory}
-                      to={/offers/${formatUrl(category)}/${formatUrl(subcategory)}}
+                      to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
                       className="flex flex-col items-center hover:scale-105 transition-transform"
-                      onClick={() => handleSubcategoryClick(category, subcategory)}
                     >
                       <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
                         <img
@@ -116,20 +101,39 @@ const ExploreUs = () => {
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700">
-                        {subcategory === category ? "Other" : subcategory}
+                        {subcategory}
                       </span>
                     </Link>
                   );
                 })}
-              </div>
 
-              {selectedCategory === category && selectedSubcategory &&
-                renderBrands(category, selectedSubcategory)
-              }
+                {/* Brands Without Subcategory */}
+                {groupedOffers.brandsWithoutSubcategory.map((brand) => (
+                  <button
+                    key={brand.COMPANY}
+                    className="flex flex-col items-center hover:scale-105 transition-transform"
+                    onClick={() => setSelectedBrand(brand)}
+                  >
+                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
+                      <img
+                        src={brand["LOGO LINK"]}
+                        alt={brand.COMPANY}
+                        className="w-full h-full object-contain p-4"
+                      />
+                    </div>
+                    <span className="text-xs md:text-sm text-center text-gray-700">
+                      {brand.COMPANY}
+                    </span>
+                  </button>
+                ))}
+              </div>
             </article>
           );
         })}
       </div>
+
+      {/* Render selected brand card */}
+      {selectedBrand && renderBrandCard(selectedBrand)}
     </section>
   );
 };
