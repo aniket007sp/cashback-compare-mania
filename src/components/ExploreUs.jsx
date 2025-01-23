@@ -94,23 +94,22 @@ const ExploreUs = () => {
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
                   const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
                   return (
-                    <div key={subcategory} className="flex flex-col items-center">
-                      <button
-                        onClick={() => handleSubcategoryClick(category, subcategory)}
-                        className="flex flex-col items-center hover:scale-105 transition-transform"
-                      >
-                        <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
-                          <img
-                            src={imageUrl}
-                            alt={subcategory}
-                            className="w-full h-full object-contain p-4"
-                          />
-                        </div>
-                        <span className="text-xs md:text-sm text-center text-gray-700">
-                          {subcategory === "Other" ? category : subcategory}
-                        </span>
-                      </button>
-                    </div>
+                    <Link
+                      key={subcategory}
+                      to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
+                      className="flex flex-col items-center hover:scale-105 transition-transform"
+                    >
+                      <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
+                        <img
+                          src={imageUrl}
+                          alt={subcategory}
+                          className="w-full h-full object-contain p-4"
+                        />
+                      </div>
+                      <span className="text-xs md:text-sm text-center text-gray-700">
+                        {subcategory === "Other" ? category : subcategory}
+                      </span>
+                    </Link>
                   );
                 })}
               </div>
