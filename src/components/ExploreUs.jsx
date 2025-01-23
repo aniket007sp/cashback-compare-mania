@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { logos } from '../data/latest/logos';
 import babyKids from '../data/latest/babyKids.json';
@@ -9,6 +9,7 @@ import gifting from '../data/latest/gifting.json';
 import homeLiving from '../data/latest/homeLiving.json';
 import onlineServices from '../data/latest/onlineServices.json';
 import travelHospitality from '../data/latest/travelHospitality.json';
+import CategoryCarousel from './CategoryCarousel';
 
 // Utility function to format URLs
 const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, '-');
@@ -27,6 +28,9 @@ const groupOffersBySubcategory = (offers) => {
 };
 
 const ExploreUs = () => {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
+
   const categories = {
     "Baby & Kids": babyKids,
     "Electronics & Household Appliances": electronicsHouseholdAppliances,
@@ -36,6 +40,34 @@ const ExploreUs = () => {
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
     "Travel & Hospitality": travelHospitality
+  };
+
+  const handleSubcategoryClick = (category, subcategory) => {
+    setSelectedCategory(category);
+    setSelectedSubcategory(subcategory);
+  };
+
+  const renderBrands = (category, subcategory) => {
+    if (!selectedCategory || !selectedSubcategory) return null;
+
+    const offers = categories[category];
+    const groupedOffers = groupOffersBySubcategory(offers);
+    const subcategoryOffers = groupedOffers[subcategory] || [];
+
+    const items = subcategoryOffers.map(offer => ({
+      name: offer.COMPANY,
+      image: offer["LOGO LINK"],
+      description: offer["T&C"],
+      reward: offer.Reward,
+      link: offer.LINK
+    }));
+
+    return (
+      <CategoryCarousel 
+        title={`${subcategory} - ${category}`}
+        items={items}
+      />
+    );
   };
 
   return (
@@ -60,30 +92,32 @@ const ExploreUs = () => {
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
-                  const imageUrl = logos[subcategory] || logos[category] || "https://via.placeholder.com/150";
+                  const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
                   return (
-                    <Link
-                      key={subcategory}
-                      to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
-                      className="flex flex-col items-center hover:scale-105 transition-transform"
-                    >
-                      <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
-                        <img
-                          src={imageUrl}
-                          alt={subcategory}
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            e.target.src = "https://via.placeholder.com/150";
-                          }}
-                        />
-                      </div>
-                      <span className="text-xs md:text-sm text-center text-gray-700">
-                        {subcategory === "Other" ? category : subcategory}
-                      </span>
-                    </Link>
+                    <div key={subcategory} className="flex flex-col items-center">
+                      <button
+                        onClick={() => handleSubcategoryClick(category, subcategory)}
+                        className="flex flex-col items-center hover:scale-105 transition-transform"
+                      >
+                        <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
+                          <img
+                            src={imageUrl}
+                            alt={subcategory}
+                            className="w-full h-full object-contain p-4"
+                          />
+                        </div>
+                        <span className="text-xs md:text-sm text-center text-gray-700">
+                          {subcategory === "Other" ? category : subcategory}
+                        </span>
+                      </button>
+                    </div>
                   );
                 })}
               </div>
+
+              {selectedCategory === category && selectedSubcategory && 
+                renderBrands(category, selectedSubcategory)
+              }
             </article>
           );
         })}
