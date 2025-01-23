@@ -55,7 +55,7 @@ const OfferDialog = ({ selectedStore, setSelectedStore, termsConditions }) => {
           <div>
             <h4 className="text-sm font-medium text-gray-800 mb-2">Terms & Conditions</h4>
             <p className="text-sm text-gray-700 whitespace-pre-wrap">
-              {cleanData(termsConditions[selectedStore?.name])}
+              {termsConditions}
             </p>
             <br />
             Payout is calculated on order amount excluding taxes
