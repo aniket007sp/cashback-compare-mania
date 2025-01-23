@@ -50,7 +50,7 @@ const formatLatestOffer = (offer) => ({
     subcategory: offer["SUB-CATEGORY"]
   },
   gotolink: offer.LINK,
-  terms: offer["T&C"],
+  termsConditions: offer["T&C"],
   action_ranges: [{
     name: "Reward",
     max_percentage_rate: offer.Reward
