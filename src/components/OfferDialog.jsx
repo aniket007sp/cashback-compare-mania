@@ -53,14 +53,16 @@ const OfferDialog = ({ selectedStore, setSelectedStore, termsConditions }) => {
           </div>
 
           <div>
-            <h4 className="text-sm font-medium text-gray-800 mb-2">Terms & Conditions</h4>
-            <p className="text-sm text-gray-700 whitespace-pre-wrap">
-              {selectedStore?.termsConditions}
-            </p>
-            <br />
-            Payout is calculated on order amount excluding taxes
-            <br />
-            Rewards will be validated within 3 days
+            <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
+            <div
+              className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
+              style={{ maxHeight: "12rem" }}
+            >
+              <p
+                className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
+                dangerouslySetInnerHTML={{ __html: selectedStore?.termsConditions }}
+              ></p>
+            </div>
           </div>
 
           <div className="flex justify-between">
