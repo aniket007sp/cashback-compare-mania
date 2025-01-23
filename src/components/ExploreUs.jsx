@@ -5,10 +5,10 @@ import babyKids from '../data/latest/babyKids.json';
 import electronicsHouseholdAppliances from '../data/latest/electronicsHouseholdAppliances.json';
 import fashion from '../data/latest/fashion.json';
 import financeBanking from '../data/latest/financeBanking.json';
-import gifting from '../data/latest/gifting.json';
-import homeLiving from '../data/latest/homeLiving.json';
-import onlineServices from '../data/latest/onlineServices.json';
-import travelHospitality from '../data/latest/travelHospitality.json';
+gifting from '../data/latest/gifting.json';
+homeLiving from '../data/latest/homeLiving.json';
+onlineServices from '../data/latest/onlineServices.json';
+travelHospitality from '../data/latest/travelHospitality.json';
 import CategoryCarousel from './CategoryCarousel';
 
 // Utility function to format URLs
@@ -54,7 +54,7 @@ const ExploreUs = () => {
     const groupedOffers = groupOffersBySubcategory(offers);
     const subcategoryOffers = groupedOffers[subcategory] || [];
 
-    const items = subcategoryOffers.map(offer => ({
+    const items = subcategoryOffers.map((offer) => ({
       name: offer.COMPANY,
       image: offer["LOGO LINK"],
       description: offer["T&C"],
@@ -63,7 +63,7 @@ const ExploreUs = () => {
     }));
 
     return (
-      <CategoryCarousel 
+      <CategoryCarousel
         title={`${subcategory} - ${category}`}
         items={items}
       />
@@ -81,7 +81,13 @@ const ExploreUs = () => {
       <div className="space-y-6">
         {Object.entries(categories).map(([category, offers]) => {
           const groupedOffers = groupOffersBySubcategory(offers);
-          
+
+          // If there are offers without subcategories, include them under the "Other" subcategory
+          if (groupedOffers.Other) {
+            groupedOffers[category] = (groupedOffers[category] || []).concat(groupedOffers.Other);
+            delete groupedOffers.Other;
+          }
+
           return (
             <article key={category}>
               <div className="flex items-center space-x-4 mb-4">
@@ -98,6 +104,7 @@ const ExploreUs = () => {
                       key={subcategory}
                       to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
                       className="flex flex-col items-center hover:scale-105 transition-transform"
+                      onClick={() => handleSubcategoryClick(category, subcategory)}
                     >
                       <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
                         <img
@@ -107,14 +114,14 @@ const ExploreUs = () => {
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700">
-                        {subcategory === "Other" ? category : subcategory}
+                        {subcategory === category ? "Other" : subcategory}
                       </span>
                     </Link>
                   );
                 })}
               </div>
 
-              {selectedCategory === category && selectedSubcategory && 
+              {selectedCategory === category && selectedSubcategory &&
                 renderBrands(category, selectedSubcategory)
               }
             </article>
