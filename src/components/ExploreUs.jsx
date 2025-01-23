@@ -5,10 +5,10 @@ import babyKids from '../data/latest/babyKids.json';
 import electronicsHouseholdAppliances from '../data/latest/electronicsHouseholdAppliances.json';
 import fashion from '../data/latest/fashion.json';
 import financeBanking from '../data/latest/financeBanking.json';
-gifting from '../data/latest/gifting.json';
-homeLiving from '../data/latest/homeLiving.json';
-onlineServices from '../data/latest/onlineServices.json';
-travelHospitality from '../data/latest/travelHospitality.json';
+import gifting from '../data/latest/gifting.json';
+import homeLiving from '../data/latest/homeLiving.json';
+import onlineServices from '../data/latest/onlineServices.json';
+import travelHospitality from '../data/latest/travelHospitality.json';
 import CategoryCarousel from './CategoryCarousel';
 
 // Utility function to format URLs
@@ -98,7 +98,9 @@ const ExploreUs = () => {
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
+                  // Fetch logo for subcategory or fall back to category or default logo
                   const imageUrl = logos[subcategory] || logos[category] || "/images/categories/home.svg";
+
                   return (
                     <Link
                       key={subcategory}
