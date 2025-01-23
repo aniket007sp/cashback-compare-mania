@@ -9,7 +9,7 @@ import gifting from "../data/latest/gifting.json";
 import homeLiving from "../data/latest/homeLiving.json";
 import onlineServices from "../data/latest/onlineServices.json";
 import travelHospitality from "../data/latest/travelHospitality.json";
-import CategoryCarousel from "./CategoryCarousel";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 // Utility function to format URLs
 const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, "-");
@@ -43,22 +43,6 @@ const ExploreUs = () => {
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
     "Travel & Hospitality": travelHospitality,
-  };
-
-  const renderBrandCard = (brand) => {
-    const brandData = {
-      name: brand.COMPANY,
-      image: brand["LOGO LINK"],
-      description: brand["T&C"],
-      reward: brand.Reward,
-      link: brand.LINK,
-    };
-    return (
-      <CategoryCarousel
-        title={`Brand: ${brand.COMPANY}`}
-        items={[brandData]}
-      />
-    );
   };
 
   return (
@@ -132,8 +116,45 @@ const ExploreUs = () => {
         })}
       </div>
 
-      {/* Render selected brand card */}
-      {selectedBrand && renderBrandCard(selectedBrand)}
+      {/* Brand Dialog */}
+      <Dialog open={!!selectedBrand} onOpenChange={() => setSelectedBrand(null)}>
+        <DialogContent className="max-w-lg">
+          <DialogHeader>
+            <DialogTitle>{selectedBrand?.COMPANY}</DialogTitle>
+          </DialogHeader>
+          {selectedBrand && (
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <img
+                  src={selectedBrand["LOGO LINK"]}
+                  alt={selectedBrand.COMPANY}
+                  className="w-32 h-32 object-contain"
+                />
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Reward</h4>
+                <p>{selectedBrand.Reward}</p>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Terms & Conditions</h4>
+                <div className="max-h-48 overflow-y-auto bg-gray-50 p-4 rounded-md">
+                  <p className="whitespace-pre-wrap text-sm text-gray-700">{selectedBrand["T&C"]}</p>
+                </div>
+              </div>
+              <div className="flex justify-end">
+                <a
+                  href={selectedBrand.LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[crimson] text-white px-4 py-2 rounded hover:bg-gray-400 transition-colors"
+                >
+                  Visit Store
+                </a>
+              </div>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   );
 };
