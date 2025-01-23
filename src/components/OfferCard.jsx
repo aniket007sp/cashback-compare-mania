@@ -39,7 +39,7 @@ const OfferCard = ({ offer, onSelectStore }) => {
             className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
           >
             <span>{action.name}:</span>
-            <span className="font-semibold truncate ml-1">{action.Reward}</span>
+            <span className="font-semibold truncate ml-1">{action.reward}</span>
           </div>
         ))}
       </div>
