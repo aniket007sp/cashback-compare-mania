@@ -53,7 +53,7 @@ const formatLatestOffer = (offer) => ({
   termsConditions: offer["T&C"],
   action_ranges: [{
     name: "Reward",
-    max_percentage_rate: offer.Reward
+    reward: offer.Reward
   }]
 });
 
