@@ -103,7 +103,7 @@ const ExploreUs = () => {
                       <img
                         src={brand["LOGO LINK"]}
                         alt={brand.COMPANY}
-                        className="w-full h-full object-contain p-4"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <span className="text-xs md:text-sm text-center text-gray-700">
@@ -129,7 +129,7 @@ const ExploreUs = () => {
                 <img
                   src={selectedBrand["LOGO LINK"]}
                   alt={selectedBrand.COMPANY}
-                  className="w-32 h-32 object-contain"
+                  className="w-32 h-32 object-cover"
                 />
               </div>
               <div>
