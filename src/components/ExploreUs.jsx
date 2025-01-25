@@ -70,7 +70,8 @@ const ExploreUs = () => {
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
                   if (subcategory === "brandsWithoutSubcategory") return null;
 
-                  const imageUrl = logos[subcategory] || logos[category+": "+subcategory] || "/images/categories/home.svg";
+                  /*const imageUrl = logos[subcategory] || logos[category+": "+subcategory] || "/images/categories/home.svg"; */
+                  const imageUrl = logos[subcategory] ?? logos[`${category}: ${subcategory}`] ?? "/images/categories/home.svg";
                   return (
                     <Link
                       key={subcategory}
