@@ -1,4 +1,4 @@
-export const logos = {
+{
     " Electronics & Household Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
     "Electronics & Household Appliances: Accessories": "https://5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories-500x500.png",
     "Home Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
@@ -10,7 +10,7 @@ export const logos = {
     "Footwear": "https://static.india.com/wp-content/uploads/2017/08/footwear.jpg",
     "Jewellery": "https://alltrend.in/wp-content/uploads/2023/12/semibridalset20122302-e1703071754541-768x847.jpeg.webp",
     "Men's Clothing": "https://images.squarespace-cdn.com/content/v1/601ff8bc5d52e74622996a33/1620646646572-GWDJMTGKVNXD8CXHYN8L/AdobeStock_192812421.jpg?format=750w",
-    "Fashion: Stores": "",
+    "Fashion: Store": "",
     "Unisex Clothing": "https://www.flgd.shop/cdn/shop/articles/the-rise-of-unisex-fashion-why-its-more-than-just-a-trend-873985.jpg?v=1724678501",
     "Watches": "https://media.wired.com/photos/66180ed0c1ba76f5ce2ff268/master/pass/Rolex.jpg",
     "Women's Clothing": "https://www.fluxmagazine.com/wp-content/uploads/2021/11/Clothes-Trends-Web-1.jpg",
@@ -32,7 +32,7 @@ export const logos = {
     "Furniture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Furniture_exhibits_in_Masfurniture%2C_Hunsur_%281%29.jpg/640px-Furniture_exhibits_in_Masfurniture%2C_Hunsur_%281%29.jpg",
     "Home Decor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrDUsWBGnC2h7QbFi9JkeEcA8gFizqoAdBw&s",
     "Kitchen Essentials": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLV_38H2_DRMz8uwJ_o-brQgdPSlw7auWj-g&s",
-    "Home & Living: Stores": "https://upload.wikimedia.org/wikipedia/commons/9/9a/HK_Government_House_Living_Room.jpg",
+    "Home & Living: Store": "https://upload.wikimedia.org/wikipedia/commons/9/9a/HK_Government_House_Living_Room.jpg",
     "Online Services": "https://img.freepik.com/premium-vector/internet-technology-set-flat-icons_24877-18678.jpg?semt=ais_incoming",
     "Digital Subscriptions & Media": "https://img.freepik.com/free-vector/computer-with-social-profile-social-community_24877-53905.jpg",
     "Rentals & Furniture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxO0Rj-HhNdKpQSVZucu60sjbpYG-x1L2zpA&s",
@@ -49,4 +49,4 @@ export const logos = {
     "Hotel": "https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg",
     "Train": "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-1063601,resizemode-75,msid-115732108/industry/transportation/railways/high-speed-trains-indian-railways-280-kmph-speed-aerodynamic-design-indias-next-high-speed-trains-are-coming-soon-beml-icf-ashwini-vaishnaw.jpg",
     "Travel Essentials": "https://lakshmisharath.com/wp-content/uploads/2020/01/Travel-essentials-2-shutterstock-page-001-2048x2048.jpg"
-};
+}
