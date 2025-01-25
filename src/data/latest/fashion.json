@@ -1,512 +1,470 @@
 [
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
-        "COMPANY": "EyewearLabs",
-        "LOGO LINK": "https://img.paisawapas.com/ovz3vew9pw/2020/11/20225342/EyewearLabs.jpg",
-        "LINK": "https://clnk.in/vRL1",
-        "Reward": "8.64%",
+        "COMPANY": "Aqualens",
+        "LOGO LINK": "https://pmdindia.in/api/u/serverImg/Aqua%20Lens3.jpg",
+        "LINK": "https://tjzuh.com/g/09v7zznt95e28a5855016bd40b4f86/",
+        "Reward": "10.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
+        "PAYMENT IN": "76"
     },
     {
-        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Accessories",
+        "COMPANY": "EyewearLabs",
+        "LOGO LINK": "https://www.eyewearlabs.com/cdn/shop/files/website_header_image_324_x_116px_12.png?crop=center&height=60&v=1710223181&width=170",
+        "LINK": "https://clnk.in/vRL1",
+        "Reward": "9.60%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "90"
+    },
+    {
         "SUB-CATEGORY": "Accessories",
         "COMPANY": "Victoria's Street",
         "LOGO LINK": "https://logowik.com/content/uploads/images/710_victoria_s_secret.jpg",
         "LINK": "https://clnk.in/vRWx",
-        "Reward": "3.6%",
+        "Reward": "4%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
         "COMPANY": "Zouk",
-        "LOGO LINK": "https://zouk.co.in/cdn/shop/files/Zouk-Logo.jpg?v=1655954170&width=1024",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUSvCSXAQu0SJax7iNsccFkUCMJ4WMZotEeyLp2ZW03UxeQzpsFxKnlNuTISoEky-nfsc&usqp=CAU",
         "LINK": "https://tjzuh.com/g/g4z2z1nmdse28a58550128198cbd1c/",
-        "Reward": "7.56%",
+        "Reward": "8.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "99.0"
+        "PAYMENT IN": "94"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Adidas",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1450px-Adidas_Logo.svg.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMzU1/",
-        "Reward": "9.45%",
+        "Reward": "10.50%",
         "T&C": "Cancelled & Returned orders will not be Payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Bacca Bucci",
         "LOGO LINK": "https://baccabucci.com/cdn/shop/files/web_logo_1_430x.png?v=1706100952",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNjQx/",
-        "Reward": "5.67%",
+        "Reward": "6.30%",
         "T&C": "Cancelled and Return Orders will not be considered for validation",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Footwear",
-        "COMPANY": "Converse",
-        "LOGO LINK": "https://w7.pngwing.com/pngs/444/556/png-transparent-converse-all-star-chuck-taylor-logo-chuck-taylor-all-stars-converse-sneakers-nike-high-top-nike-fashion-logo-converse.png",
-        "LINK": "https://clnk.in/vTyj",
-        "Reward": "5.04%",
-        "T&C": "Order Value should be greater than Rs 5400<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
-    },
-    {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "LIBERTY",
         "LOGO LINK": "https://i.pinimg.com/originals/e7/3e/03/e73e03bda040c0793b9cf5bbdbbb02d2.jpg",
         "LINK": "https://clnk.in/vRPc",
-        "Reward": "8.64%",
+        "Reward": "9.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Neeman's",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-OAkD2v_AcRNRUBZYpd3fxh_lDd1aZGadQ&s",
         "LINK": "https://clnk.in/vRQf",
-        "Reward": "12.96%",
+        "Reward": "14.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Nike",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5fOHniITpV3FAg28ztWUyZL91fnhj-yplQ&s",
         "LINK": "https://clnk.in/vRQt",
-        "Reward": "4.32%",
-        "T&C": "Cash Reward NOT applicable on payment with store credit/gift cards.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "Reward": "4.80%",
+        "T&C": "Cash Reward NOT applicable on payment with store credit/gift cards.\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Onitsuka Tiger",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqHCRt61Jb8bOti0XJfytMiTldf2LtZ2wUg&s",
         "LINK": "https://clnk.in/vRRL",
-        "Reward": "4.32%",
+        "Reward": "4.80%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Puma",
-        "LOGO LINK": "https://i.pinimg.com/originals/94/8a/69/948a69839c6953f351f9c1b5387a26fc.png",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/d/da/Puma_complete_logo.svg",
         "LINK": "https://tjzuh.com/g/y7f40iix60e28a585501101cefe85e/",
-        "Reward": "5.67%",
-        "T&C": "Cash Reward applicable on App & Website Purchase.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "69.0"
+        "Reward": "6.30%",
+        "T&C": "Cash Reward applicable on App & Website Purchase.\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "64"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Candere: KALYAN Jewellers",
-        "LOGO LINK": "https://www.candere.com/media/wysiwyg/candereLogo.jpg",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/6/69/Candere-By-Kalyan-logo-AI-%28Converted%29_%281%29.png?20190307111515",
         "LINK": "https://tjzuh.com/g/yga1lj0xsj6a3b5ae4bbfd56d3e4eb/",
-        "Reward": "3.21 - 5.14%",
-        "T&C": "Loose solitaire, gift cards and gold coin/frames/bars -\u20b90<br/>Gold - 3.21%<br/>Diamond - 5.14%<br/><br/>Maximum Cash Reward per transaction is Rs. 4500.0",
-        "PAYMENT IN": "132.0"
+        "Reward": "3.57 - 5.71%",
+        "T&C": "Loose solitaire, gift cards and gold coin/frames/bars - 0\u20b9<br/>Gold - 3.57%<br/>Diamond - 5.71%<br/><br/>Maximum Cash Reward per transaction is Rs. 5000.",
+        "PAYMENT IN": "127"
     },
     {
-        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Jewellery",
+        "COMPANY": "Etchcraft",
+        "LOGO LINK": "https://brandfetch.com/etchcraft.com.au?view=library&library=default&collection=logos&asset=id2fnb5Sbl",
+        "LINK": "https://clnk.in/vRLV",
+        "Reward": "9.60%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
+    },
+    {
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Fiona Diamonds",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuE-8uemimHaC4Htm9kvUJ3jNaurP_-uEtA&s",
+        "LOGO LINK": "https://brandfetch.com/fionadiamonds.com?view=library&library=default&collection=logos&asset=idLPzSLJlD",
         "LINK": "https://tjzuh.com/g/qw3n1py0c3e28a58550150f1d6e487/",
-        "Reward": "9.45%",
+        "Reward": "10.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "85.0"
+        "PAYMENT IN": "80"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "GIVA",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOsvxq3HJEXmOwCNtiIQ94OniJ2YkZF-YVg&s",
+        "LOGO LINK": "https://brandfetch.com/giva.co?view=library&library=default&collection=logos&asset=id-whQA_ZL",
         "LINK": "https://clnk.in/vRL9",
-        "Reward": "2.05 - 10.26%",
-        "T&C": "Category A: (all silver jewellery, fragrances, candles) - 10.26%<br/>Category B: (gold and gold-diamond jewellery) - 2.05%<br/>Category C: (gold coin, silver coins, utensils & articles) - 0.0%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "Reward": "2.28 - 11.4%",
+        "T&C": "Category A: (all silver jewellery, fragrances, candles) - 11.40%<br/>Category B: (gold and gold-diamond jewellery) - 2.28%<br/>Category C: (gold coin, silver coins, utensils & articles) - 0.00%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Malabar",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/f/f4/Malabar_Gold_and_Diamonds_New_Logo.jpg",
         "LINK": "https://tjzuh.com/g/zcflox2g0ne28a58550124725e5aee/",
-        "Reward": "3.15 - 4.41%",
-        "T&C": "Diamond and Studded Jewellery: 3.15 %<br/>Gold Jewellery and Plain Gold: 4.41%<br/>Gold Coin:\u20b957<br/><br/>No Cash Rewards are applicable on gift cards and silver ornaments, coins, utensils and any other items.",
-        "PAYMENT IN": "81.0"
+        "Reward": "3.5 - 4.9%",
+        "T&C": "Diamond and Studded Jewellery: 3.5 %<br/>Gold Jewellery and Plain Gold: 4.9%<br/>Gold Coin: 70\u20b9<br/><br/>No Cash Rewards are applicable on gift cards and silver ornaments, coins, utensils and any other items.",
+        "PAYMENT IN": "76"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Melorra",
         "LOGO LINK": "https://content.jdmagicbox.com/v2/comp/bangalore/h8/080pxx80.xx80.170711130952.d5h8/catalogue/melorra-whitefield-bangalore-y1e6m773fq.jpg",
         "LINK": "https://clnk.in/vRPN",
-        "Reward": "12.24 - 14.4%",
-        "T&C": "Cash Reward for New User - 14.4%<br/>Cash Reward for Old User - 12.24%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "Reward": "13.6 - 16%",
+        "T&C": "Cash Reward for New User - 16.00%<br/>Cash Reward for Old User - 13.60%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Salty",
-        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/6834.6e72.9f5.4ad-SaltyLogo-1493101613195.1jpeg?fm=auto&ar=0.9%2.7A0.9&mode=fill&fill=solid&fill-color=fff&format=auto&w=345.6&q=67.5",
+        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/07594e81f6ad-SaltyLogo-1659001792439.jpeg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjQx/",
-        "Reward": "9.45%",
+        "Reward": "10.50%",
         "T&C": "Cancelled & Returned orders will not be Payable.",
-        "PAYMENT IN": "25.0"
+        "PAYMENT IN": "20"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "BeYoung",
         "LOGO LINK": "https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2024/07/22/16.jpg?itok=G5CymnS6",
         "LINK": "https://clnk.in/vRHL",
-        "Reward": "9.72%",
+        "Reward": "10.80%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Blackberrys",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/afaqs/media/post_attachments/da086a80e11e571679a44cf6c56e02720ff934731e097a9f91daadd362250cf8.jpg",
         "LINK": "https://tjzuh.com/g/lv4rd63bk2e28a585501d42ea64a2c/",
-        "Reward": "12.6%",
+        "Reward": "14%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "70.0"
+        "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Jack & Jones",
-        "LOGO LINK": "https://play-lh.googleusercontent.com/9a5jDIDW5gpD5dru692nOobjQtarQHoOud3ABQi-LWEUZPLOLNvPeRNJC-DeL6rBIyE",
+        "LOGO LINK": "https://seeklogo.com/vector-logo/389891/jack-and-jones",
         "LINK": "https://clnk.in/vRNj",
-        "Reward": "5.04%",
+        "Reward": "5.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Mufti Jeans",
         "LOGO LINK": "https://d118ps6mg0w7om.cloudfront.net/media/icons/logo.svg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzEy/",
-        "Reward": "15.3%",
+        "Reward": "17%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Powerlook",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9xkSKsU_9kBCkiTGsAvGE11DSFLiE-MMjg&s",
         "LINK": "https://clnk.in/vRUF",
-        "Reward": "7.56%",
+        "Reward": "8.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "SNITCH",
         "LOGO LINK": "https://ivycapventures.com/uploads/images/659f8ffe97f79.png",
         "LINK": "https://clnk.in/vRVG",
-        "Reward": "4.9 - 6.12%",
-        "T&C": "Cash Reward on New User - 6.12%<br/>Cash Reward on Existing User - 4.9%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "Reward": "5.44 - 6.8%",
+        "T&C": "Cash Reward on New User - 6.80%<br/>Cash Reward on Existing User - 5.44%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "Accessorize London",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCMoHxGe5nMCeWb23q6Xer8_3wXB_srZMkg&usqp=CAU",
         "LINK": "https://tjzuh.com/g/1fadgegof1e28a5855014962cec542/",
-        "Reward": "9.45%",
+        "Reward": "10.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "89.0"
+        "PAYMENT IN": "84"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "ALDO",
         "LOGO LINK": "https://yorkdale.com/wp-content/uploads/2021/09/8f5e1cb5791ae560c97216b15f5bbc7423f5d5c7-1.png",
         "LINK": "https://clnk.in/vREF",
-        "Reward": "4.32%",
+        "Reward": "4.80%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "HIDESIGN",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/HIDESIGN_LOGO_withouttag.jpg/1200px-HIDESIGN_LOGO_withouttag.jpg",
+        "LOGO LINK": "https://brandfetch.com/hidesign.com?view=library&library=default&collection=logos&asset=id9LZnL2ex",
         "LINK": "https://clnk.in/vRMN",
-        "Reward": "5.04%",
+        "Reward": "5.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "Pepe Jeans",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwyoA6_5I9YuzRb0DX-pSkGZzmSp1ctsPcA&s",
-        "LINK": "https://clnk.in/vTA7",
-        "Reward": "7.78%",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pepe-Jeans-Logo.svg/2560px-Pepe-Jeans-Logo.svg.png",
+        "LINK": "https://tjzuh.com/g/dtbpw4fuhee28a5855017a603afba4/",
+        "Reward": "8.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "86"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "Superkicks",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/C560BAQGm86iYs1839A/company-logo_200_200/company-logo_200_200/0/1649066298921/superkicks_logo?e=1745452800&v=beta&t=M7bIvuE2fYAO09rHKM5BzhfhJbjZoYbldQuq43eqVuY",
         "LINK": "https://tjzuh.com/g/bmv55j74uoe28a5855017bf865f09f/",
-        "Reward": "1.89%",
+        "Reward": "2.10%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "87.0"
+        "PAYMENT IN": "82"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "WOODLAND",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/thumbnails/020/336/198/small_2x/woodland-logo-woodland-icon-free-free-vector.jpg",
         "LINK": "https://clnk.in/vRWH",
-        "Reward": "7.2%",
+        "Reward": "8%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Bummer",
         "LOGO LINK": "https://lightsout.studio/cdn/shop/files/bummercover_720x.png?v=1675253602",
         "LINK": "https://clnk.in/vRHV",
-        "Reward": "10.08%",
+        "Reward": "11.20%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Ceazur",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKtAqlxwPLWiLMYAx4FrXhnds6ImVIaVV9XA&s",
         "LINK": "https://clnk.in/vRIk",
-        "Reward": "32.4%",
+        "Reward": "32%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Levi's",
-        "LOGO LINK": "https://media.designrush.com/inspiration_images/759592/conversions/9_9bed13c74393-mobile.jpg",
+        "LOGO LINK": "https://brandfetch.com/levi.com?view=library&library=default&collection=logos&asset=idzgU4NNLv",
         "LINK": "https://clnk.in/vSzN",
-        "Reward": "10.08%",
+        "Reward": "11.20%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "68.0"
+        "PAYMENT IN": "63"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
         "COMPANY": "fastrack",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fastrack_logo.png",
+        "LOGO LINK": "https://brandfetch.com/fastrackeyewear.com?view=library&library=default&collection=logos&asset=idCblL3GLO",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQy/",
-        "Reward": "6.3%",
+        "Reward": "7%",
         "T&C": "Only below categories eligible for Cash Reward. For all other categories, no compensation will be received.<br/>* Watches / Smartwatches<br/>* Hearables (Audio accessories)<br/><br/>Cancelled/Returned orders will not be validated.",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
         "COMPANY": "Sonata",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2m_DaFNflbAVyXMQX3rwozSNoYHNxF6quWw&s",
+        "LOGO LINK": "https://media.assettype.com/creativegaga%2F2024-07%2F6c890060-9da8-4225-beb2-9df1d8161f97%2FSonata-New-Logo.jpg?w=1200&auto=format%2Ccompress&fit=max",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQz/",
-        "Reward": "6.3%",
+        "Reward": "7%",
         "T&C": "Cancelled/Returned orders will not be validated ",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
         "COMPANY": "Timex",
         "LOGO LINK": "https://cdn.freebiesupply.com/logos/large/2x/timex-logo-png-transparent.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQ2/",
-        "Reward": "7.56%",
+        "Reward": "8.40%",
         "T&C": "Order Value needs to be >= Rs. 3000<br/><br/>Cancelled/Returned orders will not be validated.",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
         "COMPANY": "Titan",
         "LOGO LINK": "https://i.pinimg.com/736x/d3/ca/44/d3ca44ad81a24fcbe71b4e2d78e8d41b.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQx/",
-        "Reward": "6.3%",
+        "Reward": "7%",
         "T&C": "Cancelled/Returned orders will not be validated.",
-        "PAYMENT IN": "35.0"
+        "PAYMENT IN": "30"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Aurelia",
         "LOGO LINK": "https://www.frankart.global/wp-content/uploads/2020/04/Aurelia-logo.jpg",
         "LINK": "https://clnk.in/vRFe",
-        "Reward": "5.04%",
+        "Reward": "5.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Bliss Club",
         "LOGO LINK": "https://blissclub.com/cdn/shop/files/BlissClub_Combination_Mark.png?v=1734682216&width=600",
         "LINK": "https://tjzuh.com/g/f7dkjuc7zje28a585501519b939af8/",
-        "Reward": "13.86%",
+        "Reward": "15.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
+        "PAYMENT IN": "90"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "ButtChique",
         "LOGO LINK": "https://cdn.shopify.com/s/files/1/0638/3619/2926/files/logo.png?v=1705742358",
         "LINK": "https://clnk.in/vRHX",
-        "Reward": "6.84%",
+        "Reward": "7.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Clovia",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2022/12/Clovia-Logo-500x281.png",
         "LINK": "https://clnk.in/vRIY",
-        "Reward": "8.64%",
+        "Reward": "9.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "enamor",
-        "LOGO LINK": "https://vivianamalls.com/wp-content/uploads/2023/08/enamor-Viviana-Mall-Thane-Mumbai.png",
+        "LOGO LINK": "https://www.enamor.co.in/cdn/shop/files/logo-enamor_1_175x.svg?v=1694514424",
         "LINK": "https://clnk.in/vRLO",
-        "Reward": "18.36%",
+        "Reward": "20.40%",
         "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Isadora Life",
         "LOGO LINK": "https://isadoralife.com/cdn/shop/files/Isadora_Life_logo.jpg?v=1704359753&width=430",
         "LINK": "https://clnk.in/vRM6",
-        "Reward": "3.6 - 8.64%",
-        "T&C": "New User - 8.64%<br/>Repeat User - 3.6%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "Reward": "4 - 9.6%",
+        "T&C": "New User - 9.60%<br/>Repeat User - 4.00%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Koskii",
-        "LOGO LINK": "https://www.koskii.com/cdn/shop/files/Asset_1_6c5a260f-525e-48eb-b2bd-3f8c773c5a1d.png?v=1614356943",
+        "LOGO LINK": "https://brandfetch.com/koskii.com?view=library&library=default&collection=logos&asset=idtCOwNpq8",
         "LINK": "https://clnk.in/vRO4",
-        "Reward": "10.44%",
+        "Reward": "11.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
+        "PAYMENT IN": "90"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Libas",
-        "LOGO LINK": "https://cdn.shopify.com/s/files/1/0341/4805/7228/files/libas-logo-ICON_for_store_locator_1.png?v=1692257454",
+        "LOGO LINK": "https://brandfetch.com/shoplibas.com?view=library&library=default&collection=logos&asset=idg_IgC4nl",
         "LINK": "https://tjzuh.com/g/ilucexaz44e28a5855014a7ccbea8a/",
-        "Reward": "6.3%",
+        "Reward": "7%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "86.0"
+        "PAYMENT IN": "81"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Newme",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8RF-dAW9roWI2Opg8zaAHvPP-zkb8vBuKBw&s",
         "LINK": "https://tjzuh.com/g/tp89lo7ulye28a5855016d4658a0fa/",
-        "Reward": "15.75%",
+        "Reward": "17.50%",
         "T&C": "Cash Reward applicable on Successful Transaction through the App only. No Cash Rewards for Website Purchase.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
+        "PAYMENT IN": "90"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Oyela",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IspvBOcxCnaTBRSRWzZyzo2uVGy2OUgFaw&s",
         "LINK": "https://clnk.in/vRRN",
-        "Reward": "11.52%",
+        "Reward": "12.80%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Rangriti",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_-EQxViXcxm2P7VLERfEkzRX6vwa8pJREFg&s",
         "LINK": "https://clnk.in/vRU2",
-        "Reward": "9.36%",
+        "Reward": "10.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "SALT Attire",
         "LOGO LINK": "https://www.infinitimall.com/wp-content/uploads/2022/05/Salt-Attier-Infiniti-Mall-MAlad-e1652702089430.png",
         "LINK": "https://clnk.in/vRVa",
-        "Reward": "9.36%",
+        "Reward": "10.40%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95.0"
+        "PAYMENT IN": "90"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "savana",
-        "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQE6jYX2r2BdYQ/company-logo_200_200/company-logo_200_200/0/1723463270231/savana_global_logo?e=2147483647&v=beta&t=VIde-1LWP2Yo4M1GhOEnP2oB2whFJ9tcj8ExgiSL2Ls",
+        "LOGO LINK": "https://cdn.worldvectorlogo.com/logos/savana.svg",
         "LINK": "https://clnk.in/vRVj",
-        "Reward": "5.04%",
+        "Reward": "5.60%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "shyaway",
         "LOGO LINK": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_3/ztzmzkrkvhsppg3vthuh",
         "LINK": "https://clnk.in/vRVC",
-        "Reward": "25.2%",
+        "Reward": "28%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65.0"
+        "PAYMENT IN": "60"
     },
     {
-        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "W for Woman",
-        "LOGO LINK": "https://play-lh.googleusercontent.com/LkwvAK7E3AH3jzwS0AoIK0RVAaTWrcnbfDXe6jXfZ8khS8eGF4x5l9G7p-_J-hsQPw",
+        "LOGO LINK": "https://vouchik.s3.ap-south-1.amazonaws.com/images/products/W%20for%20Women1.png",
         "LINK": "https://tjzuh.com/g/pi320pnegbe28a585501aca02036f4/",
-        "Reward": "6.3%",
+        "Reward": "7%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "57.0"
+        "PAYMENT IN": "52"
     }
 ]
