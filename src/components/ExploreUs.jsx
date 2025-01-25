@@ -82,7 +82,7 @@ const ExploreUs = () => {
                         <img
                           src={imageUrl}
                           alt={subcategory}
-                          className="w-full h-full object-contain p-4"
+                          className="w-full h-full object-cover"
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700">
