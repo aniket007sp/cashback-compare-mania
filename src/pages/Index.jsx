@@ -20,7 +20,6 @@ const Index = () => {
             <ExclusiveStores />
             <InstallUseEarn />
             <ExploreUs />
-            <NetlifyOffersSection />
           </div>
         </div>
         <Footer />
