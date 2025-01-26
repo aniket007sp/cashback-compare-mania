@@ -93,7 +93,7 @@ const ExploreUs = () => {
                       className="flex flex-col items-center flex-shrink-0 w-20 sm:w-24"
                       onClick={() => setSelectedBrand(brand)}
                     >
-                      <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full hover:shadow-[0_0_15px_5px_rgba(177,156,217,0.5)] transition-shadow">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full hover:shadow-[rgba(177,156,217,0.5)] shadow-md transition-shadow">
                         <img
                           src={brand["LOGO LINK"]}
                           alt={brand.COMPANY}
