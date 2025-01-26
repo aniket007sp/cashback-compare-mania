@@ -19,8 +19,8 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white p-2">
-      <h2 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm">
+    <aside className="w-full h-full bg-white p-2 animate-fade-in">
+      <h2 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm animate-scale-in">
         Featured Brands
       </h2>
       <div className="grid grid-cols-1 gap-2">
@@ -28,6 +28,11 @@ const BrandList = ({ brands }) => {
           <div
             key={index}
             className="relative group"
+            style={{
+              animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
+              opacity: 0,
+              animationFillMode: 'forwards'
+            }}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >

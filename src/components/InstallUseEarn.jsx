@@ -14,8 +14,8 @@ const InstallUseEarn = () => {
   };
 
   return (
-    <section className="w-full px-1 sm:px-2 py-2 sm:py-4">
-      <h2 className="text-sm sm:text-base md:text-lg text-white font-semibold mb-2 sm:mb-3 bg-[crimson] w-full py-1 sm:py-1.5 text-center">
+    <section className="w-full px-1 sm:px-2 py-2 sm:py-4 animate-fade-in">
+      <h2 className="text-sm sm:text-base md:text-lg text-white font-semibold mb-2 sm:mb-3 bg-[crimson] w-full py-1 sm:py-1.5 text-center animate-scale-in">
         Install Use Earn
       </h2>
 
@@ -24,10 +24,15 @@ const InstallUseEarn = () => {
           ref={scrollContainerRef}
           className="flex overflow-x-scroll scrollbar-none space-x-2 py-2"
         >
-          {installUseEarn.map((store) => (
+          {installUseEarn.map((store, index) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+              style={{
+                animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
+                opacity: 0,
+                animationFillMode: 'forwards'
+              }}
               onClick={() => setSelectedStore(store)}
             >
               <div className="flex items-center justify-center mb-1 sm:mb-2">
