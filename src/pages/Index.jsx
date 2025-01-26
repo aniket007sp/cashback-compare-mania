@@ -11,8 +11,7 @@ import netlifyOffers from '../data/netlify_offers.json';
 const Index = () => {
   return (
     <Layout>
-      <div className="fixed-bg"></div>
-      <div className="flex flex-col min-h-screen relative">
+      <div className="flex flex-col min-h-screen">
         <div className="flex flex-row flex-grow">
           <div className="w-[120px] sm:w-[200px] min-w-[70px] sticky top-0 h-[calc(100vh-64px)] overflow-y-auto border-r border-gray-200 shrink-0 bg-white shadow-md">
             <BrandList brands={netlifyOffers} />
