@@ -1,112 +1,112 @@
 [
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Airtel DTH",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeol7vmep3SC-IdRzDYAmECJ4vMgYejvVxkQ&s",
         "LINK": "https://clnk.in/vREu",
-        "Reward": "Rs 560",
+        "Reward": "Rs 500",
         "T&C": "Cash Reward on purchase of DTH connection.",
-        "PAYMENT IN": "60"
+        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Economist",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/610px-The_Economist_Logo.svg.png",
         "LINK": "https://clnk.in/vRJr",
-        "Reward": "4.56 - 19%",
-        "T&C": "Item Category contains digital premium: monthly - 9.12% <br/>Item Category contains digital premium: annual, 2 year, 3 year - 19.00% <br/>Item Category contains print + digital: monthly - 9.12% <br/>Item Category contains print + digital: annual, 2 year, 3 year - 13.68% <br/>All Other - 4.56%",
+        "Reward": "4 - 17%",
+        "T&C": "Item Category contains digital premium: monthly - 8% <br/>Item Category contains digital premium: annual, 2 year, 3 year - 17% <br/>Item Category contains print + digital: monthly - 8% <br/>Item Category contains print + digital: annual, 2 year, 3 year - 12% <br/>All Other - 4%",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Online Services",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "ET Prime",
+        "LOGO LINK": "https://img.etimg.com/thumb/msid-68479243,width-300,height-225,imgsize-143365,resizemode-75/et-prime-com-logo-01.jpg",
+        "LINK": "https://tjzuh.com/g/s551cpr0ure28a58550106e9ba07b4/",
+        "Reward": "Rs 300",
+        "T&C": "Subscription - 300\u20b9",
         "PAYMENT IN": "60"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
-        "COMPANY": "ET Prime",
-        "LOGO LINK": "https://img.etimg.com/thumb/msid-68479243,width-300,height-225,imgsize-143365,resizemode-75/et-prime-com-logo-01.jpg",
-        "LINK": "https://tjzuh.com/g/s551cpr0ure28a58550106e9ba07b4/",
-        "Reward": "Rs 350",
-        "T&C": "Subscription - 350\u20b9",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "Physics Wallah",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/640px-Physics_wallah_logo.jpg",
+        "LINK": "https://clnk.in/vRUq",
+        "Reward": "5.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Online Services",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "Picsart",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTVfR6qpPdAQne72BIbcBUZANk-MTo10TDg&s",
+        "LINK": "https://clnk.in/vRUu",
+        "Reward": "16 - 25%",
+        "T&C": "Cash Reward on monthly subscription - 25%<br/>Cash Reward on Yearly subscription - 16%",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Online Services",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "Soulight",
+        "LOGO LINK": "https://play-lh.googleusercontent.com/0OUU4xASU4GgV4Ymeli9kL9wTTB8fmsj1uBuXy6RVs-06sXA2We4tnRdcjoqzTl8aw0",
+        "LINK": "https://clnk.in/vRV0",
+        "Reward": "14%",
+        "T&C": "Cash Reward on New Users - 14.00%<br/>Cash Reward on Existing Users - 0.00%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
+    },
+    {
+        "CATEGORY": "Online Services",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "The Hindu",
+        "LOGO LINK": "https://talerang.com/wp-content/uploads/2024/08/The-Hindu-Logo.jpg",
+        "LINK": "https://tjzuh.com/g/jsf0p43oxme28a585501d1068ae2f4/",
+        "Reward": "37%",
+        "T&C": "Subscription - 37%",
         "PAYMENT IN": "55"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
-        "COMPANY": "Physics Wallah",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/640px-Physics_wallah_logo.jpg",
-        "LINK": "https://clnk.in/vRUq",
-        "Reward": "5.60%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "60"
-    },
-    {
-        "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
-        "COMPANY": "Picsart",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTVfR6qpPdAQne72BIbcBUZANk-MTo10TDg&s",
-        "LINK": "https://clnk.in/vRUu",
-        "Reward": "19 - 30.4%",
-        "T&C": "Cash Reward on monthly subscription - 30.40%<br/>Cash Reward on Yearly subscription - 19%",
-        "PAYMENT IN": "60"
-    },
-    {
-        "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
-        "COMPANY": "Soulight",
-        "LOGO LINK": "https://play-lh.googleusercontent.com/0OUU4xASU4GgV4Ymeli9kL9wTTB8fmsj1uBuXy6RVs-06sXA2We4tnRdcjoqzTl8aw0",
-        "LINK": "https://clnk.in/vRV0",
-        "Reward": "16%",
-        "T&C": "Cash Reward on New Users - 16.00%<br/>Cash Reward on Existing Users - 0.00%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "90"
-    },
-    {
-        "CATEGORY": "Online Services",
-        "SUB-CAT": "Digital Subscriptions & Media",
-        "COMPANY": "The Hindu",
-        "LOGO LINK": "https://talerang.com/wp-content/uploads/2024/08/The-Hindu-Logo.jpg",
-        "LINK": "https://tjzuh.com/g/jsf0p43oxme28a585501d1068ae2f4/",
-        "Reward": "42%",
-        "T&C": "Subscription - 42%",
-        "PAYMENT IN": "50"
-    },
-    {
-        "CATEGORY": "Online Services",
-        "SUB-CAT": "Rentals & Furniture",
+        "SUB-CATEGORY": "Rentals & Furniture",
         "COMPANY": "Furlenco Rentals",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/1200x675/afaqs/media/post_attachments/34bcf7693f60574cbc3ff40dd0a92c188c7f6ed61c0d966f1b07b8e8000dc2aa.jpg",
         "LINK": "https://tjzuh.com/g/s2s173fgj4e28a5855016da6539ad0/",
-        "Reward": "Rs 385 - 490",
-        "T&C": "Old user - 385\u20b9<br/>New user - 490\u20b9<br/><br/>Target/Region - Bengaluru, Hyderabad, Pune, Thane, Mumbai, Navi Mumbai, Chennai, Gurgaon, Faridabad, Ghaziabad, Delhi, New Delhi, Noida, Greater Noida.<br/>Payout applicable on App Orders also.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "58"
+        "Reward": "Rs 325 - 425",
+        "T&C": "Old user - 325\u20b9<br/>New user - 425\u20b9<br/><br/>Target/Region - Bengaluru, Hyderabad, Pune, Thane, Mumbai, Navi Mumbai, Chennai, Gurgaon, Faridabad, Ghaziabad, Delhi, New Delhi, Noida, Greater Noida.<br/>Payout applicable on App Orders also.<br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "63"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "Rentals & Furniture",
+        "SUB-CATEGORY": "Rentals & Furniture",
         "COMPANY": "Rentickle",
         "LOGO LINK": "https://cdn.rentickle.com/skin/frontend/rentickle/lazy8/images/logo.png",
         "LINK": "https://clnk.in/vRU4",
-        "Reward": "Rs 200",
+        "Reward": "Rs 175",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "60"
+        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "",
+        "SUB-CATEGORY": "",
         "COMPANY": "Cashify",
         "LOGO LINK": "https://cdn.blume.vc/blume/imager/images/startups/cashify/logo/270/Cashify.f1670267326_3fe2a190a30ef2392c14d57b4c9430e6.webp",
         "LINK": "https://clnk.in/vRH5",
-        "Reward": "Rs 160",
+        "Reward": "Rs 150",
         "T&C": "Validation Criteria - After placing the order, user will get automated call. Once the user confirm the details along with the confirmation that he/she actually want to sell his/her device, pickup will happen within 48 hours and once the device will be received on Cashify's warehouse, it'll be counted for the Cash Reward.",
-        "PAYMENT IN": "90"
+        "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Online Services",
-        "SUB-CAT": "",
+        "SUB-CATEGORY": "",
         "COMPANY": "Casetify WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2020/07/Casetify-Logo-720x405.png",
         "LINK": "https://bywiola.com/g/tv8h1uy8nie28a5855012f7a77e67e/",
-        "Reward": "5.4 - 10.77%",
-        "T&C": "New customer - 10.77%<br/>Existing customer - 5.40%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "60"
+        "Reward": "4.75 - 10%",
+        "T&C": "New customer - 10%<br/>Existing customer - 4.75%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
     }
 ]
