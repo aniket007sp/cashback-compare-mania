@@ -27,20 +27,19 @@ const ExclusiveStores = () => {
           {stores.map((store) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2"
               onClick={() => setSelectedStore(store)}
             >
-              <div className="flex items-center justify-center mb-1 sm:mb-2">
-                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
-                  <img
-                    src={store["LOGO LINK"]}
-                    alt={store.COMPANY}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
+              <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 flex items-center justify-center overflow-hidden p-1 transition-all duration-200 hover:shadow-[0_0_10px_rgba(237,20,61,0.3)] rounded-lg">
+                <img
+                  src={store["LOGO LINK"]}
+                  alt={store.COMPANY}
+                  className="w-full h-full object-contain"
+                  style={{ maxWidth: '100%', maxHeight: '100%' }}
+                />
               </div>
 
-              <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1 mt-1">
                 {store.COMPANY}
               </h3>
               <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
