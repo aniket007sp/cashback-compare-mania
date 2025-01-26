@@ -41,7 +41,7 @@ const getCategoryData = (category) => {
       return travelHospitality;
     case 'health, food & fitness':
       return healthFoodFitness;
-    case 'personal care, beauty & wellness:
+    case 'personal care, beauty & wellness':
       return personalCareBeautyWellness;
     default:
       return [];
