@@ -60,7 +60,7 @@ const ExploreUs = () => {
           return (
             <article key={category}>
               <div className="flex items-center space-x-4 mb-4">
-                <h3 className="text-lg sm:text-xl text-center text-[crimson] font-semibold">{category}</h3>
+                <h3 className="text-lg sm:text-xl text-[crimson] text-center font-semibold">{category}</h3>
               </div>
 
               <div className="flex overflow-x-auto pb-4 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
