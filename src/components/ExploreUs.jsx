@@ -10,7 +10,7 @@ import homeLiving from "../data/latest/homeLiving.json";
 import onlineServices from "../data/latest/onlineServices.json";
 import travelHospitality from "../data/latest/travelHospitality.json";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import healthFoodFitness from "../data/latest/healthFoodFitness.json';
+import healthFoodFitness from "../data/latest/healthFoodFitness.json";
 import personalCareBeautyWellness from "../data/latest/personalCareBeautyWellness.json";
 
 // Utility function to format URLs
