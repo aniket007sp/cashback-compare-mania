@@ -49,7 +49,7 @@ const ExploreUs = () => {
     <section className="container mx-auto px-4 py-8">
       <header>
         <h2 className="text-md text-white font-semibold mb-4 sm:text-md md:text-lg bg-[crimson] w-full py-2 text-center">
-          Explore Us
+          Explore Uss
         </h2>
       </header>
 
