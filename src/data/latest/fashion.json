@@ -1,7 +1,7 @@
 [
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Accessories",
+        "SUB-CATEGORY": "Accessories",
         "COMPANY": "EyewearLabs",
         "LOGO LINK": "https://img.paisawapas.com/ovz3vew9pw/2020/11/20225342/EyewearLabs.jpg",
         "LINK": "https://clnk.in/vRL1",
@@ -11,7 +11,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Accessories",
+        "SUB-CATEGORY": "Accessories",
         "COMPANY": "Victoria's Street",
         "LOGO LINK": "https://logowik.com/content/uploads/images/710_victoria_s_secret.jpg",
         "LINK": "https://clnk.in/vRWx",
@@ -21,7 +21,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Accessories",
+        "SUB-CATEGORY": "Accessories",
         "COMPANY": "Zouk",
         "LOGO LINK": "https://zouk.co.in/cdn/shop/files/Zouk-Logo.jpg?v=1655954170&width=1024",
         "LINK": "https://tjzuh.com/g/g4z2z1nmdse28a58550128198cbd1c/",
@@ -31,7 +31,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Adidas",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1450px-Adidas_Logo.svg.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMzU1/",
@@ -41,7 +41,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Bacca Bucci",
         "LOGO LINK": "https://baccabucci.com/cdn/shop/files/web_logo_1_430x.png?v=1706100952",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNjQx/",
@@ -51,7 +51,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Converse",
         "LOGO LINK": "https://w7.pngwing.com/pngs/444/556/png-transparent-converse-all-star-chuck-taylor-logo-chuck-taylor-all-stars-converse-sneakers-nike-high-top-nike-fashion-logo-converse.png",
         "LINK": "https://clnk.in/vTyj",
@@ -61,7 +61,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "LIBERTY",
         "LOGO LINK": "https://i.pinimg.com/originals/e7/3e/03/e73e03bda040c0793b9cf5bbdbbb02d2.jpg",
         "LINK": "https://clnk.in/vRPc",
@@ -71,7 +71,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Neeman's",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-OAkD2v_AcRNRUBZYpd3fxh_lDd1aZGadQ&s",
         "LINK": "https://clnk.in/vRQf",
@@ -81,7 +81,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Nike",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5fOHniITpV3FAg28ztWUyZL91fnhj-yplQ&s",
         "LINK": "https://clnk.in/vRQt",
@@ -91,7 +91,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Onitsuka Tiger",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqHCRt61Jb8bOti0XJfytMiTldf2LtZ2wUg&s",
         "LINK": "https://clnk.in/vRRL",
@@ -101,7 +101,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Footwear",
+        "SUB-CATEGORY": "Footwear",
         "COMPANY": "Puma",
         "LOGO LINK": "https://i.pinimg.com/originals/94/8a/69/948a69839c6953f351f9c1b5387a26fc.png",
         "LINK": "https://tjzuh.com/g/y7f40iix60e28a585501101cefe85e/",
@@ -111,7 +111,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Candere: KALYAN Jewellers",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/6/69/Candere-By-Kalyan-logo-AI-%28Converted%29_%281%29.png?20190307111515",
         "LINK": "https://tjzuh.com/g/yga1lj0xsj6a3b5ae4bbfd56d3e4eb/",
@@ -121,7 +121,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Fiona Diamonds",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuE-8uemimHaC4Htm9kvUJ3jNaurP_-uEtA&s",
         "LINK": "https://tjzuh.com/g/qw3n1py0c3e28a58550150f1d6e487/",
@@ -131,7 +131,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "GIVA",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOsvxq3HJEXmOwCNtiIQ94OniJ2YkZF-YVg&s",
         "LINK": "https://clnk.in/vRL9",
@@ -141,7 +141,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Malabar",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/f/f4/Malabar_Gold_and_Diamonds_New_Logo.jpg",
         "LINK": "https://tjzuh.com/g/zcflox2g0ne28a58550124725e5aee/",
@@ -151,7 +151,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Melorra",
         "LOGO LINK": "https://content.jdmagicbox.com/v2/comp/bangalore/h8/080pxx80.xx80.170711130952.d5h8/catalogue/melorra-whitefield-bangalore-y1e6m773fq.jpg",
         "LINK": "https://clnk.in/vRPN",
@@ -161,7 +161,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Jewellery",
+        "SUB-CATEGORY": "Jewellery",
         "COMPANY": "Salty",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/07594e81f6ad-SaltyLogo-1659001792439.jpeg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjQx/",
@@ -171,7 +171,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "BeYoung",
         "LOGO LINK": "https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2024/07/22/16.jpg?itok=G5CymnS6",
         "LINK": "https://clnk.in/vRHL",
@@ -181,7 +181,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Blackberrys",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/afaqs/media/post_attachments/da086a80e11e571679a44cf6c56e02720ff934731e097a9f91daadd362250cf8.jpg",
         "LINK": "https://tjzuh.com/g/lv4rd63bk2e28a585501d42ea64a2c/",
@@ -191,7 +191,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Jack & Jones",
         "LOGO LINK": "https://play-lh.googleusercontent.com/9a5jDIDW5gpD5dru692nOobjQtarQHoOud3ABQi-LWEUZPLOLNvPeRNJC-DeL6rBIyE",
         "LINK": "https://clnk.in/vRNj",
@@ -201,7 +201,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Mufti Jeans",
         "LOGO LINK": "https://d118ps6mg0w7om.cloudfront.net/media/icons/logo.svg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzEy/",
@@ -211,7 +211,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Powerlook",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9xkSKsU_9kBCkiTGsAvGE11DSFLiE-MMjg&s",
         "LINK": "https://clnk.in/vRUF",
@@ -221,7 +221,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Men's Clothing",
+        "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "SNITCH",
         "LOGO LINK": "https://ivycapventures.com/uploads/images/659f8ffe97f79.png",
         "LINK": "https://clnk.in/vRVG",
@@ -231,7 +231,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "Accessorize London",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCMoHxGe5nMCeWb23q6Xer8_3wXB_srZMkg&usqp=CAU",
         "LINK": "https://tjzuh.com/g/1fadgegof1e28a5855014962cec542/",
@@ -241,7 +241,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "ALDO",
         "LOGO LINK": "https://yorkdale.com/wp-content/uploads/2021/09/8f5e1cb5791ae560c97216b15f5bbc7423f5d5c7-1.png",
         "LINK": "https://clnk.in/vREF",
@@ -251,7 +251,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "HIDESIGN",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/HIDESIGN_LOGO_withouttag.jpg/1200px-HIDESIGN_LOGO_withouttag.jpg",
         "LINK": "https://clnk.in/vRMN",
@@ -261,7 +261,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "Pepe Jeans",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwyoA6_5I9YuzRb0DX-pSkGZzmSp1ctsPcA&s",
         "LINK": "https://clnk.in/vTA7",
@@ -271,7 +271,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "Superkicks",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/C560BAQGm86iYs1839A/company-logo_200_200/company-logo_200_200/0/1649066298921/superkicks_logo?e=1745452800&v=beta&t=M7bIvuE2fYAO09rHKM5BzhfhJbjZoYbldQuq43eqVuY",
         "LINK": "https://tjzuh.com/g/bmv55j74uoe28a5855017bf865f09f/",
@@ -281,7 +281,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Store",
+        "SUB-CATEGORY": "Store",
         "COMPANY": "WOODLAND",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/thumbnails/020/336/198/small_2x/woodland-logo-woodland-icon-free-free-vector.jpg",
         "LINK": "https://clnk.in/vRWH",
@@ -291,7 +291,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Unisex Clothing",
+        "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Bummer",
         "LOGO LINK": "https://lightsout.studio/cdn/shop/files/bummercover_720x.png?v=1675253602",
         "LINK": "https://clnk.in/vRHV",
@@ -301,7 +301,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Unisex Clothing",
+        "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Ceazur",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKtAqlxwPLWiLMYAx4FrXhnds6ImVIaVV9XA&s",
         "LINK": "https://clnk.in/vRIk",
@@ -311,7 +311,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Unisex Clothing",
+        "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Levi's",
         "LOGO LINK": "https://media.designrush.com/inspiration_images/759592/conversions/9_9bed13c74393-mobile.jpg",
         "LINK": "https://clnk.in/vSzN",
@@ -321,7 +321,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Watches",
+        "SUB-CATEGORY": "Watches",
         "COMPANY": "fastrack",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fastrack_logo.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQy/",
@@ -331,7 +331,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Watches",
+        "SUB-CATEGORY": "Watches",
         "COMPANY": "Sonata",
         "LOGO LINK": "https://media.assettype.com/creativegaga%2F2024-07%2F6c890060-9da8-4225-beb2-9df1d8161f97%2FSonata-New-Logo.jpg?w=1200&auto=format%2Ccompress&fit=max",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQz/",
@@ -341,7 +341,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Watches",
+        "SUB-CATEGORY": "Watches",
         "COMPANY": "Timex",
         "LOGO LINK": "https://cdn.freebiesupply.com/logos/large/2x/timex-logo-png-transparent.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQ2/",
@@ -351,7 +351,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Watches",
+        "SUB-CATEGORY": "Watches",
         "COMPANY": "Titan",
         "LOGO LINK": "https://i.pinimg.com/736x/d3/ca/44/d3ca44ad81a24fcbe71b4e2d78e8d41b.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQx/",
@@ -361,7 +361,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Aurelia",
         "LOGO LINK": "https://www.frankart.global/wp-content/uploads/2020/04/Aurelia-logo.jpg",
         "LINK": "https://clnk.in/vRFe",
@@ -371,7 +371,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Bliss Club",
         "LOGO LINK": "https://blissclub.com/cdn/shop/files/BlissClub_Combination_Mark.png?v=1734682216&width=600",
         "LINK": "https://tjzuh.com/g/f7dkjuc7zje28a585501519b939af8/",
@@ -381,7 +381,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "ButtChique",
         "LOGO LINK": "https://cdn.shopify.com/s/files/1/0638/3619/2926/files/logo.png?v=1705742358",
         "LINK": "https://clnk.in/vRHX",
@@ -391,7 +391,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Clovia",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2022/12/Clovia-Logo-500x281.png",
         "LINK": "https://clnk.in/vRIY",
@@ -401,7 +401,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "enamor",
         "LOGO LINK": "https://vivianamalls.com/wp-content/uploads/2023/08/enamor-Viviana-Mall-Thane-Mumbai.png",
         "LINK": "https://clnk.in/vRLO",
@@ -411,7 +411,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Isadora Life",
         "LOGO LINK": "https://isadoralife.com/cdn/shop/files/Isadora_Life_logo.jpg?v=1704359753&width=430",
         "LINK": "https://clnk.in/vRM6",
@@ -421,7 +421,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Koskii",
         "LOGO LINK": "https://www.koskii.com/cdn/shop/files/Asset_1_6c5a260f-525e-48eb-b2bd-3f8c773c5a1d.png?v=1614356943",
         "LINK": "https://clnk.in/vRO4",
@@ -431,7 +431,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Libas",
         "LOGO LINK": "https://cdn.shopify.com/s/files/1/0341/4805/7228/files/libas-logo-ICON_for_store_locator_1.png?v=1692257454",
         "LINK": "https://tjzuh.com/g/ilucexaz44e28a5855014a7ccbea8a/",
@@ -441,7 +441,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Newme",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8RF-dAW9roWI2Opg8zaAHvPP-zkb8vBuKBw&s",
         "LINK": "https://tjzuh.com/g/tp89lo7ulye28a5855016d4658a0fa/",
@@ -451,7 +451,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Oyela",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IspvBOcxCnaTBRSRWzZyzo2uVGy2OUgFaw&s",
         "LINK": "https://clnk.in/vRRN",
@@ -461,7 +461,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Rangriti",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_-EQxViXcxm2P7VLERfEkzRX6vwa8pJREFg&s",
         "LINK": "https://clnk.in/vRU2",
@@ -471,7 +471,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "SALT Attire",
         "LOGO LINK": "https://www.infinitimall.com/wp-content/uploads/2022/05/Salt-Attier-Infiniti-Mall-MAlad-e1652702089430.png",
         "LINK": "https://clnk.in/vRVa",
@@ -481,7 +481,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "savana",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQE6jYX2r2BdYQ/company-logo_200_200/company-logo_200_200/0/1723463270231/savana_global_logo?e=2147483647&v=beta&t=VIde-1LWP2Yo4M1GhOEnP2oB2whFJ9tcj8ExgiSL2Ls",
         "LINK": "https://clnk.in/vRVj",
@@ -491,7 +491,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "shyaway",
         "LOGO LINK": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_3/ztzmzkrkvhsppg3vthuh",
         "LINK": "https://clnk.in/vRVC",
@@ -501,7 +501,7 @@
     },
     {
         "CATEGORY": "Fashion",
-        "SUB-CAT": "Women's Clothing",
+        "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "W for Woman",
         "LOGO LINK": "https://play-lh.googleusercontent.com/LkwvAK7E3AH3jzwS0AoIK0RVAaTWrcnbfDXe6jXfZ8khS8eGF4x5l9G7p-_J-hsQPw",
         "LINK": "https://tjzuh.com/g/pi320pnegbe28a585501aca02036f4/",
