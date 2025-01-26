@@ -39,6 +39,8 @@ const getCategoryData = (category) => {
       return onlineServices;
     case 'travel & hospitality':
       return travelHospitality;
+    case 'health, food & fitness':
+      return healthFoodFitness;
     default:
       return [];
   }
