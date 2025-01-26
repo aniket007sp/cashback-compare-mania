@@ -81,7 +81,7 @@ const ExploreUs = () => {
                         <img
                           src={imageUrl}
                           alt={subcategory}
-                          className="w-full h-full object-cover p-2"
+                          className="w-full h-full object-contain p-2"
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
@@ -102,7 +102,7 @@ const ExploreUs = () => {
                       <img
                         src={brand["LOGO LINK"]}
                         alt={brand.COMPANY}
-                        className="w-full h-full object-cover p-2"
+                        className="w-full h-full object-contain p-2"
                       />
                     </div>
                     <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
@@ -128,7 +128,7 @@ const ExploreUs = () => {
                 <img
                   src={selectedBrand["LOGO LINK"]}
                   alt={selectedBrand.COMPANY}
-                  className="w-48 h-48 object-cover"
+                  className="w-48 h-48 object-contain"
                 />
               </div>
               <div>
