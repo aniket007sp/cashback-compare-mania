@@ -1,6 +1,6 @@
 export const logos = {
     " Electronics & Household Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
-    "Electronics: Accessories": "https://5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories-500x500.png",
+    "Electronics & Household Appliances: Accessories": "https://5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories-500x500.png",
     "Home Appliances": "https://e7.pngegg.com/pngimages/24/709/png-clipart-assorted-home-appliances-electronics-electricity-electrical-engineering-maintenance-home-appliance-home-appliances-miscellaneous-service-thumbnail.png",
     "Industrial Products": "https://bchindia.com/wp-content/uploads/2022/03/Industrial-Products-banner-3-1.jpg",
     "Laptops & Mobiles": "https://i.pcmag.com/imagery/lineups/067nHL7x7FLjB28RuLvKFzS-1.fit_lim.size_768x432.v1569470817.jpg",
