@@ -5,7 +5,7 @@ const Navbar = () => {
   const orderFormUrl = "https://forms.gle/Ag57FdWGnsuWAsP56";
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
         <div className="flex items-center justify-between h-16 sm:h-20 md:h-25">
           {/* Logo Section - Smaller on mobile */}
