@@ -81,7 +81,7 @@ const ExploreUs = () => {
                         <img
                           src={imageUrl}
                           alt={subcategory}
-                          className="w-full h-full object-contain"
+                          className="w-full h-full object-contain p-2"
                         />
                       </div>
                       <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
@@ -102,7 +102,7 @@ const ExploreUs = () => {
                       <img
                         src={brand["LOGO LINK"]}
                         alt={brand.COMPANY}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain p-2"
                       />
                     </div>
                     <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
@@ -118,41 +118,52 @@ const ExploreUs = () => {
 
       {/* Brand Dialog */}
       <Dialog open={!!selectedBrand} onOpenChange={() => setSelectedBrand(null)}>
-        <DialogContent className="max-w-lg">
+        <DialogContent className="max-w-lg p-6">
           <DialogHeader>
-            <DialogTitle>{selectedBrand?.COMPANY}</DialogTitle>
+            <DialogTitle className="text-xl font-bold text-gray-800">
+              {selectedBrand?.COMPANY}
+            </DialogTitle>
           </DialogHeader>
-          {selectedBrand && (
-            <div className="space-y-4">
-              <div className="flex justify-center">
-                <img
-                  src={selectedBrand["LOGO LINK"]}
-                  alt={selectedBrand.COMPANY}
-                  className="w-48 h-48 object-contain"
-                />
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Reward</h4>
-                <p>{selectedBrand.Reward}</p>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Terms & Conditions</h4>
-                <div className="max-h-48 overflow-y-auto bg-gray-50 p-4 rounded-md">
-                  <p className="whitespace-pre-wrap text-sm text-gray-700">{selectedBrand["T&C"]}</p>
-                </div>
-              </div>
-              <div className="flex justify-end">
-                <a
-                  href={selectedBrand.LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[crimson] text-white px-4 py-2 rounded hover:bg-gray-400 transition-colors"
-                >
-                  Visit Store
-                </a>
+
+          <div className="mt-6 space-y-6">
+            <div className="space-y-2 flex-1">
+              <div className="text-sm text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
+                <span className="text-sm text-gray-800">Reward: </span>
+                <span className="text-sm font-semibold text-gray-800">{selectedBrand?.Reward}</span>
               </div>
             </div>
-          )}
+
+            <div>
+              <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
+              <div
+                className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
+                style={{ maxHeight: "12rem" }}
+              >
+                <p
+                  className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: selectedBrand?.["T&C"] }}
+                ></p>
+              </div>
+            </div>
+
+            <div className="flex justify-between">
+              <button
+                onClick={() => setSelectedBrand(null)}
+                className="w-1/2 py-2 text-black hover:bg-gray-400"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  setSelectedBrand(null);
+                  window.open(selectedBrand?.LINK, "_blank", "noopener,noreferrer");
+                }}
+                className="bg-[crimson] text-white w-1/2 py-2 hover:bg-gray-400 hover:text-black"
+              >
+                Visit Store
+              </button>
+            </div>
+          </div>
         </DialogContent>
       </Dialog>
     </section>
