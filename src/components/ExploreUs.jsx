@@ -97,7 +97,7 @@ const ExploreUs = () => {
                         <img
                           src={brand["LOGO LINK"]}
                           alt={brand.COMPANY}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                       <span className="text-xs sm:text-sm text-center">{brand.COMPANY}</span>
