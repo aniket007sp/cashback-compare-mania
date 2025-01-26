@@ -19,7 +19,7 @@ const BrandList = ({ brands }) => {
   };
 
   return (
-    <aside className="w-full h-full bg-white p-2 animate-fade-in">
+    <aside className="w-full h-full bg-[#7E69AB] p-2 animate-fade-in">
       <h2 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm animate-scale-in">
         Featured Brands
       </h2>
