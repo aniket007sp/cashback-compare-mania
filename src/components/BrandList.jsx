@@ -4,16 +4,13 @@ import { Info } from 'lucide-react';
 const BrandList = ({ brands }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const formatRange = (action) => {
-    if (!action) return '';
-    if (action.max_percentage_rate && parseFloat(action.max_percentage_rate) > 0) {
-      if (action.min_percentage_rate === action.max_percentage_rate) {
-        return `${action.max_percentage_rate}%`;
-      }
-      return `${action.min_percentage_rate}% - ${action.max_percentage_rate}% off`;
+  const formatRange = (reward) => {
+    if (!reward) return '';
+    if (reward.includes('%')) {
+      return `${reward}`;
     }
-    if (action.max_fixed_rate) {
-      return `₹${action.max_fixed_rate}`;
+    if (reward.includes('Rs')) {
+      return `${reward}`;
     }
     return '';
   };
@@ -45,8 +42,8 @@ const BrandList = ({ brands }) => {
               <div className="flex items-center justify-center">
                 <div className="w-10 h-10 sm:w-15 sm:h-15 md:w-20 md:h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
                   <img
-                    src={brand.logo}
-                    alt={brand.name}
+                    src={brand["LOGO LINK"]}
+                    alt={brand.COMPANY}
                     className="w-12 h-12 sm:w-12 sm:h-12 md:w-16 md:h-16 object-contain p-1"
                   />
                 </div>
@@ -54,31 +51,26 @@ const BrandList = ({ brands }) => {
 
               {/* Brand Name */}
               <h3 className="text-xs font-medium text-center text-gray-800 line-clamp-1">
-                {brand.name}
+                {brand.COMPANY}
               </h3>
 
-              {/* Action Ranges - Visible on hover/tap */}
+              {/* Reward - Visible on hover/tap */}
               {hoveredIndex === index && (
                 <div className="space-y-1 flex-1 w-full">
-                  {(brand.action_ranges || []).map((action, actionIndex) => (
-                    <div
-                      key={actionIndex}
-                      className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded"
-                    >
-                      <span className="font-medium">{action.name}:</span>
-                      <span className="ml-1">{formatRange(action)}</span>
-                    </div>
-                  ))}
+                  <div className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded">
+                    <span className="font-medium">Reward:</span>
+                    <span className="ml-1">{formatRange(brand.Reward)}</span>
+                  </div>
                 </div>
               )}
 
               {/* Buttons - Visible on hover/tap */}
-              {hoveredIndex === index && brand.gotolink && (
+              {hoveredIndex === index && brand.LINK && (
                 <div className="space-y-1">
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
+                      window.open(brand.LINK, '_blank', 'noopener,noreferrer');
                     }}
                     className="w-full text-[10px] bg-[crimson] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
                   >
