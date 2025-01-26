@@ -70,7 +70,6 @@ const ExploreUs = () => {
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
                   if (subcategory === "brandsWithoutSubcategory") return null;
 
-                  /*const imageUrl = logos[subcategory] || logos[category+": "+subcategory] || "/images/categories/home.svg"; */
                   const imageUrl = logos[subcategory] ?? logos[`${category}: ${subcategory}`] ?? "/images/categories/home.svg";
                   return (
                     <Link
@@ -78,14 +77,14 @@ const ExploreUs = () => {
                       to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
                       className="flex flex-col items-center hover:scale-105 transition-transform"
                     >
-                      <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                      <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                         <img
                           src={imageUrl}
                           alt={subcategory}
-                          className="w-full h-full object-contain"
+                          className="w-full h-full object-contain p-2"
                         />
                       </div>
-                      <span className="text-xs md:text-sm text-center text-gray-700">
+                      <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
                         {subcategory}
                       </span>
                     </Link>
@@ -99,14 +98,14 @@ const ExploreUs = () => {
                     className="flex flex-col items-center hover:scale-105 transition-transform"
                     onClick={() => setSelectedBrand(brand)}
                   >
-                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-md bg-gray-100">
+                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                       <img
                         src={brand["LOGO LINK"]}
                         alt={brand.COMPANY}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain p-2"
                       />
                     </div>
-                    <span className="text-xs md:text-sm text-center text-gray-700">
+                    <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
                       {brand.COMPANY}
                     </span>
                   </button>
@@ -129,7 +128,7 @@ const ExploreUs = () => {
                 <img
                   src={selectedBrand["LOGO LINK"]}
                   alt={selectedBrand.COMPANY}
-                  className="w-full h-full object-cover"
+                  className="w-48 h-48 object-contain"
                 />
               </div>
               <div>
@@ -140,19 +139,6 @@ const ExploreUs = () => {
                 <h4 className="font-semibold mb-2">Terms & Conditions</h4>
                 <div className="max-h-48 overflow-y-auto bg-gray-50 p-4 rounded-md">
                   <p className="whitespace-pre-wrap text-sm text-gray-700">{selectedBrand["T&C"]}</p>
-                </div>
-              </div>
-
-               <div>
-                <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-                <div
-                  className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
-                  style={{ maxHeight: "12rem" }}
-                >
-                  <p
-                    className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
-                    dangerouslySetInnerHTML={{ __html: selectedBrand["T&C"]}}
-                  ></p>
                 </div>
               </div>
               <div className="flex justify-end">
