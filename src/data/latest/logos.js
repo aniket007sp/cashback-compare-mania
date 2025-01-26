@@ -10,7 +10,7 @@ export const logos = {
     "Footwear": "https://static.india.com/wp-content/uploads/2017/08/footwear.jpg",
     "Jewellery": "https://alltrend.in/wp-content/uploads/2023/12/semibridalset20122302-e1703071754541-768x847.jpeg.webp",
     "Men's Clothing": "https://images.squarespace-cdn.com/content/v1/601ff8bc5d52e74622996a33/1620646646572-GWDJMTGKVNXD8CXHYN8L/AdobeStock_192812421.jpg?format=750w",
-    "Fashion: Store": "",
+    "Fashion: Store": "https://plus.unsplash.com/premium_photo-1664202526047-405824c633e7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMHN0b3JlfGVufDB8fDB8fHww",
     "Unisex Clothing": "https://www.flgd.shop/cdn/shop/articles/the-rise-of-unisex-fashion-why-its-more-than-just-a-trend-873985.jpg?v=1724678501",
     "Watches": "https://media.wired.com/photos/66180ed0c1ba76f5ce2ff268/master/pass/Rolex.jpg",
     "Women's Clothing": "https://www.fluxmagazine.com/wp-content/uploads/2021/11/Clothes-Trends-Web-1.jpg",
