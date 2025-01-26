@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
-import { Info } from 'lucide-react';
+import React, { useState } from "react";
+import { Info } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import OfferDialog from "./OfferDialog";
 
 const BrandList = ({ brands }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [selectedBrand, setSelectedBrand] = useState(null);
 
   const formatRange = (reward) => {
-    if (!reward) return '';
-    if (reward.includes('%')) {
+    if (!reward) return "";
+    if (reward.includes("%")) {
       return `${reward}`;
     }
-    if (reward.includes('Rs')) {
+    if (reward.includes("Rs")) {
       return `${reward}`;
     }
-    return '';
+    return "";
   };
 
   return (
@@ -30,14 +31,18 @@ const BrandList = ({ brands }) => {
             style={{
               animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
               opacity: 0,
-              animationFillMode: 'forwards'
+              animationFillMode: "forwards",
             }}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <div
               className={`flex flex-col h-full bg-white rounded-lg transition-all duration-300 
-                ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[crimson]/20' : 'shadow-sm'}
+                ${
+                  hoveredIndex === index
+                    ? "shadow-lg ring-2 ring-[crimson]/20"
+                    : "shadow-sm"
+                }
                 p-2 space-y-1.5`}
             >
               {/* Logo Container */}
@@ -72,7 +77,7 @@ const BrandList = ({ brands }) => {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      window.open(brand.LINK, '_blank', 'noopener,noreferrer');
+                      window.open(brand.LINK, "_blank", "noopener,noreferrer");
                     }}
                     className="w-full text-[10px] bg-[crimson] hover:bg-[#7E69AB] text-white py-1 px-2 rounded-md transition-colors duration-200"
                   >
@@ -81,7 +86,18 @@ const BrandList = ({ brands }) => {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      setSelectedBrand(brand);
+                      setSelectedBrand({
+                        name: brand.COMPANY,
+                        avg_money_transfer_time: brand["PAYMENT IN"],
+                        termsConditions: brand["T&C"],
+                        action_ranges: [
+                          {
+                            name: "Cash Reward",
+                            reward: brand.Reward,
+                          },
+                        ],
+                        gotolink: brand.LINK,
+                      });
                     }}
                     className="w-full text-[10px] text-[crimson] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
@@ -96,48 +112,10 @@ const BrandList = ({ brands }) => {
       </div>
 
       {/* Terms & Conditions Dialog */}
-      <Dialog open={!!selectedBrand} onOpenChange={() => setSelectedBrand(null)}>
-        <DialogContent className="max-w-lg p-6">
-          <DialogHeader>
-            <DialogTitle className="text-xl font-bold text-gray-800">
-              {selectedBrand?.COMPANY}
-            </DialogTitle>
-          </DialogHeader>
-
-          <div className="mt-6 space-y-6">
-            <div>
-              <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-              <div
-                className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
-                style={{ maxHeight: "12rem" }}
-              >
-                <p
-                  className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
-                  dangerouslySetInnerHTML={{ __html: selectedBrand?.["T&C"] }}
-                ></p>
-              </div>
-            </div>
-
-            <div className="flex justify-between">
-              <button
-                onClick={() => setSelectedBrand(null)}
-                className="w-1/2 py-2 text-black hover:bg-gray-400"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={() => {
-                  setSelectedBrand(null);
-                  window.open(selectedBrand?.LINK, "_blank", "noopener,noreferrer");
-                }}
-                className="bg-[crimson] text-white w-1/2 py-2 hover:bg-gray-400 hover:text-black"
-              >
-                Visit Store
-              </button>
-            </div>
-          </div>
-        </DialogContent>
-      </Dialog>
+      <OfferDialog
+        selectedStore={selectedBrand}
+        setSelectedStore={setSelectedBrand}
+      />
     </aside>
   );
 };
