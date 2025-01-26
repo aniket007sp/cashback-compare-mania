@@ -74,7 +74,7 @@ const ExploreUs = () => {
                         to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
                         className="flex flex-col items-center flex-shrink-0 w-20 sm:w-24"
                       >
-                        <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full hover:shadow-[0_0_15px_5px_rgba(177,156,217,0.5)] transition-shadow">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full hover:shadow-[0_0_5px_5px_rgba(177,156,217,0.5)] transition-shadow">
                           <img
                             src={imageUrl}
                             alt={subcategory}
