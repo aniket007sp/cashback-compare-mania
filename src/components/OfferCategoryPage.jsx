@@ -13,6 +13,8 @@ import gifting from '../data/latest/gifting.json';
 import homeLiving from '../data/latest/homeLiving.json';
 import onlineServices from '../data/latest/onlineServices.json';
 import travelHospitality from '../data/latest/travelHospitality.json';
+import healthFoodFitness from "../data/latest/healthFoodFitness.json";
+import personalCareBeautyWellness from "../data/latest/personalCareBeautyWellness.json";
 
 const toSentenceCase = (text) => {
   if (!text) return '';
