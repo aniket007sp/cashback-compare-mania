@@ -6,7 +6,7 @@ import ExclusiveStores from '../components/ExclusiveStores';
 import InstallUseEarn from '../components/InstallUseEarn';
 import ExploreUs from '../components/ExploreUs';
 import BrandList from '../components/BrandList';
-import netlifyOffers from '../data/netlify_offers.json';
+import netlifyOffers from '../data/latest/fashion.json';
 
 const Index = () => {
   return (
