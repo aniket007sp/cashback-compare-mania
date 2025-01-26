@@ -46,11 +46,9 @@ const ExploreUs = () => {
   };
 
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section id="explore-us" className="container mx-auto px-4 py-8">
       <header>
-        <h2 className="text-md text-white font-semibold mb-4 sm:text-md md:text-lg bg-[crimson] w-full py-2 text-center">
-          Explore Us
-        </h2>
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">Explore Us</h2>
       </header>
 
       <div className="space-y-6">
@@ -60,56 +58,52 @@ const ExploreUs = () => {
           return (
             <article key={category}>
               <div className="flex items-center space-x-4 mb-4">
-                <h3 className="text-md text-black font-semibold sm:text-md md:text-lg bg-gray-200 bg-opacity-30 w-full py-2 text-center">
-                  {category}
-                </h3>
+                <h3 className="text-lg sm:text-xl font-semibold">{category}</h3>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                {/* Subcategories */}
-                {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
-                  if (subcategory === "brandsWithoutSubcategory") return null;
+              <div className="flex overflow-x-auto pb-4 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
+                <div className="flex space-x-4 sm:space-x-6">
+                  {/* Subcategories */}
+                  {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
+                    if (subcategory === "brandsWithoutSubcategory") return null;
 
-                  const imageUrl = logos[subcategory] ?? logos[`${category}: ${subcategory}`] ?? "/images/categories/home.svg";
-                  return (
-                    <Link
-                      key={subcategory}
-                      to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
-                      className="flex flex-col items-center hover:scale-105 transition-transform"
+                    const imageUrl = logos[subcategory] ?? logos[`${category}: ${subcategory}`] ?? "/images/categories/home.svg";
+                    return (
+                      <Link
+                        key={subcategory}
+                        to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
+                        className="flex flex-col items-center flex-shrink-0 w-20 sm:w-24"
+                      >
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full">
+                          <img
+                            src={imageUrl}
+                            alt={subcategory}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <span className="text-xs sm:text-sm text-center">{subcategory}</span>
+                      </Link>
+                    );
+                  })}
+
+                  {/* Brands Without Subcategory */}
+                  {groupedOffers.brandsWithoutSubcategory.map((brand) => (
+                    <button
+                      key={brand.COMPANY}
+                      className="flex flex-col items-center flex-shrink-0 w-20 sm:w-24"
+                      onClick={() => setSelectedBrand(brand)}
                     >
-                      <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 mb-2 overflow-hidden rounded-full">
                         <img
-                          src={imageUrl}
-                          alt={subcategory}
-                          className="w-full h-full object-contain"
+                          src={brand["LOGO LINK"]}
+                          alt={brand.COMPANY}
+                          className="w-full h-full object-cover"
                         />
                       </div>
-                      <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
-                        {subcategory}
-                      </span>
-                    </Link>
-                  );
-                })}
-
-                {/* Brands Without Subcategory */}
-                {groupedOffers.brandsWithoutSubcategory.map((brand) => (
-                  <button
-                    key={brand.COMPANY}
-                    className="flex flex-col items-center hover:scale-105 transition-transform"
-                    onClick={() => setSelectedBrand(brand)}
-                  >
-                    <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
-                      <img
-                        src={brand["LOGO LINK"]}
-                        alt={brand.COMPANY}
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
-                    <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
-                      {brand.COMPANY}
-                    </span>
-                  </button>
-                ))}
+                      <span className="text-xs sm:text-sm text-center">{brand.COMPANY}</span>
+                    </button>
+                  ))}
+                </div>
               </div>
             </article>
           );
