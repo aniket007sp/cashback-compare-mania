@@ -27,7 +27,7 @@ const InstallUseEarn = () => {
           {installUseEarn.map((store, index) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg hover:shadow-[0_0_5px_5px_rgba(200,156,217,0.6)] transition-shadow duration-300 hover:scale-105"
               style={{
                 animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
                 opacity: 0,
