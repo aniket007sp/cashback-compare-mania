@@ -59,7 +59,7 @@ const ExploreUs = () => {
 
           return (
             <article key={category}>
-              <div className="flex items-center space-x-4 mb-4">
+              <div className="mb-4">
                 <h3 className="text-lg sm:text-xl text-[crimson] text-center font-semibold">{category}</h3>
               </div>
 
