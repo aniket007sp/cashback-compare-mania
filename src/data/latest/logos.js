@@ -42,7 +42,7 @@ export const logos = {
     "Makeup & Cosmetics": "https://cdn.shopify.com/s/files/1/0558/1029/3805/files/Makeup_Kit_480x480.png?v=1697704181",
     "Personal Hygiene": "https://www.creativefabrica.com/wp-content/uploads/2021/07/06/Personal-Hygiene-icon-Graphics-14351762-1-1-580x387.jpg",
     "Skincare": "https://www.clarionindia.in/blog/wp-content/uploads/2023/07/blog-image1-1.jpg",
-    "Personal Care, Beauty & Wellness: Stores": "https://www.glossy.co/wp-content/uploads/sites/4/2022/10/cvs-health-cvs-pharmacy-launches-new-elevated-skin-care-beauty-format-2-16x9-1.jpeg?w=1140&h=600&crop=1",
+    "Personal Care, Beauty & Wellness: Store": "https://www.glossy.co/wp-content/uploads/sites/4/2022/10/cvs-health-cvs-pharmacy-launches-new-elevated-skin-care-beauty-format-2-16x9-1.jpeg?w=1140&h=600&crop=1",
     "Wellness & Supplements": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2211514.jpg",
     "Travel & Hospitality": "https://www.gosurvey.in/media/gzghzauf/why-it-is-important-to-do-survey-in-travel-and-hospitality-industry.png",
     "Flight": "https://mediaindia.eu/wp-content/uploads/2024/06/Air-India-3.jpg",
