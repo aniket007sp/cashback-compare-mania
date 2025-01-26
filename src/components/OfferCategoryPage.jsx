@@ -9,6 +9,7 @@ import babyKids from '../data/latest/babyKids.json';
 import electronicsHouseholdAppliances from '../data/latest/electronicsHouseholdAppliances.json';
 import fashion from '../data/latest/fashion.json';
 import financeBanking from '../data/latest/financeBanking.json';
+import gifting from '../data/latest/gifting.json';
 import homeLiving from '../data/latest/homeLiving.json';
 import onlineServices from '../data/latest/onlineServices.json';
 import travelHospitality from '../data/latest/travelHospitality.json';
@@ -30,6 +31,8 @@ const getCategoryData = (category) => {
       return fashion;
     case 'finance & banking':
       return financeBanking;
+    case 'gifting':
+      return gifting;
     case 'home & living':
       return homeLiving;
     case 'online services':

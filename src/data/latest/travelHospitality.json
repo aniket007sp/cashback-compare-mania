@@ -1,146 +1,162 @@
 [
     {
-        "SUB-CATEGORY": "-",
+        "CATEGORY": "Travel & Hospitality",
+        "SUB-CATEGORY": "",
         "COMPANY": "Trip.com",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trip.com_logo.svg",
         "LINK": "https://clnk.in/vRWg",
-        "Reward": "0.8 - 4.4%",
-        "T&C": "Hotel Booking - 4.40%<br/>International Flight Booking - 0.80%<br/>Train Booking - 1.44%<br/>Tickets Booking - 1.04%<br/>Activities Booking - 2.88%<br/>China Domestic Flight - Rs 44.30<br/>Hotel booking on use of coupon code - 1.60%<br/><br/>Transactions are validated upon travel or stay. If the transaction is cancelled by the customer, no Cash Reward will be given.<br/>Cash Reward will be paid only when a booking is completed. ",
-        "PAYMENT IN": "60"
+        "Reward": "0.75 - 4%",
+        "T&C": "Hotel Booking - 4%<br/>International Flight Booking - 0.75%<br/>Train Booking - 1.25%<br/>Tickets Booking - 0.75%<br/>Activities Booking - 2.25%<br/>China Domestic Flight - Rs 40<br/>Hotel booking on use of coupon code - 1.50%<br/><br/>Transactions are validated upon travel or stay. If the transaction is cancelled by the customer, no Cash Reward will be given.<br/>Cash Reward will be paid only when a booking is completed. ",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Air India",
         "LOGO LINK": "https://skift.com/wp-content/uploads/2023/08/Air-India-NewLogo-red.jpg",
         "LINK": "https://clnk.in/vREr",
-        "Reward": "Rs 120 - 400",
-        "T&C": "Cash Reward On International Booking - Rs 400.00<br/>Cash Reward On Domestic Booking - Rs 120.00",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 100 - 350",
+        "T&C": "Cash Reward On International Booking - Rs 350.00<br/>Cash Reward On Domestic Booking - Rs 100.00",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Cleartrip",
-        "LOGO LINK": "https://brandlogovector.com/wp-content/uploads/2021/11/Cleartrip-Logo.png",
+        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/Screenshot2023-05-19121310-1684479161002.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDQ2/",
-        "Reward": "Rs 140 - 280",
-        "T&C": "Domestic Flights: Bookings below 6K (Standard) - Rs. 140<br/>Domestic Flights: Bookings b/w 6K to 12K - Rs. 175<br/>Domestic Flights: Bookings above 12K - Rs. 210<br/>International Flights: Bookings below 2K (Standard) - Rs. 210<br/>International Flights: Bookings b/w 2K to 6K - Rs. 245<br/>International Flights: Bookings above 6K - Rs. 280<br/>Bus - Rs. 56<br/><br/>Cancelled purchases will not be paid for.",
-        "PAYMENT IN": "50"
+        "Reward": "Rs 125 - 250",
+        "T&C": "Domestic Flights: Bookings below 6K (Standard) - Rs. 125<br/>Domestic Flights: Bookings b/w 6K to 12K - Rs. 150<br/>Domestic Flights: Bookings above 12K - Rs. 175<br/>International Flights: Bookings below 2K (Standard) - Rs. 175<br/>International Flights: Bookings b/w 2K to 6K - Rs. 225<br/>International Flights: Bookings above 6K - Rs. 250<br/>Bus - Rs. 50<br/><br/>Cancelled purchases will not be paid for.",
+        "PAYMENT IN": "55"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Etihad Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Etihad-airways-logo.svg/2560px-Etihad-airways-logo.svg.png",
         "LINK": "https://clnk.in/vRLX",
-        "Reward": "2.16%",
-        "T&C": "Cash Reward on flights booking only.\nBooking allowed - 3 Bookings in a month.",
-        "PAYMENT IN": "60"
+        "Reward": "2.00%",
+        "T&C": "Cash Reward on flights booking only.<br/>Booking allowed - 3 Bookings in a month.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Happy Fares",
         "LOGO LINK": "https://d3n3x6vi4wflr3.cloudfront.net/HF.svg",
         "LINK": "https://clnk.in/vRMF",
-        "Reward": "Rs 84 - 112",
-        "T&C": "Domestic Flights Booking - Rs 84.00<br/>International Flights Booking - Rs 112.00<br/><br/>Validation Criteria: Successful Booking.",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 75 - 100",
+        "T&C": "Domestic Flights Booking - Rs 75<br/>International Flights Booking - Rs 100<br/><br/>Validation Criteria: Successful Booking.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "HappyEasyGo",
-        "LOGO LINK": "https://hotelstatic.happyeasygo.com/ForFront/pc/logo.png",
+        "LOGO LINK": "https://static-asset.inc42.com/happyeasygo.png",
         "LINK": "https://clnk.in/vRMA",
-        "Reward": "Rs 74",
-        "T&C": "-Validation Criteria: Successful Booking.",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 65",
+        "T&C": "Validation Criteria: Successful Booking.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Indigo",
-        "LOGO LINK": "https://seeklogo.com/vector-logo/304179/indigo",
+        "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/IndiGo-Logo.jpg",
         "LINK": "https://clnk.in/vRe8",
-        "Reward": "Rs 104 - 128",
-        "T&C": "Cash Reward on Domestic - Rs 104.00<br/>Cash Reward on International - Rs 128.00",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 85 - 110",
+        "T&C": "Cash Reward on Domestic - Rs 85<br/>Cash Reward on International - Rs 110",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Jazeera Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Jazeera_Airways_logo.svg/2560px-Jazeera_Airways_logo.svg.png",
         "LINK": "https://clnk.in/vRNo",
-        "Reward": "1.28%",
-        "T&C": "Cash Reward on Successful Consumed Flights booking - 1.28% <br/>Cancelled by Customer, Booked by Travel Agent, Customer Modify Booking - 0.00%<br/><br/>No Bundling of this offer with any other offers: signup / installation process.",
-        "PAYMENT IN": "60"
+        "Reward": "1.15%",
+        "T&C": "Cash Reward on Successful Consumed Flights booking - 1.15% <br/>Cancelled by Customer, Booked by Travel Agent, Customer Modify Booking - 0.00%<br/><br/>No Bundling of this offer with any other offers: signup / installation process.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "COMPANY": "Qatar Airways",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUBRSAWCHQI6MygiiVDW5qvv6f4NzXDb8Iw&s",
         "LINK": "https://clnk.in/vRUO",
-        "Reward": "1.60%",
+        "Reward": "1.50%",
         "T&C": "Validation - Successful Travel",
-        "PAYMENT IN": "75"
+        "PAYMENT IN": "80"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
         "COMPANY": "Goibibo",
-        "LOGO LINK": "https://brandfetch.com/goibibo.com?view=library&library=default&collection=logos&asset=idQE6DXnzC",
+        "LOGO LINK": "https://jsak.goibibo.com/pwa_v3/pwa_growth/images/og-goibibo.aba291ed.png",
         "LINK": "https://clnk.in/vRMd",
-        "Reward": "Rs 127",
-        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.\r",
-        "PAYMENT IN": ""
+        "Reward": "Rs 100",
+        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.<br/>",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
         "COMPANY": "GoIndigo",
-        "LOGO LINK": "https://seeklogo.com/vector-logo/304179/indigo",
+        "LOGO LINK": "https://seeklogo.com/images/I/indigo-airlines-logo-EA9977FF45-seeklogo.com.png",
         "LINK": "https://clnk.in/vRe9",
-        "Reward": "Rs 96",
-        "T&C": "Cash Reward on successful Hotels Booking.\nCancelled/returned bookings will not be counted as a successful purchase.",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 75",
+        "T&C": "Cash Reward on successful Hotels Booking.<br/>Cancelled/returned bookings will not be counted as a successful purchase.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
         "COMPANY": "Make my Trip",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Makemytrip_logo.svg/800px-Makemytrip_logo.svg.png",
         "LINK": "https://clnk.in/vRPy",
-        "Reward": "Rs 120 - 200",
-        "T&C": "Cash Reward on Domestic Hotel Booking - Rs 120.00<br/>Cash Reward on International Hotel Booking - Rs 200.00<br/><br/>No Cash Rewards for transactions below INR 1000.",
-        "PAYMENT IN": "60"
+        "Reward": "Rs 100 - 175",
+        "T&C": "Cash Reward on Domestic Hotel Booking - Rs 100.00<br/>Cash Reward on International Hotel Booking - Rs 175.00<br/><br/>No Cash Rewards for transactions below INR 1000.",
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Train",
         "COMPANY": "RailYatri",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjyN9Z1qZVIJrSADDJAYgA5df3jjnUGHRdw&s",
         "LINK": "https://clnk.in/vRUY",
-        "Reward": "Rs 24.96",
-        "T&C": "Cash Reward On Confirmed Booking - New User only - Rs 24.96",
-        "PAYMENT IN": "75"
+        "Reward": "Rs 20",
+        "T&C": "Cash Reward On Confirmed Booking - New User only - Rs 20",
+        "PAYMENT IN": "80"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
         "COMPANY": "Assembly Travel",
-        "LOGO LINK": "https://assemblytravel.com/cdn/shop/files/logo-2.png?v=1708682708&width=280",
+        "LOGO LINK": "https://assemblytravel.com/cdn/shop/files/Untitled_design_5_5a2501a4-a2f1-4d06-bca9-254232784ed1.png?v=1702020856&width=2048",
         "LINK": "https://tjzuh.com/g/j0etwd7gjve28a58550190323b8507/",
-        "Reward": "5.60%",
+        "Reward": "5.00%",
         "T&C": "Orders in which Coupons of others will be redeemed won't be attributed for Cash Reward.",
-        "PAYMENT IN": "66"
+        "PAYMENT IN": "71"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
         "COMPANY": "Columbia Sportswear",
         "LOGO LINK": "https://logoeps.com/wp-content/uploads/2013/01/columbia-sportswear-logo-vector.png",
         "LINK": "https://clnk.in/vRIZ",
-        "Reward": "4.80%",
+        "Reward": "4.25%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "60"
+        "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
         "COMPANY": "WILDCRAFT",
         "LOGO LINK": "https://seeklogo.com/images/T/the-wildcraft-logo-221AFC99F7-seeklogo.com.png",
         "LINK": "https://clnk.in/vRWE",
-        "Reward": "12.80%",
+        "Reward": "10.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "60"
+        "PAYMENT IN": "65"
     }
 ]
