@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Info } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 const BrandList = ({ brands }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [selectedBrand, setSelectedBrand] = useState(null);
 
   const formatRange = (reward) => {
     if (!reward) return '';
@@ -77,7 +79,10 @@ const BrandList = ({ brands }) => {
                     Visit Store
                   </button>
                   <button
-                    onClick={(e) => e.stopPropagation()}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedBrand(brand);
+                    }}
                     className="w-full text-[10px] text-[crimson] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
                     <Info className="w-3 h-3" />
@@ -89,6 +94,50 @@ const BrandList = ({ brands }) => {
           </div>
         ))}
       </div>
+
+      {/* Terms & Conditions Dialog */}
+      <Dialog open={!!selectedBrand} onOpenChange={() => setSelectedBrand(null)}>
+        <DialogContent className="max-w-lg p-6">
+          <DialogHeader>
+            <DialogTitle className="text-xl font-bold text-gray-800">
+              {selectedBrand?.COMPANY}
+            </DialogTitle>
+          </DialogHeader>
+
+          <div className="mt-6 space-y-6">
+            <div>
+              <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
+              <div
+                className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
+                style={{ maxHeight: "12rem" }}
+              >
+                <p
+                  className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: selectedBrand?.["T&C"] }}
+                ></p>
+              </div>
+            </div>
+
+            <div className="flex justify-between">
+              <button
+                onClick={() => setSelectedBrand(null)}
+                className="w-1/2 py-2 text-black hover:bg-gray-400"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  setSelectedBrand(null);
+                  window.open(selectedBrand?.LINK, "_blank", "noopener,noreferrer");
+                }}
+                className="bg-[crimson] text-white w-1/2 py-2 hover:bg-gray-400 hover:text-black"
+              >
+                Visit Store
+              </button>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </aside>
   );
 };
