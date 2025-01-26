@@ -129,9 +129,8 @@ const ExploreUs = () => {
                 <span className="text-sm text-gray-800">Reward: </span>
                 <span className="text-sm font-semibold text-gray-800">{selectedBrand?.Reward}</span>
               </div>
-            </div>
-
-             <div className="mt-6 space-y-6">
+            </div> 
+            
               <div className="space-y-2 flex-1">
                 <div className="text-sm text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
                   <span className="text-sm text-gray-800">Payout in: </span>
