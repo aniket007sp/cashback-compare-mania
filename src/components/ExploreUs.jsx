@@ -66,44 +66,43 @@ const ExploreUs = () => {
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                {/* Subcategories */}
                 {Object.entries(groupedOffers).map(([subcategory, subcategoryOffers]) => {
                   if (subcategory === "brandsWithoutSubcategory") return null;
 
-                  /*const imageUrl = logos[subcategory] || logos[category+": "+subcategory] || "/images/categories/home.svg"; */
                   const imageUrl = logos[subcategory] ?? logos[`${category}: ${subcategory}`] ?? "/images/categories/home.svg";
                   return (
                     <Link
                       key={subcategory}
                       to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
-                      className="flex flex-col items-center hover:scale-105 transition-transform"
+                      className="flex flex-col items-center hover:scale-105 transition-transform hover-crimson p-2 bg-white rounded-lg"
                     >
-                      <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                      <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl p-1">
                         <img
                           src={imageUrl}
                           alt={subcategory}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
+                          style={{ maxWidth: '100%', maxHeight: '100%' }}
                         />
                       </div>
-                      <span className="text-xs md:text-sm text-center text-gray-700">
+                      <span className="text-xs md:text-sm text-center text-gray-700 mt-2">
                         {subcategory}
                       </span>
                     </Link>
                   );
                 })}
 
-                {/* Brands Without Subcategory */}
                 {groupedOffers.brandsWithoutSubcategory.map((brand) => (
                   <button
                     key={brand.COMPANY}
-                    className="flex flex-col items-center hover:scale-105 transition-transform"
+                    className="flex flex-col items-center hover:scale-105 transition-transform hover-crimson p-2 bg-white rounded-lg"
                     onClick={() => setSelectedBrand(brand)}
                   >
-                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-md bg-gray-100">
+                    <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-lg bg-white p-1">
                       <img
                         src={brand["LOGO LINK"]}
                         alt={brand.COMPANY}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
+                        style={{ maxWidth: '100%', maxHeight: '100%' }}
                       />
                     </div>
                     <span className="text-xs md:text-sm text-center text-gray-700">
@@ -117,7 +116,6 @@ const ExploreUs = () => {
         })}
       </div>
 
-      {/* Brand Dialog */}
       <Dialog open={!!selectedBrand} onOpenChange={() => setSelectedBrand(null)}>
         <DialogContent className="max-w-lg">
           <DialogHeader>
@@ -140,19 +138,6 @@ const ExploreUs = () => {
                 <h4 className="font-semibold mb-2">Terms & Conditions</h4>
                 <div className="max-h-48 overflow-y-auto bg-gray-50 p-4 rounded-md">
                   <p className="whitespace-pre-wrap text-sm text-gray-700">{selectedBrand["T&C"]}</p>
-                </div>
-              </div>
-
-               <div>
-                <h4 className="text-xs sm:text-sm font-medium text-gray-800 mb-1 sm:mb-2">Terms & Conditions</h4>
-                <div
-                  className="h-48 overflow-y-auto bg-gray-100 p-3 rounded-md shadow-inner"
-                  style={{ maxHeight: "12rem" }}
-                >
-                  <p
-                    className="text-[10px] sm:text-xs md:text-sm text-gray-700 whitespace-pre-wrap"
-                    dangerouslySetInnerHTML={{ __html: selectedBrand["T&C"]}}
-                  ></p>
                 </div>
               </div>
               <div className="flex justify-end">
