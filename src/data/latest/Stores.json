@@ -1,5 +1,7 @@
 [
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "AJIO",
         "LOGO LINK": "https://i.pinimg.com/736x/58/3b/f1/583bf1744b9419813a94323c68f23df9.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMzY0/",
@@ -8,6 +10,8 @@
         "PAYMENT IN": "30"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Banggood WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/04/Banggood-logo-768x432.png",
         "LINK": "https://dorinebeaumont.com/g/e8f129b05ee28a5855016213826a88/",
@@ -16,14 +20,8 @@
         "PAYMENT IN": "38"
     },
     {
-        "COMPANY": "BuyKaro",
-        "LOGO LINK": "https://buykaro.com/cdn/shop/files/BuyKaro_Logo_2d4638ea-56d8-4f4e-965a-f9ad61171ef9.png?v=1710760708&width=140",
-        "LINK": "https://clnk.in/vRHZ",
-        "Reward": "6.80%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "75"
-    },
-    {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Croma",
         "LOGO LINK": "https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/05/02032714/croma9414.logowik.com-768x576.webp",
         "LINK": "https://clnk.in/vRI2",
@@ -32,6 +30,8 @@
         "PAYMENT IN": "60"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Daily Objects",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/entrackr/media/post_attachments/wp-content/uploads/2022/02/dailyobjects.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNDMy/",
@@ -40,6 +40,8 @@
         "PAYMENT IN": "30"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Dyson Direct",
         "LOGO LINK": "https://assets.commonshare.com/uploads/companies/6747e25c-bfec-41ef-8e9a-9e1ad4c6b5ce/logos/104023/small_logo.png?v=6d662a9ee2795d829d3f98e3ca883e75",
         "LINK": "https://tjzuh.com/g/zi1vni9ajwe28a585501255ab3066d/",
@@ -48,22 +50,38 @@
         "PAYMENT IN": "75"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Harvey Nichols",
-        "LOGO LINK": "https://brandfetch.com/harveynichols.com?view=library&library=default&collection=logos&asset=id_FV37CIw",
+        "LOGO LINK": "https://agency.stylemeuk.com/wp-content/uploads/2016/05/harvey-nichols-logo.jpeg",
         "LINK": "https://clnk.in/vRMG",
         "Reward": "1.29 - 3.42%",
         "T&C": "Fashion & Accessories - 3.42%<br/>Food & Wine - 3.42%<br/>Beauty - 2.66%<br/>Fenty Beauty - 1.29%<br/>Market Place Brands - 1.29%<br/><br/>Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "60"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Hyugalife",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTEdLNPhk0X8pviKz1yF3-5Yftp3Pghm-0KA&s",
+        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/1652792170716-1692684355296.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://tjzuh.com/g/hpevocgj6he28a585501c6a1a33a3b/",
         "Reward": "5.6 - 9.1%",
         "T&C": "New User - 9.10%<br/>Repeat User - 5.60%<br/><br/>Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "76"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
+        "COMPANY": "Myntra",
+        "LOGO LINK": "https://ifp.world/wp-content/uploads/2021/05/Myntra-Logo.png",
+        "LINK": "https://clnk.in/vRP7",
+        "Reward": "4 - 8%",
+        "T&C": "Cash Reward on New User - 8.00%<br/>Cash Reward on Existing User - 4.00%<br/>Cash Reward on Exchanged Orders - 0.00%<br/><br/>Cash Reward is Not applicable if you pay with Myntra Credits and Gift Cards.<br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "60"
+    },
+    {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "NBA Store",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLdqtOo37r6eboxb9mLuxptmGmazTg1UXhA&s",
         "LINK": "https://clnk.in/vRP8",
@@ -72,6 +90,8 @@
         "PAYMENT IN": "75"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Nykaa Beauty",
         "LOGO LINK": "https://i.pinimg.com/736x/b9/a5/b4/b9a5b4dfdb2f5ba00dd51988a0bdf8e4.jpg",
         "LINK": "https://clnk.in/vRQ2",
@@ -80,6 +100,8 @@
         "PAYMENT IN": "60"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Nykaa Fashion",
         "LOGO LINK": "https://cdn.brandfetch.io/nykaafashion.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
         "LINK": "https://clnk.in/vRQ6",
@@ -88,6 +110,8 @@
         "PAYMENT IN": "90"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Organic India",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OsiwTjdQTdJbTXeJXgnbGtqgOrauFcmaFw&s",
         "LINK": "https://clnk.in/vRRM",
@@ -96,6 +120,8 @@
         "PAYMENT IN": "60"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Pantaloons",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QdvvaLS8S0BKBEdc9LK66DudrKvehmfvWg&s",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjg3/",
@@ -104,14 +130,18 @@
         "PAYMENT IN": "30"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Shopclues",
-        "LOGO LINK": "https://pngsource.in/assets/thumbnails/ShopClues-Logo-Pngsource-1H1XD6YV.png",
-        "LINK": "https://clnk.in/vRVx",
-        "Reward": "0.72 - 7.52%",
-        "T&C": "Appliances - 2.72%<br/>Automotive - 3.44%<br/>Bags & Luggage - 6.80%<br/>Beauty & Perfumes - 5.44%<br/>Cameras - 2.08% <br/>Computers - 2.08%<br/>Daily Needs and Essentials - 0.72%<br/>Fashion - 7.52%<br/>Footwear - 6.80%<br/>Home & Kitchen - 7.52%<br/>Jewelry & Watches - 5.44%<br/>Mobile & Laptop Accessories - 2.72%<br/>Mobiles & Tablets - 2.08%<br/>Sports & Health - 6.80%<br/>Toys, Baby & Kids - 5.44%<br/>TV, Audio & Large Appliances - 2.08%<br/><br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "75"
+        "LOGO LINK": "https://static-asset.inc42.com/shopclues.png",
+        "LINK": "https://tjzuh.com/g/zo3u4tp75oe28a5855015a285d41f8/",
+        "Reward": "0.35 - 7%",
+        "T&C": "Toys, Baby & Kids - 3.50%<br/>TV, Audio & Large Appliances - 2.80%<br/>Sports & Health - 4.20%<br/>Mobile & Laptop Accessories - 3.50%<br/>Jewelry & Watches - 4.20%<br/>Home & Kitchen - 4.20%<br/>Footwear - 6.30%<br/>Fashion - 7.00%<br/>Books, Daily Needs - 0.35%<br/>Beauty & Perfumes - 3.50%<br/>Bags & Luggage( includes Travel & Luggage) - 4.20%<br/>Automotive - 4.20%<br/>Appliances - 1.40%<br/><br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "90"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Shopsy App",
         "LOGO LINK": "https://5.imimg.com/data5/ANDROID/Default/2022/7/OV/BZ/OY/88779524/product-jpeg-500x500.jpg",
         "LINK": "https://tjzuh.com/g/riiso24dfxe28a585501bf3169313e/",
@@ -120,6 +150,8 @@
         "PAYMENT IN": "95"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Smytten",
         "LOGO LINK": "https://static-asset.inc42.com/smytten.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNDIx/",
@@ -128,14 +160,18 @@
         "PAYMENT IN": "30"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Sunsky WW",
-        "LOGO LINK": "https://cdn.brandfetch.io/idWqGDSGVT/w/400/h/400/theme/dark/icon.jpeg?c=1bx1740005882490id64Mup7acbYRyleZZ&t=1732172925397",
+        "LOGO LINK": "https://vectorseek.com/wp-content/uploads/2023/09/Sunsky-Logo-Vector.svg-.png",
         "LINK": "https://dorinebeaumont.com/g/7npkd4cs1ie28a585501869a299fda/",
         "Reward": "8%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "39"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Tomtop WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/05/TomTop-logo.png",
         "LINK": "https://ficca2021.com/g/xljorca896e28a5855014bf89f6ddb/",
@@ -144,6 +180,8 @@
         "PAYMENT IN": "33"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "truemeds",
         "LOGO LINK": "https://du8ef2qvb6oy7.cloudfront.net/media/images/1018f6b6-263e-44df-b129-a360601ca484/truemedslogo2x.png?fm=webp&q=80&fit=max&crop=1000%2C1000%2C0%2C0&w=1500",
         "LINK": "https://clnk.in/vRWk",
@@ -152,6 +190,8 @@
         "PAYMENT IN": "60"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CAT": "",
         "COMPANY": "Vijay Sales",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/1/1b/VijaySale-Logo.png",
         "LINK": "https://clnk.in/vRWB",
