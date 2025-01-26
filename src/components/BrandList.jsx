@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Info } from 'lucide-react';
 
 const BrandList = ({ brands }) => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-
   const formatRange = (action) => {
     if (!action) return '';
     if (action.max_percentage_rate && parseFloat(action.max_percentage_rate) > 0) {
@@ -27,29 +25,17 @@ const BrandList = ({ brands }) => {
         {brands.map((brand, index) => (
           <div
             key={index}
-            className="relative group"
-            style={{
-              animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
-              opacity: 0,
-              animationFillMode: 'forwards'
-            }}
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
+            className="relative group animate-fade-in"
+            style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <div
-              className={`flex flex-col h-full bg-white rounded-lg transition-all duration-300 
-                ${hoveredIndex === index ? 'shadow-lg ring-2 ring-[crimson]/20' : 'shadow-sm'}
-                p-2 space-y-1.5`}
-            >
+            <div className="flex flex-col h-full bg-white rounded-lg transition-all duration-300 shadow-sm hover:shadow-lg hover:ring-2 hover:ring-[crimson]/20 p-2 space-y-1.5">
               {/* Logo Container */}
               <div className="flex items-center justify-center">
-                <div className="w-10 h-10 sm:w-15 sm:h-15 md:w-20 md:h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
-                  <img
-                    src={brand.logo}
-                    alt={brand.name}
-                    className="w-12 h-12 sm:w-12 sm:h-12 md:w-16 md:h-16 object-contain p-1"
-                  />
-                </div>
+                <img
+                  src={brand.logo}
+                  alt={brand.name}
+                  className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain p-1 rounded-lg shadow-sm"
+                />
               </div>
 
               {/* Brand Name */}
@@ -58,24 +44,23 @@ const BrandList = ({ brands }) => {
               </h3>
 
               {/* Action Ranges - Visible on hover/tap */}
-              {hoveredIndex === index && (
-                <div className="space-y-1 flex-1 w-full">
-                  {(brand.action_ranges || []).map((action, actionIndex) => (
-                    <div
-                      key={actionIndex}
-                      className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded"
-                    >
-                      <span className="font-medium">{action.name}:</span>
-                      <span className="ml-1">{formatRange(action)}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
+              <div className="space-y-1 flex-1 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {(brand.action_ranges || []).map((action, actionIndex) => (
+                  <div
+                    key={actionIndex}
+                    className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded"
+                  >
+                    <span className="font-medium">{action.name}:</span>
+                    <span className="ml-1">{formatRange(action)}</span>
+                  </div>
+                ))}
+              </div>
 
               {/* Buttons - Visible on hover/tap */}
-              {hoveredIndex === index && brand.gotolink && (
-                <div className="space-y-1">
+              {brand.gotolink && (
+                <div className="space-y-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button
+                    aria-label="Visit Store"
                     onClick={(e) => {
                       e.stopPropagation();
                       window.open(brand.gotolink, '_blank', 'noopener,noreferrer');
@@ -85,6 +70,7 @@ const BrandList = ({ brands }) => {
                     Visit Store
                   </button>
                   <button
+                    aria-label="Terms & Conditions"
                     onClick={(e) => e.stopPropagation()}
                     className="w-full text-[10px] text-[crimson] hover:text-[#7E69AB] flex items-center justify-center gap-1 transition-colors duration-200"
                   >
