@@ -11,24 +11,26 @@ const ScrollToPosition = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Only prevent scroll restoration when navigating back/forward
-    if (window.history.state && window.history.state.preventScroll) {
-      return;
-    }
-    // Add the current scroll position to history state
-    const currentPosition = window.scrollY;
-    window.history.replaceState(
-      { ...window.history.state, scrollPosition: currentPosition },
-      ''
-    );
-  }, [location]);
+    // Save scroll position before navigation
+    const handleScroll = () => {
+      sessionStorage.setItem('scrollPosition', window.scrollY.toString());
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
-    // Restore scroll position when navigating back
-    if (window.history.state && window.history.state.scrollPosition) {
-      window.scrollTo(0, window.history.state.scrollPosition);
+    // Restore scroll position after navigation
+    const savedPosition = sessionStorage.getItem('scrollPosition');
+    if (savedPosition !== null && window.history.state?.type === 'POP') {
+      requestAnimationFrame(() => {
+        window.scrollTo(0, parseInt(savedPosition));
+      });
+    } else {
+      window.scrollTo(0, 0);
     }
-  }, []);
+  }, [location]);
 
   return null;
 };
