@@ -59,9 +59,11 @@ const NetlifyOffersSection = () => {
               {[...data.subcategories].map((subcategory) => {
                 const imageUrl = subcategoryImages[subcategory] || FALLBACK_IMAGE;
                 return (
-                  <Link
+                  <a
                     key={subcategory}
-                    to={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
+                    href={`/offers/${formatUrl(category)}/${formatUrl(subcategory)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex flex-col items-center hover:scale-105 transition-transform"
                   >
                     <div className="w-16 h-16 sm:w-24 sm:h-24 mb-2 overflow-hidden rounded-full bg-gray-100">
@@ -70,12 +72,12 @@ const NetlifyOffersSection = () => {
                         alt={subcategory}
                         className="w-full h-full object-cover"
                         onError={(e) => {
-                          e.target.src = FALLBACK_IMAGE; // Fallback if image fails to load
+                          e.target.src = FALLBACK_IMAGE;
                         }}
                       />
                     </div>
                     <span className="text-xs md:text-sm text-center text-gray-700">{subcategory}</span>
-                  </Link>
+                  </a>
                 );
               })}
             </div>

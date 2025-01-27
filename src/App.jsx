@@ -11,24 +11,35 @@ const ScrollToPosition = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Save scroll position before navigation
-    const handleScroll = () => {
+    const handleBeforeUnload = () => {
       sessionStorage.setItem('scrollPosition', window.scrollY.toString());
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    window.addEventListener('scroll', handleBeforeUnload);
+
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+      window.removeEventListener('scroll', handleBeforeUnload);
+    };
   }, []);
 
   useEffect(() => {
-    // Restore scroll position after navigation
-    const savedPosition = sessionStorage.getItem('scrollPosition');
-    if (savedPosition !== null && window.history.state?.type === 'POP') {
-      requestAnimationFrame(() => {
-        window.scrollTo(0, parseInt(savedPosition));
-      });
+    if (location.pathname === '/') {
+      const savedPosition = sessionStorage.getItem('scrollPosition');
+      if (savedPosition !== null) {
+        requestAnimationFrame(() => {
+          window.scrollTo({
+            top: parseInt(savedPosition),
+            behavior: 'instant'
+          });
+        });
+      }
     } else {
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0,
+        behavior: 'instant'
+      });
     }
   }, [location]);
 
