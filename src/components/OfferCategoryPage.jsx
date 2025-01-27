@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import netlifyOffers from '../data/netlify_offers.json';
 import { termsConditions } from '../data/termsConditions';
 import CategoryHeader from './CategoryHeader';
@@ -64,19 +64,11 @@ const formatLatestOffer = (offer) => ({
 const OfferCategoryPage = () => {
   const { category, subcategory } = useParams();
   const [selectedStore, setSelectedStore] = useState(null);
-  const navigate = useNavigate();
-
-  const handleBack = () => {
-    if (window.history.length > 1) {
-      window.close();
-    } else {
-      navigate('/');
-    }
-  };
 
   const decodedCategory = category?.replace(/-/g, ' ');
   const decodedSubcategory = subcategory?.replace(/-/g, ' ');
 
+  // First check if it's a Netlify offer
   const categoryOffers = netlifyOffers.filter(
     (offer) => offer.categories.category.toLowerCase() === decodedCategory?.toLowerCase()
   );
@@ -85,6 +77,7 @@ const OfferCategoryPage = () => {
     (offer) => offer.categories.subcategory?.toLowerCase() === decodedSubcategory?.toLowerCase()
   );
 
+  // If no Netlify offers found, check latest category data
   const latestCategoryData = getCategoryData(decodedCategory);
   const latestSubcategoryOffers = latestCategoryData
     .filter(offer => {
@@ -98,14 +91,6 @@ const OfferCategoryPage = () => {
   return (
     <div className="min-h-screen bg-[#ea384c]/10">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center mb-4">
-          <button
-            onClick={handleBack}
-            className="text-gray-600 hover:text-gray-800"
-          >
-            ← Back
-          </button>
-        </div>
         <CategoryHeader title={toSentenceCase(decodedSubcategory || decodedCategory)} />
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
