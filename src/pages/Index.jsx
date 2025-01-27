@@ -18,14 +18,12 @@ const Index = () => {
       <div className="flex flex-col min-h-screen">
         {/* Toggle button for small screens */}
         <div className="md:hidden fixed top-[70px] left-2 z-50">
-          <Button
-            variant="outline"
-            size="icon"
+          <button
             onClick={() => setShowBrandList(!showBrandList)}
-            className="bg-white shadow-md"
+            className="bg-[crimson] text-white px-4 py-2 rounded-md shadow-md hover:bg-gray-500 transition-colors text-sm"
           >
-            {showBrandList ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-          </Button>
+            Shop By Brand
+          </button>
         </div>
 
         <div className="flex flex-row flex-grow">
