@@ -21,7 +21,7 @@ const BrandList = ({ brands }) => {
   return (
     <aside className="w-full h-full bg-[#A594C7]/5 p-2 animate-fade-in">
       <h2 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-center bg-[crimson] text-white py-2 mb-3 rounded-md shadow-sm animate-scale-in">
-        Shop by Brand
+        Shop by Brands
       </h2>
       <div className="grid grid-cols-1 gap-2">
         {brands.map((brand, index) => (
