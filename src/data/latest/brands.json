@@ -1,65 +1,5 @@
 [
     {
-        "CATEGORY": "STORES",
-        "SUB-CATEGORY": "",
-        "COMPANY": "AJIO",
-        "LOGO LINK": "https://i.pinimg.com/736x/58/3b/f1/583bf1744b9419813a94323c68f23df9.jpg",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMzY0/",
-        "Reward": "5 - 7.5%",
-        "T&C": "Existing User - 5 %\nNew User - 7.5 %\n\nExclusion: Idols 7 Coins | Alliance Code | EMP Code (Not Payable).\n\nFlat 0.12% of Purchase amount (New & Existing) for Gold (Fine Jewellery).",
-        "PAYMENT IN": "35"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "ALDO",
-        "LOGO LINK": "https://yorkdale.com/wp-content/uploads/2021/09/8f5e1cb5791ae560c97216b15f5bbc7423f5d5c7-1.png",
-        "LINK": "https://clnk.in/vREF",
-        "Reward": "4.25%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "AMEX",
-        "LOGO LINK": "https://www.americanexpress.com/content/dam/amex/us/merchant/supplies-uplift/product/images/img-WEBLOGO1-01.jpg",
-        "LINK": "https://tjzuh.com/g/xpdvk6nc4o6a3b5ae4bbb5ad0d8225/",
-        "Reward": "Rs 1100 - 2250",
-        "T&C": "Amex Platinum Travel Credit Card - 2250\u20b9\nAmex Membership Reward Credit Card - 1800\u20b9\nAmex SmartEarn Credit Card - 1100\u20b9\n\nValidation Criteria: Card Dispatch\nApplications should be from one of these cities: Ahmedabad, Bangalore, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Indore, Jaipur, Kolkata, Mumbai, Pune, Surat, Vadodara & Visakhapatnam\nAge:  25+ years, M/F\nIncome:  6 lakh+ Per Annum",
-        "PAYMENT IN": "131"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Haircare",
-        "COMPANY": "ARATA",
-        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/10973122012007867202741204474795327551970809o-1605704159020.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExOTAz/",
-        "Reward": "19%",
-        "T&C": "Cancelled and Return Orders will not be considered for validation",
-        "PAYMENT IN": "50"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "AU Bank",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJD6vWcXM2e6Cn0HvJ_yX-mcSnJ6hafHYhFQ&s",
-        "LINK": "https://clnk.in/vREa",
-        "Reward": "Rs 1250 - 1450",
-        "T&C": "Cash Reward on All Cards Except LIT - Rs 1450.00\nCash Reward on LIT Credit Card (LTF) - Rs 1250.00\nCash Reward on Insta Pay Credit Card - Rs 0.00\n\nValidation Criteria -> Successful Card Dispatch",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "AVON",
-        "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/Avon-Logo-500x281.png",
-        "LINK": "https://clnk.in/vRFh",
-        "Reward": "20.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
-    },
-    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
         "COMPANY": "Accessorize London",
@@ -130,7 +70,7 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Airtel DTH",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeol7vmep3SC-IdRzDYAmECJ4vMgYejvVxkQ&s",
@@ -148,6 +88,36 @@
         "Reward": "Rs 135",
         "T&C": "Cash Reward On Successful CKYC Account open - New user only.<br/><br/>User Journey Flow: Clicks> App install> Complete registration> CKYC Sign up ( Aadhar & other details)>Face recognition>KYC Details fetch>wallet transaction> Successful CKYC Account open",
         "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "STORES",
+        "SUB-CATEGORY": "",
+        "COMPANY": "AJIO",
+        "LOGO LINK": "https://i.pinimg.com/736x/58/3b/f1/583bf1744b9419813a94323c68f23df9.jpg",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMzY0/",
+        "Reward": "5 - 7.5%",
+        "T&C": "Existing User - 5 %\nNew User - 7.5 %\n\nExclusion: Idols 7 Coins | Alliance Code | EMP Code (Not Payable).\n\nFlat 0.12% of Purchase amount (New & Existing) for Gold (Fine Jewellery).",
+        "PAYMENT IN": "35"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "ALDO",
+        "LOGO LINK": "https://yorkdale.com/wp-content/uploads/2021/09/8f5e1cb5791ae560c97216b15f5bbc7423f5d5c7-1.png",
+        "LINK": "https://clnk.in/vREF",
+        "Reward": "4.25%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "AMEX",
+        "LOGO LINK": "https://www.americanexpress.com/content/dam/amex/us/merchant/supplies-uplift/product/images/img-WEBLOGO1-01.jpg",
+        "LINK": "https://tjzuh.com/g/xpdvk6nc4o6a3b5ae4bbb5ad0d8225/",
+        "Reward": "Rs 1100 - 2250",
+        "T&C": "Amex Platinum Travel Credit Card - 2250\u20b9\nAmex Membership Reward Credit Card - 1800\u20b9\nAmex SmartEarn Credit Card - 1100\u20b9\n\nValidation Criteria: Card Dispatch\nApplications should be from one of these cities: Ahmedabad, Bangalore, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Indore, Jaipur, Kolkata, Mumbai, Pune, Surat, Vadodara & Visakhapatnam\nAge:  25+ years, M/F\nIncome:  6 lakh+ Per Annum",
+        "PAYMENT IN": "131"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -170,6 +140,16 @@
         "PAYMENT IN": "66"
     },
     {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Haircare",
+        "COMPANY": "ARATA",
+        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/10973122012007867202741204474795327551970809o-1605704159020.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExOTAz/",
+        "Reward": "19%",
+        "T&C": "Cancelled and Return Orders will not be considered for validation",
+        "PAYMENT IN": "50"
+    },
+    {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
         "COMPANY": "Assembly Travel",
@@ -180,6 +160,16 @@
         "PAYMENT IN": "71"
     },
     {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "AU Bank",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJD6vWcXM2e6Cn0HvJ_yX-mcSnJ6hafHYhFQ&s",
+        "LINK": "https://clnk.in/vREa",
+        "Reward": "Rs 1250 - 1450",
+        "T&C": "Cash Reward on All Cards Except LIT - Rs 1450.00\nCash Reward on LIT Credit Card (LTF) - Rs 1250.00\nCash Reward on Insta Pay Credit Card - Rs 0.00\n\nValidation Criteria -> Successful Card Dispatch",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Aurelia",
@@ -188,6 +178,16 @@
         "Reward": "5.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "AVON",
+        "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/Avon-Logo-500x281.png",
+        "LINK": "https://clnk.in/vRFh",
+        "Reward": "20.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Finance & Banking",
@@ -380,7 +380,7 @@
         "PAYMENT IN": "132"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "",
         "COMPANY": "Casetify WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2020/07/Casetify-Logo-720x405.png",
@@ -390,7 +390,7 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "",
         "COMPANY": "Cashify",
         "LOGO LINK": "https://cdn.blume.vc/blume/imager/images/startups/cashify/logo/270/Cashify.f1670267326_3fe2a190a30ef2392c14d57b4c9430e6.webp",
@@ -530,6 +530,16 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Personal Hygiene",
+        "COMPANY": "durex",
+        "LOGO LINK": "https://assets-eu-01.kc-usercontent.com/f8b5e84a-d17a-014d-b1f8-bfe74b89069f/07d5c594-907d-44cb-af37-4bf9ca255c4d/Durex%20Logo.jpg",
+        "LINK": "https://clnk.in/vRJj",
+        "Reward": "12.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
         "COMPANY": "Dyson Direct",
@@ -538,16 +548,6 @@
         "Reward": "2.50%",
         "T&C": "The transaction that are below 17K will not be payable.<br/>Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "80"
-    },
-    {
-        "CATEGORY": "Oniline Services",
-        "SUB-CATEGORY": "Digital Subscriptions & Media",
-        "COMPANY": "ET Prime",
-        "LOGO LINK": "https://img.etimg.com/thumb/msid-68479243,width-300,height-225,imgsize-143365,resizemode-75/et-prime-com-logo-01.jpg",
-        "LINK": "https://tjzuh.com/g/s551cpr0ure28a58550106e9ba07b4/",
-        "Reward": "Rs 300",
-        "T&C": "Subscription - 300\u20b9",
-        "PAYMENT IN": "60"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -560,7 +560,7 @@
         "PAYMENT IN": "95"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Economist",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/610px-The_Economist_Logo.svg.png",
@@ -578,6 +578,26 @@
         "Reward": "17.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "84"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Women's Clothing",
+        "COMPANY": "enamor",
+        "LOGO LINK": "https://vivianamalls.com/wp-content/uploads/2023/08/enamor-Viviana-Mall-Thane-Mumbai.png",
+        "LINK": "https://clnk.in/vRLO",
+        "Reward": "18.00%",
+        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Online Services",
+        "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "COMPANY": "ET Prime",
+        "LOGO LINK": "https://img.etimg.com/thumb/msid-68479243,width-300,height-225,imgsize-143365,resizemode-75/et-prime-com-logo-01.jpg",
+        "LINK": "https://tjzuh.com/g/s551cpr0ure28a58550106e9ba07b4/",
+        "Reward": "Rs 300",
+        "T&C": "Subscription - 300\u20b9",
+        "PAYMENT IN": "60"
     },
     {
         "CATEGORY": "Travel & Hospitality",
@@ -598,6 +618,16 @@
         "Reward": "8.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Watches",
+        "COMPANY": "fastrack",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fastrack_logo.png",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQy/",
+        "Reward": "6.50%",
+        "T&C": "Only below categories eligible for Cash Reward. For all other categories, no compensation will be received.<br/>* Watches / Smartwatches<br/>* Hearables (Audio accessories)<br/><br/>Cancelled/Returned orders will not be validated.",
+        "PAYMENT IN": "35"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
@@ -630,6 +660,16 @@
         "PAYMENT IN": "85"
     },
     {
+        "CATEGORY": "Baby & Kids",
+        "SUB-CATEGORY": "",
+        "COMPANY": "firstcry",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/8/87/FirstCry_logo.png",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDgx/",
+        "Reward": "Rs 20 - 30",
+        "T&C": "For Order Value Between Rs.101 to Rs.500 - \u20b920\nFor Order Value Above Rs.500 - \u20b930\n\nKindly do not use coupon code of other sources as we are not payable for that.",
+        "PAYMENT IN": "40"
+    },
+    {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
         "COMPANY": "Fitspire",
@@ -660,7 +700,7 @@
         "PAYMENT IN": "64"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Rentals & Furniture",
         "COMPANY": "Furlenco Rentals",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/1200x675/afaqs/media/post_attachments/34bcf7693f60574cbc3ff40dd0a92c188c7f6ed61c0d966f1b07b8e8000dc2aa.jpg",
@@ -677,16 +717,6 @@
         "LINK": "https://clnk.in/vRL9",
         "Reward": "2 - 10%",
         "T&C": "Category A: (all silver jewellery, fragrances, candles) - 10%\nCategory B: (gold and gold-diamond jewellery) - 2%\nCategory C: (gold coin, silver coins, utensils & articles) - 0.00%\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Travel & Hospitality",
-        "SUB-CATEGORY": "Hotel",
-        "COMPANY": "GoIndigo",
-        "LOGO LINK": "https://seeklogo.com/images/I/indigo-airlines-logo-EA9977FF45-seeklogo.com.png",
-        "LINK": "https://clnk.in/vRe9",
-        "Reward": "Rs 75",
-        "T&C": "Cash Reward on successful Hotels Booking.\nCancelled/returned bookings will not be counted as a successful purchase.",
         "PAYMENT IN": "65"
     },
     {
@@ -707,6 +737,16 @@
         "LINK": "https://clnk.in/vRMd",
         "Reward": "Rs 100",
         "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.\r",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Travel & Hospitality",
+        "SUB-CATEGORY": "Hotel",
+        "COMPANY": "GoIndigo",
+        "LOGO LINK": "https://seeklogo.com/images/I/indigo-airlines-logo-EA9977FF45-seeklogo.com.png",
+        "LINK": "https://clnk.in/vRe9",
+        "Reward": "Rs 75",
+        "T&C": "Cash Reward on successful Hotels Booking.\nCancelled/returned bookings will not be counted as a successful purchase.",
         "PAYMENT IN": "65"
     },
     {
@@ -738,46 +778,6 @@
         "Reward": "11.00%",
         "T&C": "Cash Reward NOT applicable on payment with store credit/gift cards.\n3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "HDFC",
-        "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.png",
-        "LINK": "https://tjzuh.com/g/4sz1zcihbw6a3b5ae4bb8ac412537b/",
-        "Reward": "Rs 2500",
-        "T&C": "Validation: Successful Card Dispatch<br/><br/>Eligibility:- <br/>Salary: 2.4 Lakhs+ <br/>Age: 25-44 years",
-        "PAYMENT IN": "83"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "HIDESIGN",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/HIDESIGN_LOGO_withouttag.jpg/1200px-HIDESIGN_LOGO_withouttag.jpg",
-        "LINK": "https://clnk.in/vRMN",
-        "Reward": "5.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Health, Food & Fitness",
-        "SUB-CATEGORY": "Fitness & Wellness",
-        "COMPANY": "HK Vitals",
-        "LOGO LINK": "https://img2.hkrtcdn.com/hkvitals/static/media/common/HKVital-Logo.png",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTEx/",
-        "Reward": "12.50%",
-        "T&C": "Canceled/Returned orders will not be payable ",
-        "PAYMENT IN": "50"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "HSBC",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM810vAYgqHqpT2ImSWzskzbfIAX48ku-zVA&s",
-        "LINK": "https://tjzuh.com/g/ikbyxgxooj6a3b5ae4bbc8a3a1c200/",
-        "Reward": "2200",
-        "T&C": "Eligibility Criteria:-<br/>- Age: 26-45 M/F<br/>- Residence city: Mumbai, Pune, Bangalore, Hyderabad, New Delhi, Noida, Gurgaon, Chennai, Kolkata<br/>- Annual income: Above 5 lakhs<br/>- Occupation: Corporate salaried only. Self-employed or users working in proprietorship/partnership firm are a direct reject.<br/>- Should be an existing credit card holder preferably holding Amex, Stanc, Citi, Axis, ICICI or HDFC credit card<br/>- Cibil score: 720+<br/><br/>Cash Reward on Successful Card Disbursal.",
-        "PAYMENT IN": "75"
     },
     {
         "CATEGORY": " Electronics & Household Appliances",
@@ -820,6 +820,16 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "HDFC",
+        "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.png",
+        "LINK": "https://tjzuh.com/g/4sz1zcihbw6a3b5ae4bb8ac412537b/",
+        "Reward": "Rs 2500",
+        "T&C": "Validation: Successful Card Dispatch<br/><br/>Eligibility:- <br/>Salary: 2.4 Lakhs+ <br/>Age: 25-44 years",
+        "PAYMENT IN": "83"
+    },
+    {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
         "COMPANY": "HealthKart",
@@ -838,6 +848,36 @@
         "Reward": "3.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "35"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "HIDESIGN",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/HIDESIGN_LOGO_withouttag.jpg/1200px-HIDESIGN_LOGO_withouttag.jpg",
+        "LINK": "https://clnk.in/vRMN",
+        "Reward": "5.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Health, Food & Fitness",
+        "SUB-CATEGORY": "Fitness & Wellness",
+        "COMPANY": "HK Vitals",
+        "LOGO LINK": "https://img2.hkrtcdn.com/hkvitals/static/media/common/HKVital-Logo.png",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTEx/",
+        "Reward": "12.50%",
+        "T&C": "Canceled/Returned orders will not be payable ",
+        "PAYMENT IN": "50"
+    },
+    {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "HSBC",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM810vAYgqHqpT2ImSWzskzbfIAX48ku-zVA&s",
+        "LINK": "https://tjzuh.com/g/ikbyxgxooj6a3b5ae4bbc8a3a1c200/",
+        "Reward": "2200",
+        "T&C": "Eligibility Criteria:-<br/>- Age: 26-45 M/F<br/>- Residence city: Mumbai, Pune, Bangalore, Hyderabad, New Delhi, Noida, Gurgaon, Chennai, Kolkata<br/>- Annual income: Above 5 lakhs<br/>- Occupation: Corporate salaried only. Self-employed or users working in proprietorship/partnership firm are a direct reject.<br/>- Should be an existing credit card holder preferably holding Amex, Stanc, Citi, Axis, ICICI or HDFC credit card<br/>- Cibil score: 720+<br/><br/>Cash Reward on Successful Card Disbursal.",
+        "PAYMENT IN": "75"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -910,6 +950,16 @@
         "PAYMENT IN": "49"
     },
     {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Accessories",
+        "COMPANY": "inFire",
+        "LOGO LINK": "https://www.goinfire.com/cdn/shop/files/Copy_of_logo_1.png?v=1695465896&width=200",
+        "LINK": "https://clnk.in/vRM1",
+        "Reward": "8.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Isadora Life",
@@ -917,16 +967,6 @@
         "LINK": "https://clnk.in/vRM6",
         "Reward": "3.5 - 8.5%",
         "T&C": "New User - 8.5%\nRepeat User - 3.50%\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Accessories",
-        "COMPANY": "JBL",
-        "LOGO LINK": "https://1000logos.net/wp-content/uploads/2023/07/JBL-logo.png",
-        "LINK": "https://clnk.in/vRM8",
-        "Reward": "13.00%",
-        "T&C": "Payout is applicable only on the product below and requires the MANDATORY use of coupon code \" MOBI24DN20CA15 \".\nGo 3, GO Essential, Go3 Eco, Charge 5, Charge 5 Wifi, Partybox110, JBL PartyBox Club 120, JBL PartyBox Stage 320, JBL Partybox 710, Partybox Encore Essential, Flip 6, Flip Essential 2, SB271, Bar 500, Bar 800, Bar 1000, Bar 1300, Tune 760NC, Tune 770NC, Tune 310C, Tune 215BT, Tune Buds, Tune Beam, Tune Flex, Tune 235NC, Tune 510BT, Tune 520BT, Tune 710BT, Tune 720BT, BoomBox 3 Wifi, Tour One M2, Wave Beam, Endurance Race TWS, Clip 4, Pulse 5, JBL Live 770NC, Clip 4 Eco, Xtreme 4, LIVEBEAM3, Live buds 3, live flex 3, SB510, SB560, SB580, SB590, TUNE245NCTWS, GO-4, TUNE305C-USB-C, SB180, PartyLight Stick, Authentics 200, Authentics 300, Authentics 500 - 13% \nOther products - 0.00% / Sale\n\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -947,6 +987,16 @@
         "LINK": "https://clnk.in/vRNo",
         "Reward": "1.15%",
         "T&C": "Cash Reward on Successful Consumed Flights booking - 1.15% \nCancelled by Customer, Booked by Travel Agent, Customer Modify Booking - 0.00%\n\nNo Bundling of this offer with any other offers: signup / installation process.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Accessories",
+        "COMPANY": "JBL",
+        "LOGO LINK": "https://1000logos.net/wp-content/uploads/2023/07/JBL-logo.png",
+        "LINK": "https://clnk.in/vRM8",
+        "Reward": "13.00%",
+        "T&C": "Payout is applicable only on the product below and requires the MANDATORY use of coupon code \" MOBI24DN20CA15 \".\nGo 3, GO Essential, Go3 Eco, Charge 5, Charge 5 Wifi, Partybox110, JBL PartyBox Club 120, JBL PartyBox Stage 320, JBL Partybox 710, Partybox Encore Essential, Flip 6, Flip Essential 2, SB271, Bar 500, Bar 800, Bar 1000, Bar 1300, Tune 760NC, Tune 770NC, Tune 310C, Tune 215BT, Tune Buds, Tune Beam, Tune Flex, Tune 235NC, Tune 510BT, Tune 520BT, Tune 710BT, Tune 720BT, BoomBox 3 Wifi, Tour One M2, Wave Beam, Endurance Race TWS, Clip 4, Pulse 5, JBL Live 770NC, Clip 4 Eco, Xtreme 4, LIVEBEAM3, Live buds 3, live flex 3, SB510, SB560, SB580, SB590, TUNE245NCTWS, GO-4, TUNE305C-USB-C, SB180, PartyLight Stick, Authentics 200, Authentics 300, Authentics 500 - 13% \nOther products - 0.00% / Sale\n\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -977,6 +1027,16 @@
         "LINK": "https://clnk.in/vRNx",
         "Reward": "14.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "kindlife",
+        "LOGO LINK": "https://kindlife.in/images/ui_icon/kindlifeLogo.jpg",
+        "LINK": "https://clnk.in/vRNz",
+        "Reward": "3.5 - 13%",
+        "T&C": "Cash Reward - 13%\nCash Reward for the coupon code KIND50 (50% off on min. 5,999 upto 4,000) - 3.50%\nK-Beauty 50% sale (https://www.kindlife.in/on-the-body/k-beauty-50-sale/) - 0.00%\n\nAny orders with the following coupons code won't be payable - HAHA50, victory50, fkd100, newhere, WC50, PATAKA1000, SUPER24 and Others from Kindlife.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -1031,26 +1091,6 @@
     },
     {
         "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Home Appliances",
-        "COMPANY": "LG",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/LG_logo_%282014%29.svg/1280px-LG_logo_%282014%29.svg.png",
-        "LINK": "https://clnk.in/vRO7",
-        "Reward": "2.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Footwear",
-        "COMPANY": "LIBERTY",
-        "LOGO LINK": "https://i.pinimg.com/originals/e7/3e/03/e73e03bda040c0793b9cf5bbdbbb02d2.jpg",
-        "LINK": "https://clnk.in/vRPc",
-        "Reward": "7.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
         "COMPANY": "Lenovo",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/previews/020/927/282/non_2x/lenovo-logo-brand-phone-symbol-name-black-design-china-mobile-illustration-free-vector.jpg",
@@ -1070,6 +1110,16 @@
         "PAYMENT IN": "68"
     },
     {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Home Appliances",
+        "COMPANY": "LG",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/LG_logo_%282014%29.svg/1280px-LG_logo_%282014%29.svg.png",
+        "LINK": "https://clnk.in/vRO7",
+        "Reward": "2.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "Libas",
@@ -1080,6 +1130,16 @@
         "PAYMENT IN": "86"
     },
     {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Footwear",
+        "COMPANY": "LIBERTY",
+        "LOGO LINK": "https://i.pinimg.com/originals/e7/3e/03/e73e03bda040c0793b9cf5bbdbbb02d2.jpg",
+        "LINK": "https://clnk.in/vRPc",
+        "Reward": "7.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Loan",
         "COMPANY": "Loan Hub",
@@ -1087,16 +1147,6 @@
         "LINK": "https://clnk.in/vRPd",
         "Reward": "Rs 850",
         "T&C": "Eligibility:-<br/>Age : 18 to 55 years<br/>Minimum Salary : 25K per Month and above<br/>City - Delhi NCR, Mumbai, Kolkata, Pune, Hyderabad, Chennai, Bangalore, Jaipur, Ahmedabad.<br/>CIBIL - 650+<br/>Minimum Ticket size - 8K<br/>Max Ticket size - Upto 1L<br/>Tenure - Pay day loan<br/>ATS - 28k<br/><br/>Loans are not available to individuals staying alone.<br/>Applicants receiving salary in cash are not eligible.<br/>Once users fill in their details, the sales team will contact them for documentation, and the loan will be disbursed.\r",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Health, Food & Fitness",
-        "SUB-CATEGORY": "Nutritional Supplements",
-        "COMPANY": "MAX Protein",
-        "LOGO LINK": "https://mir-s3-cdn-cf.behance.net/projects/404/46b18e138809549.Y3JvcCw5OTksNzgyLDAsMTA4.jpg",
-        "LINK": "https://clnk.in/vRPi",
-        "Reward": "25%",
-        "T&C": "Cash Reward - 25.00% \nWhey60 coupon code used - 0.00%\n\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -1118,6 +1168,16 @@
         "Reward": "3 - 4.5%",
         "T&C": "Diamond and Studded Jewellery: 3 %\nGold Jewellery and Plain Gold: 4.5%\nGold Coin: 60\u20b9\n\nNo Cash Rewards are applicable on gift cards and silver ornaments, coins, utensils and any other items.",
         "PAYMENT IN": "81"
+    },
+    {
+        "CATEGORY": "Health, Food & Fitness",
+        "SUB-CATEGORY": "Nutritional Supplements",
+        "COMPANY": "MAX Protein",
+        "LOGO LINK": "https://mir-s3-cdn-cf.behance.net/projects/404/46b18e138809549.Y3JvcCw5OTksNzgyLDAsMTA4.jpg",
+        "LINK": "https://clnk.in/vRPi",
+        "Reward": "25%",
+        "T&C": "Cash Reward - 25.00% \nWhey60 coupon code used - 0.00%\n\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -1170,6 +1230,26 @@
         "PAYMENT IN": "80"
     },
     {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Accessories",
+        "COMPANY": "mivi",
+        "LOGO LINK": "https://www.mivi.in/cdn/shop/files/Logo.jpg?v=1704431175",
+        "LINK": "https://clnk.in/vRPX",
+        "Reward": "5.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Industrial Products",
+        "COMPANY": "moglix",
+        "LOGO LINK": "https://www.moglix.com/assets/img/moglix_logo_red@3x.png",
+        "LINK": "https://clnk.in/vRPZ",
+        "Reward": "6.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
         "COMPANY": "Mufti Jeans",
@@ -1220,16 +1300,6 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "STORES",
-        "SUB-CATEGORY": "",
-        "COMPANY": "NBA Store",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLdqtOo37r6eboxb9mLuxptmGmazTg1UXhA&s",
-        "LINK": "https://clnk.in/vRP8",
-        "Reward": "9.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "80"
-    },
-    {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
         "COMPANY": "Nat Habit",
@@ -1268,6 +1338,16 @@
         "Reward": "23.00%",
         "T&C": "Cash Reward is calculated on order amount excluding what is paid via wallet, credits or gift vouchers.<br/>Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "90"
+    },
+    {
+        "CATEGORY": "STORES",
+        "SUB-CATEGORY": "",
+        "COMPANY": "NBA Store",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLdqtOo37r6eboxb9mLuxptmGmazTg1UXhA&s",
+        "LINK": "https://clnk.in/vRP8",
+        "Reward": "9.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "80"
     },
     {
         "CATEGORY": "Fashion",
@@ -1362,16 +1442,6 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
-        "COMPANY": "OPPO",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/OPPO_Logo_wiki.png/1024px-OPPO_Logo_wiki.png",
-        "LINK": "https://clnk.in/vR0l",
-        "Reward": "0.13 - 3.5%",
-        "T&C": "OPPO Reno12 Pro 5G: OPPO Reno12 Pro 5G Sunset Gold 12+256GB = 5011100253, OPPO Reno12 Pro 5G Space Brown 12+256GB = 5011100254, OPPO Reno12 Pro 5G Sunset Gold 12+512GB = 5011100255, OPPO Reno12 Pro 5G Space Brown 12+512GB = 5011100256 - 0.13% \nOPPO A3 5G: OPPO A3 5G, Nebula Red, 6+128GB = 5011100274, OPPO A3 5G, Ocean Blue, 6+128GB = 5011100275 - 0.13%\nOPPO A3x 5G: OPPO A3x 5G, Sparkle Black, 4+64GB = 5011100260, OPPO A3x 5G, Starry Purple, 4+64GB = 5011100261, OPPO A3x 5G, Starlight White, 4+64GB = 5011100262, OPPO A3x 5G, Sparkle Black, 4+128GB = 5011100263, OPPO A3x 5G, Starry Purple, 4+128GB = 5011100264, OPPO A3x 5G, Starlight White, 4+128GB = 5011100265 - 0.13%\nOPPO A59 5G: OPPO A59 5G, Silk Gold, 4+128GB = 5011100230, OPPO A59 5G, Starry Black, 4+128GB = 5011100231, OPPO A59 5G, Silk Gold, 6+128GB = 5011100232, OPPO A59 5G, Starry Black, 6+128GB = 5011100233 - 0.13%\nOPPO K12x 5G: OPPO K12x 5G, Breeze Blue, 6+128GB = 5011100266, OPPO K12x 5G, Midnight Violet, 6+128GB = 5011100267, OPPO K12x 5G, Breeze Blue, 8+256GB = 5011100268, OPPO K12x 5G, Midnight Violet, 8+256GB = 5011100269 - 0.13% \nOPPO Reno12 5G: OPPO Reno12 5G Sunset Peach 8+256GB = 5011100257, OPPO Reno12 5G Astro Silver 8+256GB = 5011100258, OPPO Reno12 5G Matte Brown 8+256GB = 5011100259 - 0.13%\nOPPO Reno11 Pro 5: OPPO Reno11 Pro 5G, Pearl White, 12+256GB = 5011100238, OPPO Reno11 Pro 5G, Rock Grey, 12+256GB = 5011100239 - 0.13%\nOPPO F27 5G: OPPO F27 5G, Emerald Green, 8+128GB = 5011100270, OPPO F27 5G, Amber Orange, 8+128GB = 5011100271, OPPO F27 5G, Emerald Green, 8+256GB = 5011100272, OPPO F27 5G, Amber Orange, 8+256GB = 5011100273 - 0.3%\nOPPO F27 Pro+ 5G: OPPO F27 Pro+ 5G, Midnight Navy, 8+128GB = 5011100245, OPPO F27 Pro+ 5G, Dusk Pink, 8+128GB = 5011100246, OPPO F27 Pro+ 5G, Midnight Navy, 8+256GB = 5011100247, OPPO F27 Pro+ 5G, Dusk Pink, 8+256GB = 5011100248 - 0.7%\nOPPO A3 Pro 5G: OPPO A3 Pro 5G, Moonlight Purple, 8+128GB = 5011100249, OPPO A3 Pro 5G, Starry Black, 8+128GB = 5011100250, OPPO A3 Pro 5G, Moonlight Purple, 8+256GB = 5011100251, OPPO A3 Pro 5G, Starry Black, 8+256GB = 5011100252 - 0.2%\nAudio-OPPO Enco X2: OPPO Enco X2 White = 5031100027 - 3.50%\nAudio-OPPO Enco Air3 Pro: OPPO Enco Air3 Pro White = 5031100036, OPPO Enco Air3 Pro Green = 5031100037 - 3.50%\nAudio-OPPO Enco Air2 Pro: OPPO Enco Air2 Pro White = 5031100025, OPPO Enco Air2 Pro Grey = 5031100026 - 3.50%\nAudio-OPPO Enco Buds2: OPPO Enco Buds2 Black = 5031100030, OPPO Enco Buds2 Lilac Blue = 5031100038 - 2%\nOPPO Reno13: OPPO Reno13 5G,Ivory White,8GB+128GB = 5011110062, OPPO Reno13 5G,Luminous Blue,8GB+128GB = 5011110060, OPPO Reno13 5G,Ivory White,8GB+256GB = 5011110063, OPPO Reno13 5G,Luminous Blue,8GB+256GB = 5011110061 - 1.75%\nOPPO Reno13 Pro: OPPO Reno13 Pro 5G,Graphite Grey,12GB+256GB = 5011110058, OPPO Reno13 Pro 5G,Mist Lavender,12GB+256GB = 5011110056, OPPO Reno13 Pro 5G,Graphite Grey,12GB+512GB = 5011110059, OPPO Reno13 Pro 5G,Mist Lavender,12GB+512GB = 5011110057 - 1.75%\nOther - 0.00% ",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Laptops & Mobiles",
         "COMPANY": "OnePlus",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/03/OnePlus-Logo.png",
         "LINK": "https://clnk.in/vRQ9",
@@ -1387,6 +1457,16 @@
         "LINK": "https://clnk.in/vRRL",
         "Reward": "4.25%",
         "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Laptops & Mobiles",
+        "COMPANY": "OPPO",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/OPPO_Logo_wiki.png/1024px-OPPO_Logo_wiki.png",
+        "LINK": "https://clnk.in/vR0l",
+        "Reward": "0.13 - 3.5%",
+        "T&C": "OPPO Reno12 Pro 5G: OPPO Reno12 Pro 5G Sunset Gold 12+256GB = 5011100253, OPPO Reno12 Pro 5G Space Brown 12+256GB = 5011100254, OPPO Reno12 Pro 5G Sunset Gold 12+512GB = 5011100255, OPPO Reno12 Pro 5G Space Brown 12+512GB = 5011100256 - 0.13% \nOPPO A3 5G: OPPO A3 5G, Nebula Red, 6+128GB = 5011100274, OPPO A3 5G, Ocean Blue, 6+128GB = 5011100275 - 0.13%\nOPPO A3x 5G: OPPO A3x 5G, Sparkle Black, 4+64GB = 5011100260, OPPO A3x 5G, Starry Purple, 4+64GB = 5011100261, OPPO A3x 5G, Starlight White, 4+64GB = 5011100262, OPPO A3x 5G, Sparkle Black, 4+128GB = 5011100263, OPPO A3x 5G, Starry Purple, 4+128GB = 5011100264, OPPO A3x 5G, Starlight White, 4+128GB = 5011100265 - 0.13%\nOPPO A59 5G: OPPO A59 5G, Silk Gold, 4+128GB = 5011100230, OPPO A59 5G, Starry Black, 4+128GB = 5011100231, OPPO A59 5G, Silk Gold, 6+128GB = 5011100232, OPPO A59 5G, Starry Black, 6+128GB = 5011100233 - 0.13%\nOPPO K12x 5G: OPPO K12x 5G, Breeze Blue, 6+128GB = 5011100266, OPPO K12x 5G, Midnight Violet, 6+128GB = 5011100267, OPPO K12x 5G, Breeze Blue, 8+256GB = 5011100268, OPPO K12x 5G, Midnight Violet, 8+256GB = 5011100269 - 0.13% \nOPPO Reno12 5G: OPPO Reno12 5G Sunset Peach 8+256GB = 5011100257, OPPO Reno12 5G Astro Silver 8+256GB = 5011100258, OPPO Reno12 5G Matte Brown 8+256GB = 5011100259 - 0.13%\nOPPO Reno11 Pro 5: OPPO Reno11 Pro 5G, Pearl White, 12+256GB = 5011100238, OPPO Reno11 Pro 5G, Rock Grey, 12+256GB = 5011100239 - 0.13%\nOPPO F27 5G: OPPO F27 5G, Emerald Green, 8+128GB = 5011100270, OPPO F27 5G, Amber Orange, 8+128GB = 5011100271, OPPO F27 5G, Emerald Green, 8+256GB = 5011100272, OPPO F27 5G, Amber Orange, 8+256GB = 5011100273 - 0.3%\nOPPO F27 Pro+ 5G: OPPO F27 Pro+ 5G, Midnight Navy, 8+128GB = 5011100245, OPPO F27 Pro+ 5G, Dusk Pink, 8+128GB = 5011100246, OPPO F27 Pro+ 5G, Midnight Navy, 8+256GB = 5011100247, OPPO F27 Pro+ 5G, Dusk Pink, 8+256GB = 5011100248 - 0.7%\nOPPO A3 Pro 5G: OPPO A3 Pro 5G, Moonlight Purple, 8+128GB = 5011100249, OPPO A3 Pro 5G, Starry Black, 8+128GB = 5011100250, OPPO A3 Pro 5G, Moonlight Purple, 8+256GB = 5011100251, OPPO A3 Pro 5G, Starry Black, 8+256GB = 5011100252 - 0.2%\nAudio-OPPO Enco X2: OPPO Enco X2 White = 5031100027 - 3.50%\nAudio-OPPO Enco Air3 Pro: OPPO Enco Air3 Pro White = 5031100036, OPPO Enco Air3 Pro Green = 5031100037 - 3.50%\nAudio-OPPO Enco Air2 Pro: OPPO Enco Air2 Pro White = 5031100025, OPPO Enco Air2 Pro Grey = 5031100026 - 3.50%\nAudio-OPPO Enco Buds2: OPPO Enco Buds2 Black = 5031100030, OPPO Enco Buds2 Lilac Blue = 5031100038 - 2%\nOPPO Reno13: OPPO Reno13 5G,Ivory White,8GB+128GB = 5011110062, OPPO Reno13 5G,Luminous Blue,8GB+128GB = 5011110060, OPPO Reno13 5G,Ivory White,8GB+256GB = 5011110063, OPPO Reno13 5G,Luminous Blue,8GB+256GB = 5011110061 - 1.75%\nOPPO Reno13 Pro: OPPO Reno13 Pro 5G,Graphite Grey,12GB+256GB = 5011110058, OPPO Reno13 Pro 5G,Mist Lavender,12GB+256GB = 5011110056, OPPO Reno13 Pro 5G,Graphite Grey,12GB+512GB = 5011110059, OPPO Reno13 Pro 5G,Mist Lavender,12GB+512GB = 5011110057 - 1.75%\nOther - 0.00% ",
         "PAYMENT IN": "65"
     },
     {
@@ -1440,6 +1520,16 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Home & Living",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "pepperfry",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pepperfry_logo.svg/2560px-Pepperfry_logo.svg.png",
+        "LINK": "https://clnk.in/vRRR",
+        "Reward": "4.25 - 5.75%",
+        "T&C": "On order Rs.7500 & below - 4.25%\nOn order Rs.7501 to Rs.15000 -5.00%\nOn order Rs.15001 to Rs.37500 - 5.75%\nOn order Rs.37501 and above - Rs 2100.00\n\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "35"
+    },
+    {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Home Appliances",
         "COMPANY": "Philips",
@@ -1460,7 +1550,7 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Physics Wallah",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/640px-Physics_wallah_logo.jpg",
@@ -1470,13 +1560,23 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Picsart",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTVfR6qpPdAQne72BIbcBUZANk-MTo10TDg&s",
         "LINK": "https://clnk.in/vRUu",
         "Reward": "16 - 25%",
         "T&C": "Cash Reward on monthly subscription - 25%\nCash Reward on Yearly subscription - 16%",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "plum goodness",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gu2_73HJfk_ICPIQWDqbB-3k_EyigZGUJw&s",
+        "LINK": "https://clnk.in/vRUx",
+        "Reward": "10 - 14%",
+        "T&C": "New User - 14.00%\nExisting User - 10.00%\n\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -1530,26 +1630,6 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "RBL Bank Indian Oil CC",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
-        "LINK": "https://clnk.in/vRUW",
-        "Reward": "Rs 1000",
-        "T&C": "Cash Reward on Card Activation + 1st transaction (NTB & ETB users) - Rs 1000\nETCC user - 0.00\n\nEligibility Criteria : \nAge: 21 to 65 years\nEmployment: Both salaried and self-employed individuals are eligible\nIncome: Minimum monthly income of Rs.15,000\nSelf-Employed: Minimum income as filed in ITR Rs.2 lac/year\nCredit Score: Minimum credit score of 720+\nNew-to-Credit: Not Allowed\n\nPlease note - Minimum transaction of Rs.100 is required within 30 days to activate the card else Cash Reward will be cancelled.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "RBL Bank Shoprite CC",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
-        "LINK": "https://clnk.in/vRUV",
-        "Reward": "Rs 950",
-        "T&C": "Cash Reward on Card Activation + 1st transaction (NTB & ETB users) - Rs 950\nETCC user - 0.00\n\nEligibility Criteria : \nAge: 21 to 65 years\nEmployment: Both salaried and self-employed individuals are eligible\nIncome: Minimum monthly income of Rs.15,000\nSelf-Employed: Minimum income as filed in ITR Rs.2 lac/year\nCredit Score: Minimum credit score of 720+\nNew-to-Credit: Not Allowed\n\nPlease note - Minimum transaction of Rs.100 is required within 30 days to activate the card else Cash Reward will be cancelled.",
-        "PAYMENT IN": "65"
-    },
-    {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Train",
         "COMPANY": "RailYatri",
@@ -1580,6 +1660,36 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "RBL Bank Indian Oil CC",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
+        "LINK": "https://clnk.in/vRUW",
+        "Reward": "Rs 1000",
+        "T&C": "Cash Reward on Card Activation + 1st transaction (NTB & ETB users) - Rs 1000\nETCC user - 0.00\n\nEligibility Criteria : \nAge: 21 to 65 years\nEmployment: Both salaried and self-employed individuals are eligible\nIncome: Minimum monthly income of Rs.15,000\nSelf-Employed: Minimum income as filed in ITR Rs.2 lac/year\nCredit Score: Minimum credit score of 720+\nNew-to-Credit: Not Allowed\n\nPlease note - Minimum transaction of Rs.100 is required within 30 days to activate the card else Cash Reward will be cancelled.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Credit Card",
+        "COMPANY": "RBL Bank Shoprite CC",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
+        "LINK": "https://clnk.in/vRUV",
+        "Reward": "Rs 950",
+        "T&C": "Cash Reward on Card Activation + 1st transaction (NTB & ETB users) - Rs 950\nETCC user - 0.00\n\nEligibility Criteria : \nAge: 21 to 65 years\nEmployment: Both salaried and self-employed individuals are eligible\nIncome: Minimum monthly income of Rs.15,000\nSelf-Employed: Minimum income as filed in ITR Rs.2 lac/year\nCredit Score: Minimum credit score of 720+\nNew-to-Credit: Not Allowed\n\nPlease note - Minimum transaction of Rs.100 is required within 30 days to activate the card else Cash Reward will be cancelled.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Laptops & Mobiles",
+        "COMPANY": "realme",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/9/91/Realme_logo.png",
+        "LINK": "https://clnk.in/vSzY",
+        "Reward": "1.5 - 2%",
+        "T&C": "Accessories:-\nOn order of Rs.2000 and above - 2%\nOn order of Rs.1999 and below - 1.5%\nMobile Phone:-\nGT 7 Pro, GT6, GT 6T, 13 Pro+, 13 Pro - 2%\n14 Pro, P1 Speed - 1.5%\nOther Mobile Phone - 0.00%",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Pharma & Health Services",
         "COMPANY": "Redcliffe Labs",
@@ -1600,7 +1710,7 @@
         "PAYMENT IN": "35"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Rentals & Furniture",
         "COMPANY": "Rentickle",
         "LOGO LINK": "https://cdn.rentickle.com/skin/frontend/rentickle/lazy8/images/logo.png",
@@ -1620,6 +1730,16 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Finance & Banking",
+        "SUB-CATEGORY": "Loan",
+        "COMPANY": "Salary on Time",
+        "LOGO LINK": "https://media.licdn.com/dms/image/v2/D560BAQGzl-qLxkLivw/company-logo_200_200/company-logo_200_200/0/1728036256779/salaryontym_logo?e=1745452800&v=beta&t=M5oOg9jUrbgeAzBQDOvbKHxBFwZQEhoLgMdQqqXxLRk",
+        "LINK": "https://clnk.in/vRU8",
+        "Reward": "Rs 850",
+        "T&C": "Target Audience : Only Salaried<br/>Age : 18 to 55 years<br/>Minimum Salary : 30K per Month and above<br/>CRIF Score : 400+<br/><br/>Geo : Delhi and NCR (Noida, Ghaziabad, Gurugram and Faridabad), Mumbai, Thane, Pune, Bangalore, Hyderabad and Rangareddy, Indore, Ahmedabad, Nashik, Raigarh(Maharashtra)",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "SALT Attire",
@@ -1628,6 +1748,36 @@
         "Reward": "9.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Jewellery",
+        "COMPANY": "Salty",
+        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/07594e81f6ad-SaltyLogo-1659001792439.jpeg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjQx/",
+        "Reward": "9.00%",
+        "T&C": "Cancelled & Returned orders will not be Payable.",
+        "PAYMENT IN": "25"
+    },
+    {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Laptops & Mobiles",
+        "COMPANY": "Samsung",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt7Czm-5Iopkneg1OcJT2uGZTM9tq_KbeRmQYvgxnh21hIeEJAmmqBvNo&s",
+        "LINK": "https://clnk.in/vRVd",
+        "Reward": "1.45 - 2.5%",
+        "T&C": "Smartphones , Wearable & Tablets - 2.50%\nAppliances - 2.25%\nAccessories - 1.45%\n\nNo Cash Reward for Bulk or export transactions.\nNo Cash Reward on  Dishwashers and Soundbars / Speakers.\nNo Cash Reward on Retail sales and Employee Sales.\nNo Cash Reward on using Samsung Referral Advantage promo codes.\nCash Reward on Samsung App orders: Not Applicable.",
+        "PAYMENT IN": "125"
+    },
+    {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Women's Clothing",
+        "COMPANY": "savana",
+        "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQE6jYX2r2BdYQ/company-logo_200_200/company-logo_200_200/0/1723463270231/savana_global_logo?e=2147483647&v=beta&t=VIde-1LWP2Yo4M1GhOEnP2oB2whFJ9tcj8ExgiSL2Ls",
+        "LINK": "https://clnk.in/vRVj",
+        "Reward": "5.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Finance & Banking",
@@ -1670,66 +1820,6 @@
         "PAYMENT IN": "65"
     },
     {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Home Decor",
-        "COMPANY": "SEVA HOME",
-        "LOGO LINK": "https://www.sevahome.in/cdn/shop/files/seva-logo-og-image-new.png?v=1693573094",
-        "LINK": "https://clnk.in/vRVt",
-        "Reward": "14%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Men's Clothing",
-        "COMPANY": "SNITCH",
-        "LOGO LINK": "https://ivycapventures.com/uploads/images/659f8ffe97f79.png",
-        "LINK": "https://clnk.in/vRVG",
-        "Reward": "5 - 6%",
-        "T&C": "Cash Reward on New User - 6.00%\nCash Reward on Existing User - 5.00%\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Kitchen Essentials",
-        "COMPANY": "SOLARA",
-        "LOGO LINK": "https://www.solara.in/cdn/shop/files/logo-black.png?v=1708487564&width=354",
-        "LINK": "https://clnk.in/vRVJ",
-        "Reward": "6.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Loan",
-        "COMPANY": "Salary on Time",
-        "LOGO LINK": "https://media.licdn.com/dms/image/v2/D560BAQGzl-qLxkLivw/company-logo_200_200/company-logo_200_200/0/1728036256779/salaryontym_logo?e=1745452800&v=beta&t=M5oOg9jUrbgeAzBQDOvbKHxBFwZQEhoLgMdQqqXxLRk",
-        "LINK": "https://clnk.in/vRU8",
-        "Reward": "Rs 850",
-        "T&C": "Target Audience : Only Salaried<br/>Age : 18 to 55 years<br/>Minimum Salary : 30K per Month and above<br/>CRIF Score : 400+<br/><br/>Geo : Delhi and NCR (Noida, Ghaziabad, Gurugram and Faridabad), Mumbai, Thane, Pune, Bangalore, Hyderabad and Rangareddy, Indore, Ahmedabad, Nashik, Raigarh(Maharashtra)",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Jewellery",
-        "COMPANY": "Salty",
-        "LOGO LINK": "https://images.yourstory.com/cs/images/companies/07594e81f6ad-SaltyLogo-1659001792439.jpeg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjQx/",
-        "Reward": "9.00%",
-        "T&C": "Cancelled & Returned orders will not be Payable.",
-        "PAYMENT IN": "25"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Laptops & Mobiles",
-        "COMPANY": "Samsung",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt7Czm-5Iopkneg1OcJT2uGZTM9tq_KbeRmQYvgxnh21hIeEJAmmqBvNo&s",
-        "LINK": "https://clnk.in/vRVd",
-        "Reward": "1.45 - 2.5%",
-        "T&C": "Smartphones , Wearable & Tablets - 2.50%\nAppliances - 2.25%\nAccessories - 1.45%\n\nNo Cash Reward for Bulk or export transactions.\nNo Cash Reward on  Dishwashers and Soundbars / Speakers.\nNo Cash Reward on Retail sales and Employee Sales.\nNo Cash Reward on using Samsung Referral Advantage promo codes.\nCash Reward on Samsung App orders: Not Applicable.",
-        "PAYMENT IN": "125"
-    },
-    {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
         "COMPANY": "Setu",
@@ -1738,6 +1828,16 @@
         "Reward": "19.00%",
         "T&C": "Orders Allowed - 3 to 5 per user.<br/>Returned and Cancelled orders will not be payable.\r",
         "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Home & Living",
+        "SUB-CATEGORY": "Home Decor",
+        "COMPANY": "SEVA HOME",
+        "LOGO LINK": "https://www.sevahome.in/cdn/shop/files/seva-logo-og-image-new.png?v=1693573094",
+        "LINK": "https://clnk.in/vRVt",
+        "Reward": "14%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "STORES",
@@ -1770,6 +1870,16 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Women's Clothing",
+        "COMPANY": "shyaway",
+        "LOGO LINK": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_3/ztzmzkrkvhsppg3vthuh",
+        "LINK": "https://clnk.in/vRVC",
+        "Reward": "25%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Bedding & Mattresses",
         "COMPANY": "Sleepwell",
@@ -1791,6 +1901,26 @@
     },
     {
         "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Men's Clothing",
+        "COMPANY": "SNITCH",
+        "LOGO LINK": "https://ivycapventures.com/uploads/images/659f8ffe97f79.png",
+        "LINK": "https://clnk.in/vRVG",
+        "Reward": "5 - 6%",
+        "T&C": "Cash Reward on New User - 6.00%\nCash Reward on Existing User - 5.00%\n\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Home & Living",
+        "SUB-CATEGORY": "Kitchen Essentials",
+        "COMPANY": "SOLARA",
+        "LOGO LINK": "https://www.solara.in/cdn/shop/files/logo-black.png?v=1708487564&width=354",
+        "LINK": "https://clnk.in/vRVJ",
+        "Reward": "6.50%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
+    },
+    {
+        "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
         "COMPANY": "Sonata",
         "LOGO LINK": "https://media.assettype.com/creativegaga%2F2024-07%2F6c890060-9da8-4225-beb2-9df1d8161f97%2FSonata-New-Logo.jpg?w=1200&auto=format%2Ccompress&fit=max",
@@ -1800,7 +1930,17 @@
         "PAYMENT IN": "35"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "soulflower",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKRHEoHykcZPDVWnt1acC9GpjTSvuPP7dug&s",
+        "LINK": "https://tjzuh.com/g/jjwp2egakve28a585501899a484146/",
+        "Reward": "15.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "85"
+    },
+    {
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "Soulight",
         "LOGO LINK": "https://play-lh.googleusercontent.com/0OUU4xASU4GgV4Ymeli9kL9wTTB8fmsj1uBuXy6RVs-06sXA2We4tnRdcjoqzTl8aw0",
@@ -1900,7 +2040,7 @@
         "PAYMENT IN": "98"
     },
     {
-        "CATEGORY": "Oniline Services",
+        "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
         "COMPANY": "The Hindu",
         "LOGO LINK": "https://talerang.com/wp-content/uploads/2024/08/The-Hindu-Logo.jpg",
@@ -1951,7 +2091,7 @@
     },
     {
         "CATEGORY": "Travel & Hospitality",
-        "SUB-CATEGORY": "-",
+        "SUB-CATEGORY": "",
         "COMPANY": "Trip.com",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trip.com_logo.svg",
         "LINK": "https://clnk.in/vRWg",
@@ -1967,6 +2107,16 @@
         "LINK": "https://clnk.in/vRWj",
         "Reward": "8.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "STORES",
+        "SUB-CATEGORY": "",
+        "COMPANY": "truemeds",
+        "LOGO LINK": "https://du8ef2qvb6oy7.cloudfront.net/media/images/1018f6b6-263e-44df-b129-a360601ca484/truemedslogo2x.png?fm=webp&q=80&fit=max&crop=1000%2C1000%2C0%2C0&w=1500",
+        "LINK": "https://clnk.in/vRWk",
+        "Reward": "Rs 15 - 75",
+        "T&C": "Cash Reward on New User:\nSubs - Rs 75.00\nNon-Subs - Rs 35.00\nCash Reward on Repeated User:\nSubs - Rs 20.00\nNon-Subs - Rs 15.00\n\nNon Sub CAC/Sub CAC explanation:\n\u201cWhenever order is placed by user, they immediately receive the call from Truemeds prescribed doctor who pitch them for the Substitute for the selected medicines. If the User opts for the same, the payout is decided by Sub CAC and if the user decides against the same the payout falls under the Non Sub.\u201d",
         "PAYMENT IN": "65"
     },
     {
@@ -2000,26 +2150,6 @@
         "PAYMENT IN": "86"
     },
     {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Haircare",
-        "COMPANY": "VIVA GLAM",
-        "LOGO LINK": "https://wwd.com/wp-content/uploads/2020/08/mac2020_vg26_icc_crops_w_logo_3300x2550_300dpi_beauty_3.jpg?w=1000&h=563&crop=1",
-        "LINK": "https://clnk.in/vRWC",
-        "Reward": "25%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "VLCC",
-        "LOGO LINK": "https://www.livelaw.in/h-upload/2020/01/18/750x450_369247-vlcc.jpg",
-        "LINK": "https://clnk.in/vRWw",
-        "Reward": "14%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
         "COMPANY": "Victoria's Street",
@@ -2050,6 +2180,26 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Haircare",
+        "COMPANY": "VIVA GLAM",
+        "LOGO LINK": "https://wwd.com/wp-content/uploads/2020/08/mac2020_vg26_icc_crops_w_logo_3300x2550_300dpi_beauty_3.jpg?w=1000&h=563&crop=1",
+        "LINK": "https://clnk.in/vRWC",
+        "Reward": "25%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "95"
+    },
+    {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "VLCC",
+        "LOGO LINK": "https://www.livelaw.in/h-upload/2020/01/18/750x450_369247-vlcc.jpg",
+        "LINK": "https://clnk.in/vRWw",
+        "Reward": "14%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
         "COMPANY": "W for Woman",
@@ -2058,6 +2208,26 @@
         "Reward": "6.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "57"
+    },
+    {
+        "CATEGORY": "Home & Living",
+        "SUB-CATEGORY": "Store",
+        "COMPANY": "WakeUp",
+        "LOGO LINK": "https://mywakeup.in/cdn/shop/files/300_x_144.png?v=1710242971&width=300",
+        "LINK": "https://clnk.in/vRP6",
+        "Reward": "5.50%",
+        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Health, Food & Fitness",
+        "SUB-CATEGORY": "Fitness & Wellness",
+        "COMPANY": "Wellbeing Nutrition",
+        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4tqOZjrSK9uJfDYpm8vAwAHZmLoR5JiTTBg&s",
+        "LINK": "https://tjzuh.com/g/g9icpao4fy6a3b5ae4bb50a13cc12b/",
+        "Reward": "9 - 18%",
+        "T&C": "Old User: 9%\nNew User: 18%\n\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "63"
     },
     {
         "CATEGORY": "Travel & Hospitality",
@@ -2088,26 +2258,6 @@
         "Reward": "7%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "WakeUp",
-        "LOGO LINK": "https://mywakeup.in/cdn/shop/files/300_x_144.png?v=1710242971&width=300",
-        "LINK": "https://clnk.in/vRP6",
-        "Reward": "5.50%",
-        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Health, Food & Fitness",
-        "SUB-CATEGORY": "Fitness & Wellness",
-        "COMPANY": "Wellbeing Nutrition",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4tqOZjrSK9uJfDYpm8vAwAHZmLoR5JiTTBg&s",
-        "LINK": "https://tjzuh.com/g/g9icpao4fy6a3b5ae4bb50a13cc12b/",
-        "Reward": "9 - 18%",
-        "T&C": "Old User: 9%\nNew User: 18%\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "63"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -2158,155 +2308,5 @@
         "Reward": "7.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "99"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Personal Hygiene",
-        "COMPANY": "durex",
-        "LOGO LINK": "https://assets-eu-01.kc-usercontent.com/f8b5e84a-d17a-014d-b1f8-bfe74b89069f/07d5c594-907d-44cb-af37-4bf9ca255c4d/Durex%20Logo.jpg",
-        "LINK": "https://clnk.in/vRJj",
-        "Reward": "12.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Women's Clothing",
-        "COMPANY": "enamor",
-        "LOGO LINK": "https://vivianamalls.com/wp-content/uploads/2023/08/enamor-Viviana-Mall-Thane-Mumbai.png",
-        "LINK": "https://clnk.in/vRLO",
-        "Reward": "18.00%",
-        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Watches",
-        "COMPANY": "fastrack",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fastrack_logo.png",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQy/",
-        "Reward": "6.50%",
-        "T&C": "Only below categories eligible for Cash Reward. For all other categories, no compensation will be received.<br/>* Watches / Smartwatches<br/>* Hearables (Audio accessories)<br/><br/>Cancelled/Returned orders will not be validated.",
-        "PAYMENT IN": "35"
-    },
-    {
-        "CATEGORY": "Baby & Kids",
-        "SUB-CATEGORY": "",
-        "COMPANY": "firstcry",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/8/87/FirstCry_logo.png",
-        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDgx/",
-        "Reward": "Rs 20 - 30",
-        "T&C": "For Order Value Between Rs.101 to Rs.500 - \u20b920\nFor Order Value Above Rs.500 - \u20b930\n\nKindly do not use coupon code of other sources as we are not payable for that.",
-        "PAYMENT IN": "40"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Accessories",
-        "COMPANY": "inFire",
-        "LOGO LINK": "https://www.goinfire.com/cdn/shop/files/Copy_of_logo_1.png?v=1695465896&width=200",
-        "LINK": "https://clnk.in/vRM1",
-        "Reward": "8.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "kindlife",
-        "LOGO LINK": "https://kindlife.in/images/ui_icon/kindlifeLogo.jpg",
-        "LINK": "https://clnk.in/vRNz",
-        "Reward": "3.5 - 13%",
-        "T&C": "Cash Reward - 13%\nCash Reward for the coupon code KIND50 (50% off on min. 5,999 upto 4,000) - 3.50%\nK-Beauty 50% sale (https://www.kindlife.in/on-the-body/k-beauty-50-sale/) - 0.00%\n\nAny orders with the following coupons code won't be payable - HAHA50, victory50, fkd100, newhere, WC50, PATAKA1000, SUPER24 and Others from Kindlife.\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Accessories",
-        "COMPANY": "mivi",
-        "LOGO LINK": "https://www.mivi.in/cdn/shop/files/Logo.jpg?v=1704431175",
-        "LINK": "https://clnk.in/vRPX",
-        "Reward": "5.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Industrial Products",
-        "COMPANY": "moglix",
-        "LOGO LINK": "https://www.moglix.com/assets/img/moglix_logo_red@3x.png",
-        "LINK": "https://clnk.in/vRPZ",
-        "Reward": "6.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "pepperfry",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pepperfry_logo.svg/2560px-Pepperfry_logo.svg.png",
-        "LINK": "https://clnk.in/vRRR",
-        "Reward": "4.25 - 5.75%",
-        "T&C": "On order Rs.7500 & below - 4.25%\nOn order Rs.7501 to Rs.15000 -5.00%\nOn order Rs.15001 to Rs.37500 - 5.75%\nOn order Rs.37501 and above - Rs 2100.00\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "35"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "plum goodness",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gu2_73HJfk_ICPIQWDqbB-3k_EyigZGUJw&s",
-        "LINK": "https://clnk.in/vRUx",
-        "Reward": "10 - 14%",
-        "T&C": "New User - 14.00%\nExisting User - 10.00%\n\nReturned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Laptops & Mobiles",
-        "COMPANY": "realme",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/9/91/Realme_logo.png",
-        "LINK": "https://clnk.in/vSzY",
-        "Reward": "1.5 - 2%",
-        "T&C": "Accessories:-\nOn order of Rs.2000 and above - 2%\nOn order of Rs.1999 and below - 1.5%\nMobile Phone:-\nGT 7 Pro, GT6, GT 6T, 13 Pro+, 13 Pro - 2%\n14 Pro, P1 Speed - 1.5%\nOther Mobile Phone - 0.00%",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Women's Clothing",
-        "COMPANY": "savana",
-        "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQE6jYX2r2BdYQ/company-logo_200_200/company-logo_200_200/0/1723463270231/savana_global_logo?e=2147483647&v=beta&t=VIde-1LWP2Yo4M1GhOEnP2oB2whFJ9tcj8ExgiSL2Ls",
-        "LINK": "https://clnk.in/vRVj",
-        "Reward": "5.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Fashion",
-        "SUB-CATEGORY": "Women's Clothing",
-        "COMPANY": "shyaway",
-        "LOGO LINK": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_3/ztzmzkrkvhsppg3vthuh",
-        "LINK": "https://clnk.in/vRVC",
-        "Reward": "25%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "COMPANY": "soulflower",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKRHEoHykcZPDVWnt1acC9GpjTSvuPP7dug&s",
-        "LINK": "https://tjzuh.com/g/jjwp2egakve28a585501899a484146/",
-        "Reward": "15.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "85"
-    },
-    {
-        "CATEGORY": "STORES",
-        "SUB-CATEGORY": "",
-        "COMPANY": "truemeds",
-        "LOGO LINK": "https://du8ef2qvb6oy7.cloudfront.net/media/images/1018f6b6-263e-44df-b129-a360601ca484/truemedslogo2x.png?fm=webp&q=80&fit=max&crop=1000%2C1000%2C0%2C0&w=1500",
-        "LINK": "https://clnk.in/vRWk",
-        "Reward": "Rs 15 - 75",
-        "T&C": "Cash Reward on New User:\nSubs - Rs 75.00\nNon-Subs - Rs 35.00\nCash Reward on Repeated User:\nSubs - Rs 20.00\nNon-Subs - Rs 15.00\n\nNon Sub CAC/Sub CAC explanation:\n\u201cWhenever order is placed by user, they immediately receive the call from Truemeds prescribed doctor who pitch them for the Substitute for the selected medicines. If the User opts for the same, the payout is decided by Sub CAC and if the user decides against the same the payout falls under the Non Sub.\u201d",
-        "PAYMENT IN": "65"
     }
 ]
