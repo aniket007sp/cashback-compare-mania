@@ -81,7 +81,7 @@ const InstallUseEarn = () => {
           onClick={scrollRight}
         >
           <div className="w-5 h-5 md:w-10 md:h-10 bg-[crimson] rounded-full flex items-center justify-center animate-blink">
-            <div className="text-[crimson] text-xl">&rarr;</div>
+            <div className="text-gray-200 text-xl">&rarr;</div>
           </div>
         </div>
       </div>
