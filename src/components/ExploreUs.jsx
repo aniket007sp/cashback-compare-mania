@@ -45,6 +45,7 @@ const ExploreUs = () => {
     "Home & Living": homeLiving,
     "Online Services": onlineServices,
     "Travel & Hospitality": travelHospitality,
+    "GIFTING" : gifting,
   };
 
   return (
