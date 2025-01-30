@@ -30,16 +30,6 @@
         "PAYMENT IN": "93"
     },
     {
-        "CATEGORY": "Finance & Banking",
-        "SUB-CATEGORY": "Credit Card",
-        "COMPANY": "Adani One ICICI Bank",
-        "LOGO LINK": "https://static.wixstatic.com/media/f836e8_b3c1a2cf93234289af9c36696c4027db~mv2.png/v1/fill/w_216,h_340,al_c,lg_1,q_85,enc_auto/f836e8_b3c1a2cf93234289af9c36696c4027db~mv2.png",
-        "LINK": "https://clnk.in/vREn",
-        "Reward": "Rs 350",
-        "T&C": "Validation Criteria -> Successful Card Dispatch",
-        "PAYMENT IN": "95"
-    },
-    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
         "COMPANY": "Adidas",
@@ -350,6 +340,16 @@
         "PAYMENT IN": "61"
     },
     {
+        "CATEGORY": " Electronics & Household Appliances",
+        "SUB-CATEGORY": "Accessories",
+        "COMPANY": "Boult Audio",
+        "LOGO LINK": "https://cdn0.cuelinks.com/merchant/4823/medium/New_Project_-_2024-05-24T165503.948.png?1716549935",
+        "LINK": "https://clnk.in/vUWI",
+        "Reward": "5.00%",
+        "T&C": "No Cash Rewards on Coupon Codes i.e. PKT50 & PKT100 for Boult Audio",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
         "COMPANY": "Bummer",
@@ -368,6 +368,16 @@
         "Reward": "6.75%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "GIFTING",
+        "SUB-CATEGORY": "",
+        "COMPANY": "Cadbury Gifting",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cadbury_logo_new.jpg",
+        "LINK": "https://clnk.in/vRH1",
+        "Reward": "40.00%",
+        "T&C": "Cart Value > 1200 INR.<br/>Validation Criteria - Successful delivered order except for return and cancelled.",
+        "PAYMENT IN": "50"
     },
     {
         "CATEGORY": "Fashion",
@@ -517,6 +527,16 @@
         "LINK": "https://clnk.in/vRJc",
         "Reward": "14.00%",
         "T&C": "Cash Reward on above Rs.2500 - 14%\nCash Reward on below Rs.2499 - 0.00% \n\nReturned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "65"
+    },
+    {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Personal Hygiene",
+        "COMPANY": "Domina",
+        "LOGO LINK": "https://cdn0.cuelinks.com/merchant/9430/medium/images_%2841%29.png?1738068186",
+        "LINK": "https://clnk.in/vUP9",
+        "Reward": "35.00%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -678,16 +698,6 @@
         "Reward": "15.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "80"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Body Care",
-        "COMPANY": "Fix Derma",
-        "LOGO LINK": "https://play-lh.googleusercontent.com/hhYzidcGhVJGWHEroWvzeCaABBN3Qt2DhPhnJum3xJlDnNuKZx_PxVQ9NiUSJx8wZA",
-        "LINK": "https://tjzuh.com/g/z4zo89ks24e28a585501663b3d047c/",
-        "Reward": "15.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "86"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -948,16 +958,6 @@
         "Reward": "Rs 1250",
         "T&C": "Eligibility: 21+ years; Salaried professionals(5L+ PA); Good cibil score (650+)<br/>Regions: Delhi, Chandigarh, Ludhiana, Amritsar, Jalandhar, Kanpur, Lucknow, Jaipur, Jodhpur, Ahmedabad, Vadodra, Surat, Mumbai, Goa, Pune, Nagpur, Indore, Hyderabad, Vishakapatnam, Bangalore, Chennai, Coimbatore, Cochin, Kolkata, Bhubaneswar, Rohtak, Karnal, Agra, Ajmer, Udaipur, Rajkot, Jamnagar, Anand, Valsad, Vapi, Bhopal, Raipur, Vijayawada, Mysore, Hubli, Thiruvananthapuram, Howrah, Durgapur, Asansol, Guwahati, Patna, Allahabad, Varanasi, Bareilly, Meerut, Alwar, Bhilwara, Bikaner, Kolhapur, Jabalpur, Ranga Reddy, Guntur, Tiruchirapalli, Madurai, Kozhikode, Thrissur, Ernakulam, Ranchi, Sonipat, Panipat, Ambala, Yamunanagar, Phagwara, Bhatinda, Nashik, Kharagpur, Siliguri, Jamshedpur, Kurukshetra, Bhubaneswar<br/><br/>Cash Reward on Successful Card Disbursal.",
         "PAYMENT IN": "49"
-    },
-    {
-        "CATEGORY": " Electronics & Household Appliances",
-        "SUB-CATEGORY": "Accessories",
-        "COMPANY": "inFire",
-        "LOGO LINK": "https://www.goinfire.com/cdn/shop/files/Copy_of_logo_1.png?v=1695465896&width=200",
-        "LINK": "https://clnk.in/vRM1",
-        "Reward": "8.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Fashion",
@@ -1296,7 +1296,7 @@
         "LOGO LINK": "https://ifp.world/wp-content/uploads/2021/05/Myntra-Logo.png",
         "LINK": "https://clnk.in/vRP7",
         "Reward": "3.5 - 7.25%",
-        "T&C": "Cash Reward on New User - 7.25%\nCash Reward on Existing User - 3.5%\nCash Reward on Exchanged Orders - 0.00%\n\nCash Reward is Not applicable if you pay with Myntra Credits and Gift Cards.\nReturned and Cancelled orders will not be payable.",
+        "T&C": "Cash Reward on New User - 7.25%\nCash Reward on Existing User - 3.5%\nCash Reward on Exchanged Orders, Payout on Exchanged Orders, Gold Coin & Gold Products - 0.00%\n\nCash Reward is Not applicable if you pay with Myntra Credits and Gift Cards.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
@@ -1328,26 +1328,6 @@
         "Reward": "35%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Skincare",
-        "COMPANY": "Nature Derma",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwEIGuzzNAmXopu42-zDhPlkqDwRKS7Qdz9w&s",
-        "LINK": "https://clnk.in/vRQc",
-        "Reward": "23.00%",
-        "T&C": "Cash Reward is calculated on order amount excluding what is paid via wallet, credits or gift vouchers.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "90"
-    },
-    {
-        "CATEGORY": "STORES",
-        "SUB-CATEGORY": "",
-        "COMPANY": "NBA Store",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLdqtOo37r6eboxb9mLuxptmGmazTg1UXhA&s",
-        "LINK": "https://clnk.in/vRP8",
-        "Reward": "9.50%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "80"
     },
     {
         "CATEGORY": "Fashion",
@@ -1445,8 +1425,8 @@
         "COMPANY": "OnePlus",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/03/OnePlus-Logo.png",
         "LINK": "https://clnk.in/vRQ9",
-        "Reward": "0.3 - 1%",
-        "T&C": "OnePlus Pad 2: OnePlus Pad 2 128GB 8GB Nimbus Gray WIFI - 5511100082, OnePlus Pad 2 256GB 12GB Nimbus Gray WIFI - 5511100083 - 0.3%\nOnePlus Nord Buds 3 Pro: OnePlus Nord Buds 3 Pro Color 2 - 5481158591, OnePlus Nord Buds 3 Pro Soft Jade - 5481158587 - 0.3%\nOnePlus Watch 2: OnePlus Watch 2 OPWWE231 Radiant Steel IN - 5491100055, OnePlus Watch 2 OPWWE231 Black Steel IN - 5491100056 - 0.3%\nOnePlus Watch 2R: OnePlus Watch 2R Forest Green - 5491100164, OnePlus Watch 2R Gunmetal Gray - 5491100165 - 0.3%\nOnePlus Nord CE4: 128 GB 8GB Dark Chrome - 5011110021, 128 GB 8GB Celadon Marble - 5011110020, 256 GB 8GB Dark Chrome - 5011110019, 256 GB 8GB Celadon Marble - 5011110018 - 0.3%\nNord CE4 Lite: Ultra Orange - 5011110204, Super Silver - 5011110206, Mega Blue - 5011110200, Ultra Orange - 5011110201, Super Silver - 5011110203, Mega Blue - 5011110205 - 0.3%\nOnePlus Nord 4: OnePlus Nord 4 CPH2661 India 128GB 8GB Obsidian Midnight IN - 5011110280, OnePlus Nord 4 CPH2661 India 128GB 8GB Oasis Green IN - 5011110281, OnePlus Nord 4 CPH2661 India 256GB 8GB Obsidian Midnight IN - 5011110275, OnePlus Nord 4 CPH2661 India 256GB 8GB Oasis Green IN - 5011110277, OnePlus Nord 4 CPH2661 India 256GB 8GB Mercurial Silver IN - 5011110276, OnePlus Nord 4 CPH2661 India 256GB 12GB Obsidian Midnight IN - 5011110278, OnePlus Nord 4 CPH2661 India 256GB 12GB Mercurial Silver IN - 5011110279 - 0.3%\nOnePlus Pad Go: OnePlus Pad Go 256GB 8GB Twin Mint LTE OPD2304 IN - 5511100015, OnePlus Pad Go 128GB 8GB Twin Mint WIFI OPD2305 IN - 5511100016, OnePlus Pad Go 128GB 8GB Twin Mint LTE OPD2304 IN - 5511100017 - 0.3%\nOnePlus Buds 3: OnePlus Buds 3 E509A Metallic Gray IN - 5481156309, OnePlus Buds 3 E509A Splendid Blue IN - 5481156310 - 0.3%\nOnePlus 12R: OnePlus 12R CPH2585 India 128GB 8GB Iron Gray IN - 5011105221, OnePlus 12R CPH2585 India 128GB 8GB Cool Blue IN - 5011105222, OnePlus 12R CPH2585 India 256GB 16GB Iron Gray IN - 5011105223, OnePlus 12R CPH2585 India 256GB 16GB Cool Blue IN - 5011105224 OnePlus 12R 256GB+8GB Cool Blue IN - 5011110010 OnePlus 12R 256GB+8GB Iron Gray IN - 5011110011 OnePlus 12R 256GB+8GB Sunset Dune IN - 501111024 - 0.3%\nOnePlus Buds Pro 3: OnePlus Buds Pro 3 Midnight Opus - 5481158577, OnePlus Buds Pro 3 Lunar Radiance - 5481158578, OnePlus Buds Pro 3, Sapphire Blue - 5481158842 - 1%\nOnePlus 13: OnePlus 13 CPH2649 India 256GB 12GB Midnight Ocean IN-5011110321 OnePlus 13 CPH2649 India 512GB 16GB Midnight Ocean IN-5011110322, OnePlus 13 CPH2649 India 256GB 12GB Arctic Dawn IN-5011110320, OnePlus 13 CPH2649 India 512GB 16GB Arctic Dawn IN-5011110318, OnePlus 13 CPH2649 India 512GB 16GB Black Eclipse IN-5011111414, OnePlus 13 CPH2649 India 256GB 12GB Black Eclipse IN-5011111409, OnePlus 13 CPH2649 India 1TB 24GB Black Eclipse IN-5011111620 - 0.85%\nOnePlus 13R: OnePlus 13R CPH2691 India 512GB 16GB Nebula Noir IN-5011111062 OnePlus 13R CPH2691 India 512GB 16GB Astral Trail IN-5011111063, OnePlus 13R CPH2691 India 256GB 12GB Astral Trail IN-5011111066, OnePlus 13R CPH2691 India 256GB 12GB Nebula Noir IN-5011111067 - 0.7%\nAll Other - 0.3%",
+        "Reward": "0.3 - 0.5%",
+        "T&C": "OnePlus Pad 2: OnePlus Pad 2 128GB 8GB Nimbus Gray WIFI - 5511100082, OnePlus Pad 2 256GB 12GB Nimbus Gray WIFI - 5511100083 - 0.3%\nOnePlus Nord Buds 3 Pro: OnePlus Nord Buds 3 Pro Color 2 - 5481158591, OnePlus Nord Buds 3 Pro Soft Jade - 5481158587 - 0.3%\nOnePlus Watch 2: OnePlus Watch 2 OPWWE231 Radiant Steel IN - 5491100055, OnePlus Watch 2 OPWWE231 Black Steel IN - 5491100056 - 0.3%\nOnePlus Watch 2R: OnePlus Watch 2R Forest Green - 5491100164, OnePlus Watch 2R Gunmetal Gray - 5491100165 - 0.3%\nOnePlus Nord CE4: 128 GB 8GB Dark Chrome - 5011110021, 128 GB 8GB Celadon Marble - 5011110020, 256 GB 8GB Dark Chrome - 5011110019, 256 GB 8GB Celadon Marble - 5011110018 - 0.3%\nNord CE4 Lite: Ultra Orange - 5011110204, Super Silver - 5011110206, Mega Blue - 5011110200, Ultra Orange - 5011110201, Super Silver - 5011110203, Mega Blue - 5011110205 - 0.3%\nOnePlus Nord 4: OnePlus Nord 4 CPH2661 India 128GB 8GB Obsidian Midnight IN - 5011110280, OnePlus Nord 4 CPH2661 India 128GB 8GB Oasis Green IN - 5011110281, OnePlus Nord 4 CPH2661 India 256GB 8GB Obsidian Midnight IN - 5011110275, OnePlus Nord 4 CPH2661 India 256GB 8GB Oasis Green IN - 5011110277, OnePlus Nord 4 CPH2661 India 256GB 8GB Mercurial Silver IN - 5011110276, OnePlus Nord 4 CPH2661 India 256GB 12GB Obsidian Midnight IN - 5011110278, OnePlus Nord 4 CPH2661 India 256GB 12GB Mercurial Silver IN - 5011110279 - 0.3%\nOnePlus Pad Go: OnePlus Pad Go 256GB 8GB Twin Mint LTE OPD2304 IN - 5511100015, OnePlus Pad Go 128GB 8GB Twin Mint WIFI OPD2305 IN - 5511100016, OnePlus Pad Go 128GB 8GB Twin Mint LTE OPD2304 IN - 5511100017 - 0.3%\nOnePlus Buds 3: OnePlus Buds 3 E509A Metallic Gray IN - 5481156309, OnePlus Buds 3 E509A Splendid Blue IN - 5481156310 - 0.3%\nOnePlus 12R: OnePlus 12R CPH2585 India 128GB 8GB Iron Gray IN - 5011105221, OnePlus 12R CPH2585 India 128GB 8GB Cool Blue IN - 5011105222, OnePlus 12R CPH2585 India 256GB 16GB Iron Gray IN - 5011105223, OnePlus 12R CPH2585 India 256GB 16GB Cool Blue IN - 5011105224 OnePlus 12R 256GB+8GB Cool Blue IN - 5011110010 OnePlus 12R 256GB+8GB Iron Gray IN - 5011110011 OnePlus 12R 256GB+8GB Sunset Dune IN - 501111024 - 0.3%\nOnePlus Buds Pro 3: OnePlus Buds Pro 3 Midnight Opus - 5481158577, OnePlus Buds Pro 3 Lunar Radiance - 5481158578, OnePlus Buds Pro 3, Sapphire Blue - 5481158842 - 0.3%\nOnePlus 13: OnePlus 13 CPH2649 India 256GB 12GB Midnight Ocean IN-5011110321 OnePlus 13 CPH2649 India 512GB 16GB Midnight Ocean IN-5011110322, OnePlus 13 CPH2649 India 256GB 12GB Arctic Dawn IN-5011110320, OnePlus 13 CPH2649 India 512GB 16GB Arctic Dawn IN-5011110318, OnePlus 13 CPH2649 India 512GB 16GB Black Eclipse IN-5011111414, OnePlus 13 CPH2649 India 256GB 12GB Black Eclipse IN-5011111409, OnePlus 13 CPH2649 India 1TB 24GB Black Eclipse IN-5011111620 - 0.5%\nOnePlus 13R: OnePlus 13R CPH2691 India 512GB 16GB Nebula Noir IN-5011111062 OnePlus 13R CPH2691 India 512GB 16GB Astral Trail IN-5011111063, OnePlus 13R CPH2691 India 256GB 12GB Astral Trail IN-5011111066, OnePlus 13R CPH2691 India 256GB 12GB Nebula Noir IN-5011111067 - 0.5%\nAll Other - 0.3%",
         "PAYMENT IN": "65"
     },
     {
@@ -1686,7 +1666,7 @@
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/9/91/Realme_logo.png",
         "LINK": "https://clnk.in/vSzY",
         "Reward": "1.5 - 2%",
-        "T&C": "Accessories:-\nOn order of Rs.2000 and above - 2%\nOn order of Rs.1999 and below - 1.5%\nMobile Phone:-\nGT 7 Pro, GT6, GT 6T, 13 Pro+, 13 Pro - 2%\n14 Pro, P1 Speed - 1.5%\nOther Mobile Phone - 0.00%",
+        "T&C": "Accessories:-\nOn order of Rs.2000 and above - 2%\nOn order of Rs.1999 and below - 1.5%\nMobile Phone:-\nGT 7 Pro, GT6, GT 6T, 13 Pro+, 13 Pro - 2%\nP1 Speed - 1.5%\nOther Mobile Phone - 0.00%",
         "PAYMENT IN": "65"
     },
     {
@@ -2288,16 +2268,6 @@
         "Reward": "Rs 1250",
         "T&C": "Cash Reward on Card Disbursal - NTB & ETB Users - Rs 1250\nETCC Users - Rs 0.00\n\n1. Bureau Score Criteria: A minimum bureau score of 780+ is required. NTC (New to Credit / -1 CIBIL) applications are not allowed.\n2. Customer should use Aadhar linked mobile number only to apply for credit cards.\n3. VKYC done over 50km from your Aadhaar/communication address will result in application rejection and loss of Cash Reward.",
         "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Install. Use & Earn",
-        "SUB-CATEGORY": "Food & Grocery",
-        "COMPANY": "Zepto",
-        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/7/7d/Logo_of_Zepto.png",
-        "LINK": "https://clnk.in/vTyi",
-        "Reward": "Rs 85",
-        "T&C": "On order of Rs.200 & above (Install + 1st Order) - Rs 85\nOn order of Rs.199 & below (Install + 1st Order) - Rs 0\n\nAttribution Time: Click to Install-1day and Install to purchase-5days.",
-        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Fashion",
