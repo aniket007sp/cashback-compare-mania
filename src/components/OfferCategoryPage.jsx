@@ -50,7 +50,7 @@ const formatLatestOffer = (offer) => ({
   logo: offer["LOGO LINK"],
   avg_money_transfer_time: offer["PAYMENT IN"],
   categories: {
-    category: offer["SUB-CATEGORY"] || "General",
+    category: offer["CATEGORY"] || "General",
     subcategory: offer["SUB-CATEGORY"]
   },
   gotolink: offer.LINK,
