@@ -11,7 +11,7 @@ import travelHospitality from "../data/latest/travelHospitality.json";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import healthFoodFitness from "../data/latest/healthFoodFitness.json";
 import personalCareBeautyWellness from "../data/latest/personalCareBeautyWellness.json";
-import gifting from "../data/gifting.json";
+import gifting from "../data/latest/gifting.json";
 
 // Utility function to format URLs
 const formatUrl = (str) => str.toLowerCase().replace(/\s+/g, "-");
