@@ -36,8 +36,7 @@ const groupOffers = (offers) => {
 const ExploreUs = () => {
   const [selectedBrand, setSelectedBrand] = useState(null);
 
-  const categories = {
-    
+  const categories = {  
     "Electronics & Household Appliances": electronicsHouseholdAppliances,
     "Fashion": fashion,
     "Personal Care, Beauty & Wellness" : personalCareBeautyWellness,
