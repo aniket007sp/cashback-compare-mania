@@ -14,6 +14,7 @@ import onlineServices from '../data/latest/onlineServices.json';
 import travelHospitality from '../data/latest/travelHospitality.json';
 import healthFoodFitness from "../data/latest/healthFoodFitness.json";
 import personalCareBeautyWellness from "../data/latest/personalCareBeautyWellness.json";
+import gifting from "../data/latest/gifting.json";
 
 const toSentenceCase = (text) => {
   if (!text) return '';
@@ -40,6 +41,8 @@ const getCategoryData = (category) => {
       return healthFoodFitness;
     case 'personal care, beauty & wellness':
       return personalCareBeautyWellness;
+    case 'gifting':
+      return gifting;
     default:
       return [];
   }
