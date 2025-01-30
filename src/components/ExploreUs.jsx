@@ -37,16 +37,17 @@ const ExploreUs = () => {
   const [selectedBrand, setSelectedBrand] = useState(null);
 
   const categories = {
-    "Baby & Kids": babyKids,
+    
     "Electronics & Household Appliances": electronicsHouseholdAppliances,
     "Fashion": fashion,
-    "Finance & Banking": financeBanking,
-    "Health, Food & Fitness": healthFoodFitness,
     "Personal Care, Beauty & Wellness" : personalCareBeautyWellness,
-    "Home & Living": homeLiving,
-    "Online Services": onlineServices,
     "Travel & Hospitality": travelHospitality,
+    "Health, Food & Fitness": healthFoodFitness,
+    "Finance & Banking": financeBanking,
+    "Home & Living": homeLiving,
     "GIFTING" : gifting,
+    "Baby & Kids": babyKids,
+    "Online Services": onlineServices,
   };
 
   return (
