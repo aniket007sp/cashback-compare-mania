@@ -95,7 +95,7 @@ const InstallUseEarn = () => {
           </DialogHeader>
           <div className="mt-2 sm:mt-4 md:mt-6 space-y-2 sm:space-y-4 md:space-y-6">
             <div className="flex items-center gap-x-2">
-              <h4 className="text-xs sm:text-sm text-gray-800">Reward:</h4>
+              <h4 className="text-xs sm:text-sm text-gray-800">Cash Reward:</h4>
               <p className="text-xs sm:text-sm font-semibold text-gray-800">
                 {selectedStore?.Reward}
               </p>
