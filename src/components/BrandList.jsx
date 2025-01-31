@@ -65,7 +65,7 @@ const BrandList = ({ brands }) => {
               {hoveredIndex === index && (
                 <div className="space-y-1 flex-1 w-full">
                   <div className="text-[10px] text-gray-700 bg-gray-50 px-2 py-1 rounded">
-                    <span className="font-medium">Cash Reward:</span>
+                    <span className="font-medium">CashBack:</span>
                     <span className="ml-1">{formatRange(brand.Reward)}</span>
                   </div>
                 </div>
