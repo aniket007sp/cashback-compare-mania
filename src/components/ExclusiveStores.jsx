@@ -48,9 +48,9 @@ const ExclusiveStores = () => {
               <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
                 {store.COMPANY}
               </h3>
-              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1 max-w-full overflow-hidden">
-                <span className="whitespace-nowrap">Cash Reward:</span>
-                <span className="font-semibold truncate min-w-0">{store.Reward}</span>
+              <p className="text-[clamp(8px,1.2vw,12px)] sm:text-[clamp(10px,1.5vw,14px)] text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1 w-full overflow-hidden whitespace-nowrap">
+                <span>Cash Reward:</span>
+                <span className="font-semibold">{store.Reward}</span>
               </p>
 
               <button
