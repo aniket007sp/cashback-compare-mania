@@ -92,7 +92,7 @@ const BrandList = ({ brands }) => {
                         termsConditions: brand["T&C"],
                         action_ranges: [
                           {
-                            name: "Cash Reward",
+                            name: "CashBack",
                             reward: brand.Reward,
                           },
                         ],
