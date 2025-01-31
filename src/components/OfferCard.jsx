@@ -38,7 +38,7 @@ const OfferCard = ({ offer, onSelectStore }) => {
             key={index}
             className="text-xs text-gray-700 bg-gray-100 px-3 py-1 rounded-md"
           >
-            <span>Cash Reward:</span>
+            <span>CashBack:</span>
             <span className="font-semibold truncate ml-1">{action.reward}</span>
           </div>
         ))}
