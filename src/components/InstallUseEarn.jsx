@@ -36,7 +36,7 @@ const InstallUseEarn = () => {
               onClick={() => setSelectedStore(store)}
             >
               <div className="flex items-center justify-center mb-1 sm:mb-2">
-                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                <div className="w-12 h-12 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                   <img
                     src={store["LOGO LINK"]}
                     alt={store.COMPANY}
@@ -49,7 +49,7 @@ const InstallUseEarn = () => {
                 {store.COMPANY}
               </h3>
               <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
-                <span className="whitespace-nowrap">Cash Reward:</span>
+                <span className="whitespace-nowrap">CashBack:</span>
                 <span className="font-semibold truncate">{store.Reward}</span>
               </p>
 
@@ -95,7 +95,7 @@ const InstallUseEarn = () => {
           </DialogHeader>
           <div className="mt-2 sm:mt-4 md:mt-6 space-y-2 sm:space-y-4 md:space-y-6">
             <div className="flex items-center gap-x-2">
-              <h4 className="text-xs sm:text-sm text-gray-800">Cash Reward:</h4>
+              <h4 className="text-xs sm:text-sm text-gray-800">CashBack:</h4>
               <p className="text-xs sm:text-sm font-semibold text-gray-800">
                 {selectedStore?.Reward}
               </p>
