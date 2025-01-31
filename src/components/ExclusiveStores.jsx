@@ -49,7 +49,7 @@ const ExclusiveStores = () => {
                 {store.COMPANY}
               </h3>
               <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
-                <span className="whitespace-nowrap">Reward:</span>
+                <span className="whitespace-nowrap">Cash Reward:</span>
                 <span className="font-semibold truncate">{store.Reward}</span>
               </p>
 
