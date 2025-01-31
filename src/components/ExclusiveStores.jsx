@@ -50,10 +50,8 @@ const ExclusiveStores = () => {
               </h3>
               <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1 max-w-full overflow-hidden">
                 <span className="whitespace-nowrap">Cash Reward:</span>
-                <span className="font-semibold truncate">{store.Reward}</span>
+                <span className="font-semibold truncate min-w-0">{store.Reward}</span>
               </p>
-
-
 
               <button
                 className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
