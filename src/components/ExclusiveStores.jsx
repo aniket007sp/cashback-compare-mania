@@ -27,7 +27,7 @@ const ExclusiveStores = () => {
           {stores.map((store, index) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 min-w-[140px] sm:w-32 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg hover:shadow-[0_0_5px_5px_rgba(200,156,217,0.6)] transition-shadow duration-300 hover:scale-105"
+              className="flex-shrink-0 w-30 sm:w-35 md:w-45 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg hover:shadow-[0_0_5px_5px_rgba(200,156,217,0.6)] transition-shadow duration-300 hover:scale-105"
               style={{
                 animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
                 opacity: 0,
@@ -48,15 +48,11 @@ const ExclusiveStores = () => {
               <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
                 {store.COMPANY}
               </h3>
-              
-              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-1 py-0.5 sm:py-1 rounded-md flex items-center gap-0.5 sm:gap-1 
-                           w-fit max-w-full border border-transparent">
+              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1">
                 <span className="whitespace-nowrap">Cash Reward:</span>
-                <span className="font-semibold truncate max-w-[60px] sm:max-w-[80px] md:max-w-[100px]">
-                  {store.Reward}
-                </span>
+                <span className="font-semibold truncate">{store.Reward}</span>
               </p>
-              
+
               <button
                 className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
                 onClick={(e) => {
