@@ -27,7 +27,7 @@ const ExclusiveStores = () => {
           {stores.map((store, index) => (
             <div
               key={store.COMPANY}
-              className="flex-shrink-0 w-30 sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg hover:shadow-[0_0_5px_5px_rgba(200,156,217,0.6)] transition-shadow duration-300 hover:scale-105"
+              className="flex-shrink-0 min-w-[120px] sm:w-30 md:w-40 flex flex-col items-center p-1 sm:p-2 bg-white rounded-lg hover:shadow-[0_0_5px_5px_rgba(200,156,217,0.6)] transition-shadow duration-300 hover:scale-105"
               style={{
                 animation: `fade-in 0.5s ease-out ${index * 0.1}s`,
                 opacity: 0,
@@ -48,10 +48,11 @@ const ExclusiveStores = () => {
               <h3 className="text-[10px] sm:text-xs md:text-sm font-medium text-center mb-0.5 sm:mb-1">
                 {store.COMPANY}
               </h3>
-             <p className="flex justify-between items-center gap-1 w-full whitespace-nowrap bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md">
-              <span className="text-gray-700 min-w-0 truncate">Cash Reward:</span>
-              <span className="font-semibold min-w-0 truncate">{store.Reward}</span>
-            </p>
+              
+              <p className="text-[10px] sm:text-xs text-gray-700 bg-gray-100 px-1 sm:px-2 py-0.5 sm:py-1 rounded-md flex justify-center items-center gap-0.5 sm:gap-1 flex-shrink min-w-0">
+                 <span className="whitespace-nowrap flex-shrink">Cash Reward:</span>
+                 <span className="font-semibold truncate flex-shrink min-w-0">{store.Reward}</span>
+              </p>
 
               <button
                 className="mt-1 sm:mt-2 text-[10px] sm:text-xs bg-[crimson] text-white py-0.5 sm:py-1 px-2 sm:px-3 rounded-md hover:bg-gray-400 hover:text-black transition w-full"
