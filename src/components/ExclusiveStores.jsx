@@ -49,7 +49,7 @@ const ExclusiveStores = () => {
                 {store.COMPANY}
               </h3>
 
-              <div className="w-full grid grid-cols-2 gap-1 items-center mb-2">
+              <div className="w-full bg-gray-200 grid grid-cols-2 gap-1 items-center mb-2">
                 <p className="text-xs text-gray-700 text-right pr-1">Cash Reward:</p>
                 <p className="text-xs font-semibold text-gray-800 truncate">{store.Reward}</p>
               </div>
