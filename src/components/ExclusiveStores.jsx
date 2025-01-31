@@ -36,7 +36,7 @@ const ExclusiveStores = () => {
               onClick={() => setSelectedStore(store)}
             >
               <div className="flex items-center justify-center mb-1 sm:mb-2">
-                <div className="w-8 h-8 sm:w-16 sm:h-16 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
+                <div className="w-8 h-8 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xl">
                   <img
                     src={store["LOGO LINK"]}
                     alt={store.COMPANY}
