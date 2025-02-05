@@ -2,6 +2,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Bedding & Mattresses",
+        "ACTIVE": "Y",
         "COMPANY": "Centuary Mattress",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/4dea3355281d-NewProject1-1625501212576.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://clnk.in/vRIq",
@@ -12,6 +13,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Bedding & Mattresses",
+        "ACTIVE": "Y",
         "COMPANY": "Sleepwell",
         "LOGO LINK": "https://couponzania.com/wp-content/uploads/2023/06/Sleepwell-Logo-e1729011841477.webp",
         "LINK": "https://clnk.in/vRVF",
@@ -22,6 +24,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Cleaning Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Cleevo",
         "LOGO LINK": "https://getcleevo.com/cdn/shop/files/CLEEVO_LOGO_116ffd80-ac1c-4468-9a79-ddc5771bd51b.png?v=1677650159&width=300",
         "LINK": "https://clnk.in/vRIt",
@@ -32,6 +35,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Cleaning Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Koparo Clean",
         "LOGO LINK": "https://koparoclean.com/cdn/shop/files/Untitled_design_35_210x.png?v=1680590280",
         "LINK": "https://clnk.in/vRNJ",
@@ -42,6 +46,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Nilkamal",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTboZpuS0CBxDhLvHFzWxaZJS1LD0ak-4dm2Q&s",
         "LINK": "https://clnk.in/vRQI",
@@ -52,6 +57,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Urban Ladder",
         "LOGO LINK": "https://rcity.in/rcity-admin/brand_logo/urban_ladder_new.png",
         "LINK": "https://tjzuh.com/g/y1ewg49svwe28a58550126a8b71558/",
@@ -62,6 +68,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "FigLiving",
         "LOGO LINK": "https://www.figliving.com/cdn/shop/files/FIG_LIVING_LOGO_DARK__1___1_-removebg-preview.png?v=1713514909&width=666",
         "LINK": "https://clnk.in/vRL3",
@@ -72,6 +79,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "Photobook",
         "LOGO LINK": "https://www.shutterstock.com/image-vector/camera-photo-book-logo-design-260nw-2359127369.jpg",
         "LINK": "https://clnk.in/vRUm",
@@ -82,6 +90,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "SEVA HOME",
         "LOGO LINK": "https://www.sevahome.in/cdn/shop/files/seva-logo-og-image-new.png?v=1693573094",
         "LINK": "https://clnk.in/vRVt",
@@ -92,6 +101,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "Ugaoo",
         "LOGO LINK": "https://www.bengaluru.lulumall.in/wp-content/uploads/2024/06/Screenshot-2024-06-13-at-6.53.14%E2%80%AFPM.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjIz/",
@@ -102,16 +112,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Kitchen Essentials",
-        "COMPANY": "Borosil",
-        "LOGO LINK": "https://tradebrains.in/wp-content/uploads/2022/01/Borosil-Logo-300x109.jpg",
-        "LINK": "https://tjzuh.com/g/lkcps96ekke28a5855018420cad79b/",
-        "Reward": "15.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "61"
-    },
-    {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Kitchen Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "SOLARA",
         "LOGO LINK": "https://www.solara.in/cdn/shop/files/logo-black.png?v=1708487564&width=354",
         "LINK": "https://clnk.in/vRVJ",
@@ -122,6 +123,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Kitchen Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "WONDERCHEF",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ360TUUzqYjU5qQxppzU_XHHDKa4LLgeEag&s",
         "LINK": "https://clnk.in/vRWF",
@@ -132,6 +134,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Godrej Interio",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPKUyQeJ8FJdbKl9u51nmWk0A8qKs-JczwQ&s",
         "LINK": "https://clnk.in/vRMb",
@@ -142,6 +145,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "pepperfry",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pepperfry_logo.svg/2560px-Pepperfry_logo.svg.png",
         "LINK": "https://clnk.in/vRRR",
@@ -152,6 +156,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "WakeUp",
         "LOGO LINK": "https://mywakeup.in/cdn/shop/files/300_x_144.png?v=1710242971&width=300",
         "LINK": "https://clnk.in/vRP6",
