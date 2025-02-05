@@ -53,7 +53,7 @@ const ExploreUs = () => {
     <section id="explore-us" className="container mx-auto px-4 py-8">
       <header>
         <h2 className="text-sm sm:text-base md:text-lg text-white font-semibold mb-2 sm:mb-3 bg-[crimson] w-full py-1 sm:py-1.5 text-center animate-scale-in">
-          Explore Uss
+          Explore Us
         </h2>
       </header>
 
