@@ -2,6 +2,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Trip.com",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trip.com_logo.svg",
         "LINK": "https://clnk.in/vRWg",
@@ -12,6 +13,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Air India",
         "LOGO LINK": "https://skift.com/wp-content/uploads/2023/08/Air-India-NewLogo-red.jpg",
         "LINK": "https://clnk.in/vREr",
@@ -22,6 +24,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Cleartrip",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/Screenshot2023-05-19121310-1684479161002.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDQ2/",
@@ -32,6 +35,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Etihad Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Etihad-airways-logo.svg/2560px-Etihad-airways-logo.svg.png",
         "LINK": "https://clnk.in/vRLX",
@@ -42,6 +46,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Happy Fares",
         "LOGO LINK": "https://d3n3x6vi4wflr3.cloudfront.net/HF.svg",
         "LINK": "https://clnk.in/vRMF",
@@ -52,6 +57,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "HappyEasyGo",
         "LOGO LINK": "https://static-asset.inc42.com/happyeasygo.png",
         "LINK": "https://clnk.in/vRMA",
@@ -62,6 +68,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Indigo",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/IndiGo-Logo.jpg",
         "LINK": "https://clnk.in/vRe8",
@@ -72,6 +79,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Jazeera Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Jazeera_Airways_logo.svg/2560px-Jazeera_Airways_logo.svg.png",
         "LINK": "https://clnk.in/vRNo",
@@ -82,6 +90,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Qatar Airways",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUBRSAWCHQI6MygiiVDW5qvv6f4NzXDb8Iw&s",
         "LINK": "https://clnk.in/vRUO",
@@ -92,16 +101,18 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "Goibibo",
         "LOGO LINK": "https://jsak.goibibo.com/pwa_v3/pwa_growth/images/og-goibibo.aba291ed.png",
         "LINK": "https://clnk.in/vRMd",
         "Reward": "Rs 100",
-        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.\r",
+        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.<br/>",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "GoIndigo",
         "LOGO LINK": "https://seeklogo.com/images/I/indigo-airlines-logo-EA9977FF45-seeklogo.com.png",
         "LINK": "https://clnk.in/vRe9",
@@ -112,6 +123,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "Make my Trip",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Makemytrip_logo.svg/800px-Makemytrip_logo.svg.png",
         "LINK": "https://clnk.in/vRPy",
@@ -122,6 +134,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Train",
+        "ACTIVE": "Y",
         "COMPANY": "RailYatri",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjyN9Z1qZVIJrSADDJAYgA5df3jjnUGHRdw&s",
         "LINK": "https://clnk.in/vRUY",
@@ -132,6 +145,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Assembly Travel",
         "LOGO LINK": "https://assemblytravel.com/cdn/shop/files/Untitled_design_5_5a2501a4-a2f1-4d06-bca9-254232784ed1.png?v=1702020856&width=2048",
         "LINK": "https://tjzuh.com/g/j0etwd7gjve28a58550190323b8507/",
@@ -142,6 +156,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Columbia Sportswear",
         "LOGO LINK": "https://logoeps.com/wp-content/uploads/2013/01/columbia-sportswear-logo-vector.png",
         "LINK": "https://clnk.in/vRIZ",
@@ -152,6 +167,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "WILDCRAFT",
         "LOGO LINK": "https://seeklogo.com/images/T/the-wildcraft-logo-221AFC99F7-seeklogo.com.png",
         "LINK": "https://clnk.in/vRWE",
