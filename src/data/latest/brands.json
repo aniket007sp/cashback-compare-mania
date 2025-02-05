@@ -2,6 +2,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Accessorize London",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCMoHxGe5nMCeWb23q6Xer8_3wXB_srZMkg&usqp=CAU",
         "LINK": "https://tjzuh.com/g/1fadgegof1e28a5855014962cec542/",
@@ -12,16 +13,18 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "Acer",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2016/09/Acer-Logo-720x450.png",
         "LINK": "https://tjzuh.com/g/67hxm0ezhv6a3b5ae4bb759e60847d/",
         "Reward": "3.00%",
-        "T&C": "Orders below 4k not payable.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Orders below 4k not payable.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "79"
     },
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Acwo",
         "LOGO LINK": "https://acwo.com/cdn/shop/files/ACwO-Logo-Gif_Indian_Flag_Color_130x@2x.webp?v=1737353944",
         "LINK": "https://tjzuh.com/g/jq052leeh3e28a5855013bfa95ddce/",
@@ -32,6 +35,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Adidas",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1450px-Adidas_Logo.svg.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMzU1/",
@@ -42,6 +46,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Banking",
+        "ACTIVE": "Y",
         "COMPANY": "Aditya Birla Capital App",
         "LOGO LINK": "https://www.logoshape.com/wp-content/uploads/2024/02/aditya-birla-capital-vector-logo_logoshape.com_-1.png",
         "LINK": "https://tjzuh.com/g/ehbuybezsce28a585501452f68e3e2/",
@@ -52,6 +57,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Air India",
         "LOGO LINK": "https://skift.com/wp-content/uploads/2023/08/Air-India-NewLogo-red.jpg",
         "LINK": "https://clnk.in/vREr",
@@ -62,6 +68,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "Airtel DTH",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeol7vmep3SC-IdRzDYAmECJ4vMgYejvVxkQ&s",
         "LINK": "https://clnk.in/vREu",
@@ -72,16 +79,18 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Banking",
+        "ACTIVE": "Y",
         "COMPANY": "Airtel Payments Bank",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Airtel_payments_bank_logo.jpg",
         "LINK": "https://clnk.in/vREC",
         "Reward": "Rs 135",
-        "T&C": "Cash Reward On Successful CKYC Account open - New user only.<br/><br/>User Journey Flow: Clicks> App install> Complete registration> CKYC Sign up ( Aadhar & other details)>Face recognition>KYC Details fetch>wallet transaction> Successful CKYC Account open",
+        "T&C": "Cash Reward On Successful CKYC Account open - New user only.\n\nUser Journey Flow: Clicks> App install> Complete registration> CKYC Sign up ( Aadhar & other details)>Face recognition>KYC Details fetch>wallet transaction> Successful CKYC Account open",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "AJIO",
         "LOGO LINK": "https://i.pinimg.com/736x/58/3b/f1/583bf1744b9419813a94323c68f23df9.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMzY0/",
@@ -92,6 +101,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "ALDO",
         "LOGO LINK": "https://yorkdale.com/wp-content/uploads/2021/09/8f5e1cb5791ae560c97216b15f5bbc7423f5d5c7-1.png",
         "LINK": "https://clnk.in/vREF",
@@ -102,6 +112,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "AMEX",
         "LOGO LINK": "https://www.americanexpress.com/content/dam/amex/us/merchant/supplies-uplift/product/images/img-WEBLOGO1-01.jpg",
         "LINK": "https://tjzuh.com/g/xpdvk6nc4o6a3b5ae4bbb5ad0d8225/",
@@ -112,6 +123,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Wellness & Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Amocare",
         "LOGO LINK": "https://www.realcash.in/img/amocare-logo-1.png",
         "LINK": "https://clnk.in/vRE0",
@@ -122,6 +134,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Investment",
+        "ACTIVE": "Y",
         "COMPANY": "Appreciate Wealth",
         "LOGO LINK": "https://appreciatewealth.com/assets/images/logos/Appreciate-logo.png",
         "LINK": "https://tjzuh.com/g/3orb81sca06a3b5ae4bbad31060239/",
@@ -132,6 +145,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Haircare",
+        "ACTIVE": "Y",
         "COMPANY": "ARATA",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/10973122012007867202741204474795327551970809o-1605704159020.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExOTAz/",
@@ -142,6 +156,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Assembly Travel",
         "LOGO LINK": "https://assemblytravel.com/cdn/shop/files/Untitled_design_5_5a2501a4-a2f1-4d06-bca9-254232784ed1.png?v=1702020856&width=2048",
         "LINK": "https://tjzuh.com/g/j0etwd7gjve28a58550190323b8507/",
@@ -152,6 +167,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "AU Bank",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJD6vWcXM2e6Cn0HvJ_yX-mcSnJ6hafHYhFQ&s",
         "LINK": "https://clnk.in/vREa",
@@ -162,6 +178,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Aurelia",
         "LOGO LINK": "https://www.frankart.global/wp-content/uploads/2020/04/Aurelia-logo.jpg",
         "LINK": "https://clnk.in/vRFe",
@@ -172,6 +189,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "AVON",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/Avon-Logo-500x281.png",
         "LINK": "https://clnk.in/vRFh",
@@ -182,36 +200,40 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Account Opening",
+        "ACTIVE": "Y",
         "COMPANY": "Axis Bank",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/600px-Axis_Bank_logo.svg.png?20100223155056",
         "LINK": "https://clnk.in/vRFn",
         "Reward": "Rs 900",
-        "T&C": "Eligibility:-<br/>Age Group: 25+ <br/>Income: 3+ Lakhs<br/>Working Professionals, Salaried Profiles<br/><br/>Validation Criteria - Account Open",
+        "T&C": "Eligibility:-\nAge Group: 25+ \nIncome: 3+ Lakhs\nWorking Professionals, Salaried Profiles\n\nValidation Criteria - Account Open",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "Axis Bank",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/600px-Axis_Bank_logo.svg.png?20100223155056",
         "LINK": "https://clnk.in/vRFq",
         "Reward": "Rs 950 - 2500",
-        "T&C": "Payout applicable for NTB & ETB User Only.\nAxis Flipkart - Rs 950\nAxis Myzone, Axis Select, Axis Aura, Axis Privilege, Axis Indian Oil Credit Card, Axis Indian Oil Credit Card RuPay, Axis Health Card, Axis SpiceJet, Axis Samsung Signature, Axis Rewards Credit card, Axis Airtel Card  - Rs 1800\nAxis Magnus, Axis Atlas, Axis Samsung Infinite Card - Rs 2500\nOther Axis CC - Rs 0.00\nNo Cash Rewards on Lifetime free Credit card.\nCash Rewards not applicable for ETCC Users.\nCash Reward is not applicable on Multi-account case - A multi-account case in credit cards typically refers to a situation where multiple credit card accounts are associated with the same individual or business.\n\nEligibility:-\nSalaried (preferable) Self-Employed\nIncome: 40,000 above Monthly Income : 5L above Annually\nBureau Score Criteria: A minimum bureau score of 735 is required. NTC (New to Credit / -1 CIBIL) applications are not allowed.\nCustomer should use Aadhar linked mobile number only to apply for credit cards.\nETB Case Application: Customers must apply using the same phone number linked to their existing Axis Bank relationships (e.g., bank account, FD). Applications with a different number will be rejected.\n\nVKYC done over 50km from your Aadhaar/communication address will result in application rejection and loss of Cash Rewards.\n\nValidation Criteria -> Successful Card Dispatch",
+        "T&C": "Payout applicable for NTB & ETB User Only.\nAxis Flipkart, Axis Myzone - Rs 950\nAxis Select, Axis Aura, Axis Privilege, Axis Indian Oil Credit Card, Axis Indian Oil Credit Card RuPay, Axis Health Card, Axis SpiceJet, Axis Samsung Signature, Axis Rewards Credit card, Axis Airtel Card  - Rs 1800\nAxis Magnus, Axis Atlas, Axis Samsung Infinite Card - Rs 2500\nOther Axis CC - Rs 0.00\nNo Cash Rewards on Lifetime free Credit card.\nCash Rewards not applicable for ETCC Users.\nCash Reward is not applicable on Multi-account case - A multi-account case in credit cards typically refers to a situation where multiple credit card accounts are associated with the same individual or business.\n\nEligibility:-\nSalaried (preferable) Self-Employed\nIncome: 40,000 above Monthly Income : 5L above Annually\nBureau Score Criteria: A minimum bureau score of 735 is required. NTC (New to Credit / -1 CIBIL) applications are not allowed.\nCustomer should use Aadhar linked mobile number only to apply for credit cards.\nETB Case Application: Customers must apply using the same phone number linked to their existing Axis Bank relationships (e.g., bank account, FD). Applications with a different number will be rejected.\n\nVKYC done over 50km from your Aadhaar/communication address will result in application rejection and loss of Cash Rewards.\n\nValidation Criteria -> Successful Card Dispatch",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Baby & Kids",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Baby Organo",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTUeALuhjiIzPF_IGXJRz618xzKOxgu_N9Gw&s",
         "LINK": "https://clnk.in/vRG2",
         "Reward": "13.00%",
-        "T&C": "Max Transactions Allowed - 3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Max Transactions Allowed - 3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Bacca Bucci",
         "LOGO LINK": "https://baccabucci.com/cdn/shop/files/web_logo_1_430x.png?v=1706100952",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNjQx/",
@@ -222,6 +244,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Investment",
+        "ACTIVE": "Y",
         "COMPANY": "Bajaj Broking",
         "LOGO LINK": "https://quickbiznews.com/wp-content/uploads/2024/06/Bajaj-Broking.jpg",
         "LINK": "https://tjzuh.com/g/kswl6p7b1le28a585501658e8b3f1f/",
@@ -232,16 +255,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "EMI",
+        "ACTIVE": "Y",
         "COMPANY": "Bajaj Insta EMI Card",
         "LOGO LINK": "https://mir-s3-cdn-cf.behance.net/projects/404/5deea860685505.Y3JvcCw5NTQsNzQ3LDIzNSww.jpg",
         "LINK": "https://clnk.in/vRG7",
         "Reward": "Rs 200",
-        "T&C": "Validation: KYC-Approved<br/><br/>Eligibility:-<br/>Credit Card Holders <br/>Salary above 35k+<br/>CIBIL score - 700 & Above ",
+        "T&C": "Validation: KYC-Approved\n\nEligibility:-\nCredit Card Holders \nSalary above 35k+\nCIBIL score - 700 & Above ",
         "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Banggood WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/04/Banggood-logo-768x432.png",
         "LINK": "https://dorinebeaumont.com/g/e8f129b05ee28a5855016213826a88/",
@@ -252,16 +277,18 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Bath & Body Works",
         "LOGO LINK": "https://www.cityofflowood.com/sites/default/files/BathBodyWorks.png",
         "LINK": "https://clnk.in/vRHo",
         "Reward": "4.25%",
-        "T&C": "Max Transactions Allowed - 3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Max Transactions Allowed - 3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "BeYoung",
         "LOGO LINK": "https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2024/07/22/16.jpg?itok=G5CymnS6",
         "LINK": "https://clnk.in/vRHL",
@@ -272,6 +299,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Blackberrys",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/afaqs/media/post_attachments/da086a80e11e571679a44cf6c56e02720ff934731e097a9f91daadd362250cf8.jpg",
         "LINK": "https://tjzuh.com/g/lv4rd63bk2e28a585501d42ea64a2c/",
@@ -282,6 +310,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Bliss Club",
         "LOGO LINK": "https://blissclub.com/cdn/shop/files/BlissClub_Combination_Mark.png?v=1734682216&width=600",
         "LINK": "https://tjzuh.com/g/f7dkjuc7zje28a585501519b939af8/",
@@ -292,6 +321,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Staples & Healthy Food",
+        "ACTIVE": "Y",
         "COMPANY": "Blue Tea",
         "LOGO LINK": "https://static-asset.inc42.com/blue-tea-india.png",
         "LINK": "https://clnk.in/vRHM",
@@ -302,16 +332,18 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Boat",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png",
         "LINK": "https://clnk.in/vRHO",
         "Reward": "5.75%",
-        "T&C": "Cash Reward not applicable on payment with store credit/gift cards.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Cash Reward not applicable on payment with store credit/gift cards.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "Boldcare",
         "LOGO LINK": "https://static-asset.inc42.com/bold-care.png",
         "LINK": "https://tjzuh.com/g/z248ywahh2e28a585501e08c1fc13d/",
@@ -322,6 +354,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "Bombay Shaving Company",
         "LOGO LINK": "https://bl-i.thgim.com/public/news/vgt0q7/article67216335.ece/alternates/LANDSCAPE_660/BL2108_Brand_Nugget_bombay%20shaving%20company%20new%20logo.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwOTAw/",
@@ -330,18 +363,9 @@
         "PAYMENT IN": "35"
     },
     {
-        "CATEGORY": "Home & Living",
-        "SUB-CATEGORY": "Kitchen Essentials",
-        "COMPANY": "Borosil",
-        "LOGO LINK": "https://tradebrains.in/wp-content/uploads/2022/01/Borosil-Logo-300x109.jpg",
-        "LINK": "https://tjzuh.com/g/lkcps96ekke28a5855018420cad79b/",
-        "Reward": "15.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "61"
-    },
-    {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Boult Audio",
         "LOGO LINK": "https://cdn0.cuelinks.com/merchant/4823/medium/New_Project_-_2024-05-24T165503.948.png?1716549935",
         "LINK": "https://clnk.in/vUWI",
@@ -352,6 +376,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Bummer",
         "LOGO LINK": "https://lightsout.studio/cdn/shop/files/bummercover_720x.png?v=1675253602",
         "LINK": "https://clnk.in/vRHV",
@@ -362,6 +387,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "ButtChique",
         "LOGO LINK": "https://cdn.shopify.com/s/files/1/0638/3619/2926/files/logo.png?v=1705742358",
         "LINK": "https://clnk.in/vRHX",
@@ -372,16 +398,18 @@
     {
         "CATEGORY": "GIFTING",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Cadbury Gifting",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cadbury_logo_new.jpg",
         "LINK": "https://clnk.in/vRH1",
         "Reward": "40.00%",
-        "T&C": "Cart Value > 1200 INR.<br/>Validation Criteria - Successful delivered order except for return and cancelled.",
+        "T&C": "Cart Value > 1200 INR.\nValidation Criteria - Successful delivered order except for return and cancelled.",
         "PAYMENT IN": "50"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "Candere: KALYAN Jewellers",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/6/69/Candere-By-Kalyan-logo-AI-%28Converted%29_%281%29.png?20190307111515",
         "LINK": "https://tjzuh.com/g/yga1lj0xsj6a3b5ae4bbfd56d3e4eb/",
@@ -392,6 +420,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Casetify WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2020/07/Casetify-Logo-720x405.png",
         "LINK": "https://bywiola.com/g/tv8h1uy8nie28a5855012f7a77e67e/",
@@ -402,6 +431,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Cashify",
         "LOGO LINK": "https://cdn.blume.vc/blume/imager/images/startups/cashify/logo/270/Cashify.f1670267326_3fe2a190a30ef2392c14d57b4c9430e6.webp",
         "LINK": "https://clnk.in/vRH5",
@@ -412,6 +442,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Ceazur",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKtAqlxwPLWiLMYAx4FrXhnds6ImVIaVV9XA&s",
         "LINK": "https://clnk.in/vRIk",
@@ -422,6 +453,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Bedding & Mattresses",
+        "ACTIVE": "Y",
         "COMPANY": "Centuary Mattress",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/4dea3355281d-NewProject1-1625501212576.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://clnk.in/vRIq",
@@ -432,6 +464,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
+        "ACTIVE": "Y",
         "COMPANY": "Cipla Health",
         "LOGO LINK": "https://ciplahealth.in/frontendassets/img/logo1.png",
         "LINK": "https://clnk.in/vRIr",
@@ -442,6 +475,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Cleartrip",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/Screenshot2023-05-19121310-1684479161002.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDQ2/",
@@ -452,6 +486,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Cleaning Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Cleevo",
         "LOGO LINK": "https://getcleevo.com/cdn/shop/files/CLEEVO_LOGO_116ffd80-ac1c-4468-9a79-ddc5771bd51b.png?v=1677650159&width=300",
         "LINK": "https://clnk.in/vRIt",
@@ -462,6 +497,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Click on Care",
         "LOGO LINK": "https://www.clickoncare.com/cdn/shop/files/coc_512.png?v=1683519914&width=360",
         "LINK": "https://clnk.in/vRIw",
@@ -472,16 +508,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Clovia",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2022/12/Clovia-Logo-500x281.png",
-        "LINK": "https://clnk.in/vRIY",
-        "Reward": "8.50%",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwODEy/",
+        "Reward": "9.25%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
+        "PAYMENT IN": "35"
     },
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Columbia Sportswear",
         "LOGO LINK": "https://logoeps.com/wp-content/uploads/2013/01/columbia-sportswear-logo-vector.png",
         "LINK": "https://clnk.in/vRIZ",
@@ -492,16 +530,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Converse",
         "LOGO LINK": "https://w7.pngwing.com/pngs/444/556/png-transparent-converse-all-star-chuck-taylor-logo-chuck-taylor-all-stars-converse-sneakers-nike-high-top-nike-fashion-logo-converse.png",
         "LINK": "https://clnk.in/vTyj",
         "Reward": "5.00%",
-        "T&C": "Order Value should be greater than Rs 6000.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Order Value should be greater than Rs 6000.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Croma",
         "LOGO LINK": "https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/05/02032714/croma9414.logowik.com-768x576.webp",
         "LINK": "https://clnk.in/vRI2",
@@ -512,6 +552,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Daily Objects",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/entrackr/media/post_attachments/wp-content/uploads/2022/02/dailyobjects.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNDMy/",
@@ -522,6 +563,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Pharma & Health Services",
+        "ACTIVE": "Y",
         "COMPANY": "Decode Age",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/e5a6d17b9bd4-3-1679992010624.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://clnk.in/vRJc",
@@ -532,6 +574,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "Domina",
         "LOGO LINK": "https://cdn0.cuelinks.com/merchant/9430/medium/images_%2841%29.png?1738068186",
         "LINK": "https://clnk.in/vUP9",
@@ -542,6 +585,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
+        "ACTIVE": "Y",
         "COMPANY": "Dot & Key",
         "LOGO LINK": "https://images.squarespace-cdn.com/content/v1/58d67c53f5e231abb445a1c5/1530714471513-BDO4R6ZR8ZH9GOBWQ42U/Dot-_-Key-Logo.jpg?format=750w",
         "LINK": "https://clnk.in/vRJi",
@@ -552,6 +596,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "durex",
         "LOGO LINK": "https://assets-eu-01.kc-usercontent.com/f8b5e84a-d17a-014d-b1f8-bfe74b89069f/07d5c594-907d-44cb-af37-4bf9ca255c4d/Durex%20Logo.jpg",
         "LINK": "https://clnk.in/vRJj",
@@ -562,26 +607,29 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Dyson Direct",
         "LOGO LINK": "https://assets.commonshare.com/uploads/companies/6747e25c-bfec-41ef-8e9a-9e1ad4c6b5ce/logos/104023/small_logo.png?v=6d662a9ee2795d829d3f98e3ca883e75",
         "LINK": "https://tjzuh.com/g/zi1vni9ajwe28a585501255ab3066d/",
         "Reward": "2.50%",
-        "T&C": "The transaction that are below 17K will not be payable.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "The transaction that are below 17K will not be payable.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "80"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Earth Rhythm",
         "LOGO LINK": "https://earthrhythm.com/cdn/shop/files/Brand_Logo-01-01.svg?v=1734329805&width=143",
         "LINK": "https://clnk.in/vRJm",
         "Reward": "9.00%",
-        "T&C": "Cash Reward NOT applicable on payment with store credit/gift cards.<br/>3 orders are allowed per user in a month.<br/>No Cash Reward on influencer Coupons used.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Cash Reward NOT applicable on payment with store credit/gift cards.\n3 orders are allowed per user in a month.\nNo Cash Reward on influencer Coupons used.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "Economist",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_Economist_Logo.svg/610px-The_Economist_Logo.svg.png",
         "LINK": "https://clnk.in/vRJr",
@@ -592,6 +640,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Wellness & Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Emami Zanducare",
         "LOGO LINK": "https://zanducare.com/cdn/shop/files/zandu_logo_23a4d348-436c-4efa-8b53-9607e4aaf9ad_85x@2x.png?v=1668585144",
         "LINK": "https://tjzuh.com/g/kuf1h0omeje28a5855018e0c33410e/",
@@ -602,16 +651,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "enamor",
         "LOGO LINK": "https://vivianamalls.com/wp-content/uploads/2023/08/enamor-Viviana-Mall-Thane-Mumbai.png",
         "LINK": "https://clnk.in/vRLO",
         "Reward": "18.00%",
-        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "ET Prime",
         "LOGO LINK": "https://img.etimg.com/thumb/msid-68479243,width-300,height-225,imgsize-143365,resizemode-75/et-prime-com-logo-01.jpg",
         "LINK": "https://tjzuh.com/g/s551cpr0ure28a58550106e9ba07b4/",
@@ -622,6 +673,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Etihad Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Etihad-airways-logo.svg/2560px-Etihad-airways-logo.svg.png",
         "LINK": "https://clnk.in/vRLX",
@@ -632,6 +684,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "EyewearLabs",
         "LOGO LINK": "https://img.paisawapas.com/ovz3vew9pw/2020/11/20225342/EyewearLabs.jpg",
         "LINK": "https://clnk.in/vRL1",
@@ -642,16 +695,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
+        "ACTIVE": "Y",
         "COMPANY": "fastrack",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fastrack_logo.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQy/",
         "Reward": "6.50%",
-        "T&C": "Only below categories eligible for Cash Reward. For all other categories, no compensation will be received.<br/>* Watches / Smartwatches<br/>* Hearables (Audio accessories)<br/><br/>Cancelled/Returned orders will not be validated.",
+        "T&C": "Only below categories eligible for Cash Reward. For all other categories, no compensation will be received.\n* Watches / Smartwatches\n* Hearables (Audio accessories)\n\nCancelled/Returned orders will not be validated.",
         "PAYMENT IN": "35"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Staples & Healthy Food",
+        "ACTIVE": "Y",
         "COMPANY": "Feedsmart",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQFrYQVwtjylqA/company-logo_200_200/company-logo_200_200/0/1696316965843/feed_smart_logo?e=2147483647&v=beta&t=himM1oVDwSizWHYRKiAYUeLiOxvILamwUo05SafGkIQ",
         "LINK": "https://tjzuh.com/g/kog03edl58e28a585501f6e0cbacf2/",
@@ -662,6 +717,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "FigLiving",
         "LOGO LINK": "https://www.figliving.com/cdn/shop/files/FIG_LIVING_LOGO_DARK__1___1_-removebg-preview.png?v=1713514909&width=666",
         "LINK": "https://clnk.in/vRL3",
@@ -672,6 +728,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "Fiona Diamonds",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuE-8uemimHaC4Htm9kvUJ3jNaurP_-uEtA&s",
         "LINK": "https://tjzuh.com/g/qw3n1py0c3e28a58550150f1d6e487/",
@@ -682,6 +739,7 @@
     {
         "CATEGORY": "Baby & Kids",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "firstcry",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/8/87/FirstCry_logo.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMDgx/",
@@ -692,6 +750,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Fitspire",
         "LOGO LINK": "https://bl-i.thgim.com/public/incoming/5mn8lr/article65419447.ece/alternates/FREE_1200/fitspire-logo.jpg",
         "LINK": "https://clnk.in/vRL4",
@@ -702,6 +761,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Forest Essentials",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-7qHdF5gpzS-7eMQSIpLqVcJw9YbcSNsZKQ&s",
         "LINK": "https://tjzuh.com/g/8654jk62nxe28a58550117c05f049d/",
@@ -712,6 +772,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Rentals & Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Furlenco Rentals",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/1200x675/afaqs/media/post_attachments/34bcf7693f60574cbc3ff40dd0a92c188c7f6ed61c0d966f1b07b8e8000dc2aa.jpg",
         "LINK": "https://tjzuh.com/g/s2s173fgj4e28a5855016da6539ad0/",
@@ -722,6 +783,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "GIVA",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOsvxq3HJEXmOwCNtiIQ94OniJ2YkZF-YVg&s",
         "LINK": "https://clnk.in/vRL9",
@@ -732,6 +794,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Godrej Interio",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPKUyQeJ8FJdbKl9u51nmWk0A8qKs-JczwQ&s",
         "LINK": "https://clnk.in/vRMb",
@@ -742,16 +805,18 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "Goibibo",
         "LOGO LINK": "https://jsak.goibibo.com/pwa_v3/pwa_growth/images/og-goibibo.aba291ed.png",
         "LINK": "https://clnk.in/vRMd",
         "Reward": "Rs 100",
-        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.\r",
+        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.\nValid for Domestic Hotel Booking.\n",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "GoIndigo",
         "LOGO LINK": "https://seeklogo.com/images/I/indigo-airlines-logo-EA9977FF45-seeklogo.com.png",
         "LINK": "https://clnk.in/vRe9",
@@ -762,16 +827,18 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Gonoise",
         "LOGO LINK": "https://mir-s3-cdn-cf.behance.net/projects/404/bd3851204568707.Y3JvcCw4MzEsNjUwLDE4LDA.jpg",
         "LINK": "https://clnk.in/vRMj",
         "Reward": "5.75%",
-        "T&C": "No Cash Reward on using Coupon code \"GRAB10\".<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "No Cash Reward on using Coupon code \"GRAB10\".\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "Goodveda",
         "LOGO LINK": "https://goodveda.com/cdn/shop/files/goodvedas.png?height=628&pad_color=ffffff&v=1726750684&width=1200",
         "LINK": "https://clnk.in/vRMk",
@@ -782,6 +849,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Gritzo",
         "LOGO LINK": "https://ifuzefvpmposztzwzxmh.supabase.co/storage/v1/object/public/coupons/gritzo-logo-couponlap-coupons-offers.png1697792532138",
         "LINK": "https://clnk.in/vRMo",
@@ -792,6 +860,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Hammer",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/3919e0f22def-MOCKUP16Jun181500B561502-1624961435188.jpg",
         "LINK": "https://clnk.in/vRMs",
@@ -802,6 +871,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Happy Fares",
         "LOGO LINK": "https://d3n3x6vi4wflr3.cloudfront.net/HF.svg",
         "LINK": "https://clnk.in/vRMF",
@@ -812,6 +882,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "HappyEasyGo",
         "LOGO LINK": "https://static-asset.inc42.com/happyeasygo.png",
         "LINK": "https://clnk.in/vRMA",
@@ -822,6 +893,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Harvey Nichols",
         "LOGO LINK": "https://agency.stylemeuk.com/wp-content/uploads/2016/05/harvey-nichols-logo.jpeg",
         "LINK": "https://clnk.in/vRMG",
@@ -832,16 +904,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "HDFC",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.png",
         "LINK": "https://tjzuh.com/g/4sz1zcihbw6a3b5ae4bb8ac412537b/",
         "Reward": "Rs 2500",
-        "T&C": "Validation: Successful Card Dispatch<br/><br/>Eligibility:- <br/>Salary: 2.4 Lakhs+ <br/>Age: 25-44 years",
+        "T&C": "Validation: Successful Card Dispatch\n\nEligibility:- \nSalary: 2.4 Lakhs+ \nAge: 25-44 years",
         "PAYMENT IN": "83"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "HealthKart",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Healthkart.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTA5/",
@@ -852,6 +926,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Wellness & Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Healthmug",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFcPe0Lr1561rk1DIUoQU_bVl6SDCHTE2Nnw&s",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNjQ1/",
@@ -862,6 +937,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "HIDESIGN",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/HIDESIGN_LOGO_withouttag.jpg/1200px-HIDESIGN_LOGO_withouttag.jpg",
         "LINK": "https://clnk.in/vRMN",
@@ -872,6 +948,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "HK Vitals",
         "LOGO LINK": "https://img2.hkrtcdn.com/hkvitals/static/media/common/HKVital-Logo.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTEx/",
@@ -882,16 +959,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "HSBC",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM810vAYgqHqpT2ImSWzskzbfIAX48ku-zVA&s",
         "LINK": "https://tjzuh.com/g/ikbyxgxooj6a3b5ae4bbc8a3a1c200/",
         "Reward": "2200",
-        "T&C": "Eligibility Criteria:-<br/>- Age: 26-45 M/F<br/>- Residence city: Mumbai, Pune, Bangalore, Hyderabad, New Delhi, Noida, Gurgaon, Chennai, Kolkata<br/>- Annual income: Above 5 lakhs<br/>- Occupation: Corporate salaried only. Self-employed or users working in proprietorship/partnership firm are a direct reject.<br/>- Should be an existing credit card holder preferably holding Amex, Stanc, Citi, Axis, ICICI or HDFC credit card<br/>- Cibil score: 720+<br/><br/>Cash Reward on Successful Card Disbursal.",
+        "T&C": "Eligibility Criteria:-\n- Age: 26-45 M/F\n- Residence city: Mumbai, Pune, Bangalore, Hyderabad, New Delhi, Noida, Gurgaon, Chennai, Kolkata\n- Annual income: Above 5 lakhs\n- Occupation: Corporate salaried only. Self-employed or users working in proprietorship/partnership firm are a direct reject.\n- Should be an existing credit card holder preferably holding Amex, Stanc, Citi, Axis, ICICI or HDFC credit card\n- Cibil score: 720+\n\nCash Reward on Successful Card Disbursal.",
         "PAYMENT IN": "75"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Hyphen",
         "LOGO LINK": "https://letshyphen.com/cdn/shop/files/LOGO_desktop_1_2.svg?v=1690127836&width=500",
         "LINK": "https://clnk.in/vRMU",
@@ -902,6 +981,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Hyugalife",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/1652792170716-1692684355296.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://tjzuh.com/g/hpevocgj6he28a585501c6a1a33a3b/",
@@ -912,16 +992,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "ICICI Bank",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/2560px-ICICI_Bank_Logo.svg.png",
         "LINK": "https://clnk.in/vRMW",
         "Reward": "Rs 350",
-        "T&C": "Validation Criteria - Approved Application.<br/>Eligibility:-<br/>Salaried: Income >25k/m, Salary in Account Transfer, <br/>Age: 23-54 years- <br/>Self Employed: Income +30k/m<br/>Bureau Score Criteria: A minimum bureau score of 780+ is required. NTC (New to Credit / -1 CIBIL) applications are not allowed.<br/>Customer should use Aadhar linked mobile number only to apply for credit cards.<br/>VKYC done over 50km from your Aadhaar/communication address will result in application rejection and loss of Cash Reward.",
+        "T&C": "Validation Criteria - Approved Application.\nEligibility:-\nSalaried: Income >25k/m, Salary in Account Transfer, \nAge: 23-54 years- \nSelf Employed: Income +30k/m\nBureau Score Criteria: A minimum bureau score of 780+ is required. NTC (New to Credit / -1 CIBIL) applications are not allowed.\nCustomer should use Aadhar linked mobile number only to apply for credit cards.\nVKYC done over 50km from your Aadhaar/communication address will result in application rejection and loss of Cash Reward.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Loan",
+        "ACTIVE": "Y",
         "COMPANY": "IDFC Education Loan",
         "LOGO LINK": "https://hiwipay.com/wp-content/uploads/2024/03/idfcbank.webp",
         "LINK": "https://tjzuh.com/g/wwqir2kakte28a58550163c2bf3857/",
@@ -932,6 +1014,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Indigo",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/01/IndiGo-Logo.jpg",
         "LINK": "https://clnk.in/vRe8",
@@ -942,6 +1025,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Account Opening",
+        "ACTIVE": "Y",
         "COMPANY": "Indusind Bank",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSTC5XB8EDKOFJmgXeTFQvA3vPLE4vD5aEw&s",
         "LINK": "https://tjzuh.com/g/dews0asweke28a585501fe436e86d8/",
@@ -952,16 +1036,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "Indusind Bank",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSTC5XB8EDKOFJmgXeTFQvA3vPLE4vD5aEw&s",
         "LINK": "https://tjzuh.com/g/hq8y45n38b6a3b5ae4bbb9ce7f65a5/",
         "Reward": "Rs 1250",
-        "T&C": "Eligibility: 21+ years; Salaried professionals(5L+ PA); Good cibil score (650+)<br/>Regions: Delhi, Chandigarh, Ludhiana, Amritsar, Jalandhar, Kanpur, Lucknow, Jaipur, Jodhpur, Ahmedabad, Vadodra, Surat, Mumbai, Goa, Pune, Nagpur, Indore, Hyderabad, Vishakapatnam, Bangalore, Chennai, Coimbatore, Cochin, Kolkata, Bhubaneswar, Rohtak, Karnal, Agra, Ajmer, Udaipur, Rajkot, Jamnagar, Anand, Valsad, Vapi, Bhopal, Raipur, Vijayawada, Mysore, Hubli, Thiruvananthapuram, Howrah, Durgapur, Asansol, Guwahati, Patna, Allahabad, Varanasi, Bareilly, Meerut, Alwar, Bhilwara, Bikaner, Kolhapur, Jabalpur, Ranga Reddy, Guntur, Tiruchirapalli, Madurai, Kozhikode, Thrissur, Ernakulam, Ranchi, Sonipat, Panipat, Ambala, Yamunanagar, Phagwara, Bhatinda, Nashik, Kharagpur, Siliguri, Jamshedpur, Kurukshetra, Bhubaneswar<br/><br/>Cash Reward on Successful Card Disbursal.",
+        "T&C": "Eligibility: 21+ years; Salaried professionals(5L+ PA); Good cibil score (650+)\nRegions: Delhi, Chandigarh, Ludhiana, Amritsar, Jalandhar, Kanpur, Lucknow, Jaipur, Jodhpur, Ahmedabad, Vadodra, Surat, Mumbai, Goa, Pune, Nagpur, Indore, Hyderabad, Vishakapatnam, Bangalore, Chennai, Coimbatore, Cochin, Kolkata, Bhubaneswar, Rohtak, Karnal, Agra, Ajmer, Udaipur, Rajkot, Jamnagar, Anand, Valsad, Vapi, Bhopal, Raipur, Vijayawada, Mysore, Hubli, Thiruvananthapuram, Howrah, Durgapur, Asansol, Guwahati, Patna, Allahabad, Varanasi, Bareilly, Meerut, Alwar, Bhilwara, Bikaner, Kolhapur, Jabalpur, Ranga Reddy, Guntur, Tiruchirapalli, Madurai, Kozhikode, Thrissur, Ernakulam, Ranchi, Sonipat, Panipat, Ambala, Yamunanagar, Phagwara, Bhatinda, Nashik, Kharagpur, Siliguri, Jamshedpur, Kurukshetra, Bhubaneswar\n\nCash Reward on Successful Card Disbursal.",
         "PAYMENT IN": "49"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Isadora Life",
         "LOGO LINK": "https://isadoralife.com/cdn/shop/files/Isadora_Life_logo.jpg?v=1704359753&width=430",
         "LINK": "https://clnk.in/vRM6",
@@ -972,6 +1058,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Jack & Jones",
         "LOGO LINK": "https://play-lh.googleusercontent.com/9a5jDIDW5gpD5dru692nOobjQtarQHoOud3ABQi-LWEUZPLOLNvPeRNJC-DeL6rBIyE",
         "LINK": "https://clnk.in/vRNj",
@@ -982,6 +1069,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Jazeera Airways",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Jazeera_Airways_logo.svg/2560px-Jazeera_Airways_logo.svg.png",
         "LINK": "https://clnk.in/vRNo",
@@ -992,6 +1080,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "JBL",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2023/07/JBL-logo.png",
         "LINK": "https://clnk.in/vRM8",
@@ -1002,6 +1091,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Just Herbs",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNyMlqs3a-a3PrM4lhr30PNaAF5mb0acN7rA&s",
         "LINK": "https://clnk.in/vRNw",
@@ -1012,6 +1102,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Kama Ayurveda",
         "LOGO LINK": "https://dtbtob4osa700.cloudfront.net/BrandsImages/16012020095856646_brlo.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTI1/",
@@ -1022,6 +1113,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Kapiva",
         "LOGO LINK": "https://www.visa.com/images/merchantoffers/2021-09/1632294759697.Kapiva.png",
         "LINK": "https://clnk.in/vRNx",
@@ -1032,6 +1124,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "kindlife",
         "LOGO LINK": "https://kindlife.in/images/ui_icon/kindlifeLogo.jpg",
         "LINK": "https://clnk.in/vRNz",
@@ -1042,6 +1135,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Makeup & Cosmetics",
+        "ACTIVE": "Y",
         "COMPANY": "Kiro Beauty",
         "LOGO LINK": "https://cdn.kindlife.in/images/feature_variant/18/kiro.png?t=1692456939",
         "LINK": "https://clnk.in/vRNE",
@@ -1052,6 +1146,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "Kiwi Cards",
         "LOGO LINK": "https://gokiwi.in/logo.png",
         "LINK": "https://tjzuh.com/g/2mj36969rr6a3b5ae4bbdb672d52c3/",
@@ -1062,6 +1157,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Cleaning Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "Koparo Clean",
         "LOGO LINK": "https://koparoclean.com/cdn/shop/files/Untitled_design_35_210x.png?v=1680590280",
         "LINK": "https://clnk.in/vRNJ",
@@ -1072,6 +1168,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Koskii",
         "LOGO LINK": "https://www.koskii.com/cdn/shop/files/Asset_1_6c5a260f-525e-48eb-b2bd-3f8c773c5a1d.png?v=1614356943",
         "LINK": "https://clnk.in/vRO4",
@@ -1080,18 +1177,20 @@
         "PAYMENT IN": "95"
     },
     {
-        "CATEGORY": "Health, Food & Fitness",
-        "SUB-CATEGORY": "Staples & Healthy Food",
-        "COMPANY": "Krishival",
-        "LOGO LINK": "https://krishival.com/cdn/shop/files/Untitled_design_3.png?v=1664435537",
-        "LINK": "https://clnk.in/vRO5",
-        "Reward": "12.00%",
+        "CATEGORY": "Fashion",
+        "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
+        "COMPANY": "Lakme",
+        "LOGO LINK": "https://www.hul.co.in/content-images/92ui5egz/production/cb56f4cb5a59e3cccb49d9e99c0fbb1e77b09941-280x280.png?w=375&h=375&fit=crop&auto=format",
+        "LINK": "https://clnk.in/vWu7",
+        "Reward": "9.50%",
         "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "80"
+        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "Lenovo",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/previews/020/927/282/non_2x/lenovo-logo-brand-phone-symbol-name-black-design-china-mobile-illustration-free-vector.jpg",
         "LINK": "https://clnk.in/vRO8",
@@ -1102,6 +1201,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Unisex Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Levi's",
         "LOGO LINK": "https://media.designrush.com/inspiration_images/759592/conversions/9_9bed13c74393-mobile.jpg",
         "LINK": "https://clnk.in/vSzN",
@@ -1112,6 +1212,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Home Appliances",
+        "ACTIVE": "Y",
         "COMPANY": "LG",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/LG_logo_%282014%29.svg/1280px-LG_logo_%282014%29.svg.png",
         "LINK": "https://clnk.in/vRO7",
@@ -1122,6 +1223,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Libas",
         "LOGO LINK": "https://cdn.shopify.com/s/files/1/0341/4805/7228/files/libas-logo-ICON_for_store_locator_1.png?v=1692257454",
         "LINK": "https://tjzuh.com/g/ilucexaz44e28a5855014a7ccbea8a/",
@@ -1132,6 +1234,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "LIBERTY",
         "LOGO LINK": "https://i.pinimg.com/originals/e7/3e/03/e73e03bda040c0793b9cf5bbdbbb02d2.jpg",
         "LINK": "https://clnk.in/vRPc",
@@ -1142,16 +1245,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Loan",
+        "ACTIVE": "Y",
         "COMPANY": "Loan Hub",
         "LOGO LINK": "https://play-lh.googleusercontent.com/kqamXnsavcarY2x4Jqp1Rckgean-8qoJSt7IN3P37SZj9DeSouvDIlNAiJkwbe4Oqw",
         "LINK": "https://clnk.in/vRPd",
         "Reward": "Rs 850",
-        "T&C": "Eligibility:-<br/>Age : 18 to 55 years<br/>Minimum Salary : 25K per Month and above<br/>City - Delhi NCR, Mumbai, Kolkata, Pune, Hyderabad, Chennai, Bangalore, Jaipur, Ahmedabad.<br/>CIBIL - 650+<br/>Minimum Ticket size - 8K<br/>Max Ticket size - Upto 1L<br/>Tenure - Pay day loan<br/>ATS - 28k<br/><br/>Loans are not available to individuals staying alone.<br/>Applicants receiving salary in cash are not eligible.<br/>Once users fill in their details, the sales team will contact them for documentation, and the loan will be disbursed.\r",
+        "T&C": "Eligibility:-\nAge : 18 to 55 years\nMinimum Salary : 25K per Month and above\nCity - Delhi NCR, Mumbai, Kolkata, Pune, Hyderabad, Chennai, Bangalore, Jaipur, Ahmedabad.\nCIBIL - 650+\nMinimum Ticket size - 8K\nMax Ticket size - Upto 1L\nTenure - Pay day loan\nATS - 28k\n\nLoans are not available to individuals staying alone.\nApplicants receiving salary in cash are not eligible.\nOnce users fill in their details, the sales team will contact them for documentation, and the loan will be disbursed.\n",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Hotel",
+        "ACTIVE": "Y",
         "COMPANY": "Make my Trip",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Makemytrip_logo.svg/800px-Makemytrip_logo.svg.png",
         "LINK": "https://clnk.in/vRPy",
@@ -1162,6 +1267,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "Malabar",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/en/f/f4/Malabar_Gold_and_Diamonds_New_Logo.jpg",
         "LINK": "https://tjzuh.com/g/zcflox2g0ne28a58550124725e5aee/",
@@ -1170,8 +1276,20 @@
         "PAYMENT IN": "81"
     },
     {
+        "CATEGORY": "STORES",
+        "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
+        "COMPANY": "Marks & Spencer",
+        "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Marks_%26_Spencer_new_logo.svg/2560px-Marks_%26_Spencer_new_logo.svg.png",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTYw/",
+        "Reward": "15.00%",
+        "T&C": "Order Value needs to be greater than Rs 2500.",
+        "PAYMENT IN": "65"
+    },
+    {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "MAX Protein",
         "LOGO LINK": "https://mir-s3-cdn-cf.behance.net/projects/404/46b18e138809549.Y3JvcCw5OTksNzgyLDAsMTA4.jpg",
         "LINK": "https://clnk.in/vRPi",
@@ -1182,6 +1300,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Mcaffeine",
         "LOGO LINK": "https://play-lh.googleusercontent.com/UkjL_D-KJcferWROkJjT1BB4cC2HhftY0FlIUsC0C60swEikYegMhryda2aDv_hbCvI",
         "LINK": "https://tjzuh.com/g/xpzdvluruc6a3b5ae4bb506919b225/",
@@ -1192,6 +1311,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Mellow",
         "LOGO LINK": "https://www.mellow-home.com/cdn/shop/files/MLLW_LOGO_180x.png?v=1613567220",
         "LINK": "https://clnk.in/vRPM",
@@ -1202,6 +1322,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "Melorra",
         "LOGO LINK": "https://content.jdmagicbox.com/v2/comp/bangalore/h8/080pxx80.xx80.170711130952.d5h8/catalogue/melorra-whitefield-bangalore-y1e6m773fq.jpg",
         "LINK": "https://clnk.in/vRPN",
@@ -1212,6 +1333,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Makeup & Cosmetics",
+        "ACTIVE": "Y",
         "COMPANY": "Milagro Beauty",
         "LOGO LINK": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/A21TJRUUN4KGV/679abc3ae7621b5489cf63c3ec9478ec.w1700.h1700._RO849,1,0,0,0,0,0,0,0,0,15_FMpng_.jpg",
         "LINK": "https://clnk.in/vRPU",
@@ -1222,6 +1344,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Minimalist",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/C4D0BAQGEeX1h2U7TwQ/company-logo_200_200/company-logo_200_200/0/1646895741612/beminimalist_logo?e=2147483647&v=beta&t=JRSyNtqtUiN_cmac9vJx-BfxuviMjuHCIlAGSDradmY",
         "LINK": "https://clnk.in/vRPW",
@@ -1232,6 +1355,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "mivi",
         "LOGO LINK": "https://www.mivi.in/cdn/shop/files/Logo.jpg?v=1704431175",
         "LINK": "https://clnk.in/vRPX",
@@ -1242,6 +1366,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Industrial Products",
+        "ACTIVE": "Y",
         "COMPANY": "moglix",
         "LOGO LINK": "https://www.moglix.com/assets/img/moglix_logo_red@3x.png",
         "LINK": "https://clnk.in/vRPZ",
@@ -1252,6 +1377,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Mufti Jeans",
         "LOGO LINK": "https://d118ps6mg0w7om.cloudfront.net/media/icons/logo.svg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzEy/",
@@ -1262,6 +1388,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "MuscleBlaze",
         "LOGO LINK": "https://img3.hkrtcdn.com/19555/bnr_1955452_o.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwMTY5/",
@@ -1272,6 +1399,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Muscletech",
         "LOGO LINK": "https://www.muscletech.in/wp-content/themes/muscletech/images/logo.svg",
         "LINK": "https://clnk.in/vRP4",
@@ -1282,6 +1410,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "My MUSE",
         "LOGO LINK": "https://media.glassdoor.com/companyupdate/w900/6164450/mymuse-companyupdate-1668506465749.png?signature=108acc09979cf9b667abcc7e69f591d27e5ef69bade5c8cc812fac22704057db",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNjY2/",
@@ -1292,6 +1421,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Myntra",
         "LOGO LINK": "https://ifp.world/wp-content/uploads/2021/05/Myntra-Logo.png",
         "LINK": "https://clnk.in/vRP7",
@@ -1302,6 +1432,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Nat Habit",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzZ1wioKFtAPrgwzvsjOsE8zNycJEjslOyQ&s",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExOTIx/",
@@ -1312,6 +1443,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
+        "ACTIVE": "Y",
         "COMPANY": "Natural Wash",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROi3zIfZitqMvPY80WCO5WwiZVxX-63Wrw3w&s",
         "LINK": "https://clnk.in/vRQb",
@@ -1322,6 +1454,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Body Care",
+        "ACTIVE": "Y",
         "COMPANY": "Nature 4 Nature",
         "LOGO LINK": "https://smytten-image.gumlet.io/shop_store/1717069333_196.png",
         "LINK": "https://clnk.in/vRQe",
@@ -1332,6 +1465,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Neeman's",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-OAkD2v_AcRNRUBZYpd3fxh_lDd1aZGadQ&s",
         "LINK": "https://clnk.in/vRQf",
@@ -1342,6 +1476,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Wellness & Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Neuherbs",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6phTOsgWV54GU6lekTGTESymL86_Q_K77Eg&s",
         "LINK": "https://tjzuh.com/g/ny50loi2efe28a5855012486d03c46/",
@@ -1352,16 +1487,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Newme",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8RF-dAW9roWI2Opg8zaAHvPP-zkb8vBuKBw&s",
         "LINK": "https://tjzuh.com/g/tp89lo7ulye28a5855016d4658a0fa/",
         "Reward": "15.00%",
-        "T&C": "Cash Reward applicable on Successful Transaction through the App only. No Cash Rewards for Website Purchase.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "Cash Reward applicable on Successful Transaction through the App only. No Cash Rewards for Website Purchase.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Nike",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5fOHniITpV3FAg28ztWUyZL91fnhj-yplQ&s",
         "LINK": "https://clnk.in/vRQt",
@@ -1372,16 +1509,18 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Nilkamal",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTboZpuS0CBxDhLvHFzWxaZJS1LD0ak-4dm2Q&s",
         "LINK": "https://clnk.in/vRQI",
         "Reward": "10.00%",
-        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Makeup & Cosmetics",
+        "ACTIVE": "Y",
         "COMPANY": "Nourish Mantra",
         "LOGO LINK": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A21TJRUUN4KGV/f20b6032860a0f7aab1f7dae7523ba07.w400.h400.png",
         "LINK": "https://clnk.in/vRQ0",
@@ -1392,6 +1531,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "Nua Woman",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJ0hGNxqBqdmQ1eUKQJBXuc4beDZWw4iTeA&s",
         "LINK": "https://tjzuh.com/g/jzm0363w8te28a585501dacc41280c/",
@@ -1402,6 +1542,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Nykaa Beauty",
         "LOGO LINK": "https://i.pinimg.com/736x/b9/a5/b4/b9a5b4dfdb2f5ba00dd51988a0bdf8e4.jpg",
         "LINK": "https://clnk.in/vRQ2",
@@ -1412,6 +1553,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Nykaa Fashion",
         "LOGO LINK": "https://cdn.brandfetch.io/nykaafashion.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
         "LINK": "https://clnk.in/vRQ6",
@@ -1422,6 +1564,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "OnePlus",
         "LOGO LINK": "https://logos-world.net/wp-content/uploads/2023/03/OnePlus-Logo.png",
         "LINK": "https://clnk.in/vRQ9",
@@ -1432,6 +1575,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Onitsuka Tiger",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqHCRt61Jb8bOti0XJfytMiTldf2LtZ2wUg&s",
         "LINK": "https://clnk.in/vRRL",
@@ -1442,6 +1586,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "OPPO",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/OPPO_Logo_wiki.png/1024px-OPPO_Logo_wiki.png",
         "LINK": "https://clnk.in/vR0l",
@@ -1452,6 +1597,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Organic India",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OsiwTjdQTdJbTXeJXgnbGtqgOrauFcmaFw&s",
         "LINK": "https://clnk.in/vRRM",
@@ -1462,6 +1608,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Oyela",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IspvBOcxCnaTBRSRWzZyzo2uVGy2OUgFaw&s",
         "LINK": "https://clnk.in/vRRN",
@@ -1472,16 +1619,18 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Pantaloons",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QdvvaLS8S0BKBEdc9LK66DudrKvehmfvWg&s",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjg3/",
         "Reward": "12.50%",
-        "T&C": "Cancelled and Return Orders will not be considered for validation.<br/>Orders will not be Payable if other channel source/coupon code is tracked at your end.",
+        "T&C": "Cancelled and Return Orders will not be considered for validation.\nOrders will not be Payable if other channel source/coupon code is tracked at your end.",
         "PAYMENT IN": "35"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Personal Hygiene",
+        "ACTIVE": "Y",
         "COMPANY": "PeeSafe",
         "LOGO LINK": "https://static-asset.inc42.com/pee-safe.png",
         "LINK": "https://clnk.in/vRRQ",
@@ -1492,6 +1641,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Pepe Jeans",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwyoA6_5I9YuzRb0DX-pSkGZzmSp1ctsPcA&s",
         "LINK": "https://clnk.in/vTA7",
@@ -1502,6 +1652,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "pepperfry",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pepperfry_logo.svg/2560px-Pepperfry_logo.svg.png",
         "LINK": "https://clnk.in/vRRR",
@@ -1512,6 +1663,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Home Appliances",
+        "ACTIVE": "Y",
         "COMPANY": "Philips",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/1200px-Philips_logo_new.svg.png",
         "LINK": "https://clnk.in/vRUk",
@@ -1522,6 +1674,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "Photobook",
         "LOGO LINK": "https://www.shutterstock.com/image-vector/camera-photo-book-logo-design-260nw-2359127369.jpg",
         "LINK": "https://clnk.in/vRUm",
@@ -1532,6 +1685,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "Physics Wallah",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/640px-Physics_wallah_logo.jpg",
         "LINK": "https://clnk.in/vRUq",
@@ -1542,6 +1696,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "Picsart",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTVfR6qpPdAQne72BIbcBUZANk-MTo10TDg&s",
         "LINK": "https://clnk.in/vRUu",
@@ -1552,6 +1707,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "plum goodness",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gu2_73HJfk_ICPIQWDqbB-3k_EyigZGUJw&s",
         "LINK": "https://clnk.in/vRUx",
@@ -1562,6 +1718,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Portronics",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFz1LosDzBJ9Sh1U7up4Rba7k_wSvAJSSCQ&s",
         "LINK": "https://clnk.in/vRUB",
@@ -1572,6 +1729,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Powerlook",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9xkSKsU_9kBCkiTGsAvGE11DSFLiE-MMjg&s",
         "LINK": "https://clnk.in/vRUF",
@@ -1582,6 +1740,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Footwear",
+        "ACTIVE": "Y",
         "COMPANY": "Puma",
         "LOGO LINK": "https://i.pinimg.com/originals/94/8a/69/948a69839c6953f351f9c1b5387a26fc.png",
         "LINK": "https://tjzuh.com/g/y7f40iix60e28a585501101cefe85e/",
@@ -1592,6 +1751,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
+        "ACTIVE": "Y",
         "COMPANY": "Qatar Airways",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUBRSAWCHQI6MygiiVDW5qvv6f4NzXDb8Iw&s",
         "LINK": "https://clnk.in/vRUO",
@@ -1602,6 +1762,7 @@
     {
         "CATEGORY": "Baby & Kids",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "R for Rabbit",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWy3L-aO280JIW8f3zIMpcYGAXiT2l_P25rQ&s",
         "LINK": "https://clnk.in/vRUT",
@@ -1612,6 +1773,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Train",
+        "ACTIVE": "Y",
         "COMPANY": "RailYatri",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjyN9Z1qZVIJrSADDJAYgA5df3jjnUGHRdw&s",
         "LINK": "https://clnk.in/vRUY",
@@ -1622,6 +1784,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Staples & Healthy Food",
+        "ACTIVE": "Y",
         "COMPANY": "Ramam Group",
         "LOGO LINK": "https://ramamgroup.com/cdn/shop/files/ramam-logo.png?v=1728298059&width=100",
         "LINK": "https://clnk.in/vRUZ",
@@ -1632,6 +1795,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "Rangriti",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_-EQxViXcxm2P7VLERfEkzRX6vwa8pJREFg&s",
         "LINK": "https://clnk.in/vRU2",
@@ -1642,6 +1806,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "RBL Bank Indian Oil CC",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
         "LINK": "https://clnk.in/vRUW",
@@ -1652,6 +1817,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "RBL Bank Shoprite CC",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RBL_Bank_SVG_Logo.svg/2560px-RBL_Bank_SVG_Logo.svg.png",
         "LINK": "https://clnk.in/vRUV",
@@ -1662,16 +1828,18 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "realme",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/9/91/Realme_logo.png",
         "LINK": "https://clnk.in/vSzY",
-        "Reward": "1.5 - 2%",
-        "T&C": "Accessories:-\nOn order of Rs.2000 and above - 2%\nOn order of Rs.1999 and below - 1.5%\nMobile Phone:-\nGT 7 Pro, GT6, GT 6T, 13 Pro+, 13 Pro - 2%\nP1 Speed - 1.5%\nOther Mobile Phone - 0.00%",
+        "Reward": "1 - 2%",
+        "T&C": "Mobile Phone:-\nGT 7 Pro, 14 Pro, 14 Pro+ - 2%\nGT6, P1 Speed - 1.5%\nGT 6T, 13 Pro+, 13 Pro - 1%\nAny Other Mobile Phone - 0.00%\n\nAccessories - 0.00%",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Pharma & Health Services",
+        "ACTIVE": "Y",
         "COMPANY": "Redcliffe Labs",
         "LOGO LINK": "https://cdn4.singleinterface.com/files/outlet/logo/164062/RCL_HD_Logo_min_1_png.png",
         "LINK": "https://clnk.in/vRU3",
@@ -1682,6 +1850,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Makeup & Cosmetics",
+        "ACTIVE": "Y",
         "COMPANY": "Renee Cosmetics",
         "LOGO LINK": "https://www.reneecosmetics.in/cdn/shop/files/Renee-White-Black_1.jpg?v=1639849912",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMDky/",
@@ -1692,6 +1861,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Rentals & Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Rentickle",
         "LOGO LINK": "https://cdn.rentickle.com/skin/frontend/rentickle/lazy8/images/logo.png",
         "LINK": "https://clnk.in/vRU4",
@@ -1702,26 +1872,29 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Loan",
+        "ACTIVE": "Y",
         "COMPANY": "Rupee112",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1uI8l482QmLa5uz8gpC86C3miR1sqOMro_w&s",
         "LINK": "https://clnk.in/vRU6",
         "Reward": "Rs 700",
-        "T&C": "Minimum Salary : Rs 30000<br/>Age: 21 to 55<br/>Employment Type - Salaried & Self-Employed<br/>Salary should be credited in account only <br/>Bureau Score/Cibil Score - We make loans based on repayment history, and a credit score of at least 300 is required with CRIF.  <br/><br/>Regions Catered - 24 Parganas, Agra, Ahmedabad, Amravati, Anand, Aurangabad-Maharashtra, Bangalore, Bhopal, Chandigarh, Chennai, Coimbatore, Dehradun, Faridabad, Gandhinagar, Gautam Buddha Nagar, Ghaziabad, Greater Noida, Guntur, Gurgaon, Hooghly, Howrah, Hyderabad, Indore, Jaipur, Jamnagar, Jhajjar, Kanchipuram,, Kanpur, Kolkata, Lucknow, Ludhiana, Madurai, Mumbai, Mysore, Nagpur, Nashik, Nellore, New Delhi, Noida, Pune, Raigarh, Rajkot, Rangareddy, Salem, Surat, Thane, Tiruchirapalli, Tiruvallur, Tonk, Ujjain, Vadodara, Vapi, Vellore, Visakhapatnam",
+        "T&C": "Minimum Salary : Rs 30000\nAge: 21 to 55\nEmployment Type - Salaried & Self-Employed\nSalary should be credited in account only \nBureau Score/Cibil Score - We make loans based on repayment history, and a credit score of at least 300 is required with CRIF.  \n\nRegions Catered - 24 Parganas, Agra, Ahmedabad, Amravati, Anand, Aurangabad-Maharashtra, Bangalore, Bhopal, Chandigarh, Chennai, Coimbatore, Dehradun, Faridabad, Gandhinagar, Gautam Buddha Nagar, Ghaziabad, Greater Noida, Guntur, Gurgaon, Hooghly, Howrah, Hyderabad, Indore, Jaipur, Jamnagar, Jhajjar, Kanchipuram,, Kanpur, Kolkata, Lucknow, Ludhiana, Madurai, Mumbai, Mysore, Nagpur, Nashik, Nellore, New Delhi, Noida, Pune, Raigarh, Rajkot, Rangareddy, Salem, Surat, Thane, Tiruchirapalli, Tiruvallur, Tonk, Ujjain, Vadodara, Vapi, Vellore, Visakhapatnam",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Loan",
+        "ACTIVE": "Y",
         "COMPANY": "Salary on Time",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/D560BAQGzl-qLxkLivw/company-logo_200_200/company-logo_200_200/0/1728036256779/salaryontym_logo?e=1745452800&v=beta&t=M5oOg9jUrbgeAzBQDOvbKHxBFwZQEhoLgMdQqqXxLRk",
         "LINK": "https://clnk.in/vRU8",
         "Reward": "Rs 850",
-        "T&C": "Target Audience : Only Salaried<br/>Age : 18 to 55 years<br/>Minimum Salary : 30K per Month and above<br/>CRIF Score : 400+<br/><br/>Geo : Delhi and NCR (Noida, Ghaziabad, Gurugram and Faridabad), Mumbai, Thane, Pune, Bangalore, Hyderabad and Rangareddy, Indore, Ahmedabad, Nashik, Raigarh(Maharashtra)",
+        "T&C": "Target Audience : Only Salaried\nAge : 18 to 55 years\nMinimum Salary : 30K per Month and above\nCRIF Score : 400+\n\nGeo : Delhi and NCR (Noida, Ghaziabad, Gurugram and Faridabad), Mumbai, Thane, Pune, Bangalore, Hyderabad and Rangareddy, Indore, Ahmedabad, Nashik, Raigarh(Maharashtra)",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "SALT Attire",
         "LOGO LINK": "https://www.infinitimall.com/wp-content/uploads/2022/05/Salt-Attier-Infiniti-Mall-MAlad-e1652702089430.png",
         "LINK": "https://clnk.in/vRVa",
@@ -1732,6 +1905,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Jewellery",
+        "ACTIVE": "Y",
         "COMPANY": "Salty",
         "LOGO LINK": "https://images.yourstory.com/cs/images/companies/07594e81f6ad-SaltyLogo-1659001792439.jpeg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjQx/",
@@ -1742,6 +1916,7 @@
     {
         "CATEGORY": " Electronics & Household Appliances",
         "SUB-CATEGORY": "Laptops & Mobiles",
+        "ACTIVE": "Y",
         "COMPANY": "Samsung",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt7Czm-5Iopkneg1OcJT2uGZTM9tq_KbeRmQYvgxnh21hIeEJAmmqBvNo&s",
         "LINK": "https://clnk.in/vRVd",
@@ -1752,6 +1927,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "savana",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/D4D0BAQE6jYX2r2BdYQ/company-logo_200_200/company-logo_200_200/0/1723463270231/savana_global_logo?e=2147483647&v=beta&t=VIde-1LWP2Yo4M1GhOEnP2oB2whFJ9tcj8ExgiSL2Ls",
         "LINK": "https://clnk.in/vRVj",
@@ -1762,6 +1938,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "SBI",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/previews/020/975/663/large_2x/sbi-logo-sbi-icon-transparent-free-png.png",
         "LINK": "https://tjzuh.com/g/hxn4dcyutje28a5855018bc555c0f8/",
@@ -1772,6 +1949,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "SBI BPCL Octane ",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-17OOCD7oYBk0UAN325iz9Lz5RHKJABNkr1IzgKe1klE0ir7wL-uy8jUFS_45QqzB76A&usqp=CAU",
         "LINK": "https://clnk.in/vR0s",
@@ -1782,6 +1960,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "SBI Prime",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-17OOCD7oYBk0UAN325iz9Lz5RHKJABNkr1IzgKe1klE0ir7wL-uy8jUFS_45QqzB76A&usqp=CAU",
         "LINK": "https://clnk.in/vR0u",
@@ -1792,6 +1971,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "SBI Sprint Cashback",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-17OOCD7oYBk0UAN325iz9Lz5RHKJABNkr1IzgKe1klE0ir7wL-uy8jUFS_45QqzB76A&usqp=CAU",
         "LINK": "https://clnk.in/vR0v",
@@ -1802,16 +1982,18 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
+        "ACTIVE": "Y",
         "COMPANY": "Setu",
         "LOGO LINK": "https://thoughtoverdesign.com/wp-content/uploads/2019/11/setu-logo.png",
         "LINK": "https://clnk.in/vRVq",
         "Reward": "19.00%",
-        "T&C": "Orders Allowed - 3 to 5 per user.<br/>Returned and Cancelled orders will not be payable.\r",
+        "T&C": "Orders Allowed - 3 to 5 per user.\nReturned and Cancelled orders will not be payable.\n",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "SEVA HOME",
         "LOGO LINK": "https://www.sevahome.in/cdn/shop/files/seva-logo-og-image-new.png?v=1693573094",
         "LINK": "https://clnk.in/vRVt",
@@ -1822,6 +2004,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Shopclues",
         "LOGO LINK": "https://static-asset.inc42.com/shopclues.png",
         "LINK": "https://tjzuh.com/g/zo3u4tp75oe28a5855015a285d41f8/",
@@ -1832,6 +2015,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Shopsy App",
         "LOGO LINK": "https://5.imimg.com/data5/ANDROID/Default/2022/7/OV/BZ/OY/88779524/product-jpeg-500x500.jpg",
         "LINK": "https://tjzuh.com/g/riiso24dfxe28a585501bf3169313e/",
@@ -1842,16 +2026,18 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "FD",
+        "ACTIVE": "Y",
         "COMPANY": "Shriram FD",
         "LOGO LINK": "https://pimwp.s3.ap-south-1.amazonaws.com/2024/04/Untitled-design-7-19-jpg.webp",
         "LINK": "https://clnk.in/vRVB",
-        "Reward": "Rs 575",
-        "T&C": "The Cash Reward becomes Valid once the user completes their payment for FD Done.\r",
+        "Reward": "Rs 150",
+        "T&C": "The Cash Reward becomes Valid once the user completes their payment for FD Done.\n",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "shyaway",
         "LOGO LINK": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_3/ztzmzkrkvhsppg3vthuh",
         "LINK": "https://clnk.in/vRVC",
@@ -1862,6 +2048,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Bedding & Mattresses",
+        "ACTIVE": "Y",
         "COMPANY": "Sleepwell",
         "LOGO LINK": "https://couponzania.com/wp-content/uploads/2023/06/Sleepwell-Logo-e1729011841477.webp",
         "LINK": "https://clnk.in/vRVF",
@@ -1872,6 +2059,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Smytten",
         "LOGO LINK": "https://static-asset.inc42.com/smytten.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExNDIx/",
@@ -1882,6 +2070,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Men's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "SNITCH",
         "LOGO LINK": "https://ivycapventures.com/uploads/images/659f8ffe97f79.png",
         "LINK": "https://clnk.in/vRVG",
@@ -1892,6 +2081,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Kitchen Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "SOLARA",
         "LOGO LINK": "https://www.solara.in/cdn/shop/files/logo-black.png?v=1708487564&width=354",
         "LINK": "https://clnk.in/vRVJ",
@@ -1902,6 +2092,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
+        "ACTIVE": "Y",
         "COMPANY": "Sonata",
         "LOGO LINK": "https://media.assettype.com/creativegaga%2F2024-07%2F6c890060-9da8-4225-beb2-9df1d8161f97%2FSonata-New-Logo.jpg?w=1200&auto=format%2Ccompress&fit=max",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQz/",
@@ -1912,6 +2103,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "soulflower",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKRHEoHykcZPDVWnt1acC9GpjTSvuPP7dug&s",
         "LINK": "https://tjzuh.com/g/jjwp2egakve28a585501899a484146/",
@@ -1922,6 +2114,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "Soulight",
         "LOGO LINK": "https://play-lh.googleusercontent.com/0OUU4xASU4GgV4Ymeli9kL9wTTB8fmsj1uBuXy6RVs-06sXA2We4tnRdcjoqzTl8aw0",
         "LINK": "https://clnk.in/vRV0",
@@ -1932,6 +2125,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Banking",
+        "ACTIVE": "Y",
         "COMPANY": "Stable Money",
         "LOGO LINK": "https://konexionetwork.com/Content/News/stable-money.png",
         "LINK": "https://clnk.in/vRV9",
@@ -1942,6 +2136,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Sunsky WW",
         "LOGO LINK": "https://vectorseek.com/wp-content/uploads/2023/09/Sunsky-Logo-Vector.svg-.png",
         "LINK": "https://dorinebeaumont.com/g/7npkd4cs1ie28a585501869a299fda/",
@@ -1952,6 +2147,7 @@
     {
         "CATEGORY": "Baby & Kids",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Super Bottoms",
         "LOGO LINK": "https://img-cdn.thepublive.com/fit-in/1280x960/filters:format(webp)/entrackr/media/post_attachments/wp-content/uploads/2022/05/superbottoms.jpg",
         "LINK": "https://clnk.in/vRWc",
@@ -1962,6 +2158,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Superkicks",
         "LOGO LINK": "https://media.licdn.com/dms/image/v2/C560BAQGm86iYs1839A/company-logo_200_200/company-logo_200_200/0/1649066298921/superkicks_logo?e=1745452800&v=beta&t=M7bIvuE2fYAO09rHKM5BzhfhJbjZoYbldQuq43eqVuY",
         "LINK": "https://tjzuh.com/g/bmv55j74uoe28a5855017bf865f09f/",
@@ -1972,16 +2169,18 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "Food & Grocery",
+        "ACTIVE": "Y",
         "COMPANY": "Swiggy Instamart",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64JrDeg5qVibJqxnhXnoOhS_sM7Ak5vso9A&s",
         "LINK": "https://clnk.in/vTaQ",
         "Reward": "Rs 50",
-        "T&C": "Install & First Instamart Transaction<br/><br/>Attribution Time: Click to Install-1day and Install to purchase-5days.",
+        "T&C": "Install & First Instamart Transaction\n\nAttribution Time: Click to Install-1day and Install to purchase-5days.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Nutritional Supplements",
+        "ACTIVE": "Y",
         "COMPANY": "Swisse",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/4/46/Swisse_logo.svg",
         "LINK": "https://clnk.in/vRWe",
@@ -1992,6 +2191,7 @@
     {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "Tata Neu",
         "LOGO LINK": "https://cdn.dribbble.com/userupload/11145371/file/original-a0a283325f7318107a60c1f6ede85c76.png?resize=752x&vertical=center",
         "LINK": "https://wbbsv.com/g/blktxl02oge28a5855019ae7d0c1ae/",
@@ -2002,6 +2202,7 @@
     {
         "CATEGORY": "Install. Use & Earn",
         "SUB-CATEGORY": "STORE",
+        "ACTIVE": "Y",
         "COMPANY": "Tata Neu Super App",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tata_Neu_image.jpg/800px-Tata_Neu_image.jpg",
         "LINK": "https://tjzuh.com/g/18g6ayyah0e28a58550195297de318/",
@@ -2012,6 +2213,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "The Ayurveda Experience",
         "LOGO LINK": "https://cdn.prod.website-files.com/6273a7679f52707b99fc54ba/63ef8971f4d39d1caf4e8302_tae%20logo.webp",
         "LINK": "https://tjzuh.com/g/ky5kuyfr1oe28a585501b7f68219c7/",
@@ -2022,6 +2224,7 @@
     {
         "CATEGORY": "Online Services",
         "SUB-CATEGORY": "Digital Subscriptions & Media",
+        "ACTIVE": "Y",
         "COMPANY": "The Hindu",
         "LOGO LINK": "https://talerang.com/wp-content/uploads/2024/08/The-Hindu-Logo.jpg",
         "LINK": "https://tjzuh.com/g/jsf0p43oxme28a585501d1068ae2f4/",
@@ -2032,16 +2235,18 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
+        "ACTIVE": "Y",
         "COMPANY": "Timex",
         "LOGO LINK": "https://cdn.freebiesupply.com/logos/large/2x/timex-logo-png-transparent.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQ2/",
         "Reward": "7.50%",
-        "T&C": "Order Value needs to be >= Rs. 3000<br/><br/>Cancelled/Returned orders will not be validated.",
+        "T&C": "Order Value needs to be >= Rs. 3000\n\nCancelled/Returned orders will not be validated.",
         "PAYMENT IN": "35"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Makeup & Cosmetics",
+        "ACTIVE": "Y",
         "COMPANY": "Tira Beauty",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Tira_logo.webp",
         "LINK": "https://tjzuh.com/g/xn4gu2e2lee28a585501d2c89cb9e2/",
@@ -2052,6 +2257,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Watches",
+        "ACTIVE": "Y",
         "COMPANY": "Titan",
         "LOGO LINK": "https://i.pinimg.com/736x/d3/ca/44/d3ca44ad81a24fcbe71b4e2d78e8d41b.jpg",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzEwNzQx/",
@@ -2062,6 +2268,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Tomtop WW",
         "LOGO LINK": "https://1000logos.net/wp-content/uploads/2021/05/TomTop-logo.png",
         "LINK": "https://ficca2021.com/g/xljorca896e28a5855014bf89f6ddb/",
@@ -2072,6 +2279,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Trip.com",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trip.com_logo.svg",
         "LINK": "https://clnk.in/vRWg",
@@ -2082,6 +2290,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Staples & Healthy Food",
+        "ACTIVE": "Y",
         "COMPANY": "True Elements",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/4/46/True_Elements_Logo.svg",
         "LINK": "https://clnk.in/vRWj",
@@ -2092,6 +2301,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "truemeds",
         "LOGO LINK": "https://du8ef2qvb6oy7.cloudfront.net/media/images/1018f6b6-263e-44df-b129-a360601ca484/truemedslogo2x.png?fm=webp&q=80&fit=max&crop=1000%2C1000%2C0%2C0&w=1500",
         "LINK": "https://clnk.in/vRWk",
@@ -2100,8 +2310,20 @@
         "PAYMENT IN": "65"
     },
     {
+        "CATEGORY": "Personal Care, Beauty & Wellness",
+        "SUB-CATEGORY": "Wellness & Supplements",
+        "ACTIVE": "Y",
+        "COMPANY": "TryBloom",
+        "LOGO LINK": "https://trybloom.in/cdn/shop/files/100x195_logo_1.jpg?v=1721393643&width=360",
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExOTc3/",
+        "Reward": "60%",
+        "T&C": "Cancelled/Returned orders will not be validated.",
+        "PAYMENT IN": "35"
+    },
+    {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Home Decor",
+        "ACTIVE": "Y",
         "COMPANY": "Ugaoo",
         "LOGO LINK": "https://www.bengaluru.lulumall.in/wp-content/uploads/2024/06/Screenshot-2024-06-13-at-6.53.14%E2%80%AFPM.png",
         "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjIz/",
@@ -2112,6 +2334,7 @@
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "Upakarma Ayurveda",
         "LOGO LINK": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/Upakarma_Logo-01_1_0qFE7vF.jpg",
         "LINK": "https://clnk.in/vRWr",
@@ -2122,16 +2345,18 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Furniture",
+        "ACTIVE": "Y",
         "COMPANY": "Urban Ladder",
         "LOGO LINK": "https://rcity.in/rcity-admin/brand_logo/urban_ladder_new.png",
         "LINK": "https://tjzuh.com/g/y1ewg49svwe28a58550126a8b71558/",
         "Reward": "5.00%",
-        "T&C": "Validation: Only successful delivered purchases.<br/>No Cash Rewards for App Attribution.",
+        "T&C": "Validation: Only successful delivered purchases.\nNo Cash Rewards for App Attribution.",
         "PAYMENT IN": "86"
     },
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Victoria's Street",
         "LOGO LINK": "https://logowik.com/content/uploads/images/710_victoria_s_secret.jpg",
         "LINK": "https://clnk.in/vRWx",
@@ -2142,6 +2367,7 @@
     {
         "CATEGORY": "STORES",
         "SUB-CATEGORY": "",
+        "ACTIVE": "Y",
         "COMPANY": "Vijay Sales",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/1/1b/VijaySale-Logo.png",
         "LINK": "https://clnk.in/vRWB",
@@ -2152,6 +2378,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
+        "ACTIVE": "Y",
         "COMPANY": "Vilvah Store",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXb1BOjdJqkHseHJ7gSp4MhLRpgZppg7y1fA&s",
         "LINK": "https://clnk.in/vTyh",
@@ -2162,6 +2389,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Haircare",
+        "ACTIVE": "Y",
         "COMPANY": "VIVA GLAM",
         "LOGO LINK": "https://wwd.com/wp-content/uploads/2020/08/mac2020_vg26_icc_crops_w_logo_3300x2550_300dpi_beauty_3.jpg?w=1000&h=563&crop=1",
         "LINK": "https://clnk.in/vRWC",
@@ -2172,6 +2400,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "VLCC",
         "LOGO LINK": "https://www.livelaw.in/h-upload/2020/01/18/750x450_369247-vlcc.jpg",
         "LINK": "https://clnk.in/vRWw",
@@ -2182,6 +2411,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Women's Clothing",
+        "ACTIVE": "Y",
         "COMPANY": "W for Woman",
         "LOGO LINK": "https://play-lh.googleusercontent.com/LkwvAK7E3AH3jzwS0AoIK0RVAaTWrcnbfDXe6jXfZ8khS8eGF4x5l9G7p-_J-hsQPw",
         "LINK": "https://tjzuh.com/g/pi320pnegbe28a585501aca02036f4/",
@@ -2192,16 +2422,18 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "WakeUp",
         "LOGO LINK": "https://mywakeup.in/cdn/shop/files/300_x_144.png?v=1710242971&width=300",
         "LINK": "https://clnk.in/vRP6",
         "Reward": "5.50%",
-        "T&C": "3 orders are allowed per user in a month.<br/>Returned and Cancelled orders will not be payable.",
+        "T&C": "3 orders are allowed per user in a month.\nReturned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Health, Food & Fitness",
         "SUB-CATEGORY": "Fitness & Wellness",
+        "ACTIVE": "Y",
         "COMPANY": "Wellbeing Nutrition",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4tqOZjrSK9uJfDYpm8vAwAHZmLoR5JiTTBg&s",
         "LINK": "https://tjzuh.com/g/g9icpao4fy6a3b5ae4bb50a13cc12b/",
@@ -2212,6 +2444,7 @@
     {
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Travel Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "WILDCRAFT",
         "LOGO LINK": "https://seeklogo.com/images/T/the-wildcraft-logo-221AFC99F7-seeklogo.com.png",
         "LINK": "https://clnk.in/vRWE",
@@ -2222,6 +2455,7 @@
     {
         "CATEGORY": "Home & Living",
         "SUB-CATEGORY": "Kitchen Essentials",
+        "ACTIVE": "Y",
         "COMPANY": "WONDERCHEF",
         "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ360TUUzqYjU5qQxppzU_XHHDKa4LLgeEag&s",
         "LINK": "https://clnk.in/vRWF",
@@ -2232,6 +2466,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "WOODLAND",
         "LOGO LINK": "https://static.vecteezy.com/system/resources/thumbnails/020/336/198/small_2x/woodland-logo-woodland-icon-free-free-vector.jpg",
         "LINK": "https://clnk.in/vRWH",
@@ -2242,6 +2477,7 @@
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Store",
+        "ACTIVE": "Y",
         "COMPANY": "Wow Skin",
         "LOGO LINK": "https://opa-media-optimized-delivery.s3.ap-south-1.amazonaws.com/wow_logo_qnzd48.png",
         "LINK": "https://tjzuh.com/g/fsdpohcxohe28a585501f2b2c4d11b/",
@@ -2250,18 +2486,9 @@
         "PAYMENT IN": "80"
     },
     {
-        "CATEGORY": "Baby & Kids",
-        "SUB-CATEGORY": "",
-        "COMPANY": "XY Life",
-        "LOGO LINK": "https://xylife.com/cdn/shop/files/logo-min_1_90x@2x.png?v=1671170397",
-        "LINK": "https://clnk.in/vRWJ",
-        "Reward": "17.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "89"
-    },
-    {
         "CATEGORY": "Finance & Banking",
         "SUB-CATEGORY": "Credit Card",
+        "ACTIVE": "Y",
         "COMPANY": "Yes Bank Pop Club CC",
         "LOGO LINK": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Yes_Bank_Logo_in_2024.png",
         "LINK": "https://clnk.in/vRWM",
@@ -2272,6 +2499,7 @@
     {
         "CATEGORY": "Fashion",
         "SUB-CATEGORY": "Accessories",
+        "ACTIVE": "Y",
         "COMPANY": "Zouk",
         "LOGO LINK": "https://zouk.co.in/cdn/shop/files/Zouk-Logo.jpg?v=1655954170&width=1024",
         "LINK": "https://tjzuh.com/g/g4z2z1nmdse28a58550128198cbd1c/",
