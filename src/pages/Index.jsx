@@ -22,7 +22,7 @@ const Index = () => {
       try {
         const response = await fetch(S3_BRANDS_URL);
         if (!response.ok) {
-          throw new Error("Failed to fetch brands data");
+          throw new Error("Failed to fetch brands dataaa");
         }
         const data = await response.json();
         setBrands(data);
