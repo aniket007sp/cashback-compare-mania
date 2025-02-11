@@ -1,11 +1,12 @@
+
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider } from './hooks/useAuth';
-import Index from './pages/Index';
-import OfferCategoryPage from './components/OfferCategoryPage';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Index from './pages/Index';
+import OfferCategoryPage from './components/OfferCategoryPage';
 
 const ScrollToPosition = () => {
   const location = useLocation();

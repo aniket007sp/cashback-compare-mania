@@ -1,46 +1,53 @@
+
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework_simplejwt.tokens import RefreshToken
-from django.contrib.auth.models import User
-from .serializers import UserSerializer, RegisterSerializer
+from django.contrib.auth import authenticate
+from django.core.mail import send_mail
+from .serializers import RegisterSerializer, OTPSerializer, LoginSerializer
 from .models import OTP
-from datetime import datetime, timedelta
+import random
 
-# In-memory storage for testing
-otp_store = {}
+def generate_otp():
+    return str(random.randint(100000, 999999))
 
-# Initiate Signup - Generates OTPs for email and phone
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def initiate_signup(request):
     email = request.data.get('email')
     phone = request.data.get('phone')
-
+    
     if not email or not phone:
-        return Response({'error': 'Email and phone number are required'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'error': 'Email and phone are required'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    # Generate OTPs
+    email_otp = generate_otp()
+    phone_otp = generate_otp()
+    
+    # Save OTPs
+    otp_obj = OTP.objects.create(
+        email=email,
+        phone=phone,
+        email_otp=email_otp,
+        phone_otp=phone_otp
+    )
+    
+    # Send email OTP
+    try:
+        send_mail(
+            'Verify your email',
+            f'Your OTP is: {email_otp}',
+            'noreply@yourdomain.com',
+            [email],
+            fail_silently=False,
+        )
+    except Exception as e:
+        return Response({'error': 'Failed to send email'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    
+    return Response({'message': 'OTPs sent successfully'})
 
-    # Generate dummy OTPs
-    email_otp = "123456"  # Replace with actual OTP generation logic in production
-    phone_otp = "654321"
-
-    # Save OTPs in in-memory storage
-    otp_store[email] = {
-        'email': email,
-        'phone': phone,
-        'email_otp': email_otp,
-        'phone_otp': phone_otp,
-        'created_at': datetime.now(),
-    }
-
-    # Simulate sending OTPs (print to console)
-    print(f"Email OTP for {email}: {email_otp}")
-    print(f"Phone OTP for {phone}: {phone_otp}")
-
-    return Response({'message': 'OTPs sent successfully. Check your email and phone.'})
-
-# Verify OTP and Create Account
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def verify_otp(request):
@@ -48,41 +55,53 @@ def verify_otp(request):
     phone = request.data.get('phone')
     email_otp = request.data.get('email_otp')
     phone_otp = request.data.get('phone_otp')
-    password = request.data.get('password')
+    
+    try:
+        otp_obj = OTP.objects.get(email=email, phone=phone)
+    except OTP.DoesNotExist:
+        return Response({'error': 'Invalid verification attempt'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    if otp_obj.email_otp != email_otp or otp_obj.phone_otp != phone_otp:
+        return Response({'error': 'Invalid OTPs'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    otp_obj.is_email_verified = True
+    otp_obj.is_phone_verified = True
+    otp_obj.save()
+    
+    return Response({'message': 'Verification successful'})
 
-    # Validate request data
-    if not all([email, phone, email_otp, phone_otp, password]):
-        return Response({'error': 'All fields are required'}, status=status.HTTP_400_BAD_REQUEST)
-
-    # Check OTPs in memory
-    otp_data = otp_store.get(email)
-    if not otp_data:
-        return Response({'error': 'No OTPs found for the provided email'}, status=status.HTTP_400_BAD_REQUEST)
-
-    if otp_data.get('phone') != phone:
-        return Response({'error': 'Phone number does not match'}, status=status.HTTP_400_BAD_REQUEST)
-
-    if otp_data.get('email_otp') != email_otp or otp_data.get('phone_otp') != phone_otp:
-        return Response({'error': 'Invalid OTPs provided'}, status=status.HTTP_400_BAD_REQUEST)
-
-    # Simulate user creation
-    username = email.split('@')[0]
-    if User.objects.filter(email=email).exists():
-        return Response({'error': 'User with this email already exists'}, status=status.HTTP_400_BAD_REQUEST)
-
-    user = User.objects.create_user(username=username, email=email, password=password)
-
-    # Generate token
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def login_view(request):
+    serializer = LoginSerializer(data=request.data)
+    if not serializer.is_valid():
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    login = serializer.validated_data['login']
+    password = serializer.validated_data['password']
+    
+    # Try to authenticate with email
+    user = authenticate(username=login, password=password)
+    if not user:
+        # Try to authenticate with phone
+        try:
+            user = User.objects.get(phone=login)
+            if user.check_password(password):
+                user = authenticate(username=user.username, password=password)
+        except User.DoesNotExist:
+            pass
+    
+    if not user:
+        return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+    
     refresh = RefreshToken.for_user(user)
     return Response({
         'token': str(refresh.access_token),
         'refresh': str(refresh),
-        'user': UserSerializer(user).data
+        'user': {
+            'id': user.id,
+            'email': user.email,
+            'name': user.first_name
+        }
     })
 
-# Get User Profile
-@api_view(['GET'])
-@permission_classes([IsAuthenticated])
-def user_profile(request):
-    serializer = UserSerializer(request.user)
-    return Response(serializer.data)

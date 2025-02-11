@@ -1,26 +1,40 @@
+
 import React, { useState } from "react";
-import { Mail, Phone, Lock } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useToast } from "@/components/ui/use-toast";
+import { UserPlus, Mail, Phone, Lock } from "lucide-react";
 
-function SignUp() {
+const SignUp = () => {
+  const navigate = useNavigate();
   const { toast } = useToast();
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
+    name: "",
     email: "",
     phone: "",
-    emailOtp: "",
-    phoneOtp: "",
     password: "",
+    confirmPassword: "",
+    emailOTP: "",
+    phoneOTP: "",
   });
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleInitialSubmit = async (e) => {
+  const handleInitiateSignup = async (e) => {
     e.preventDefault();
+    if (formData.password !== formData.confirmPassword) {
+      toast({
+        title: "Error",
+        description: "Passwords do not match",
+        variant: "destructive",
+      });
+      return;
+    }
+
     try {
       const response = await fetch("http://localhost:8000/api/initiate-signup/", {
         method: "POST",
@@ -33,31 +47,31 @@ function SignUp() {
         }),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
         toast({
-          title: "OTP Sent",
-          description: "Check your email and phone for the OTP.",
+          title: "Success",
+          description: "OTPs sent successfully. Please check your email and phone.",
         });
         setStep(2);
       } else {
-        const data = await response.json();
         toast({
           title: "Error",
-          description: data.error || "Failed to send OTP.",
+          description: data.error || "Failed to initiate signup",
           variant: "destructive",
         });
       }
     } catch (error) {
-      console.error(error);
       toast({
         title: "Error",
-        description: "Failed to connect to the server.",
+        description: "Failed to connect to server",
         variant: "destructive",
       });
     }
   };
 
-  const handleOtpVerification = async (e) => {
+  const handleVerifyOTP = async (e) => {
     e.preventDefault();
     try {
       const response = await fetch("http://localhost:8000/api/verify-otp/", {
@@ -68,8 +82,8 @@ function SignUp() {
         body: JSON.stringify({
           email: formData.email,
           phone: formData.phone,
-          email_otp: formData.emailOtp,
-          phone_otp: formData.phoneOtp,
+          email_otp: formData.emailOTP,
+          phone_otp: formData.phoneOTP,
           password: formData.password,
         }),
       });
@@ -82,93 +96,163 @@ function SignUp() {
           description: "Account created successfully!",
         });
         localStorage.setItem("token", data.token);
-        window.location.href = "/";
+        localStorage.setItem("user", JSON.stringify(data.user));
+        navigate("/");
       } else {
         toast({
           title: "Error",
-          description: data.error || "OTP verification failed.",
+          description: data.error || "Verification failed",
           variant: "destructive",
         });
       }
     } catch (error) {
-      console.error(error);
       toast({
         title: "Error",
-        description: "Failed to verify OTP.",
+        description: "Failed to connect to server",
         variant: "destructive",
       });
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-wrap lg:flex-nowrap">
-      {/* Left Section */}
-      <div className="w-full lg:w-1/2 bg-gradient-to-br from-[crimson] to-[#7E69AB] text-white flex items-center justify-center">
-        <div>
-          <h1 className="text-4xl font-bold">SavvyZi</h1>
-          <p>Join our smart shopping community!</p>
-        </div>
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4">
+      <div className="w-full max-w-md">
+        <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-8 space-y-6">
+          <h1 className="text-2xl font-semibold text-center text-gray-800">
+            {step === 1 ? "Create Account" : "Verify OTP"}
+          </h1>
 
-      {/* Right Section */}
-      <div className="w-full lg:w-1/2 bg-white flex items-center justify-center">
-        <form
-          onSubmit={step === 1 ? handleInitialSubmit : handleOtpVerification}
-          className="space-y-4"
-        >
-          {step === 1 ? (
-            <>
-              <Input
-                name="email"
-                placeholder="Email"
-                value={formData.email}
-                onChange={handleInputChange}
-                required
-                icon={<Mail />}
-              />
-              <Input
-                name="phone"
-                placeholder="Phone"
-                value={formData.phone}
-                onChange={handleInputChange}
-                required
-                icon={<Phone />}
-              />
-            </>
-          ) : (
-            <>
-              <Input
-                name="emailOtp"
-                placeholder="Email OTP"
-                value={formData.emailOtp}
-                onChange={handleInputChange}
-                required
-              />
-              <Input
-                name="phoneOtp"
-                placeholder="Phone OTP"
-                value={formData.phoneOtp}
-                onChange={handleInputChange}
-                required
-              />
-              <Input
-                name="password"
-                placeholder="Password"
-                value={formData.password}
-                onChange={handleInputChange}
-                required
-                type="password"
-                icon={<Lock />}
-              />
-            </>
-          )}
-          <Button type="submit">
-            {step === 1 ? "Send OTP" : "Verify and Create Account"}
-          </Button>
-        </form>
+          <form onSubmit={step === 1 ? handleInitiateSignup : handleVerifyOTP} className="space-y-4">
+            {step === 1 ? (
+              <>
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Name</label>
+                  <div className="relative">
+                    <UserPlus className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      name="name"
+                      value={formData.name}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="Your full name"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Email</label>
+                  <div className="relative">
+                    <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Phone</label>
+                  <div className="relative">
+                    <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      type="tel"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="+1234567890"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Password</label>
+                  <div className="relative">
+                    <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      type="password"
+                      name="password"
+                      value={formData.password}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="••••••••"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Confirm Password</label>
+                  <div className="relative">
+                    <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      type="password"
+                      name="confirmPassword"
+                      value={formData.confirmPassword}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="••••••••"
+                      required
+                    />
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Email OTP</label>
+                  <Input
+                    type="text"
+                    name="emailOTP"
+                    value={formData.emailOTP}
+                    onChange={handleInputChange}
+                    placeholder="Enter email OTP"
+                    required
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Phone OTP</label>
+                  <Input
+                    type="text"
+                    name="phoneOTP"
+                    value={formData.phoneOTP}
+                    onChange={handleInputChange}
+                    placeholder="Enter phone OTP"
+                    required
+                  />
+                </div>
+              </>
+            )}
+
+            <Button
+              type="submit"
+              className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white transition-all duration-300"
+            >
+              {step === 1 ? "Sign Up" : "Verify OTP"}
+            </Button>
+          </form>
+
+          <p className="text-center text-sm text-gray-600">
+            Already have an account?{" "}
+            <button
+              onClick={() => navigate("/login")}
+              className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+            >
+              Log in
+            </button>
+          </p>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default SignUp;
