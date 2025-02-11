@@ -19,7 +19,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'users',
+    'authentication',
 ]
 
 MIDDLEWARE = [
@@ -113,3 +113,13 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+
+# AWS Cognito Settings
+AWS_REGION = 'your-aws-region'  # e.g., 'us-east-1'
+AWS_ACCESS_KEY_ID = 'your-access-key'
+AWS_SECRET_ACCESS_KEY = 'your-secret-key'
+COGNITO_APP_CLIENT_ID = 'your-app-client-id'
+COGNITO_USER_POOL_ID = 'your-user-pool-id'
+
+# Custom User Model
+AUTH_USER_MODEL = 'authentication.User'

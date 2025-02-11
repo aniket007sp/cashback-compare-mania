@@ -4,13 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { UserPlus, Phone, Lock } from "lucide-react";
-import { CognitoIdentityProviderClient, SignUpCommand, ConfirmSignUpCommand } from "@aws-sdk/client-cognito-identity-provider";
-
-const REGION = "your-region"; // e.g., "us-east-1"
-const CLIENT_ID = "your-client-id";
-
-const client = new CognitoIdentityProviderClient({ region: REGION });
+import { UserPlus, Mail, Phone, Lock } from "lucide-react";
+import axios from "axios";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -18,7 +13,8 @@ const SignUp = () => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     name: "",
-    phone: "",
+    email: "",
+    phone_number: "",
     password: "",
     confirmPassword: "",
     otp: "",
@@ -40,32 +36,22 @@ const SignUp = () => {
     }
 
     try {
-      const command = new SignUpCommand({
-        ClientId: CLIENT_ID,
-        Username: formData.phone,
-        Password: formData.password,
-        UserAttributes: [
-          {
-            Name: "name",
-            Value: formData.name,
-          },
-          {
-            Name: "phone_number",
-            Value: formData.phone,
-          },
-        ],
+      const response = await axios.post('http://localhost:8000/api/auth/signup/', {
+        name: formData.name,
+        email: formData.email,
+        phone_number: formData.phone_number,
+        password: formData.password,
       });
 
-      await client.send(command);
       toast({
         title: "Success",
-        description: "OTP sent to your phone. Please verify.",
+        description: "OTP sent to your email. Please verify.",
       });
       setStep(2);
     } catch (error) {
       toast({
         title: "Error",
-        description: error.message || "Failed to sign up",
+        description: error.response?.data?.error || "Failed to sign up",
         variant: "destructive",
       });
     }
@@ -74,22 +60,22 @@ const SignUp = () => {
   const handleVerifyOTP = async (e) => {
     e.preventDefault();
     try {
-      const command = new ConfirmSignUpCommand({
-        ClientId: CLIENT_ID,
-        Username: formData.phone,
-        ConfirmationCode: formData.otp,
+      const response = await axios.post('http://localhost:8000/api/auth/verify-otp/', {
+        email: formData.email,
+        phone_number: formData.phone_number,
+        otp: formData.otp,
+        password: formData.password,
       });
 
-      await client.send(command);
       toast({
         title: "Success",
-        description: "Phone number verified successfully!",
+        description: "Email verified successfully!",
       });
       navigate("/login");
     } catch (error) {
       toast({
         title: "Error",
-        description: error.message || "Failed to verify OTP",
+        description: error.response?.data?.error || "Failed to verify OTP",
         variant: "destructive",
       });
     }
@@ -100,7 +86,7 @@ const SignUp = () => {
       <div className="w-full max-w-md">
         <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-8 space-y-6">
           <h1 className="text-2xl font-semibold text-center text-gray-800">
-            {step === 1 ? "Create Account" : "Verify Phone"}
+            {step === 1 ? "Create Account" : "Verify Email"}
           </h1>
 
           <form onSubmit={step === 1 ? handleSignUp : handleVerifyOTP} className="space-y-4">
@@ -122,13 +108,29 @@ const SignUp = () => {
                 </div>
 
                 <div className="space-y-2">
+                  <label className="text-sm font-medium text-gray-700">Email</label>
+                  <div className="relative">
+                    <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                    <Input
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="pl-10"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">Phone</label>
                   <div className="relative">
                     <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                     <Input
                       type="tel"
-                      name="phone"
-                      value={formData.phone}
+                      name="phone_number"
+                      value={formData.phone_number}
                       onChange={handleInputChange}
                       className="pl-10"
                       placeholder="+1234567890"
@@ -177,7 +179,7 @@ const SignUp = () => {
                   name="otp"
                   value={formData.otp}
                   onChange={handleInputChange}
-                  placeholder="Enter OTP from your phone"
+                  placeholder="Enter OTP from your email"
                   required
                 />
               </div>
