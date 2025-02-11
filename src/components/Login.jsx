@@ -4,13 +4,21 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { User, Lock } from "lucide-react";
+import { Phone, Lock } from "lucide-react";
+import { CognitoIdentityProviderClient, InitiateAuthCommand } from "@aws-sdk/client-cognito-identity-provider";
+import { useAuth } from "@/hooks/useAuth";
+
+const REGION = "your-region"; // e.g., "us-east-1"
+const CLIENT_ID = "your-client-id";
+
+const client = new CognitoIdentityProviderClient({ region: REGION });
 
 const Login = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
+  const { login } = useAuth();
   const [formData, setFormData] = useState({
-    login: "",
+    phone: "",
     password: "",
   });
 
@@ -21,35 +29,38 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8000/api/login/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const command = new InitiateAuthCommand({
+        AuthFlow: "USER_PASSWORD_AUTH",
+        ClientId: CLIENT_ID,
+        AuthParameters: {
+          USERNAME: formData.phone,
+          PASSWORD: formData.password,
         },
-        body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
+      const response = await client.send(command);
+      const { AccessToken, IdToken, RefreshToken } = response.AuthenticationResult;
 
-      if (response.ok) {
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("user", JSON.stringify(data.user));
-        toast({
-          title: "Success",
-          description: "Logged in successfully!",
-        });
-        navigate("/");
-      } else {
-        toast({
-          title: "Error",
-          description: data.error || "Login failed",
-          variant: "destructive",
-        });
-      }
+      // Store tokens
+      localStorage.setItem("accessToken", AccessToken);
+      localStorage.setItem("idToken", IdToken);
+      localStorage.setItem("refreshToken", RefreshToken);
+
+      // Update auth context
+      login({
+        phone: formData.phone,
+        accessToken: AccessToken,
+      });
+
+      toast({
+        title: "Success",
+        description: "Logged in successfully!",
+      });
+      navigate("/");
     } catch (error) {
       toast({
         title: "Error",
-        description: "Failed to connect to server",
+        description: error.message || "Login failed",
         variant: "destructive",
       });
     }
@@ -63,15 +74,15 @@ const Login = () => {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700">Email or Phone</label>
+              <label className="text-sm font-medium text-gray-700">Phone Number</label>
               <div className="relative">
-                <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                 <Input
-                  name="login"
-                  value={formData.login}
+                  name="phone"
+                  value={formData.phone}
                   onChange={handleInputChange}
                   className="pl-10"
-                  placeholder="Email or phone number"
+                  placeholder="+1234567890"
                   required
                 />
               </div>
