@@ -212,17 +212,6 @@
         "CATEGORY": "Personal Care, Beauty & Wellness",
         "SUB-CATEGORY": "Skincare",
         "ACTIVE": "Y",
-        "COMPANY": "Cipla Health",
-        "LOGO LINK": "https://ciplahealth.in/frontendassets/img/logo1.png",
-        "LINK": "https://clnk.in/vRIr",
-        "Reward": "28%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Skincare",
-        "ACTIVE": "Y",
         "COMPANY": "Dot & Key",
         "LOGO LINK": "https://images.squarespace-cdn.com/content/v1/58d67c53f5e231abb445a1c5/1530714471513-BDO4R6ZR8ZH9GOBWQ42U/Dot-_-Key-Logo.jpg?format=750w",
         "LINK": "https://clnk.in/vRJi",
@@ -249,19 +238,19 @@
         "LOGO LINK": "https://thoughtoverdesign.com/wp-content/uploads/2019/11/setu-logo.png",
         "LINK": "https://clnk.in/vRVq",
         "Reward": "19.00%",
-        "T&C": "Orders Allowed - 3 to 5 per user.<br/>Returned and Cancelled orders will not be payable.<br/>",
+        "T&C": "Orders Allowed - 3 to 5 per user.<br/>Returned and Cancelled orders will not be payable.\r",
         "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Skincare",
+        "SUB-CATEGORY": "Store",
         "ACTIVE": "Y",
-        "COMPANY": "Vilvah Store",
-        "LOGO LINK": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXb1BOjdJqkHseHJ7gSp4MhLRpgZppg7y1fA&s",
-        "LINK": "https://clnk.in/vTyh",
-        "Reward": "5.8%",
-        "T&C": "On order of Rs.500 & above - 5.75%<br/>On order of Rs.499 & below - 0.00%",
-        "PAYMENT IN": "65"
+        "COMPANY": "Aroma Magic",
+        "LOGO LINK": "https://cdn0.cuelinks.com/merchant/7175/medium/New_Project_-_2024-08-02T171811.156.png?1722599320",
+        "LINK": "https://clnk.in/vYCH",
+        "Reward": "40%",
+        "T&C": "Returned and Cancelled orders will not be payable.",
+        "PAYMENT IN": "80"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -273,17 +262,6 @@
         "Reward": "20.00%",
         "T&C": "Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "95"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "ACTIVE": "Y",
-        "COMPANY": "Click on Care",
-        "LOGO LINK": "https://www.clickoncare.com/cdn/shop/files/coc_512.png?v=1683519914&width=360",
-        "LINK": "https://clnk.in/vRIw",
-        "Reward": "6.50%",
-        "T&C": "On order of Rs.1300 & above - 6.5%<br/>On order of Rs.1299 & below - 0.00%<br/><br/>Cash Rewards NOT applicable on payment with store credit/gift cards.<br/>A user can place a maximum of 3 orders in a day.<br/>Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
@@ -339,17 +317,6 @@
         "Reward": "3.5 - 13%",
         "T&C": "Cash Reward - 13%<br/>Cash Reward for the coupon code KIND50 (50% off on min. 5,999 upto 4,000) - 3.50%<br/>K-Beauty 50% sale (https://www.kindlife.in/on-the-body/k-beauty-50-sale/) - 0.00%<br/><br/>Any orders with the following coupons code won't be payable - HAHA50, victory50, fkd100, newhere, WC50, PATAKA1000, SUPER24 and Others from Kindlife.<br/>Returned and Cancelled orders will not be payable.",
         "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Personal Care, Beauty & Wellness",
-        "SUB-CATEGORY": "Store",
-        "ACTIVE": "Y",
-        "COMPANY": "Mellow",
-        "LOGO LINK": "https://www.mellow-home.com/cdn/shop/files/MLLW_LOGO_180x.png?v=1613567220",
-        "LINK": "https://clnk.in/vRPM",
-        "Reward": "28%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "95"
     },
     {
         "CATEGORY": "Personal Care, Beauty & Wellness",
