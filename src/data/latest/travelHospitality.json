@@ -47,17 +47,6 @@
         "CATEGORY": "Travel & Hospitality",
         "SUB-CATEGORY": "Flight",
         "ACTIVE": "Y",
-        "COMPANY": "Happy Fares",
-        "LOGO LINK": "https://d3n3x6vi4wflr3.cloudfront.net/HF.svg",
-        "LINK": "https://clnk.in/vRMF",
-        "Reward": "Rs 75 - 100",
-        "T&C": "Domestic Flights Booking - Rs 75<br/>International Flights Booking - Rs 100<br/><br/>Validation Criteria: Successful Booking.",
-        "PAYMENT IN": "65"
-    },
-    {
-        "CATEGORY": "Travel & Hospitality",
-        "SUB-CATEGORY": "Flight",
-        "ACTIVE": "Y",
         "COMPANY": "HappyEasyGo",
         "LOGO LINK": "https://static-asset.inc42.com/happyeasygo.png",
         "LINK": "https://clnk.in/vRMA",
@@ -106,7 +95,7 @@
         "LOGO LINK": "https://jsak.goibibo.com/pwa_v3/pwa_growth/images/og-goibibo.aba291ed.png",
         "LINK": "https://clnk.in/vRMd",
         "Reward": "Rs 100",
-        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.<br/>",
+        "T&C": "Minimum transaction amount >=1000 to qualify for Cash Reward.<br/>Valid for Domestic Hotel Booking.\r",
         "PAYMENT IN": "65"
     },
     {
@@ -170,9 +159,9 @@
         "ACTIVE": "Y",
         "COMPANY": "WILDCRAFT",
         "LOGO LINK": "https://seeklogo.com/images/T/the-wildcraft-logo-221AFC99F7-seeklogo.com.png",
-        "LINK": "https://clnk.in/vRWE",
-        "Reward": "10.00%",
-        "T&C": "Returned and Cancelled orders will not be payable.",
-        "PAYMENT IN": "65"
+        "LINK": "https://track.vcommission.com/t/MTE3OTAwXzExMjc3/",
+        "Reward": "11.50%",
+        "T&C": "Cancelled/Returned orders will not be payable.<br/>Order Value >= Rs 2000",
+        "PAYMENT IN": "35"
     }
 ]
