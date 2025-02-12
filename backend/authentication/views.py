@@ -1,13 +1,10 @@
 
-from rest_framework.decorators import api_view, permission_classes
-from rest_framework.permissions import AllowAny
+from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 import boto3
 from botocore.exceptions import ClientError
 from django.conf import settings
-from .serializers import UserSerializer
-from .models import User
 
 cognito_client = boto3.client('cognito-idp', 
     region_name=settings.AWS_REGION,
@@ -16,7 +13,6 @@ cognito_client = boto3.client('cognito-idp',
 )
 
 @api_view(['POST'])
-@permission_classes([AllowAny])
 def signup(request):
     try:
         response = cognito_client.sign_up(
@@ -40,7 +36,6 @@ def signup(request):
         }, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['POST'])
-@permission_classes([AllowAny])
 def verify_otp(request):
     try:
         response = cognito_client.confirm_sign_up(
@@ -48,16 +43,6 @@ def verify_otp(request):
             Username=request.data['email'],
             ConfirmationCode=request.data['otp']
         )
-        
-        # Create user in Django database
-        user = User.objects.create(
-            email=request.data['email'],
-            phone_number=request.data['phone_number'],
-            username=request.data['email'],
-            is_verified=True
-        )
-        user.set_password(request.data['password'])
-        user.save()
         
         return Response({
             'message': 'Email verified successfully'
@@ -68,7 +53,6 @@ def verify_otp(request):
         }, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['POST'])
-@permission_classes([AllowAny])
 def login(request):
     try:
         response = cognito_client.initiate_auth(
